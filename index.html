@@ -490,7 +490,7 @@
           <th data-col="severity" style="width:100px">Severity <span class="sort-icon"></span></th>
           <th data-col="cvss" style="width:90px">CVSS <span class="sort-icon"></span></th>
           <th data-col="kb_count" style="width:75px">KB Fix <span class="sort-icon"></span></th>
-          <th data-col="date" style="width:85px">Date <span class="sort-icon"></span></th>
+          <th data-col="date" class="sorted-desc" style="width:85px">Date <span class="sort-icon"></span></th>
         </tr>
       </thead>
       <tbody id="wst-tbody">
@@ -508,8 +508,8 @@
 // ── State ──
 let RAW_ALL   = [];
 let filtered  = [];
-let sortCol   = '';
-let sortDir   = 1;  // 1=asc, -1=desc
+let sortCol   = 'date';
+let sortDir   = -1; 
 let page      = 1;
 let exploitOnly = false;
 const PAGE_SIZE = 50;
@@ -586,8 +586,11 @@ function resetFilters() {
   kbOnly = false;
   document.getElementById('wst-exploit-toggle').classList.remove('active');
   document.getElementById('wst-kb-toggle').classList.remove('kb-active');
-  sortCol = ''; sortDir = 1; page = 1;
-  document.querySelectorAll('.wst-table th').forEach(th => { th.classList.remove('sorted-asc','sorted-desc'); });
+  sortCol = 'date'; sortDir = -1; page = 1;
+  document.querySelectorAll('.wst-table th').forEach(th => { 
+    th.classList.remove('sorted-asc','sorted-desc'); 
+    if (th.dataset.col === 'date') th.classList.add('sorted-desc'); // Date başlığına oku ekler
+  });
   applyFilters();
 }
 
