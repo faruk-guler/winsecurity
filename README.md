@@ -91,6 +91,6 @@ Each month it automatically picks up the new Patch Tuesday release from Microsof
 
 ---
 
-## License
+## Author
 
-Faruk GULER /Sysadmin - free to use and modify.
+Faruk GULER /Sysadmin
