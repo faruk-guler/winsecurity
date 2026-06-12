@@ -4,6 +4,7 @@ A live CVE tracking dashboard powered by the **Microsoft Security Response Cente
 
 ![Preview](https://img.shields.io/badge/CVEs-June%202026-blue) ![Auto-update](https://img.shields.io/badge/Auto--update-hourly-green) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
+<img src="data/homepage.jpeg" alt="alt text" width="580" height="330">
 ---
 
 ## What It Does
