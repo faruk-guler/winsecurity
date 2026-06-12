@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Windows Security Tracker</title>
+  <meta name="description" content="Microsoft Security Response Center (MSRC) live CVE tracking dashboard — Patch Tuesday security updates, severity ratings and exploit status.">
+  <meta property="og:title" content="Windows Security Tracker">
+  <meta property="og:description" content="Live MSRC CVE dashboard with KB patch details, severity ratings, and exploit status.">
+  <meta name="theme-color" content="#1d4ed8">
+</head>
+<body style="margin:0;padding:1rem;box-sizing:border-box">
+
+<style>
+/* ── Reset & base ── */
+.wst * { box-sizing: border-box; margin: 0; padding: 0; }
+.wst { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+/* ── Color tokens ── */
+:root {
+  --wst-bg: #f8fafc;
+  --wst-card: #ffffff;
+  --wst-border: #e2e8f0;
+  --wst-text: #0f172a;
+  --wst-muted: #64748b;
+  --wst-subtle: #94a3b8;
+  --wst-accent: #2563eb;
+  --wst-accent-hover: #1d4ed8;
+  --wst-critical-bg: #fff1f2;
+  --wst-critical-text: #be123c;
+  --wst-critical-border: #fecdd3;
+  --wst-important-bg: #fff7ed;
+  --wst-important-text: #c2410c;
+  --wst-important-border: #fed7aa;
+  --wst-moderate-bg: #fefce8;
+  --wst-moderate-text: #a16207;
+  --wst-moderate-border: #fef08a;
+  --wst-low-bg: #eff6ff;
+  --wst-low-text: #1d4ed8;
+  --wst-low-border: #bfdbfe;
+  --wst-exploit-bg: #4c0519;
+  --wst-exploit-text: #fda4af;
+  --wst-shadow: 0 1px 3px rgba(0,0,0,.07), 0 1px 2px rgba(0,0,0,.04);
+  --wst-shadow-md: 0 4px 6px rgba(0,0,0,.07), 0 2px 4px rgba(0,0,0,.05);
+  --wst-radius: 10px;
+  --wst-radius-sm: 6px;
+}
+
+[data-wst-dark] {
+  --wst-bg: #0a0f1e;
+  --wst-card: #111827;
+  --wst-border: #1e2d3d;
+  --wst-text: #e2e8f0;
+  --wst-muted: #94a3b8;
+  --wst-subtle: #64748b;
+  --wst-accent: #3b82f6;
+  --wst-accent-hover: #60a5fa;
+  --wst-critical-bg: #1c0010;
+  --wst-critical-text: #fb7185;
+  --wst-critical-border: #4c0519;
+  --wst-important-bg: #1c0f00;
+  --wst-important-text: #fb923c;
+  --wst-important-border: #431407;
+  --wst-moderate-bg: #1c1700;
+  --wst-moderate-text: #fbbf24;
+  --wst-moderate-border: #422006;
+  --wst-low-bg: #0a1628;
+  --wst-low-text: #60a5fa;
+  --wst-low-border: #1e3a5f;
+  --wst-shadow: 0 1px 3px rgba(0,0,0,.3);
+  --wst-shadow-md: 0 4px 6px rgba(0,0,0,.4);
+}
+
+/* ── Layout ── */
+.wst { background: var(--wst-bg); color: var(--wst-text); padding: 0 0 2rem; transition: background .2s, color .2s; }
+
+/* ── Header banner ── */
+.wst-banner {
+  background: linear-gradient(135deg, #1e3a5f 0%, #1e40af 50%, #1d4ed8 100%);
+  padding: 1.75rem 1.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: var(--wst-radius);
+  position: relative;
+  overflow: hidden;
+}
+[data-wst-dark] .wst-banner {
+  background: linear-gradient(135deg, #0a1628 0%, #1e2d3d 50%, #1e3a5f 100%);
+  border: 1px solid #1e3a5f;
+}
+.wst-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.wst-banner-inner { position: relative; display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; flex-wrap: wrap; }
+.wst-banner-title { display: flex; align-items: center; gap: 10px; font-size: 1.35rem; font-weight: 700; color: #fff; margin-bottom: 0.35rem; }
+.wst-banner-title svg { opacity: .9; }
+.wst-banner-sub { font-size: 0.8rem; color: rgba(255,255,255,.65); }
+.wst-banner-sub a { color: rgba(255,255,255,.8); text-decoration: none; }
+.wst-banner-sub a:hover { color: #fff; }
+.wst-banner-actions { display: flex; gap: 8px; align-items: center; }
+.wst-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 6px 12px; border-radius: var(--wst-radius-sm); font-size: 12px; font-weight: 500;
+  border: 1px solid rgba(255,255,255,.25); color: rgba(255,255,255,.85);
+  background: rgba(255,255,255,.1); cursor: pointer; text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+.wst-btn:hover { background: rgba(255,255,255,.2); border-color: rgba(255,255,255,.4); color: #fff; }
+.wst-btn-dark { border-color: var(--wst-border); color: var(--wst-muted); background: var(--wst-card); }
+.wst-btn-dark:hover { background: var(--wst-bg); color: var(--wst-text); }
+
+/* ── Premium Day/Night Toggle ── */
+.wst-theme-toggle {
+  background: none; border: none; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  padding: 4px 8px; border-radius: 10px;
+  transition: background .2s;
+  position: relative;
+}
+.wst-theme-toggle:hover { background: rgba(255,255,255,.08); }
+
+.wst-theme-circle {
+  position: relative; width: 46px; height: 46px;
+  border-radius: 50%;
+  border: 2.5px solid rgba(255,255,255,.35);
+  overflow: hidden;
+  box-shadow:
+    0 0 18px 6px rgba(99,102,241,.45),
+    0 0 36px 10px rgba(168,85,247,.2),
+    inset 0 0 8px rgba(0,0,0,.3);
+  transition: box-shadow .4s, border-color .4s;
+}
+/* Light half (left) */
+.wst-theme-circle::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+  z-index: 1;
+}
+/* Dark half (right) */
+.wst-theme-circle::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent 50%, #0f172a 50%);
+  z-index: 1;
+}
+/* Centre divider line */
+.wst-theme-circle-inner {
+  position: absolute; left: 50%; top: 0; bottom: 0;
+  width: 2.5px; background: rgba(255,255,255,.6);
+  z-index: 2; transform: translateX(-50%);
+}
+/* Outer glow ring */
+.wst-theme-circle-ring {
+  position: absolute; inset: -4px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: conic-gradient(from 180deg, #818cf8, #c084fc, #f472b6, #fb923c, #facc15, #34d399, #818cf8) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  animation: wst-ring-spin 6s linear infinite;
+  opacity: .6;
+}
+@keyframes wst-ring-spin {
+  to { transform: rotate(360deg); }
+}
+/* Glow states */
+.wst-theme-toggle.is-dark .wst-theme-circle {
+  box-shadow:
+    0 0 18px 8px rgba(251,191,36,.35),
+    0 0 36px 12px rgba(239,68,68,.2),
+    inset 0 0 8px rgba(0,0,0,.5);
+  border-color: rgba(251,191,36,.4);
+}
+.wst-theme-toggle.is-light .wst-theme-circle {
+  box-shadow:
+    0 0 18px 8px rgba(99,102,241,.45),
+    0 0 36px 10px rgba(168,85,247,.25),
+    inset 0 0 8px rgba(0,0,0,.15);
+  border-color: rgba(167,139,250,.5);
+}
+.wst-theme-label {
+  font-size: 10px; font-weight: 600; letter-spacing: .08em;
+  text-transform: uppercase; color: rgba(255,255,255,.7);
+  transition: color .3s;
+}
+.wst-theme-toggle.is-dark  .wst-theme-label { color: #fbbf24; }
+.wst-theme-toggle.is-light .wst-theme-label { color: #c4b5fd; }
+
+/* ── Stat cards ── */
+.wst-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 1.25rem; }
+.wst-stat {
+  background: var(--wst-card); border: 1px solid var(--wst-border);
+  border-radius: var(--wst-radius); padding: 14px 16px;
+  box-shadow: var(--wst-shadow); transition: transform .15s, box-shadow .15s;
+}
+.wst-stat:hover { transform: translateY(-1px); box-shadow: var(--wst-shadow-md); }
+.wst-stat-label { font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--wst-muted); margin-bottom: 6px; }
+.wst-stat-value { font-size: 1.75rem; font-weight: 700; line-height: 1; }
+.wst-stat-value.total  { color: var(--wst-text); }
+.wst-stat-value.crit   { color: var(--wst-critical-text); }
+.wst-stat-value.imp    { color: var(--wst-important-text); }
+.wst-stat-value.mod    { color: var(--wst-moderate-text); }
+.wst-stat-value.exploit { color: #e11d48; }
+[data-wst-dark] .wst-stat-value.exploit { color: #fb7185; }
+.wst-stat-meta { font-size: 12px; font-weight: 400; color: var(--wst-muted); margin-top: 4px; }
+
+/* ── Controls ── */
+.wst-controls { display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; align-items: center; }
+.wst-search-wrap { position: relative; flex: 1; min-width: 180px; }
+.wst-search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--wst-subtle); pointer-events: none; }
+.wst-controls input,
+.wst-controls select {
+  height: 36px; font-size: 13px; padding: 0 12px; border-radius: var(--wst-radius-sm);
+  border: 1px solid var(--wst-border); background: var(--wst-card); color: var(--wst-text);
+  outline: none; transition: border-color .15s, box-shadow .15s;
+}
+.wst-controls input { width: 100%; padding-left: 34px; }
+.wst-controls input:focus,
+.wst-controls select:focus { border-color: var(--wst-accent); box-shadow: 0 0 0 3px rgba(37,99,235,.12); }
+.wst-controls select { min-width: 140px; cursor: pointer; }
+.wst-ctrl-refresh {
+  height: 36px; padding: 0 14px; border-radius: var(--wst-radius-sm); font-size: 13px; font-weight: 500;
+  border: 1px solid var(--wst-border); background: var(--wst-card); color: var(--wst-text);
+  cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+  transition: background .15s, border-color .15s;
+}
+.wst-ctrl-refresh:hover { background: var(--wst-bg); border-color: var(--wst-accent); color: var(--wst-accent); }
+
+/* ── Result info bar ── */
+.wst-info { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--wst-muted); margin-bottom: 8px; flex-wrap: wrap; gap: 6px; }
+.wst-info-count strong { color: var(--wst-text); }
+.wst-info-updated { display: flex; align-items: center; gap: 4px; }
+
+/* ── Table ── */
+.wst-table-wrap { border: 1px solid var(--wst-border); border-radius: var(--wst-radius); overflow: hidden; box-shadow: var(--wst-shadow); }
+.wst-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.wst-table thead { background: var(--wst-bg); position: sticky; top: 0; z-index: 1; }
+.wst-table th {
+  padding: 10px 12px; text-align: left; font-weight: 600; font-size: 11px;
+  text-transform: uppercase; letter-spacing: .06em; color: var(--wst-muted);
+  border-bottom: 1px solid var(--wst-border); white-space: nowrap; cursor: pointer; user-select: none;
+}
+.wst-table th:hover { color: var(--wst-text); }
+.wst-table th .sort-icon { margin-left: 3px; opacity: .4; }
+.wst-table th.sorted-asc .sort-icon::after  { content: ' ↑'; opacity: 1; }
+.wst-table th.sorted-desc .sort-icon::after { content: ' ↓'; opacity: 1; }
+.wst-table td { padding: 10px 12px; border-bottom: 1px solid var(--wst-border); color: var(--wst-text); vertical-align: middle; }
+.wst-table tr:last-child td { border-bottom: none; }
+.wst-table tbody tr { transition: background .1s; }
+.wst-table tbody tr:hover td { background: var(--wst-bg); }
+.wst-table tbody tr.exploited-row td:first-child { border-left: 3px solid #e11d48; }
+
+/* ── Badges ── */
+.wst-badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  padding: 2px 8px; border-radius: 20px; font-size: 11px; font-weight: 600;
+  border: 1px solid transparent; white-space: nowrap;
+}
+.wst-badge.Critical   { background: var(--wst-critical-bg);  color: var(--wst-critical-text);  border-color: var(--wst-critical-border); }
+.wst-badge.Important  { background: var(--wst-important-bg); color: var(--wst-important-text); border-color: var(--wst-important-border); }
+.wst-badge.Moderate   { background: var(--wst-moderate-bg);  color: var(--wst-moderate-text);  border-color: var(--wst-moderate-border); }
+.wst-badge.Low        { background: var(--wst-low-bg);       color: var(--wst-low-text);       border-color: var(--wst-low-border); }
+.wst-badge.Unknown    { background: var(--wst-bg); color: var(--wst-muted); border-color: var(--wst-border); }
+
+.wst-exploit-dot {
+  display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  background: #e11d48; box-shadow: 0 0 0 3px rgba(225,29,72,.2);
+  animation: wst-pulse 1.8s infinite;
+}
+@keyframes wst-pulse {
+  0%,100% { box-shadow: 0 0 0 3px rgba(225,29,72,.2); }
+  50%      { box-shadow: 0 0 0 6px rgba(225,29,72,.05); }
+}
+
+/* ── CVE link ── */
+.wst-cve-link { color: var(--wst-accent); text-decoration: none; font-weight: 600; font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 12px; }
+.wst-cve-link:hover { text-decoration: underline; color: var(--wst-accent-hover); }
+
+/* ── Product cell ── */
+.wst-product { color: var(--wst-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 160px; }
+
+/* ── CVSS bar ── */
+.wst-score { display: flex; align-items: center; gap: 6px; }
+.wst-score-num { font-size: 12px; font-weight: 700; min-width: 28px; }
+.wst-bar-bg { flex: 1; height: 5px; background: var(--wst-border); border-radius: 3px; overflow: hidden; min-width: 40px; }
+.wst-bar-fill { height: 100%; border-radius: 3px; transition: width .3s; }
+
+/* ── Date ── */
+.wst-date { color: var(--wst-muted); white-space: nowrap; font-size: 12px; }
+
+/* ── Empty / loading ── */
+.wst-empty { padding: 3rem; text-align: center; color: var(--wst-muted); font-size: 14px; }
+.wst-empty svg { opacity: .3; margin-bottom: 8px; }
+
+/* ── Pagination ── */
+.wst-pager { display: flex; justify-content: center; align-items: center; gap: 6px; margin-top: 1rem; flex-wrap: wrap; }
+.wst-page-btn {
+  min-width: 32px; height: 32px; padding: 0 10px; border-radius: var(--wst-radius-sm);
+  border: 1px solid var(--wst-border); background: var(--wst-card); color: var(--wst-muted);
+  font-size: 13px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.wst-page-btn:hover:not(:disabled) { background: var(--wst-bg); color: var(--wst-text); border-color: var(--wst-accent); }
+.wst-page-btn.active { background: var(--wst-accent); color: #fff; border-color: var(--wst-accent); font-weight: 600; }
+.wst-page-btn:disabled { opacity: .4; cursor: default; }
+.wst-pager-info { font-size: 12px; color: var(--wst-muted); }
+
+/* ── Toolbar exploit toggle ── */
+.wst-toggle { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 12px; border-radius: var(--wst-radius-sm); border: 1px solid var(--wst-border); background: var(--wst-card); color: var(--wst-muted); cursor: pointer; font-size: 13px; transition: all .15s; }
+.wst-toggle:hover, .wst-toggle.active { border-color: #e11d48; color: #e11d48; background: var(--wst-critical-bg); }
+.wst-toggle.kb-active { border-color: #2563eb; color: #2563eb; background: #eff6ff; }
+[data-wst-dark] .wst-toggle.kb-active { background: #0a1628; }
+
+/* ── KB detail row ── */
+.wst-kb-row { display: none; }
+.wst-kb-row.open { display: table-row; }
+.wst-kb-row td { padding: 0; border-bottom: 1px solid var(--wst-border); }
+.wst-kb-panel {
+  background: var(--wst-bg); padding: 12px 16px 16px;
+  border-top: 1px dashed var(--wst-border);
+  animation: wst-slide-down .15s ease;
+}
+@keyframes wst-slide-down {
+  from { opacity:0; transform:translateY(-6px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+.wst-kb-panel-title {
+  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--wst-muted); margin-bottom: 10px; display: flex; align-items: center; gap: 6px;
+}
+.wst-kb-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px;
+}
+.wst-kb-card {
+  background: var(--wst-card); border: 1px solid var(--wst-border); border-radius: 8px;
+  padding: 10px 12px; transition: border-color .15s, box-shadow .15s;
+}
+.wst-kb-card:hover { border-color: var(--wst-accent); box-shadow: 0 0 0 3px rgba(37,99,235,.08); }
+.wst-kb-num {
+  font-family: 'JetBrains Mono','Courier New',monospace; font-size: 13px; font-weight: 700;
+  color: var(--wst-accent); text-decoration: none; display: inline-flex; align-items: center; gap: 4px;
+}
+.wst-kb-num:hover { text-decoration: underline; }
+.wst-kb-build { font-size: 11px; color: var(--wst-muted); font-family: 'JetBrains Mono','Courier New',monospace; margin: 3px 0; }
+.wst-kb-products { font-size: 11px; color: var(--wst-muted); line-height: 1.5; }
+.wst-kb-product-tag {
+  display: inline-block; background: var(--wst-bg); border: 1px solid var(--wst-border);
+  border-radius: 4px; padding: 1px 6px; font-size: 10px; margin: 2px 2px 0 0;
+}
+.wst-kb-none { font-size: 12px; color: var(--wst-subtle); font-style: italic; padding: 4px 0; }
+/* Row clickable indicator */
+.wst-table tbody tr.data-row { cursor: pointer; }
+.wst-table tbody tr.data-row:hover td { background: var(--wst-bg); }
+.wst-row-expand { font-size: 10px; color: var(--wst-subtle); margin-left: 4px; vertical-align: middle; transition: transform .2s; }
+.wst-table tbody tr.data-row.expanded .wst-row-expand { transform: rotate(180deg); }
+.wst-kb-badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe;
+  border-radius: 4px; font-size: 10px; font-weight: 600; padding: 1px 6px; margin-left: 6px;
+  vertical-align: middle;
+}
+[data-wst-dark] .wst-kb-badge { background: #0a1628; color: #60a5fa; border-color: #1e3a5f; }
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .wst-banner-actions { display: none; }
+  .wst-controls select { min-width: 120px; }
+  .wst-table th:nth-child(3), .wst-table td:nth-child(3),
+  .wst-table th:nth-child(6), .wst-table td:nth-child(6) { display: none; }
+}
+</style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+
+<div class="wst" id="wst-root">
+
+  <!-- Banner -->
+  <div class="wst-banner">
+    <div class="wst-banner-inner">
+      <div>
+        <div class="wst-banner-title">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+          Windows Security Tracker
+        </div>
+        <div class="wst-banner-sub">
+          Microsoft Security Response Center &mdash; <span id="wst-month">Loading…</span>
+          &bull; <a href="https://msrc.microsoft.com/update-guide/" target="_blank" rel="noopener">msrc.microsoft.com</a>
+          &bull; <a href="https://farukguler.com" target="_blank" rel="noopener">farukguler.com</a>
+        </div>
+      </div>
+      <div class="wst-banner-actions">
+        <a class="wst-btn" href="https://msrc.microsoft.com/update-guide/" target="_blank" rel="noopener">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          MSRC Portal
+        </a>
+        <button class="wst-theme-toggle" id="wst-dark-btn" onclick="toggleDark()" title="Auto day/night mode — click to override for 1 hour">
+          <div class="wst-theme-circle">
+            <div class="wst-theme-circle-inner"></div>
+            <div class="wst-theme-circle-ring"></div>
+          </div>
+          <span class="wst-theme-label" id="wst-dark-label">AUTO</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div class="wst-stats">
+    <div class="wst-stat">
+      <div class="wst-stat-label">Total CVEs</div>
+      <div class="wst-stat-value total" id="wst-s-total">—</div>
+      <div class="wst-stat-meta">Past 12 months</div>
+    </div>
+    <div class="wst-stat">
+      <div class="wst-stat-label">🔴 Critical</div>
+      <div class="wst-stat-value crit" id="wst-s-critical">—</div>
+      <div class="wst-stat-meta">CVSS ≥ 9.0</div>
+    </div>
+    <div class="wst-stat">
+      <div class="wst-stat-label">🟠 Important</div>
+      <div class="wst-stat-value imp" id="wst-s-important">—</div>
+      <div class="wst-stat-meta">CVSS ≥ 7.0</div>
+    </div>
+    <div class="wst-stat">
+      <div class="wst-stat-label">🟡 Moderate</div>
+      <div class="wst-stat-value mod" id="wst-s-moderate">—</div>
+      <div class="wst-stat-meta">CVSS ≥ 4.0</div>
+    </div>
+    <div class="wst-stat">
+      <div class="wst-stat-label">⚡ Exploited</div>
+      <div class="wst-stat-value exploit" id="wst-s-exploited">0</div>
+      <div class="wst-stat-meta">Active exploits</div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div class="wst-controls">
+    <div class="wst-search-wrap">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="wst-search" placeholder="Search CVE ID or title…" autocomplete="off">
+    </div>
+    <select id="wst-sev">
+      <option value="">All severities</option>
+      <option value="Critical">🔴 Critical</option>
+      <option value="Important">🟠 Important</option>
+      <option value="Moderate">🟡 Moderate</option>
+      <option value="Low">🔵 Low</option>
+    </select>
+    <select id="wst-prod">
+      <option value="">All products</option>
+    </select>
+    <button class="wst-toggle" id="wst-exploit-toggle" onclick="toggleExploit()" title="Show only actively exploited vulnerabilities">
+      <span class="wst-exploit-dot"></span> Exploited
+    </button>
+    <button class="wst-toggle" id="wst-kb-toggle" onclick="toggleKbFilter()" title="Show only CVEs with KB patches available">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+      Has KB Patch
+    </button>
+    <button class="wst-ctrl-refresh" onclick="resetFilters()">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.51"/></svg>
+      Reset
+    </button>
+  </div>
+
+  <!-- Info bar -->
+  <div class="wst-info">
+    <div class="wst-info-count" id="wst-info-count"></div>
+    <div class="wst-info-updated">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      Last updated: <span id="wst-updated">…</span>
+    </div>
+  </div>
+
+  <!-- Table -->
+  <div class="wst-table-wrap">
+    <table class="wst-table" id="wst-table">
+      <thead>
+        <tr>
+          <th data-col="cve_id" style="width:135px">CVE ID <span class="sort-icon"></span></th>
+          <th data-col="title">Title <span class="sort-icon"></span></th>
+          <th data-col="product" style="width:160px">Product <span class="sort-icon"></span></th>
+          <th data-col="severity" style="width:100px">Severity <span class="sort-icon"></span></th>
+          <th data-col="cvss" style="width:90px">CVSS <span class="sort-icon"></span></th>
+          <th data-col="kb_count" style="width:75px">KB Fix <span class="sort-icon"></span></th>
+          <th data-col="date" style="width:85px">Date <span class="sort-icon"></span></th>
+        </tr>
+      </thead>
+      <tbody id="wst-tbody">
+        <tr><td colspan="6" class="wst-empty">Loading data…</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pagination -->
+  <div class="wst-pager" id="wst-pager"></div>
+
+</div>
+
+<script>
+// ── State ──
+let RAW_ALL   = [];
+let filtered  = [];
+let sortCol   = '';
+let sortDir   = 1;  // 1=asc, -1=desc
+let page      = 1;
+let exploitOnly = false;
+const PAGE_SIZE = 50;
+
+// ── Auto Day / Night mode ──
+// Day: 07:00 – 21:00 → Light  |  Night: 21:00 – 07:00 → Dark
+const DAY_START  = 7;   // 07:00
+const DAY_END    = 21;  // 21:00
+let   manualOverrideUntil = 0;  // timestamp ms
+
+function isNightTime() {
+  const h = new Date().getHours();
+  return h < DAY_START || h >= DAY_END;
+}
+
+function applyTheme(dark, isAuto) {
+  const root  = document.getElementById('wst-root');
+  const btn   = document.getElementById('wst-dark-btn');
+  const label = document.getElementById('wst-dark-label');
+  if (dark) {
+    root.setAttribute('data-wst-dark', '');
+    btn.classList.remove('is-light'); btn.classList.add('is-dark');
+    label.textContent = isAuto ? 'NIGHT' : 'DARK';
+  } else {
+    root.removeAttribute('data-wst-dark');
+    btn.classList.remove('is-dark'); btn.classList.add('is-light');
+    label.textContent = isAuto ? 'DAY' : 'LIGHT';
+  }
+}
+
+function autoThemeCheck() {
+  // Skip if manual override is still active
+  if (Date.now() < manualOverrideUntil) return;
+  applyTheme(isNightTime(), true);
+}
+
+function toggleDark() {
+  const isDark = document.getElementById('wst-root').hasAttribute('data-wst-dark');
+  // Manual override: valid for 1 hour, then reverts to auto
+  manualOverrideUntil = Date.now() + 60 * 60 * 1000;
+  applyTheme(!isDark, false);
+}
+
+// Initial load: apply auto theme
+autoThemeCheck();
+
+// Check every minute so day/night transition is instant
+setInterval(autoThemeCheck, 60 * 1000);
+
+// ── KB filter toggle ──
+let kbOnly = false;
+function toggleKbFilter() {
+  kbOnly = !kbOnly;
+  const btn = document.getElementById('wst-kb-toggle');
+  btn.classList.toggle('kb-active', kbOnly);
+  page = 1;
+  applyFilters();
+}
+
+// ── Exploit filter toggle ──
+function toggleExploit() {
+  exploitOnly = !exploitOnly;
+  document.getElementById('wst-exploit-toggle').classList.toggle('active', exploitOnly);
+  page = 1;
+  applyFilters();
+}
+
+// ── Reset filters ──
+function resetFilters() {
+  document.getElementById('wst-search').value = '';
+  document.getElementById('wst-sev').value = '';
+  document.getElementById('wst-prod').value = '';
+  exploitOnly = false;
+  kbOnly = false;
+  document.getElementById('wst-exploit-toggle').classList.remove('active');
+  document.getElementById('wst-kb-toggle').classList.remove('kb-active');
+  sortCol = ''; sortDir = 1; page = 1;
+  document.querySelectorAll('.wst-table th').forEach(th => { th.classList.remove('sorted-asc','sorted-desc'); });
+  applyFilters();
+}
+
+// ── CVSS bar ──
+function scoreBar(s) {
+  if (s === null || s === undefined) return '<span style="color:var(--wst-subtle)">—</span>';
+  const n = parseFloat(s);
+  const pct = Math.round((n / 10) * 100);
+  let c = '#16a34a';
+  if (n >= 9) c = '#dc2626';
+  else if (n >= 7) c = '#ea580c';
+  else if (n >= 4) c = '#d97706';
+  return `<div class="wst-score">
+    <span class="wst-score-num" style="color:${c}">${n.toFixed(1)}</span>
+    <div class="wst-bar-bg"><div class="wst-bar-fill" style="width:${pct}%;background:${c}"></div></div>
+  </div>`;
+}
+
+// ── Date formatter ──
+function fmt(d) {
+  if (!d) return '—';
+  const p = d.split('-');
+  return p.length >= 3 ? `${p[2]}.${p[1]}.${p[0].slice(2)}` : d;
+}
+
+// ── Build KB panel HTML ──
+function buildKbPanel(d) {
+  if (!d.kb_articles || d.kb_articles.length === 0) {
+    return `<div class="wst-kb-panel">
+      <div class="wst-kb-panel-title">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Patch / KB Articles
+      </div>
+      <div class="wst-kb-none">No KB article linked for this CVE. Check <a href="https://msrc.microsoft.com/update-guide/vulnerability/${d.cve_id}" target="_blank" rel="noopener" style="color:var(--wst-accent)">MSRC page</a> for manual remediation guidance.</div>
+    </div>`;
+  }
+  const cards = d.kb_articles.map(kb => {
+    const prods = (kb.products || []).slice(0, 6).map(p =>
+      `<span class="wst-kb-product-tag">${p.length > 40 ? p.slice(0,40)+'…' : p}</span>`
+    ).join('');
+    const more = (kb.products || []).length > 6 ? `<span class="wst-kb-product-tag">+${kb.products.length - 6} more</span>` : '';
+    const kbClean = kb.kb.replace(/^[Kk][Bb]/, '');
+    return `<div class="wst-kb-card">
+      <div>
+        <a class="wst-kb-num" href="${kb.url}" target="_blank" rel="noopener">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          KB${kbClean}
+        </a>
+        ${kb.subtype ? `<span style="font-size:10px;color:var(--wst-muted);margin-left:6px">${kb.subtype}</span>` : ''}
+      </div>
+      ${kb.fixed_build ? `<div class="wst-kb-build">→ ${kb.fixed_build}</div>` : ''}
+      <div class="wst-kb-products">${prods}${more}</div>
+    </div>`;
+  }).join('');
+  return `<div class="wst-kb-panel">
+    <div class="wst-kb-panel-title">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+      ${d.kb_articles.length} KB Patch Article${d.kb_articles.length > 1 ? 's' : ''} &mdash; Click a KB number to open Microsoft Update Catalog
+    </div>
+    <div class="wst-kb-grid">${cards}</div>
+  </div>`;
+}
+
+// ── Toggle KB row ──
+function toggleKbRow(rowId) {
+  const dataRow = document.getElementById('dr-' + rowId);
+  const kbRow   = document.getElementById('kr-' + rowId);
+  if (!dataRow || !kbRow) return;
+  const isOpen = kbRow.classList.contains('open');
+  // Close all others
+  document.querySelectorAll('.wst-kb-row.open').forEach(r => r.classList.remove('open'));
+  document.querySelectorAll('.data-row.expanded').forEach(r => r.classList.remove('expanded'));
+  if (!isOpen) {
+    kbRow.classList.add('open');
+    dataRow.classList.add('expanded');
+  }
+}
+
+// ── Render current page ──
+function render() {
+  const tb = document.getElementById('wst-tbody');
+  const start = (page - 1) * PAGE_SIZE;
+  const slice = filtered.slice(start, start + PAGE_SIZE);
+
+  if (!filtered.length) {
+    tb.innerHTML = `<tr><td colspan="7" class="wst-empty">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><br>
+      No results found. Try adjusting the filters.
+    </td></tr>`;
+    renderPager();
+    return;
+  }
+
+  tb.innerHTML = slice.map((d, i) => {
+    const idx = (page-1)*PAGE_SIZE + i;
+    const exploitBadge = d.exploited
+      ? `<span title="Actively exploited in the wild" style="margin-left:5px"><span class="wst-exploit-dot"></span></span>`
+      : '';
+    const kbBadge = d.kb_count > 0
+      ? `<span class="wst-kb-badge">KB×${d.kb_count}</span>`
+      : '';
+    const kbCell = d.kb_count > 0
+      ? `<span style="font-size:12px;font-weight:600;color:#2563eb">${d.kb_count}</span>`
+      : `<span style="font-size:11px;color:var(--wst-subtle)">—</span>`;
+    return `<tr class="data-row" id="dr-${idx}" onclick="toggleKbRow(${idx})">
+      <td><a class="wst-cve-link" href="https://msrc.microsoft.com/update-guide/vulnerability/${d.cve_id}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${d.cve_id || '—'}</a>${exploitBadge}</td>
+      <td style="word-break:break-word;line-height:1.45">${d.title || '—'}<svg class="wst-row-expand" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></td>
+      <td><div class="wst-product" title="${(d.products||[d.product]).join(', ')}">${d.product || '—'}</div></td>
+      <td><span class="wst-badge ${d.severity || 'Unknown'}">${d.severity || 'Unknown'}</span></td>
+      <td>${scoreBar(d.cvss)}</td>
+      <td style="text-align:center">${kbCell}</td>
+      <td class="wst-date">${fmt(d.date)}</td>
+    </tr>
+    <tr class="wst-kb-row" id="kr-${idx}">
+      <td colspan="7">${buildKbPanel(d)}</td>
+    </tr>`;
+  }).join('');
+
+  renderPager();
+  updateStats();
+}
+
+// ── Pagination ──
+function renderPager() {
+  const pager = document.getElementById('wst-pager');
+  const total = filtered.length;
+  const totalPages = Math.ceil(total / PAGE_SIZE);
+
+  document.getElementById('wst-info-count').innerHTML =
+    `<strong>${total.toLocaleString()}</strong> CVEs shown` +
+    (totalPages > 1 ? ` (page ${page} of ${totalPages})` : '');
+
+  if (totalPages <= 1) { pager.innerHTML = ''; return; }
+
+  let btns = '';
+  btns += `<button class="wst-page-btn" onclick="goPage(${page-1})" ${page===1?'disabled':''}>‹</button>`;
+
+  const range = buildPageRange(page, totalPages);
+  range.forEach(p => {
+    if (p === '…') btns += `<span class="wst-pager-info">…</span>`;
+    else btns += `<button class="wst-page-btn ${p===page?'active':''}" onclick="goPage(${p})">${p}</button>`;
+  });
+
+  btns += `<button class="wst-page-btn" onclick="goPage(${page+1})" ${page===totalPages?'disabled':''}>›</button>`;
+  pager.innerHTML = btns;
+}
+
+function buildPageRange(cur, total) {
+  if (total <= 7) return Array.from({length: total}, (_, i) => i+1);
+  const r = [];
+  if (cur <= 4) { for(let i=1;i<=5;i++) r.push(i); r.push('…'); r.push(total); }
+  else if (cur >= total-3) { r.push(1); r.push('…'); for(let i=total-4;i<=total;i++) r.push(i); }
+  else { r.push(1); r.push('…'); r.push(cur-1); r.push(cur); r.push(cur+1); r.push('…'); r.push(total); }
+  return r;
+}
+
+function goPage(p) {
+  const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+  if (p < 1 || p > totalPages) return;
+  page = p;
+  render();
+  document.querySelector('.wst-table-wrap').scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+// ── Update stat counters (dynamic, based on current filter) ──
+function updateStats() {
+  document.getElementById('wst-s-total').textContent    = filtered.length.toLocaleString();
+  document.getElementById('wst-s-critical').textContent  = filtered.filter(d=>d.severity==='Critical').length;
+  document.getElementById('wst-s-important').textContent = filtered.filter(d=>d.severity==='Important').length;
+  document.getElementById('wst-s-moderate').textContent  = filtered.filter(d=>d.severity==='Moderate').length;
+  document.getElementById('wst-s-exploited').textContent = filtered.filter(d=>d.exploited).length;
+}
+
+// ── Filter logic ──
+function applyFilters() {
+  const q    = document.getElementById('wst-search').value.toLowerCase().trim();
+  const sev  = document.getElementById('wst-sev').value;
+  const prod = document.getElementById('wst-prod').value;
+
+  filtered = RAW_ALL.filter(d => {
+    if (exploitOnly && !d.exploited) return false;
+    if (kbOnly && d.kb_count === 0) return false;
+    if (sev  && d.severity !== sev) return false;
+    if (prod && d.product !== prod && !(d.products || []).includes(prod)) return false;
+    if (q && !(
+      (d.cve_id  || '').toLowerCase().includes(q) ||
+      (d.title   || '').toLowerCase().includes(q) ||
+      (d.product || '').toLowerCase().includes(q) ||
+      (d.products || []).some(p => p.toLowerCase().includes(q)) ||
+      (d.kb_articles || []).some(k => ('KB' + k.kb.replace(/^[Kk][Bb]/, '')).toLowerCase().includes(q))
+    )) return false;
+    return true;
+  });
+
+  if (sortCol) applySort(false);
+  render();
+}
+
+// ── Sort ──
+function applySort(toggleDir = true) {
+  if (toggleDir) sortDir = (sortCol === this._col) ? -sortDir : 1;
+  filtered.sort((a, b) => {
+    let av = a[sortCol], bv = b[sortCol];
+    if (sortCol === 'severity') {
+      const o = {Critical:0,Important:1,Moderate:2,Low:3};
+      av = o[av] ?? 4; bv = o[bv] ?? 4;
+    }
+    if (av === null || av === undefined) av = sortDir === 1 ? Infinity : -Infinity;
+    if (bv === null || bv === undefined) bv = sortDir === 1 ? Infinity : -Infinity;
+    if (av < bv) return -sortDir;
+    if (av > bv) return  sortDir;
+    return 0;
+  });
+}
+
+// ── Column sort on header click ──
+document.querySelectorAll('.wst-table th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    if (sortCol === col) sortDir = -sortDir;
+    else { sortCol = col; sortDir = 1; }
+    document.querySelectorAll('.wst-table th').forEach(t => t.classList.remove('sorted-asc','sorted-desc'));
+    th.classList.add(sortDir === 1 ? 'sorted-asc' : 'sorted-desc');
+    applySort(false);
+    page = 1;
+    render();
+  });
+});
+
+// ── Populate product dropdown ──
+function populateProducts() {
+  const sel = document.getElementById('wst-prod');
+  while (sel.options.length > 1) sel.remove(1);
+  
+  const allProds = [];
+  RAW_ALL.forEach(d => {
+    if (d.product) allProds.push(d.product);
+    if (d.products) allProds.push(...d.products);
+  });
+  const prods = [...new Set(allProds)].sort();
+  
+  prods.forEach(p => {
+    const o = document.createElement('option');
+    o.value = p;
+    o.textContent = p.length > 38 ? p.slice(0,38) + '…' : p;
+    sel.appendChild(o);
+  });
+}
+
+// ── Event listeners ──
+let debounceTimer;
+document.getElementById('wst-search').addEventListener('input', () => {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => { page = 1; applyFilters(); }, 200);
+});
+document.getElementById('wst-sev').addEventListener('change',  () => { page = 1; applyFilters(); });
+document.getElementById('wst-prod').addEventListener('change', () => { page = 1; applyFilters(); });
+
+// ── Load data from JSON file (standalone, no Jekyll) ──
+async function loadData() {
+  const tb = document.getElementById('wst-tbody');
+  tb.innerHTML = '<tr><td colspan="7" class="wst-empty">Loading CVE data…</td></tr>';
+  try {
+    const resp = await fetch('./data/msrc_cves.json');
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    RAW_ALL = data.cves || [];
+    // Update meta info in the UI
+    const meta = data.meta || {};
+    const monthEl = document.getElementById('wst-month');
+    const updEl   = document.getElementById('wst-updated');
+    if (monthEl) monthEl.textContent = meta.month || '';
+    if (updEl)   updEl.textContent   = meta.updated_at || 'unknown';
+    // Init table
+    populateProducts();
+    filtered = RAW_ALL.slice();
+    applyFilters();
+  } catch (e) {
+    tb.innerHTML = `<tr><td colspan="7" class="wst-empty">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg><br>
+      Failed to load data: ${e.message}<br>
+      <small style="color:var(--wst-subtle)">Make sure <code>data/msrc_cves.json</code> exists and GitHub Actions has run.</small>
+    </td></tr>`;
+  }
+}
+
+loadData();
+</script>
+
+</body>
+</html>
+
+
