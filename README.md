@@ -1,4 +1,4 @@
-# Windows Security Tracker
+# Windows Security Tracker v2
 
 <img src="data/homepage.jpeg" alt="alt text" width="780" height="330">
 
