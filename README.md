@@ -1,4 +1,4 @@
-# Microsoft Security Tracker v2
+# Microsoft Security Tracker (MSRC) v2
 
 A live CVE tracking dashboard powered by the **Microsoft Security Response Center (MSRC) API**, built as a standalone HTML page with automated daily updates via GitHub Actions.
 
