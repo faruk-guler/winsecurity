@@ -1,10 +1,9 @@
-# Windows Security Tracker v2
-
-<img src="data/homepage.jpeg" alt="alt text" width="580" height="330">
+# Microsoft Security Tracker v2
 
 A live CVE tracking dashboard powered by the **Microsoft Security Response Center (MSRC) API**, built as a standalone HTML page with automated daily updates via GitHub Actions.
 
-![Preview](https://img.shields.io/badge/CVEs-June%202026-blue) ![Auto-update](https://img.shields.io/badge/Auto--update-hourly-green)
+![Preview](https://img.shields.io/badge/CVEs-June%202026-blue) ![Auto-update](https://img.shields.io/badge/Auto--update-hourly-green) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 ---
 
 ## What It Does

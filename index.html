@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Windows Security Tracker (MSRC) API</title>
+  <title>Microsoft Security Tracker v2</title>
   <meta name="description" content="Microsoft Security Response Center (MSRC) live CVE tracking dashboard — Patch Tuesday security updates, severity ratings and exploit status.">
-  <meta property="og:title" content="Windows Security Tracker">
+  <meta property="og:title" content="Microsoft Security Tracker v2">
   <meta property="og:description" content="Live MSRC CVE dashboard with KB patch details, severity ratings, and exploit status.">
   <meta name="theme-color" content="#1d4ed8">
 </head>
@@ -159,6 +159,7 @@
   border: 2px solid transparent;
   background: conic-gradient(from 180deg, #818cf8, #c084fc, #f472b6, #fb923c, #facc15, #34d399, #818cf8) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
   animation: wst-ring-spin 6s linear infinite;
@@ -388,10 +389,11 @@
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
             <path d="m9 12 2 2 4-4"/>
           </svg>
-          Windows Security Tracker v2
+          Microsoft Security Tracker v2
         </div>
         <div class="wst-banner-sub">
-          Microsoft Security Response Center (MSRC) API &mdash; <span id="wst-month">Loading…</span>
+          Microsoft Security Response Center &mdash; <span id="wst-month">Loading…</span>
+          &bull; <a href="https://msrc.microsoft.com/update-guide/" target="_blank" rel="noopener">msrc.microsoft.com</a>
           &bull; <a href="https://farukguler.com" target="_blank" rel="noopener">farukguler.com</a>
         </div>
       </div>
@@ -629,11 +631,12 @@ function buildKbPanel(d) {
     ).join('');
     const more = (kb.products || []).length > 6 ? `<span class="wst-kb-product-tag">+${kb.products.length - 6} more</span>` : '';
     const kbClean = kb.kb.replace(/^[Kk][Bb]/, '');
+    const kbDisplay = /^\d+$/.test(kbClean) ? 'KB' + kbClean : kbClean;
     return `<div class="wst-kb-card">
       <div>
         <a class="wst-kb-num" href="${kb.url}" target="_blank" rel="noopener">
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          KB${kbClean}
+          ${kbDisplay}
         </a>
         ${kb.subtype ? `<span style="font-size:10px;color:var(--wst-muted);margin-left:6px">${kb.subtype}</span>` : ''}
       </div>
@@ -776,7 +779,11 @@ function applyFilters() {
       (d.title   || '').toLowerCase().includes(q) ||
       (d.product || '').toLowerCase().includes(q) ||
       (d.products || []).some(p => p.toLowerCase().includes(q)) ||
-      (d.kb_articles || []).some(k => ('KB' + k.kb.replace(/^[Kk][Bb]/, '')).toLowerCase().includes(q))
+      (d.kb_articles || []).some(k => {
+        const clean = k.kb.replace(/^[Kk][Bb]/, '');
+        const disp = /^\d+$/.test(clean) ? 'KB' + clean : clean;
+        return disp.toLowerCase().includes(q) || k.kb.toLowerCase().includes(q);
+      })
     )) return false;
     return true;
   });

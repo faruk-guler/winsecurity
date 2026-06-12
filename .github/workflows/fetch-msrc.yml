@@ -20,6 +20,7 @@ jobs:
           mkdir -p data
           python3 << 'EOF'
           import json
+          import re
           import time
           import urllib.request
           import urllib.error
@@ -142,34 +143,90 @@ jobs:
                               exploited = True
                               break
 
-                  kb_articles = []
-                  seen_kb = set()
+                  kb_map = {}
                   for r in v.get('Remediations', []):
-                      kb_num  = (r.get('Description') or {}).get('Value', '').strip()
-                      if kb_num.upper().startswith('KB'):
-                          kb_num = kb_num[2:]
+                      desc_val = (r.get('Description') or {}).get('Value', '').strip()
+                      subtype_val = r.get('SubType', '').strip()
                       url_str = r.get('URL', '').strip()
-                      fixed   = r.get('FixedBuild', '').strip()
-                      subtype = r.get('SubType', '').strip()
-                      pids    = r.get('ProductID', [])
-                      if not kb_num or not url_str or 'catalog' not in url_str.lower():
+                      fixed = r.get('FixedBuild', '').strip()
+                      pids = r.get('ProductID', [])
+
+                      # Robustly extract KB number
+                      kb_num = None
+                      if desc_val.upper().startswith('KB') and desc_val[2:].isdigit():
+                          kb_num = desc_val[2:]
+                      elif desc_val.isdigit() and 6 <= len(desc_val) <= 8:
+                          kb_num = desc_val
+                      elif subtype_val.upper().startswith('KB') and subtype_val[2:].isdigit():
+                          kb_num = subtype_val[2:]
+                      elif subtype_val.isdigit() and 6 <= len(subtype_val) <= 8:
+                          kb_num = subtype_val
+                      else:
+                          m = re.search(r'\b(?:KB)?(\d{6,8})\b', desc_val, re.IGNORECASE)
+                          if m:
+                              kb_num = m.group(1)
+                          else:
+                              m = re.search(r'\b(?:KB)?(\d{6,8})\b', subtype_val, re.IGNORECASE)
+                              if m:
+                                  kb_num = m.group(1)
+                              elif url_str:
+                                  m = re.search(r'(?:help/|q=KB|q=)(\d{6,8})\b', url_str, re.IGNORECASE)
+                                  if m:
+                                      kb_num = m.group(1)
+                                  else:
+                                      m = re.search(r'\b(\d{6,8})\b', url_str)
+                                      if m:
+                                          kb_num = m.group(1)
+
+                      if not kb_num:
                           continue
-                      if kb_num in seen_kb:
-                          for existing in kb_articles:
-                              if existing['kb'] == kb_num:
-                                  for pid in pids:
-                                      pname = product_map.get(pid, '')
-                                      if pname and pname not in existing['products']:
-                                          existing['products'].append(pname)
-                          continue
-                      seen_kb.add(kb_num)
-                      kb_products = [product_map.get(pid,'') for pid in pids if product_map.get(pid,'')]
+
+                      kb_products = [product_map.get(pid, '') for pid in pids if product_map.get(pid, '')]
+
+                      def get_url_score(url):
+                          if not url: return 0
+                          u_l = url.lower()
+                          if 'catalog.update.microsoft.com' in u_l: return 4
+                          if 'support.microsoft.com' in u_l: return 3
+                          if 'microsoft.com' in u_l: return 2
+                          return 1
+
+                      if kb_num not in kb_map:
+                          kb_map[kb_num] = {
+                              'kb': kb_num,
+                              'url': url_str,
+                              'fixed_build': fixed,
+                              'subtype': subtype_val,
+                              'products': kb_products
+                          }
+                      else:
+                          # Merge products
+                          for pname in kb_products:
+                              if pname and pname not in kb_map[kb_num]['products']:
+                                  kb_map[kb_num]['products'].append(pname)
+                          # Update URL if higher score
+                          if get_url_score(url_str) > get_url_score(kb_map[kb_num]['url']):
+                              kb_map[kb_num]['url'] = url_str
+                          # Update fixed build if empty
+                          if not kb_map[kb_num]['fixed_build'] and fixed:
+                              kb_map[kb_num]['fixed_build'] = fixed
+                          # Update subtype if new is better
+                          if (not kb_map[kb_num]['subtype'] or kb_map[kb_num]['subtype'].isdigit()) and subtype_val and not subtype_val.isdigit():
+                              kb_map[kb_num]['subtype'] = subtype_val
+
+                  # Finalize KB map
+                  kb_articles = []
+                  for kb_num, kb_info in kb_map.items():
+                      if not kb_info['url']:
+                          kb_info['url'] = f"https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB{kb_num}"
+                      if not kb_info['subtype'] or kb_info['subtype'].isdigit():
+                          kb_info['subtype'] = 'Security Update'
                       kb_articles.append({
-                          'kb':          kb_num,
-                          'url':         url_str,
-                          'fixed_build': fixed,
-                          'subtype':     subtype,
-                          'products':    kb_products[:8],
+                          'kb': kb_info['kb'],
+                          'url': kb_info['url'],
+                          'fixed_build': kb_info['fixed_build'],
+                          'subtype': kb_info['subtype'],
+                          'products': kb_info['products'][:8]
                       })
                   kb_articles.sort(key=lambda x: x['kb'])
 
