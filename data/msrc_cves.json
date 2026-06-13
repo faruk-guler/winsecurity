@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5613,
-    "critical": 320,
-    "important": 2095,
-    "moderate": 1889,
-    "low": 188,
+    "total": 5633,
+    "critical": 321,
+    "important": 2107,
+    "moderate": 1895,
+    "low": 189,
     "exploited": 19,
     "patched": 1218,
-    "updated_at": "2026-06-13 04:59 UTC",
+    "updated_at": "2026-06-13 08:17 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -5326,6 +5326,24 @@
         "Microsoft Entra ID"
       ],
       "date": "2026-05-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-34182",
+      "title": "CMS AuthEnvelopedData Processing May Accept Forged Messages",
+      "severity": "Critical",
+      "cvss": 9.1,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -24221,6 +24239,24 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-45447",
+      "title": "Heap Use-After-Free in the PKCS7_verify() Function",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-45484",
       "title": "Microsoft SharePoint Elevation of Privilege Vulnerability",
       "severity": "Important",
@@ -27308,6 +27344,24 @@
         "azl3 pgbouncer 1.25.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-7383",
+      "title": "Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -84510,6 +84564,42 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-34180",
+      "title": "Heap Buffer Over-read in ASN.1 Content Parsing",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product": "azl3 shim-unsigned-aarch64 16.1-2 on Azure Linux 3.0",
+      "products": [
+        "azl3 shim-unsigned-aarch64 16.1-2 on Azure Linux 3.0",
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-34183",
+      "title": "Unbounded Memory Growth in the QUIC PATH_CHALLENGE Handler",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0",
+        "azl3 rust 1.90.0-8 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-34601",
       "title": "xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion",
       "severity": "Important",
@@ -85354,6 +85444,23 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-42764",
+      "title": "NULL Pointer Dereference in QUIC Server Initial Packet Handling",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0",
+        "azl3 rust 1.90.0-8 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-42899",
       "title": "ASP.NET Core Denial of Service Vulnerability",
       "severity": "Important",
@@ -85846,6 +85953,24 @@
         "azl3 libyang 2.1.148-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-45445",
+      "title": "AES-OCB IV Ignored on EVP_Cipher() Path",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -86387,6 +86512,24 @@
         "azl3 perl-HTML-Parser 3.82-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-9076",
+      "title": "Out-of-Bounds Read in CMS Password-Based Decryption",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -87581,6 +87724,23 @@
         "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0"
       ],
       "date": "2026-04-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-34181",
+      "title": "PKCS#12 Files with PBMAC1 Are Accepted with Short HMAC Keys",
+      "severity": "Important",
+      "cvss": 7.4,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0",
+        "azl3 rust 1.90.0-8 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -146893,6 +147053,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-44705",
+      "title": "tmp: Path Traversal via unsanitized prefix/postfix enables directory escape",
+      "severity": "Important",
+      "cvss": null,
+      "product": "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
+      "products": [
+        "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-4519",
       "title": "webbrowser.open() allows leading dashes in URLs",
       "severity": "Important",
@@ -146919,6 +147093,20 @@
         "azl3 snappy 1.1.10-2 on Azure Linux 3.0"
       ],
       "date": "2026-06-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-47162",
+      "title": "Vim: Vimscript Code Injection in netrw NetrwBookHistSave() via crafted directory name",
+      "severity": "Important",
+      "cvss": null,
+      "product": "azl3 vim 9.2.0488-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 vim 9.2.0488-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -146979,6 +147167,34 @@
         "azl3 mariadb 10.11.16-1 on Azure Linux 3.0"
       ],
       "date": "2026-04-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52858",
+      "title": "Vim: Arbitrary Code Execution via Python Omni-Completion",
+      "severity": "Important",
+      "cvss": null,
+      "product": "azl3 vim 9.2.0488-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 vim 9.2.0488-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52860",
+      "title": "Vim: Arbitrary Code Execution via Python Omni-Completion",
+      "severity": "Important",
+      "cvss": null,
+      "product": "azl3 vim 9.2.0488-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 vim 9.2.0488-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154826,6 +155042,42 @@
         "azl3 krb5 1.21.3-4 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42766",
+      "title": "Possible NULL Dereference in Password-Based CMS Decryption",
+      "severity": "Moderate",
+      "cvss": 5.9,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42767",
+      "title": "NULL Pointer Dereference in CRMF EncryptedValue Decryption",
+      "severity": "Moderate",
+      "cvss": 5.9,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 edk2 20240524git3e722403cd16-17 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -171442,6 +171694,23 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-42769",
+      "title": "Trust-Anchor Substitution via cert/issuer Typo in CMP rootCaKeyUpdate",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product": "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+      "products": [
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0",
+        "azl3 rust 1.90.0-8 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-42923",
       "title": "Degradation of service with unbounded NSEC3 hash calculations",
       "severity": "Moderate",
@@ -172789,6 +173058,24 @@
         "azl3 rsync 3.4.1-2 on Azure Linux 3.0"
       ],
       "date": "2026-05-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-45446",
+      "title": "Incorrect Tag Processing for Empty Messages in AES-GCM-SIV and AES-SIV modes",
+      "severity": "Moderate",
+      "cvss": 4.8,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 openssl 3.3.5-5 on Azure Linux 3.0",
+        "azl3 qemu 9.1.0-7 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -176130,6 +176417,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-47167",
+      "title": "Vim: Vimscript Code Injection in cucumber filetype plugin via crafted step-definition regex",
+      "severity": "Moderate",
+      "cvss": null,
+      "product": "azl3 vim 9.2.0488-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 vim 9.2.0488-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-49762",
       "title": "Unbounded integer parsing in the Version module enables CPU and memory exhaustion denial of service",
       "severity": "Moderate",
@@ -176139,6 +176440,20 @@
         "azl3 elixir 1.16.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52859",
+      "title": "Vim: Out-of-bounds Read in Terminal Screen Snapshot",
+      "severity": "Moderate",
+      "cvss": null,
+      "product": "azl3 vim 9.2.0488-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 vim 9.2.0488-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -177432,6 +177747,23 @@
         "azl3 gnutls 3.8.3-8 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42768",
+      "title": "Multi-RecipientInfo Bleichenbacher Oracle in CMS_decrypt() and PKCS7_decrypt()",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product": "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
+        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0",
+        "azl3 rust 1.75.0-29 on Azure Linux 3.0",
+        "azl3 rust 1.90.0-8 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
