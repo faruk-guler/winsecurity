@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5555,
+    "total": 5556,
     "critical": 314,
     "important": 2060,
-    "moderate": 1805,
+    "moderate": 1808,
     "low": 167,
     "exploited": 19,
     "patched": 1218,
-    "updated_at": "2026-06-16 06:04 UTC",
+    "updated_at": "2026-06-16 11:40 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -153550,6 +153550,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-54411",
+      "title": "Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in the pam_userdb module's plaintext-password comparison path in modules/pam_userdb/pam_userdb.c that allows a local or network-adjacent attacker able to repeatedly drive authentication through a calling service to recover the plaintext password of a target account by measuring response-timing differences. The comparison uses strncmp() (or strncasecmp() when PAM_ICASE_ARG is set) preceded by a length-equality check, so the time to reject a candidate depends on the index of the first differing byte and on whether the candidate's length matches the stored password, leaking the password length and individual prefix bytes. The vulnerable path is reached when the administrator configures pam_userdb with crypt=none, with an unrecognized crypt method, or without a crypt= argument, causing the module to store and compare credentials in plaintext.",
+      "severity": "Moderate",
+      "cvss": 5.9,
+      "product": "azl3 pam 1.5.3-5 on Azure Linux 3.0",
+      "products": [
+        "azl3 pam 1.5.3-5 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6666",
       "title": "PgBouncer crash in kill_pool_logins_server_error",
       "severity": "Moderate",
@@ -169878,6 +169892,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-44967",
+      "title": "opentelemetry-cpp: OTLP HTTP exporters read unbounded HTTP response",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product": "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0",
+      "products": [
+        "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-50265",
       "title": "Rejected reason: This CVE ID was assigned as a duplicate of CVE-2026-50292",
       "severity": "Moderate",
@@ -172666,6 +172694,20 @@
         "azl3 qemu 8.2.0-17 on Azure Linux 3.0"
       ],
       "date": "2025-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11526",
+      "title": "GD versions before 2.86 for Perl allow OS command injection and file overwrite via a 2-arg open() of filename arguments in _make_filehandle",
+      "severity": "Moderate",
+      "cvss": 4.2,
+      "product": "azl3 gd 2.3.3-4 on Azure Linux 3.0",
+      "products": [
+        "azl3 gd 2.3.3-4 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -177228,20 +177270,6 @@
         "azl3 kernel 6.6.96.2-2 on Azure Linux 3.0"
       ],
       "date": "2025-09-16",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-44967",
-      "title": "opentelemetry-cpp: OTLP HTTP exporters read unbounded HTTP response",
-      "severity": "",
-      "cvss": 5.3,
-      "product": "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0",
-      "products": [
-        "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -184995,20 +185023,6 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-06-05",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-11526",
-      "title": "GD versions before 2.86 for Perl allow OS command injection and file overwrite via a 2-arg open() of filename arguments in _make_filehandle",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 gd 2.3.3-4 on Azure Linux 3.0",
-      "products": [
-        "azl3 gd 2.3.3-4 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
