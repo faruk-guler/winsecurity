@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5481,
+    "total": 5555,
     "critical": 314,
-    "important": 2059,
+    "important": 2060,
     "moderate": 1805,
     "low": 167,
     "exploited": 19,
     "patched": 1218,
-    "updated_at": "2026-06-15 22:16 UTC",
+    "updated_at": "2026-06-16 00:09 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -77239,6 +77239,20 @@
         "Microsoft PC Manager"
       ],
       "date": "2026-06-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-50656",
+      "title": "Microsoft Defender Elevation of Privilege Vulnerability",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "Microsoft Malware Protection Engine",
+      "products": [
+        "Microsoft Malware Protection Engine"
+      ],
+      "date": "2026-06-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -184993,6 +185007,1028 @@
       "product": "azl3 gd 2.3.3-4 on Azure Linux 3.0",
       "products": [
         "azl3 gd 2.3.3-4 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11628",
+      "title": "Chromium: CVE-2026-11628 Use after free in Ozone",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11629",
+      "title": "Chromium: CVE-2026-11629 Use after free in Ozone",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11630",
+      "title": "Chromium: CVE-2026-11630 Use after free in File Input",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11631",
+      "title": "Chromium: CVE-2026-11631 Use after free in Aura",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11632",
+      "title": "Chromium: CVE-2026-11632 Use after free in TabStrip",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11633",
+      "title": "Chromium: CVE-2026-11633 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11634",
+      "title": "Chromium: CVE-2026-11634 Use after free in Gamepad",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11635",
+      "title": "Chromium: CVE-2026-11635 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11636",
+      "title": "Chromium: CVE-2026-11636 Use after free in Autofill",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11637",
+      "title": "Chromium: CVE-2026-11637 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11638",
+      "title": "Chromium: CVE-2026-11638 Use after free in Printing",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11639",
+      "title": "Chromium: CVE-2026-11639 Use after free in Compositing",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11640",
+      "title": "Chromium: CVE-2026-11640 Integer overflow in libyuv",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11641",
+      "title": "Chromium: CVE-2026-11641 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11642",
+      "title": "Chromium: CVE-2026-11642 Use after free in Web Apps",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11643",
+      "title": "Chromium: CVE-2026-11643 Use after free in Proxy",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11644",
+      "title": "Chromium: CVE-2026-11644 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11645",
+      "title": "Chromium: CVE-2026-11645 Out of bounds memory access in V8",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11646",
+      "title": "Chromium: CVE-2026-11646 Use after free in ViewTransitions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11648",
+      "title": "Chromium: CVE-2026-11647 Use after free in Printing",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11649",
+      "title": "Chromium: CVE-2026-11648 Use after free in FullScreen",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11650",
+      "title": "Chromium: CVE-2026-11649 Use after free in V8",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11651",
+      "title": "Chromium: CVE-2026-11650 Use after free in V8",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11652",
+      "title": "Chromium: CVE-2026-11651 Use after free in Network",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11653",
+      "title": "Chromium: CVE-2026-11652 Use after free in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11654",
+      "title": "Chromium: CVE-2026-11653 Insufficient validation of untrusted input in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11655",
+      "title": "Chromium: CVE-2026-11654 Use after free in CameraCapture",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11656",
+      "title": "Chromium: CVE-2026-11655 Integer overflow in Media",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11657",
+      "title": "Chromium: CVE-2026-11656 Use after free in ServiceWorker",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11658",
+      "title": "Chromium: CVE-2026-11657 Use after free in Payments",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11659",
+      "title": "Chromium: CVE-2026-11658 Insufficient validation of untrusted input in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11660",
+      "title": "Chromium: CVE-2026-11659 Insufficient validation of untrusted input in UI",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11661",
+      "title": "Chromium: CVE-2026-11660 Insufficient validation of untrusted input in New Tab Page",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11662",
+      "title": "Chromium: CVE-2026-11661 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11663",
+      "title": "Chromium: CVE-2026-11662 Type Confusion in Bindings",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11664",
+      "title": "Chromium: CVE-2026-11663 Use after free in Skia",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11665",
+      "title": "Chromium: CVE-2026-11664 Use after free in Payments",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11666",
+      "title": "Chromium: CVE-2026-11665 Out of bounds read in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11667",
+      "title": "Chromium: CVE-2026-11666 Insufficient validation of untrusted input in Input",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11668",
+      "title": "Chromium: CVE-2026-11667 Out of bounds read in WebRTC",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11669",
+      "title": "Chromium: CVE-2026-11668 Uninitialized Use in Codecs",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11670",
+      "title": "Chromium: CVE-2026-11669 Integer overflow in Media",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11671",
+      "title": "Chromium: CVE-2026-11670 Use after free in PDF",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11672",
+      "title": "Chromium: CVE-2026-11671 Use after free in Navigation",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11673",
+      "title": "Chromium: CVE-2026-11672 Out of bounds write in GPU",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11674",
+      "title": "Chromium: CVE-2026-11673 Use after free in InterestGroups",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11675",
+      "title": "Chromium: CVE-2026-11674 Use after free in Guest View",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11676",
+      "title": "Chromium: CVE-2026-11675 Insufficient validation of untrusted input in Skia",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11677",
+      "title": "Chromium: CVE-2026-11676 Insufficient validation of untrusted input in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11678",
+      "title": "Chromium: CVE-2026-11677 Race in Network",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11679",
+      "title": "Chromium: CVE-2026-11678 Integer overflow in libyuv",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11680",
+      "title": "Chromium: CVE-2026-11679 Use after free in Codecs",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11681",
+      "title": "Chromium: CVE-2026-11680 Use after free in Media",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11682",
+      "title": "Chromium: CVE-2026-11681 Use after free in Ozone",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11683",
+      "title": "Chromium: CVE-2026-11682 Insufficient validation of untrusted input in Views",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11684",
+      "title": "Chromium: CVE-2026-11683 Use after free in WebCodecs",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11685",
+      "title": "Chromium: CVE-2026-11684 Insufficient policy enforcement in Network",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11686",
+      "title": "Chromium: CVE-2026-11685 Insufficient data validation in MediaCapture",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11687",
+      "title": "Chromium: CVE-2026-11686 Insufficient validation of untrusted input in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11688",
+      "title": "Chromium: CVE-2026-11687 Use after free in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11689",
+      "title": "Chromium: CVE-2026-11688 Object lifecycle issue in SVG",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11690",
+      "title": "Chromium: CVE-2026-11689 Insufficient validation of untrusted input in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11691",
+      "title": "Chromium: CVE-2026-11690 Out of bounds read and write in Media",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11692",
+      "title": "Chromium: CVE-2026-11691 Insufficient validation of untrusted input in New Tab Page",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11693",
+      "title": "Chromium: CVE-2026-11692 Use after free in Read Anything",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11694",
+      "title": "Chromium: CVE-2026-11693 Inappropriate implementation in Plugins",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11695",
+      "title": "Chromium: CVE-2026-11694 Use after free in ServiceWorker",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11696",
+      "title": "Chromium: CVE-2026-11695 Inappropriate implementation in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11697",
+      "title": "Chromium: CVE-2026-11696 Uninitialized Use in Video",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11698",
+      "title": "Chromium: CVE-2026-11697 Insufficient validation of untrusted input in UI",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11699",
+      "title": "Chromium: CVE-2026-11698 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11700",
+      "title": "Chromium: CVE-2026-11699 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11701",
+      "title": "Chromium: CVE-2026-11700 Use after free in Tracing",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-06-15",
       "exploited": false,
