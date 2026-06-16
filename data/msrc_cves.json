@@ -6,8 +6,8 @@
     "moderate": 1808,
     "low": 167,
     "exploited": 19,
-    "patched": 1218,
-    "updated_at": "2026-06-16 16:43 UTC",
+    "patched": 1219,
+    "updated_at": "2026-06-16 20:11 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -14940,7 +14940,7 @@
         "Windows Server 2019 (Server Core installation)",
         "Windows Server 2022"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-16",
       "exploited": false,
       "kb_articles": [
         {
@@ -23884,8 +23884,18 @@
       ],
       "date": "2026-06-10",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "108666",
+          "url": "https://www.microsoft.com/en-us/download/details.aspx?id=108666",
+          "fixed_build": "9.1.0045.0011",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Dynamics 365 (on-premises) version 9.1"
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-40420",
@@ -77252,7 +77262,7 @@
       "products": [
         "Microsoft Malware Protection Engine"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-16",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -129846,7 +129856,7 @@
     },
     {
       "cve_id": "CVE-2026-42915",
-      "title": "Windows TCP/IP Denial of Service Vulnerability",
+      "title": "Microsoft Windows VMSwitch Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 5.7,
       "product": "Windows Server 2022",
@@ -129857,7 +129867,7 @@
         "Windows 10 Version 21H2 for ARM64-based Systems",
         "Windows 10 Version 21H2 for x64-based Systems"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-16",
       "exploited": false,
       "kb_articles": [
         {
