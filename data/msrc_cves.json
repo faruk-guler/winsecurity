@@ -7,7 +7,7 @@
     "low": 167,
     "exploited": 19,
     "patched": 1219,
-    "updated_at": "2026-06-17 16:41 UTC",
+    "updated_at": "2026-06-17 19:23 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -89856,7 +89856,7 @@
           "fixed_build": "4.8.9334.0 and 4.8.4802.0",
           "subtype": "Security Update",
           "products": [
-            "Microsoft .NET Framework 3.5 AND 4.8.1 on Windows 11 Version 26H1 for x64-based Systems - extra",
+            "Microsoft .NET Framework 3.5 AND 4.8.1 on Windows 11 version 26H1 for x64-based Systems",
             "Microsoft .NET Framework 3.5 AND 4.8.1 on Windows 11 version 26H1 for x64-based Systems",
             "Microsoft .NET Framework 3.5 AND 4.8.1 on Windows 11 Version 26H1 for ARM64-based Systems"
           ]
@@ -89905,13 +89905,10 @@
           "fixed_build": "4.8.9334.0 and 4.8.4802.0",
           "subtype": "Security Update",
           "products": [
-            "Microsoft .NET Framework 3.5 AND 4.8 on Windows 11 version 21H2 for ARM64-based Systems",
             "Microsoft .NET Framework 3.5 AND 4.8 on Windows 10 Version 21H2 for ARM64-based Systems",
             "Microsoft .NET Framework 3.5 AND 4.8 on Windows 10 Version 21H2 for x64-based Systems",
             "Microsoft .NET Framework 3.5 AND 4.8 on Windows 10 Version 22H2 for x64-based Systems",
-            "Microsoft .NET Framework 3.5 AND 4.8 on Windows 10 Version 22H2 for ARM64-based Systems",
-            "Microsoft .NET Framework 3.5 AND 4.8.1 on Windows 11 Version 22H2 for ARM64-based Systems",
-            "Microsoft .NET Framework 3.5 AND 4.8.1 on Windows 11 Version 22H2 for x64-based Systems"
+            "Microsoft .NET Framework 3.5 AND 4.8 on Windows 10 Version 22H2 for ARM64-based Systems"
           ]
         },
         {
