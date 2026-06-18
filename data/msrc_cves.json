@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5795,
-    "critical": 323,
-    "important": 2129,
+    "total": 5807,
+    "critical": 334,
+    "important": 2130,
     "moderate": 1941,
     "low": 193,
     "exploited": 19,
     "patched": 1219,
-    "updated_at": "2026-06-18 20:43 UTC",
+    "updated_at": "2026-06-18 22:54 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -2411,6 +2411,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-45480",
+      "title": "Azure Active Directory Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product": "Azure Active Directory",
+      "products": [
+        "Azure Active Directory"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-46595",
       "title": "Invoking  VerifiedPublicKeyCallback permissions skip enforcement in golang.org/x/crypto/ssh",
       "severity": "Critical",
@@ -2698,6 +2712,34 @@
         }
       ],
       "kb_count": 1
+    },
+    {
+      "cve_id": "CVE-2026-47647",
+      "title": "Dynamics 365 Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product": "Microsoft Dynamics 365",
+      "products": [
+        "Microsoft Dynamics 365"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-48584",
+      "title": "Microsoft Azure Synapse Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product": "Azure Synapse",
+      "products": [
+        "Azure Synapse"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-7374",
@@ -4890,6 +4932,20 @@
       "kb_count": 10
     },
     {
+      "cve_id": "CVE-2026-54130",
+      "title": "M365 Copilot Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product": "Microsoft 365 Copilot",
+      "products": [
+        "Microsoft 365 Copilot"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-59218",
       "title": "Azure Entra ID Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -4970,6 +5026,20 @@
         "Microsoft Authenticator for IOS"
       ],
       "date": "2026-05-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-48582",
+      "title": "Microsoft Exchange Online Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.6,
+      "product": "Microsoft Exchange Online",
+      "products": [
+        "Microsoft Exchange Online"
+      ],
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5251,6 +5321,20 @@
         "Microsoft 365 Copilot for iOS"
       ],
       "date": "2026-05-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-47646",
+      "title": "Dynamics 365 Customer Voice Spoofing Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.3,
+      "product": "Dynamics 365 Customer Voice",
+      "products": [
+        "Dynamics 365 Customer Voice"
+      ],
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -6119,6 +6203,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-32208",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.8,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-35430",
       "title": "Azure Privileged Identity Management (PIM) Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -6657,6 +6755,20 @@
         }
       ],
       "kb_count": 10
+    },
+    {
+      "cve_id": "CVE-2026-47645",
+      "title": "Microsoft 365 Copilot's Business Chat Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.8,
+      "product": "Microsoft 365 Copilot",
+      "products": [
+        "Microsoft 365 Copilot"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-53762",
@@ -11176,6 +11288,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-32174",
+      "title": "Azure Bot Service Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 7.7,
+      "product": "Azure AI Bot Service",
+      "products": [
+        "Azure AI Bot Service"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-33821",
       "title": "Microsoft Dynamics 365 Customer Insights Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -12123,6 +12249,20 @@
         }
       ],
       "kb_count": 10
+    },
+    {
+      "cve_id": "CVE-2026-47633",
+      "title": "Microsoft Cost Management Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 7.5,
+      "product": "Microsoft Cost Management",
+      "products": [
+        "Microsoft Cost Management"
+      ],
+      "date": "2026-06-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-47654",
@@ -13187,6 +13327,20 @@
         "Microsoft 365 Copilot"
       ],
       "date": "2026-05-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42895",
+      "title": "Microsoft Copilot Tampering Vulnerability",
+      "severity": "Critical",
+      "cvss": 6.5,
+      "product": "Microsoft 365 Copilot",
+      "products": [
+        "Microsoft 365 Copilot"
+      ],
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -126910,6 +127064,20 @@
       "kb_count": 6
     },
     {
+      "cve_id": "CVE-2026-50519",
+      "title": "Microsoft Visual Studio Code CoPilot Chat Security Feature Bypass Vulnerability",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product": "GitHub Copilot Chat",
+      "products": [
+        "GitHub Copilot Chat"
+      ],
+      "date": "2026-06-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-21265",
       "title": "Secure Boot Certificate Expiration Security Feature Bypass Vulnerability",
       "severity": "Important",
@@ -130967,91 +131135,6 @@
         }
       ],
       "kb_count": 9
-    },
-    {
-      "cve_id": "CVE-2026-42915",
-      "title": "Microsoft Windows VMSwitch Denial of Service Vulnerability",
-      "severity": "Important",
-      "cvss": 5.7,
-      "product": "Windows Server 2022",
-      "products": [
-        "Windows Server 2022",
-        "Windows Server 2022 (Server Core installation)",
-        "Windows 10 Version 21H2 for 32-bit Systems",
-        "Windows 10 Version 21H2 for ARM64-based Systems",
-        "Windows 10 Version 21H2 for x64-based Systems"
-      ],
-      "date": "2026-06-16",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5093998",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5093998",
-          "fixed_build": "10.0.22631.7219",
-          "subtype": "Security Update",
-          "products": [
-            "Windows 11 Version 23H2 for ARM64-based Systems",
-            "Windows 11 Version 23H2 for x64-based Systems"
-          ]
-        },
-        {
-          "kb": "5094125",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094125",
-          "fixed_build": "10.0.26100.32995",
-          "subtype": "Security Update",
-          "products": [
-            "Windows Server 2025 (Server Core installation)",
-            "Windows Server 2025"
-          ]
-        },
-        {
-          "kb": "5094126",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094126",
-          "fixed_build": "10.0.26200.8655",
-          "subtype": "Security Update",
-          "products": [
-            "Windows 11 Version 25H2 for ARM64-based Systems",
-            "Windows 11 Version 25H2 for x64-based Systems",
-            "Windows 11 Version 24H2 for ARM64-based Systems",
-            "Windows 11 Version 24H2 for x64-based Systems"
-          ]
-        },
-        {
-          "kb": "5094127",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094127",
-          "fixed_build": "10.0.19044.7417",
-          "subtype": "Security Update",
-          "products": [
-            "Windows 10 Version 21H2 for 32-bit Systems",
-            "Windows 10 Version 21H2 for ARM64-based Systems",
-            "Windows 10 Version 21H2 for x64-based Systems",
-            "Windows 10 Version 22H2 for x64-based Systems",
-            "Windows 10 Version 22H2 for ARM64-based Systems",
-            "Windows 10 Version 22H2 for 32-bit Systems"
-          ]
-        },
-        {
-          "kb": "5094128",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094128",
-          "fixed_build": "10.0.20348.5256",
-          "subtype": "Security Update",
-          "products": [
-            "Windows Server 2022",
-            "Windows Server 2022 (Server Core installation)"
-          ]
-        },
-        {
-          "kb": "5095051",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5095051",
-          "fixed_build": "10.0.28000.2269",
-          "subtype": "Security Update",
-          "products": [
-            "Windows 11 version 26H1 for x64-based Systems",
-            "Windows 11 Version 26H1 for ARM64-based Systems"
-          ]
-        }
-      ],
-      "kb_count": 6
     },
     {
       "cve_id": "CVE-2025-26636",
@@ -139085,6 +139168,91 @@
         "Windows 10 Version 21H2 for x64-based Systems"
       ],
       "date": "2026-06-09",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5093998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5093998",
+          "fixed_build": "10.0.22631.7219",
+          "subtype": "Security Update",
+          "products": [
+            "Windows 11 Version 23H2 for ARM64-based Systems",
+            "Windows 11 Version 23H2 for x64-based Systems"
+          ]
+        },
+        {
+          "kb": "5094125",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094125",
+          "fixed_build": "10.0.26100.32995",
+          "subtype": "Security Update",
+          "products": [
+            "Windows Server 2025 (Server Core installation)",
+            "Windows Server 2025"
+          ]
+        },
+        {
+          "kb": "5094126",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094126",
+          "fixed_build": "10.0.26200.8655",
+          "subtype": "Security Update",
+          "products": [
+            "Windows 11 Version 25H2 for ARM64-based Systems",
+            "Windows 11 Version 25H2 for x64-based Systems",
+            "Windows 11 Version 24H2 for ARM64-based Systems",
+            "Windows 11 Version 24H2 for x64-based Systems"
+          ]
+        },
+        {
+          "kb": "5094127",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094127",
+          "fixed_build": "10.0.19044.7417",
+          "subtype": "Security Update",
+          "products": [
+            "Windows 10 Version 21H2 for 32-bit Systems",
+            "Windows 10 Version 21H2 for ARM64-based Systems",
+            "Windows 10 Version 21H2 for x64-based Systems",
+            "Windows 10 Version 22H2 for x64-based Systems",
+            "Windows 10 Version 22H2 for ARM64-based Systems",
+            "Windows 10 Version 22H2 for 32-bit Systems"
+          ]
+        },
+        {
+          "kb": "5094128",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5094128",
+          "fixed_build": "10.0.20348.5256",
+          "subtype": "Security Update",
+          "products": [
+            "Windows Server 2022",
+            "Windows Server 2022 (Server Core installation)"
+          ]
+        },
+        {
+          "kb": "5095051",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5095051",
+          "fixed_build": "10.0.28000.2269",
+          "subtype": "Security Update",
+          "products": [
+            "Windows 11 version 26H1 for x64-based Systems",
+            "Windows 11 Version 26H1 for ARM64-based Systems"
+          ]
+        }
+      ],
+      "kb_count": 6
+    },
+    {
+      "cve_id": "CVE-2026-42915",
+      "title": "Microsoft Windows VMSwitch Denial of Service Vulnerability",
+      "severity": "Important",
+      "cvss": 5.5,
+      "product": "Windows Server 2022",
+      "products": [
+        "Windows Server 2022",
+        "Windows Server 2022 (Server Core installation)",
+        "Windows 10 Version 21H2 for 32-bit Systems",
+        "Windows 10 Version 21H2 for ARM64-based Systems",
+        "Windows 10 Version 21H2 for x64-based Systems"
+      ],
+      "date": "2026-06-16",
       "exploited": false,
       "kb_articles": [
         {
