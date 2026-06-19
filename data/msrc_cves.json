@@ -7,7 +7,7 @@
     "low": 159,
     "exploited": 19,
     "patched": 1225,
-    "updated_at": "2026-06-19 21:43 UTC",
+    "updated_at": "2026-06-19 22:52 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -186684,7 +186684,7 @@
     },
     {
       "cve_id": "CVE-2026-12437",
-      "title": "CVE-2026-12437 Use after free in WebShare",
+      "title": "Chromium: CVE-2026-12437 Use after free in WebShare",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186698,7 +186698,7 @@
     },
     {
       "cve_id": "CVE-2026-12439",
-      "title": "CVE-2026-12439 Use after free in Digital Credentials",
+      "title": "Chromium: CVE-2026-12439 Use after free in Digital Credentials",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186712,7 +186712,7 @@
     },
     {
       "cve_id": "CVE-2026-12440",
-      "title": "CVE-2026-12440 Use after free in DigitalCredentials",
+      "title": "Chromium: CVE-2026-12440 Use after free in DigitalCredentials",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186726,7 +186726,7 @@
     },
     {
       "cve_id": "CVE-2026-12441",
-      "title": "CVE-2026-12441 Use after free in File Input",
+      "title": "Chromium: CVE-2026-12441 Use after free in File Input",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186740,7 +186740,7 @@
     },
     {
       "cve_id": "CVE-2026-12443",
-      "title": "CVE-2026-12443 Use after free in Web Authentication",
+      "title": "Chromium: CVE-2026-12443 Use after free in Web Authentication",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186754,7 +186754,7 @@
     },
     {
       "cve_id": "CVE-2026-12444",
-      "title": "CVE-2026-12444 Out of bounds read in Chromoting",
+      "title": "Chromium: CVE-2026-12444 Out of bounds read in Chromoting",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186768,7 +186768,7 @@
     },
     {
       "cve_id": "CVE-2026-12445",
-      "title": "CVE-2026-12445 Use after free in Extensions",
+      "title": "Chromium: CVE-2026-12445 Use after free in Extensions",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186782,7 +186782,7 @@
     },
     {
       "cve_id": "CVE-2026-12446",
-      "title": "CVE-2026-12446 Insufficient data validation in Passwords",
+      "title": "Chromium: CVE-2026-12446 Insufficient data validation in Passwords",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186796,7 +186796,7 @@
     },
     {
       "cve_id": "CVE-2026-12447",
-      "title": "CVE-2026-12447 Heap buffer overflow in WebRTC",
+      "title": "Chromium: CVE-2026-12447 Heap buffer overflow in WebRTC",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186810,7 +186810,7 @@
     },
     {
       "cve_id": "CVE-2026-12449",
-      "title": "CVE-2026-12449 Use after free in Chromoting",
+      "title": "Chromium: CVE-2026-12449 Use after free in Chromoting",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186824,7 +186824,7 @@
     },
     {
       "cve_id": "CVE-2026-12451",
-      "title": "CVE-2026-12451 Use after free in DigitalCredentials",
+      "title": "Chromium: CVE-2026-12451 Use after free in DigitalCredentials",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186838,7 +186838,7 @@
     },
     {
       "cve_id": "CVE-2026-12452",
-      "title": "CVE-2026-12452 Use after free in Downloads",
+      "title": "Chromium: CVE-2026-12452 Use after free in Downloads",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186852,7 +186852,7 @@
     },
     {
       "cve_id": "CVE-2026-12453",
-      "title": "CVE-2026-12453 Insufficient validation of untrusted input in Input",
+      "title": "Chromium: CVE-2026-12453 Insufficient validation of untrusted input in Input",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186866,7 +186866,7 @@
     },
     {
       "cve_id": "CVE-2026-12454",
-      "title": "CVE-2026-12454 Race in Safe Browsing",
+      "title": "Chromium: CVE-2026-12454 Race in Safe Browsing",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186880,7 +186880,7 @@
     },
     {
       "cve_id": "CVE-2026-12455",
-      "title": "CVE-2026-12455 Use after free in Tab Strip",
+      "title": "Chromium: CVE-2026-12455 Use after free in Tab Strip",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186894,7 +186894,7 @@
     },
     {
       "cve_id": "CVE-2026-12456",
-      "title": "CVE-2026-12456 Insufficient validation of untrusted input in Extensions",
+      "title": "Chromium: CVE-2026-12456 Insufficient validation of untrusted input in Extensions",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186908,7 +186908,7 @@
     },
     {
       "cve_id": "CVE-2026-12457",
-      "title": "CVE-2026-12457 Insufficient data validation in Extensions",
+      "title": "Chromium: CVE-2026-12457 Insufficient data validation in Extensions",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186922,7 +186922,7 @@
     },
     {
       "cve_id": "CVE-2026-12458",
-      "title": "CVE-2026-12458 Incorrect security UI in Passwords",
+      "title": "Chromium: CVE-2026-12458 Incorrect security UI in Passwords",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186936,7 +186936,7 @@
     },
     {
       "cve_id": "CVE-2026-12459",
-      "title": "CVE-2026-12459 Inappropriate implementation in Serial",
+      "title": "Chromium: CVE-2026-12459 Inappropriate implementation in Serial",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186950,7 +186950,7 @@
     },
     {
       "cve_id": "CVE-2026-12460",
-      "title": "CVE-2026-12460 Insufficient policy enforcement in File System Access",
+      "title": "Chromium: CVE-2026-12460 Insufficient policy enforcement in File System Access",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186964,7 +186964,7 @@
     },
     {
       "cve_id": "CVE-2026-12461",
-      "title": "CVE-2026-12461 Out of bounds read in WebRTC",
+      "title": "Chromium: CVE-2026-12461 Out of bounds read in WebRTC",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186978,7 +186978,7 @@
     },
     {
       "cve_id": "CVE-2026-12462",
-      "title": "CVE-2026-12462 Use after free in Media",
+      "title": "Chromium: CVE-2026-12462 Use after free in Media",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -186992,7 +186992,7 @@
     },
     {
       "cve_id": "CVE-2026-12463",
-      "title": "CVE-2026-12463 Inappropriate implementation in Views",
+      "title": "Chromium: CVE-2026-12463 Inappropriate implementation in Views",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -187006,7 +187006,7 @@
     },
     {
       "cve_id": "CVE-2026-12464",
-      "title": "CVE-2026-12464 Use after free in Browser",
+      "title": "Chromium: CVE-2026-12464 Use after free in Browser",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -187020,7 +187020,7 @@
     },
     {
       "cve_id": "CVE-2026-12465",
-      "title": "CVE-2026-12465 Insufficient validation of untrusted input in Metrics",
+      "title": "Chromium: CVE-2026-12465 Insufficient validation of untrusted input in Metrics",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -187034,7 +187034,7 @@
     },
     {
       "cve_id": "CVE-2026-12466",
-      "title": "CVE-2026-12466 Heap buffer overflow in WebRTC",
+      "title": "Chromium: CVE-2026-12466 Heap buffer overflow in WebRTC",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -187048,7 +187048,7 @@
     },
     {
       "cve_id": "CVE-2026-12467",
-      "title": "CVE-2026-12467 Use after free in Extensions",
+      "title": "Chromium: CVE-2026-12467 Use after free in Extensions",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
@@ -187062,7 +187062,7 @@
     },
     {
       "cve_id": "CVE-2026-12468",
-      "title": "CVE-2026-12468 Inappropriate implementation in Updater",
+      "title": "Chromium: CVE-2026-12468 Inappropriate implementation in Updater",
       "severity": "",
       "cvss": null,
       "product": "Microsoft Edge (Chromium-based)",
