@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5812,
+    "total": 5807,
     "critical": 334,
-    "important": 2131,
-    "moderate": 1944,
-    "low": 194,
+    "important": 2130,
+    "moderate": 1941,
+    "low": 193,
     "exploited": 19,
     "patched": 1219,
-    "updated_at": "2026-06-19 10:20 UTC",
+    "updated_at": "2026-06-19 13:53 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -15161,20 +15161,6 @@
       "kb_count": 7
     },
     {
-      "cve_id": "CVE-2026-12087",
-      "title": "Socket versions before 2.041 for Perl have an out-of-bounds heap read",
-      "severity": "Important",
-      "cvss": 9.1,
-      "product": "azl3 perl 5.38.2-509 on Azure Linux 3.0",
-      "products": [
-        "azl3 perl 5.38.2-509 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-19",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-33117",
       "title": "Azure SDK for Java Security Feature Bypass Vulnerability",
       "severity": "Important",
@@ -26382,7 +26368,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -126978,7 +126964,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -126992,7 +126978,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -150623,20 +150609,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-53689",
-      "title": "",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product": "azl3 libnfs 5.0.2-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 libnfs 5.0.2-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-19",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-3770",
       "title": "SMM IDT Privilege Escalation Vulnerability",
       "severity": "Moderate",
@@ -152062,20 +152034,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-42014",
-      "title": "Gnutls: fix use-after-free in gnutls_pkcs11_token_set_pin",
-      "severity": "Moderate",
-      "cvss": 6.6,
-      "product": "azl3 gnutls 3.8.3-11 on Azure Linux 3.0",
-      "products": [
-        "azl3 gnutls 3.8.3-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-19",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-45130",
       "title": "Vim: Heap Buffer Overflow in spell file loading",
       "severity": "Moderate",
@@ -153444,7 +153402,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -171369,7 +171327,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -172962,9 +172920,8 @@
       "title": "opentelemetry-cpp: OTLP HTTP exporters read unbounded HTTP response",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product": "azl3 ceph 18.2.2-12 on Azure Linux 3.0",
+      "product": "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0",
       "products": [
-        "azl3 ceph 18.2.2-12 on Azure Linux 3.0",
         "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0"
       ],
       "date": "2026-06-15",
@@ -178106,20 +178063,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-9669",
-      "title": "bz2.BZ2Decompressor reuse after error can cause a stack buffer overflow",
-      "severity": "Moderate",
-      "cvss": null,
-      "product": "azl3 python3 3.12.9-11 on Azure Linux 3.0",
-      "products": [
-        "azl3 python3 3.12.9-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-19",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-2486",
       "title": "UEFI Shell accessible in AAVMF with Secure Boot enabled on Ubuntu",
       "severity": "Low",
@@ -178384,7 +178327,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-18",
+      "date": "2026-06-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -181030,20 +180973,6 @@
         "azl3 mariadb 10.11.16-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-43966",
-      "title": "HTTP Response Splitting via Non-VCHAR Bytes in cow_http_struct_hd:escape_string/2",
-      "severity": "Low",
-      "cvss": null,
-      "product": "azl3 rabbitmq-server 3.13.7-5 on Azure Linux 3.0",
-      "products": [
-        "azl3 rabbitmq-server 3.13.7-5 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
