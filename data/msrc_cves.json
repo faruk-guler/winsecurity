@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5640,
-    "critical": 327,
-    "important": 2083,
-    "moderate": 1850,
-    "low": 171,
+    "total": 5568,
+    "critical": 323,
+    "important": 2060,
+    "moderate": 1818,
+    "low": 158,
     "exploited": 19,
     "patched": 1219,
-    "updated_at": "2026-06-19 16:30 UTC",
+    "updated_at": "2026-06-19 18:52 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -3819,7 +3819,7 @@
     },
     {
       "cve_id": "CVE-2025-69720",
-      "title": "The infocmp command-line tool in ncurses before 6.5-20251213 has a stack-based buffer overflow in analyze_string in progs/infocmp.c.",
+      "title": "",
       "severity": "Critical",
       "cvss": 9.8,
       "product": "azl3 ncurses 6.4-2 on Azure Linux 3.0",
@@ -4268,20 +4268,6 @@
       "kb_count": 9
     },
     {
-      "cve_id": "CVE-2026-33937",
-      "title": "Handlebars.js has JavaScript Injection via AST Type Confusion",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-01",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-41089",
       "title": "Windows Netlogon Remote Code Execution Vulnerability",
       "severity": "Critical",
@@ -4488,24 +4474,6 @@
         }
       ],
       "kb_count": 8
-    },
-    {
-      "cve_id": "CVE-2026-4176",
-      "title": "Perl versions from 5.9.4 before 5.40.4-RC1, from 5.41.0 before 5.42.2-RC1, from 5.43.0 before 5.43.9 contain a vulnerable version of Compress::Raw::Zlib",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "cbl2 boost 1.76.0-4 on CBL Mariner 2.0",
-        "cbl2 ceph 16.2.10-11 on CBL Mariner 2.0",
-        "cbl2 cloud-hypervisor 32.0-7 on CBL Mariner 2.0",
-        "cbl2 cloud-hypervisor-cvm 38.0.72.2-5 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-44815",
@@ -5311,8 +5279,7 @@
       "cvss": 9.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -14167,38 +14134,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-4739",
-      "title": "Integer overflow vulnerabilities in InsightSoftwareConsortium/ITK",
-      "severity": "Critical",
-      "cvss": null,
-      "product": "cbl2 cmake 3.21.4-23 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 cmake 3.21.4-23 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-4746",
-      "title": "Heap Buffer Over-Write Vulenrabilty in timeplus-io/proton",
-      "severity": "Critical",
-      "cvss": null,
-      "product": "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "cbl2 boost 1.76.0-4 on CBL Mariner 2.0",
-        "cbl2 ceph 16.2.10-11 on CBL Mariner 2.0",
-        "cbl2 cloud-hypervisor 32.0-7 on CBL Mariner 2.0",
-        "cbl2 crash 8.0.1-5 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-5194",
       "title": "wolfSSL ECDSA Certificate Verification",
       "severity": "Critical",
@@ -14898,21 +14833,6 @@
         "cbl2 kata-containers-cc 3.2.0.azl2-8 on CBL Mariner 2.0"
       ],
       "date": "2026-02-24",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-34714",
-      "title": "Vim before 9.2.0272 allows code execution that happens immediately upon opening a crafted file in the default configuration, because %{expr} injection occurs with tabpanel lacking P_MLE.",
-      "severity": "Important",
-      "cvss": 9.2,
-      "product": "cbl2 vim 9.2.0240-1 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 vim 9.2.0240-1 on CBL Mariner 2.0",
-        "azl3 vim 9.2.0240-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -21533,24 +21453,6 @@
       "kb_count": 15
     },
     {
-      "cve_id": "CVE-2025-67030",
-      "title": "Directory Traversal vulnerability in the extractFile method of org.codehaus.plexus.util.Expand in plexus-utils before 6d780b3378829318ba5c2d29547e0012d5b29642. This allows an attacker to execute arbitrary code",
-      "severity": "Important",
-      "cvss": 8.8,
-      "product": "cbl2 javapackages-bootstrap 1.5.0-7 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 javapackages-bootstrap 1.5.0-7 on CBL Mariner 2.0",
-        "azl3 plexus-utils 3.3.0-5 on Azure Linux 3.0",
-        "cbl2 plexus-utils 3.3.0-4 on CBL Mariner 2.0",
-        "azl3 plexus-utils 3.3.0-4 on Azure Linux 3.0",
-        "cbl2 plexus-utils 3.3.0-3 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-30",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-68196",
       "title": "drm/amd/display: Cache streams targeting link when performing LT automation",
       "severity": "Important",
@@ -22193,6 +22095,20 @@
         "Microsoft Defender for Endpoint for Linux"
       ],
       "date": "2026-02-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-23359",
+      "title": "bpf: Fix stack-out-of-bounds write in devmap",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -24724,20 +24640,6 @@
       "kb_count": 5
     },
     {
-      "cve_id": "CVE-2006-10003",
-      "title": "XML::Parser versions through 2.47 for Perl has an off-by-one heap buffer overflow in st_serial_stack",
-      "severity": "Important",
-      "cvss": 8.6,
-      "product": "azl3 perl-XML-Parser 2.47-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 perl-XML-Parser 2.47-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-20",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-12816",
       "title": "CVE-2025-12816",
       "severity": "Important",
@@ -24911,21 +24813,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-33216",
-      "title": "NATS has MQTT plaintext password disclosure",
-      "severity": "Important",
-      "cvss": 8.6,
-      "product": "cbl2 telegraf 1.29.4-22 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 telegraf 1.29.4-22 on CBL Mariner 2.0",
-        "azl3 telegraf 1.31.0-17 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-34445",
       "title": "ONNX: Malicious ONNX models can crash servers by exploiting unprotected object settings.",
       "severity": "Important",
@@ -24936,21 +24823,6 @@
         "cbl2 pytorch 2.0.0-15 on CBL Mariner 2.0"
       ],
       "date": "2026-04-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-5121",
-      "title": "Libarchive: libarchive: arbitrary code execution via integer overflow in iso9660 image processing",
-      "severity": "Important",
-      "cvss": 8.6,
-      "product": "cbl2 libarchive 3.6.1-9 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 libarchive 3.6.1-9 on CBL Mariner 2.0",
-        "azl3 libarchive 3.7.7-5 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -25415,9 +25287,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -26001,20 +25871,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-31788",
-      "title": "xen/privcmd: restrict usage in unprivileged domU",
-      "severity": "Important",
-      "cvss": 8.2,
-      "product": "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-32316",
       "title": "jq: Integer overflow in jvp_string_append() allows Heap-based Buffer Overflow",
       "severity": "Important",
@@ -26052,7 +25908,7 @@
       "products": [
         "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0"
       ],
-      "date": "2026-04-15",
+      "date": "2026-03-31",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -58390,22 +58246,6 @@
       "cvss": 7.8,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-23359",
-      "title": "bpf: Fix stack-out-of-bounds write in devmap",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product": "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
@@ -58420,25 +58260,9 @@
       "cvss": 7.8,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-23391",
-      "title": "netfilter: xt_CT: drop pending enqueued packets on template removal",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product": "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-03-27",
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -78213,8 +78037,7 @@
       "cvss": 7.7,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -78431,23 +78254,6 @@
         "azl3 wget 2.1.0-7 on Azure Linux 3.0"
       ],
       "date": "2026-01-10",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-33636",
-      "title": "LIBPNG has ARM NEON Palette Expansion Out-of-Bounds Read on AArch64",
-      "severity": "Important",
-      "cvss": 7.6,
-      "product": "cbl2 tensorflow 2.11.1-2 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 tensorflow 2.11.1-2 on CBL Mariner 2.0",
-        "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
-        "azl3 libpng 1.6.55-1 on Azure Linux 3.0",
-        "cbl2 libpng 1.6.55-1 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-31",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -80763,21 +80569,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2025-70873",
-      "title": "An information disclosure issue in the zipfileInflate function in the zipfile extension in SQLite v3.51.1 and earlier allows attackers to obtain heap memory via supplying a crafted ZIP file.",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "azl3 sqlite 3.44.0-2 on Azure Linux 3.0",
-      "products": [
-        "azl3 sqlite 3.44.0-2 on Azure Linux 3.0",
-        "cbl2 sqlite 3.39.2-4 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-18",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-7345",
       "title": "Gdk‑pixbuf: heap‑buffer‑overflow in gdk‑pixbuf",
       "severity": "Important",
@@ -82727,22 +82518,6 @@
       "kb_count": 7
     },
     {
-      "cve_id": "CVE-2026-21710",
-      "title": "A flaw in Node.js HTTP request handling causes an uncaught `TypeError` when a request is received with a header named `__proto__` and the application accesses `req.headersDistinct`.\n\nWhen this occurs, `dest[\"__proto__\"]` resolves to `Object.prototype` rather than `undefined`, causing `.push()` to be called on a non-array. This exception is thrown synchronously inside a property getter and cannot be intercepted by `error` event listeners, meaning it cannot be handled without wrapping every `req.headersDistinct` access in a `try/catch`.\n\n* This vulnerability affects all Node.js HTTP servers on **20.x, 22.x, 24.x, and v25.x**",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 nodejs18 18.20.3-12 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 nodejs18 18.20.3-12 on CBL Mariner 2.0",
-        "azl3 nodejs 20.14.0-14 on Azure Linux 3.0",
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-08",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-21863",
       "title": "Malformed Valkey Cluster bus message can lead to Remote DoS",
       "severity": "Important",
@@ -83537,8 +83312,8 @@
         "azl3 golang 1.25.8-1 on Azure Linux 3.0",
         "azl3 golang 1.26.1-1 on Azure Linux 3.0",
         "cbl2 msft-golang 1.25.8-1 on CBL Mariner 2.0",
-        "azl3 golang 1.25.9-1 on Azure Linux 3.0",
-        "azl3 gcc 13.2.0-7 on Azure Linux 3.0"
+        "azl3 gcc 13.2.0-7 on Azure Linux 3.0",
+        "cbl2 gcc 11.2.0-9 on CBL Mariner 2.0"
       ],
       "date": "2026-03-17",
       "exploited": false,
@@ -83603,21 +83378,6 @@
         "azl3 httpd 2.4.66-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-15",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-29785",
-      "title": "NATS Server panic via malicious compression on leafnode port",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 telegraf 1.29.4-22 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 telegraf 1.29.4-22 on CBL Mariner 2.0",
-        "azl3 telegraf 1.31.0-17 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -83976,22 +83736,6 @@
       "kb_count": 3
     },
     {
-      "cve_id": "CVE-2026-32241",
-      "title": "Flannel vulnerable to cross-node remote code execution via extension backend BackendData injection",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "azl3 flannel 0.24.2-26 on Azure Linux 3.0",
-      "products": [
-        "azl3 flannel 0.24.2-26 on Azure Linux 3.0",
-        "azl3 flannel 0.24.2-24 on Azure Linux 3.0",
-        "cbl2 flannel 0.14.0-30 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-32280",
       "title": "Unexpected work during chain building in crypto/x509",
       "severity": "Important",
@@ -84005,22 +83749,6 @@
         "azl3 golang 1.25.8-1 on Azure Linux 3.0"
       ],
       "date": "2026-04-15",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-32287",
-      "title": "Infinite loop in github.com/antchfx/xpath",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 telegraf 1.29.4-22 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 telegraf 1.29.4-22 on CBL Mariner 2.0",
-        "cbl2 terraform 1.3.2-30 on CBL Mariner 2.0",
-        "azl3 telegraf 1.31.0-17 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -84381,24 +84109,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-33416",
-      "title": "LIBPNG has use-after-free via pointer aliasing in `png_set_tRNS` and `png_set_PLTE`",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 qt5-qtbase 5.12.11-19 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 qt5-qtbase 5.12.11-19 on CBL Mariner 2.0",
-        "cbl2 syslinux 6.04-10 on CBL Mariner 2.0",
-        "cbl2 tensorflow 2.11.1-2 on CBL Mariner 2.0",
-        "azl3 qtbase 6.6.3-4 on Azure Linux 3.0",
-        "azl3 syslinux 6.04-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-33526",
       "title": "Squid vulnerable to Denial of Service in ICP Request handling",
       "severity": "Important",
@@ -84413,21 +84123,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-33554",
-      "title": "ipmi-oem in FreeIPMI before 1.16.17 has exploitable buffer overflows on response messages. The Intelligent Platform Management Interface (IPMI) specification defines a set of interfaces for platform management. It is implemented by a large number of hardware manufacturers to support system management. It is most commonly used for sensor reading (e.g., CPU temperatures through the ipmi-sensors command within FreeIPMI) and remote power control (the ipmipower command). The ipmi-oem client command implements a set of a IPMI OEM commands for specific hardware vendors. If a user has supported hardware, they may wish to use the ipmi-oem command to send a request to a server to retrieve specific information. Three subcommands were found to have exploitable buffer overflows on response messages. They are: \"ipmi-oem dell get-last-post-code - get the last POST code and string describing the error on some Dell servers,\" \"ipmi-oem supermicro extra-firmware-info - get extra firmware info on Supermic",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 freeipmi 1.6.6-3 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 freeipmi 1.6.6-3 on CBL Mariner 2.0",
-        "azl3 freeipmi 1.6.11-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-33671",
       "title": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
       "severity": "Important",
@@ -84437,40 +84132,9 @@
         "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
         "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
         "cbl2 python-tensorboard 2.11.0-3 on CBL Mariner 2.0",
-        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-        "azl3 nodejs24 24.14.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-30",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-33891",
-      "title": "Forge has Denial of Service via Infinite Loop in BigInteger.modInverse() with Zero Input",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-        "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-33895",
-      "title": "Forge has signature forgery in Ed25519 due to missing S > L check",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
-      "products": [
-        "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
         "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0"
       ],
-      "date": "2026-04-01",
+      "date": "2026-03-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -84484,7 +84148,7 @@
       "products": [
         "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0"
       ],
-      "date": "2026-04-15",
+      "date": "2026-03-31",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -85089,21 +84753,6 @@
         }
       ],
       "kb_count": 16
-    },
-    {
-      "cve_id": "CVE-2026-4046",
-      "title": "iconv crash due to assertion failure with untrusted input",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 glibc 2.35-10 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 glibc 2.35-10 on CBL Mariner 2.0",
-        "azl3 glibc 2.38-19 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-40890",
@@ -85981,23 +85630,6 @@
       "kb_count": 10
     },
     {
-      "cve_id": "CVE-2026-4645",
-      "title": "Github.com/antchfx/xpath: xpath: denial of service via crafted boolean xpath expressions",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 telegraf 1.29.4-21 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 telegraf 1.29.4-21 on CBL Mariner 2.0",
-        "cbl2 terraform 1.3.2-29 on CBL Mariner 2.0",
-        "azl3 telegraf 1.31.0-15 on Azure Linux 3.0",
-        "azl3 telegraf 1.31.0-17 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-49160",
       "title": "HTTP.sys Denial of Service Vulnerability",
       "severity": "Important",
@@ -86131,21 +85763,6 @@
         "azl3 freeipmi 1.6.17-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-5201",
-      "title": "Gdk-pixbuf: gdk-pixbuf: denial of service via heap-based buffer overflow when processing a specially crafted jpeg image",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product": "cbl2 gdk-pixbuf2 2.40.0-8 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 gdk-pixbuf2 2.40.0-8 on CBL Mariner 2.0",
-        "azl3 gdk-pixbuf2 2.42.10-4 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -87005,14 +86622,13 @@
     },
     {
       "cve_id": "CVE-2025-69648",
-      "title": "GNU Binutils thru 2.45.1 readelf contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF .debug_rnglists data. A logic flaw in the DWARF parsing path causes readelf to repeatedly print the same warning message without making forward progress, resulting in a non-terminating output loop that requires manual interruption. No evidence of memory corruption or code execution was observed.",
+      "title": "",
       "severity": "Important",
       "cvss": 7.4,
       "product": "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
       "products": [
         "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "azl3 binutils 2.41-10 on Azure Linux 3.0",
-        "azl3 binutils 2.41-11 on Azure Linux 3.0"
+        "azl3 binutils 2.41-10 on Azure Linux 3.0"
       ],
       "date": "2026-03-15",
       "exploited": false,
@@ -87448,7 +87064,7 @@
     },
     {
       "cve_id": "CVE-2026-32775",
-      "title": "libexif through 0.6.25 has a flaw in decoding MakerNotes. If the exif_mnote_data_get_value function gets passed in a 0 size, the passed in-buffer would be overwritten due to an integer underflow.",
+      "title": "",
       "severity": "Important",
       "cvss": 7.4,
       "product": "azl3 libexif 0.6.24-1 on Azure Linux 3.0",
@@ -87458,21 +87074,6 @@
         "cbl2 libexif 0.6.24-2 on CBL Mariner 2.0"
       ],
       "date": "2026-03-17",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-33896",
-      "title": "Forge has a basicConstraints bypass in its certificate chain verification (RFC 5280 violation)",
-      "severity": "Important",
-      "cvss": 7.4,
-      "product": "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
-      "products": [
-        "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
-        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-01",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -93463,10 +93064,9 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
-      "date": "2026-04-29",
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -93478,8 +93078,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -93521,8 +93120,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -93536,8 +93134,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -93551,8 +93148,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -93566,8 +93162,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -93595,8 +93190,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -93611,10 +93205,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -93628,8 +93219,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -93641,13 +93231,10 @@
       "title": "ice: change XDP RxQ frag_size from DMA write length to xdp.frame_sz",
       "severity": "Important",
       "cvss": 7.1,
-      "product": "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -93661,8 +93248,7 @@
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -93684,29 +93270,13 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-23388",
-      "title": "Squashfs: check metadata block offset is within range",
-      "severity": "Important",
-      "cvss": 7.1,
-      "product": "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-23392",
       "title": "netfilter: nf_tables: release flowtable after rcu grace period on error",
       "severity": "Important",
       "cvss": 7.1,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -106886,10 +106456,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-12",
       "exploited": false,
@@ -106903,8 +106470,7 @@
       "cvss": 7.0,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -107266,7 +106832,7 @@
     },
     {
       "cve_id": "CVE-2026-23868",
-      "title": "Giflib contains a double-free vulnerability that is the result of a shallow copy in GifMakeSavedImage and incorrect error handling. The conditions needed to trigger this vulnerability are difficult but may be possible.",
+      "title": "",
       "severity": "Important",
       "cvss": 7.0,
       "product": "azl3 giflib 5.2.1-10 on Azure Linux 3.0",
@@ -146775,20 +146341,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-4732",
-      "title": "Out-of-bounds Read Overflow in tildearrow/furnace",
-      "severity": "Important",
-      "cvss": null,
-      "product": "azl3 libsndfile 1.2.2-4 on Azure Linux 3.0",
-      "products": [
-        "azl3 libsndfile 1.2.2-4 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-4786",
       "title": "Incomplete mitigation of CVE-2026-4519, %action expansion for command injection to webbrowser.open()",
       "severity": "Important",
@@ -148657,8 +148209,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -149908,6 +149459,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-23248",
+      "title": "perf/core: Fix refcount bug and potential UAF in perf_mmap",
+      "severity": "Moderate",
+      "cvss": 7.0,
+      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-03-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-24051",
       "title": "OpenTelemetry-Go Affected by Arbitrary Code Execution via PATH Hijacking",
       "severity": "Moderate",
@@ -150424,24 +149989,6 @@
         "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-04-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-4105",
-      "title": "Systemd: systemd: privilege escalation via improper access control in registermachine d-bus method",
-      "severity": "Moderate",
-      "cvss": 6.7,
-      "product": "cbl2 systemd 250.3-23 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 systemd 250.3-23 on CBL Mariner 2.0",
-        "cbl2 systemd 250.3-24 on CBL Mariner 2.0",
-        "azl3 systemd-bootstrap 250.3-19 on Azure Linux 3.0",
-        "cbl2 systemd-bootstrap 250.3-13 on CBL Mariner 2.0",
-        "azl3 systemd 255-26 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -151436,41 +150983,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-0966",
-      "title": "Libssh: buffer underflow in ssh_get_hexa() on invalid input",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product": "azl3 libssh 0.10.6-5 on Azure Linux 3.0",
-      "products": [
-        "azl3 libssh 0.10.6-5 on Azure Linux 3.0",
-        "cbl2 libssh 0.10.6-5 on CBL Mariner 2.0",
-        "azl3 libssh 0.10.6-6 on Azure Linux 3.0",
-        "azl3 libssh 0.10.6-7 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-1965",
-      "title": "bad reuse of HTTP Negotiate connection",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product": "azl3 curl 8.11.1-5 on Azure Linux 3.0",
-      "products": [
-        "azl3 curl 8.11.1-5 on Azure Linux 3.0",
-        "cbl2 curl 8.8.0-8 on CBL Mariner 2.0",
-        "azl3 cmake 3.30.3-12 on Azure Linux 3.0",
-        "azl3 rust 1.75.0-25 on Azure Linux 3.0",
-        "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-13",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-22009",
       "title": "",
       "severity": "Moderate",
@@ -151539,10 +151051,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -151564,14 +151073,27 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-23391",
+      "title": "netfilter: xt_CT: drop pending enqueued packets on template removal",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-03-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-23396",
       "title": "wifi: mac80211: fix NULL deref in mesh_matches_local()",
       "severity": "Moderate",
       "cvss": 6.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -151585,8 +151107,7 @@
       "cvss": 6.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -151601,9 +151122,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-29",
       "exploited": false,
@@ -151638,21 +151157,6 @@
         "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0"
       ],
       "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-2436",
-      "title": "Libsoup: libsoup: denial of service via use-after-free in soupserver during tls handshake",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product": "azl3 libsoup 3.4.4-14 on Azure Linux 3.0",
-      "products": [
-        "azl3 libsoup 3.4.4-14 on Azure Linux 3.0",
-        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -151760,24 +151264,6 @@
         "azl3 httpd 2.4.66-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-33750",
-      "title": "brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product": "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
-      "products": [
-        "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
-        "cbl2 nodejs18 18.20.3-11 on CBL Mariner 2.0",
-        "cbl2 python-tensorboard 2.11.0-3 on CBL Mariner 2.0",
-        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-        "cbl2 nodejs18 18.20.3-12 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-31",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -151896,24 +151382,6 @@
         "azl3 frr 10.5.0-3 on Azure Linux 3.0"
       ],
       "date": "2026-05-19",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-3784",
-      "title": "wrong proxy connection reuse with credentials",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product": "azl3 curl 8.11.1-5 on Azure Linux 3.0",
-      "products": [
-        "azl3 curl 8.11.1-5 on Azure Linux 3.0",
-        "cbl2 curl 8.8.0-8 on CBL Mariner 2.0",
-        "azl3 mysql 8.0.45-1 on Azure Linux 3.0",
-        "cbl2 mysql 8.0.45-2 on CBL Mariner 2.0",
-        "cbl2 tensorflow 2.11.1-2 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-12",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -152141,10 +151609,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -152160,7 +151625,7 @@
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-04-22",
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -152417,8 +151882,21 @@
       "cvss": 6.3,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-03-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-23388",
+      "title": "Squashfs: check metadata block offset is within range",
+      "severity": "Moderate",
+      "cvss": 6.3,
+      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -152836,38 +152314,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2025-69647",
-      "title": "GNU Binutils thru 2.45.1 readelf contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF loclists data. A logic flaw in the DWARF parsing code can cause readelf to repeatedly print the same table output without making forward progress, resulting in an unbounded output loop that never terminates unless externally interrupted. A local attacker can trigger this behavior by supplying a malicious input file, causing excessive CPU and I/O usage and preventing readelf from completing its analysis.",
-      "severity": "Moderate",
-      "cvss": 6.2,
-      "product": "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "azl3 binutils 2.41-10 on Azure Linux 3.0",
-        "azl3 binutils 2.41-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-15",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2025-69652",
-      "title": "GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an abort (SIGABRT) when processing a crafted ELF binary with malformed DWARF abbrev or debug information. Due to incomplete state cleanup in process_debug_info(), an invalid debug_info_p state may propagate into DWARF attribute parsing routines. When certain malformed attributes result in an unexpected data length of zero, byte_get_little_endian() triggers a fatal abort. No evidence of memory corruption or code execution was observed; the impact is limited to denial of service.",
-      "severity": "Moderate",
-      "cvss": 6.2,
-      "product": "azl3 binutils 2.41-10 on Azure Linux 3.0",
-      "products": [
-        "azl3 binutils 2.41-10 on Azure Linux 3.0",
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "azl3 binutils 2.41-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-14",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-71238",
       "title": "scsi: qla2xxx: Fix bsg_done() causing double free",
       "severity": "Moderate",
@@ -152890,9 +152336,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -152916,7 +152360,7 @@
     },
     {
       "cve_id": "CVE-2026-3904",
-      "title": "Calling NSS-backed functions that support caching via nscd may call the \nnscd client side code and in the GNU C Library version 2.36 under high \nload on x86_64 systems, the client may call memcmp on inputs that are \nconcurrently modified by other processes or threads and crash.\n\n\n\n\nThe nscd client in the GNU C Library uses the memcmp function with \ninputs that may be concurrently modified by another thread, potentially \nresulting in spurious cache misses, which in itself is not a security \nissue.  However in the GNU C Library version 2.36 an optimized \nimplementation of memcmp was introduced for x86_64 which could crash \nwhen invoked with such undefined behaviour, turning this into a \npotential crash of the nscd client and the application that uses it. \nThis implementation was backported to the 2.35 branch, making the nscd \nclient in that branch vulnerable as well.  Subsequently, the fix for \nthis issue was backported to all vulnerable branches in the GNU C \nLibrary repository.\n\n\nIt is",
+      "title": "",
       "severity": "Moderate",
       "cvss": 6.2,
       "product": "cbl2 glibc 2.35-10 on CBL Mariner 2.0",
@@ -153399,24 +152843,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-4647",
-      "title": "Binutils: out-of-bounds read in xcoff relocation processing in gnu binutils bfd library",
-      "severity": "Moderate",
-      "cvss": 6.1,
-      "product": "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "cbl2 crash 8.0.1-5 on CBL Mariner 2.0",
-        "azl3 binutils 2.41-10 on Azure Linux 3.0",
-        "cbl2 gdb 11.2-10 on CBL Mariner 2.0",
-        "azl3 crash 9.0.0-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-5160",
       "title": "",
       "severity": "Moderate",
@@ -153834,38 +153260,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-21713",
-      "title": "A flaw in Node.js HMAC verification uses a non-constant-time comparison when validating user-provided signatures, potentially leaking timing information proportional to the number of matching bytes. Under certain threat models where high-resolution timing measurements are possible, this behavior could be exploited as a timing oracle to infer HMAC values.\n\nNode.js already provides timing-safe comparison primitives used elsewhere in the codebase, indicating this is an oversight rather than an intentional design decision.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**.",
-      "severity": "Moderate",
-      "cvss": 5.9,
-      "product": "azl3 nodejs 20.14.0-14 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs 20.14.0-14 on Azure Linux 3.0",
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-08",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-21717",
-      "title": "A flaw in V8's string hashing mechanism causes integer-like strings to be hashed to their numeric value, making hash collisions trivially predictable. By crafting a request that causes many such collisions in V8's internal string table, an attacker can significantly degrade performance of the Node.js process.\n\nThe most common trigger is any endpoint that calls `JSON.parse()` on attacker-controlled input, as JSON parsing automatically internalizes short strings into the affected hash table.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**.",
-      "severity": "Moderate",
-      "cvss": 5.9,
-      "product": "azl3 nodejs 20.14.0-15 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs 20.14.0-15 on Azure Linux 3.0",
-        "cbl2 nodejs18 18.20.3-12 on CBL Mariner 2.0",
-        "azl3 nodejs 20.14.0-14 on Azure Linux 3.0",
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-23246",
       "title": "wifi: mac80211: bounds-check link_id in ieee80211_ml_reconfiguration",
       "severity": "Moderate",
@@ -154041,23 +153435,8 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-34043",
-      "title": "Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects",
-      "severity": "Moderate",
-      "cvss": 5.9,
-      "product": "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-        "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-01",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-34085",
-      "title": "fontconfig before 2.17.1 has an off-by-one error in allocation during sfnt capability handling, leading to a one-byte out-of-bounds write, and potentially a crash or code execution. This is in FcFontCapabilities in fcfreetype.c.",
+      "title": "",
       "severity": "Moderate",
       "cvss": 5.9,
       "product": "azl3 fontconfig 2.14.2-1 on Azure Linux 3.0",
@@ -154067,23 +153446,6 @@
         "cbl2 fontconfig 2.13.95-1 on CBL Mariner 2.0"
       ],
       "date": "2026-03-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-34353",
-      "title": "In OCaml through 4.14.3, Bigarray.reshape allows an integer overflow, and resultant reading of arbitrary memory, when untrusted data is processed.",
-      "severity": "Moderate",
-      "cvss": 5.9,
-      "product": "azl3 ocaml 5.1.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 ocaml 5.1.1-1 on Azure Linux 3.0",
-        "cbl2 ocaml 4.13.1-2 on CBL Mariner 2.0",
-        "azl3 ocaml 5.1.1-2 on Azure Linux 3.0",
-        "cbl2 ocaml 4.13.1-3 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-01",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154181,22 +153543,6 @@
         "azl3 unbound 1.19.1-5 on Azure Linux 3.0"
       ],
       "date": "2026-05-21",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-5119",
-      "title": "Libsoup: libsoup: information disclosure via cleartext transmission of cookies during https tunnel establishment",
-      "severity": "Moderate",
-      "cvss": 5.9,
-      "product": "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
-        "azl3 libsoup 3.4.4-14 on Azure Linux 3.0",
-        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154345,8 +153691,7 @@
         "azl3 libsoup 3.4.4-12 on Azure Linux 3.0",
         "azl3 libsoup 3.4.4-14 on Azure Linux 3.0",
         "cbl2 libsoup 3.0.4-12 on CBL Mariner 2.0",
-        "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
-        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0"
+        "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0"
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -154409,20 +153754,6 @@
         "azl3 kernel 6.6.96.2-1 on Azure Linux 3.0"
       ],
       "date": "2025-09-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-21712",
-      "title": "A flaw in Node.js URL processing causes an assertion failure in native code when `url.format()` is called with a malformed internationalized domain name (IDN) containing invalid characters, crashing the Node.js process.",
-      "severity": "Moderate",
-      "cvss": 5.7,
-      "product": "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-31",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -162958,54 +162289,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2025-69645",
-      "title": "Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug information. A logic error in the handling of DWARF compilation units can result in an invalid offset_size value being used inside byte_get_little_endian, leading to an abort (SIGABRT). The issue was observed in binutils 2.44. A local attacker can trigger the crash by supplying a malicious input file.",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "azl3 binutils 2.41-11 on Azure Linux 3.0",
-      "products": [
-        "azl3 binutils 2.41-11 on Azure Linux 3.0",
-        "azl3 binutils 2.41-10 on Azure Linux 3.0",
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-14",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2025-69646",
-      "title": "Binutils objdump contains a denial-of-service vulnerability when processing a crafted binary with malformed DWARF debug_rnglists data. A logic error in the handling of the debug_rnglists header can cause objdump to repeatedly print the same warning message and fail to terminate, resulting in an unbounded logging loop until the process is interrupted. The issue was observed in binutils 2.44. A local attacker can exploit this vulnerability by supplying a malicious input file, leading to excessive CPU and I/O usage and preventing completion of the objdump analysis.",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "azl3 binutils 2.41-10 on Azure Linux 3.0",
-      "products": [
-        "azl3 binutils 2.41-10 on Azure Linux 3.0",
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "azl3 binutils 2.41-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2025-69649",
-      "title": "GNU Binutils thru 2.46 readelf contains a null pointer dereference vulnerability when processing a crafted ELF binary with malformed header fields. During relocation processing, an invalid or null section pointer may be passed into display_relocations(), resulting in a segmentation fault (SIGSEGV) and abrupt termination. No evidence of memory corruption beyond the null pointer dereference, nor any possibility of code execution, was observed.",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "azl3 binutils 2.41-10 on Azure Linux 3.0",
-      "products": [
-        "azl3 binutils 2.41-10 on Azure Linux 3.0",
-        "cbl2 binutils 2.37-20 on CBL Mariner 2.0",
-        "azl3 binutils 2.41-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-71069",
       "title": "f2fs: invalidate dentry cache on failed whiteout creation",
       "severity": "Moderate",
@@ -164198,6 +163481,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-23241",
+      "title": "audit: add missing syscalls to read class",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-03-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-23242",
       "title": "RDMA/siw: Fix potential NULL pointer dereference in header processing",
       "severity": "Moderate",
@@ -164228,20 +163525,6 @@
     {
       "cve_id": "CVE-2026-23245",
       "title": "net/sched: act_gate: snapshot parameters with RCU on replace",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-19",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-23248",
-      "title": "perf/core: Fix refcount bug and potential UAF in perf_mmap",
       "severity": "Moderate",
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
@@ -164331,10 +163614,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -164531,10 +163811,9 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-04-22",
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -164576,10 +163855,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -164608,8 +163884,7 @@
       "product": "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -164623,8 +163898,7 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -164638,38 +163912,9 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-23360",
-      "title": "nvme: fix admin queue leak on controller reset",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-23362",
-      "title": "can: bcm: fix locking for bcm_op runtime updates",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -164681,8 +163926,7 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -164696,10 +163940,9 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-04-27",
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -164711,10 +163954,9 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-04-27",
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -164726,10 +163968,9 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-04-27",
+      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -164741,8 +163982,7 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -164756,8 +163996,7 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -164772,10 +164011,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -164952,24 +164188,6 @@
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0"
       ],
       "date": "2026-04-05",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-29111",
-      "title": "systemd: Local unprivileged user can trigger an assert",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "cbl2 systemd-bootstrap 250.3-13 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 systemd-bootstrap 250.3-13 on CBL Mariner 2.0",
-        "azl3 systemd-bootstrap 250.3-18 on Azure Linux 3.0",
-        "cbl2 systemd-bootstrap 250.3-14 on CBL Mariner 2.0",
-        "azl3 systemd-bootstrap 250.3-19 on Azure Linux 3.0",
-        "azl3 systemd 255-26 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -169414,38 +168632,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-4897",
-      "title": "Polkit: polkit: denial of service via unbounded input processing through standard input",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "cbl2 polkit 0.119-4 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 polkit 0.119-4 on CBL Mariner 2.0",
-        "azl3 polkit 123-3 on Azure Linux 3.0",
-        "azl3 polkit 123-4 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-4948",
-      "title": "Firewalld: firewalld: local unprivileged user can modify firewall state due to d-bus setter mis-authorization",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product": "cbl2 firewalld 1.0.3-2 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 firewalld 1.0.3-2 on CBL Mariner 2.0",
-        "azl3 firewalld 2.0.2-3 on Azure Linux 3.0",
-        "azl3 firewalld 2.0.2-4 on Azure Linux 3.0"
-      ],
-      "date": "2026-05-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-49760",
       "title": "Stack Buffer Overflow in ei_s_print_term at Very Large Integer",
       "severity": "Moderate",
@@ -170378,53 +169564,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-2100",
-      "title": "P11-kit: p11-kit: null dereference via c_derivekey with specific null parameters",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product": "cbl2 p11-kit 0.24.1-1 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 p11-kit 0.24.1-1 on CBL Mariner 2.0",
-        "azl3 p11-kit 0.25.0-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-21711",
-      "title": "A flaw in Node.js Permission Model network enforcement leaves Unix Domain Socket (UDS) server operations without the required permission checks, while all comparable network paths correctly enforce them.\n\nAs a result, code running under `--permission` without `--allow-net` can create and expose local IPC endpoints, allowing communication with other processes on the same host outside of the intended network restriction boundary.\n\nThis vulnerability affects Node.js **25.x** processes using the Permission Model where `--allow-net` is intentionally omitted to restrict network access. Note that `--allow-net` is currently an experimental feature.",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product": "azl3 nodejs24 24.14.1-2 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs24 24.14.1-2 on Azure Linux 3.0",
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-        "azl3 nodejs24 24.14.1-1 on Azure Linux 3.0",
-        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-01",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-21714",
-      "title": "A memory leak occurs in Node.js HTTP/2 servers when a client sends WINDOW_UPDATE frames on stream 0 (connection-level) that cause the flow control window to exceed the maximum value of 2³¹-1. The server correctly sends a GOAWAY frame, but the Http2Session object is never cleaned up.\n\nThis vulnerability affects HTTP2 users on Node.js 20, 22, 24 and 25.",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product": "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-        "azl3 nodejs 20.14.0-14 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-08",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-21860",
       "title": "Werkzeug safe_join() allows Windows special device names with compound extensions",
       "severity": "Moderate",
@@ -170521,24 +169660,6 @@
         "azl3 libsoup 3.4.4-12 on Azure Linux 3.0"
       ],
       "date": "2026-02-21",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-2673",
-      "title": "OpenSSL TLS 1.3 server may choose unexpected key agreement group",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product": "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-        "azl3 rust 1.90.0-4 on Azure Linux 3.0",
-        "azl3 rust 1.75.0-27 on Azure Linux 3.0",
-        "azl3 cloud-hypervisor 51.1.56-1 on Azure Linux 3.0",
-        "azl3 nodejs 24.14.1-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -170659,8 +169780,7 @@
         "azl3 python-tensorboard 2.16.2-6 on Azure Linux 3.0",
         "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
         "cbl2 python-tensorboard 2.11.0-3 on CBL Mariner 2.0",
-        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0",
-        "azl3 nodejs24 24.14.1-1 on Azure Linux 3.0"
+        "cbl2 reaper 3.1.1-22 on CBL Mariner 2.0"
       ],
       "date": "2026-03-30",
       "exploited": false,
@@ -170678,21 +169798,6 @@
         "azl3 httpd 2.4.66-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-33936",
-      "title": "python-ecdsa: Denial of Service via improper DER length validation in crafted private keys",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product": "azl3 python-ecdsa 0.18.0-2 on Azure Linux 3.0",
-      "products": [
-        "azl3 python-ecdsa 0.18.0-2 on Azure Linux 3.0",
-        "cbl2 python-ecdsa 0.17.0-1 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -170738,7 +169843,7 @@
         "cbl2 tensorflow 2.11.1-2 on CBL Mariner 2.0",
         "azl3 libpng 1.6.56-1 on Azure Linux 3.0",
         "cbl2 libpng 1.6.56-1 on CBL Mariner 2.0",
-        "azl3 libpng 1.6.57-1 on Azure Linux 3.0"
+        "cbl2 libpng 1.6.55-1 on CBL Mariner 2.0"
       ],
       "date": "2026-03-09",
       "exploited": false,
@@ -170757,24 +169862,6 @@
         "azl3 libssh 0.10.6-5 on Azure Linux 3.0"
       ],
       "date": "2026-03-20",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-3783",
-      "title": "token leak with redirect and netrc",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product": "azl3 cmake 3.30.3-12 on Azure Linux 3.0",
-      "products": [
-        "azl3 cmake 3.30.3-12 on Azure Linux 3.0",
-        "azl3 mysql 8.0.45-1 on Azure Linux 3.0",
-        "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
-        "cbl2 mysql 8.0.45-2 on CBL Mariner 2.0",
-        "cbl2 rust 1.72.0-14 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-12",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -171029,20 +170116,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-23241",
-      "title": "audit: add missing syscalls to read class",
-      "severity": "Moderate",
-      "cvss": 5.1,
-      "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-05-22",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-34757",
       "title": "LIBPNG has a yse-after-free in png_set_PLTE, png_set_tRNS and png_set_hIST leading to corrupted chunk data and potential heap information disclosure",
       "severity": "Moderate",
@@ -171179,23 +170252,6 @@
         "azl3 kernel 6.6.119.3-1 on Azure Linux 3.0"
       ],
       "date": "2026-01-20",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-0964",
-      "title": "Libssh: improper sanitation of paths received from scp servers",
-      "severity": "Moderate",
-      "cvss": 5.0,
-      "product": "azl3 libssh 0.10.6-5 on Azure Linux 3.0",
-      "products": [
-        "azl3 libssh 0.10.6-5 on Azure Linux 3.0",
-        "cbl2 libssh 0.10.6-5 on CBL Mariner 2.0",
-        "azl3 libssh 0.10.6-6 on Azure Linux 3.0",
-        "azl3 libssh 0.10.6-7 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-31",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -172701,8 +171757,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-20",
       "exploited": false,
@@ -172717,10 +171772,7 @@
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -172735,30 +171787,9 @@
       "product": "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-23394",
-      "title": "af_unix: Give up GC if MSG_PEEK intervened.",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product": "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -173287,8 +172318,7 @@
       "cvss": 4.4,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -173302,8 +172332,7 @@
       "cvss": 4.4,
       "product": "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
+        "azl3 kernel 6.6.126.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -174102,24 +173131,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-32776",
-      "title": "libexpat before 2.7.5 allows a NULL pointer dereference with empty external parameter entity content.",
-      "severity": "Moderate",
-      "cvss": 4.0,
-      "product": "azl3 expat 2.6.4-4 on Azure Linux 3.0",
-      "products": [
-        "azl3 expat 2.6.4-4 on Azure Linux 3.0",
-        "cbl2 expat 2.6.4-4 on CBL Mariner 2.0",
-        "azl3 cmake 3.30.3-12 on Azure Linux 3.0",
-        "cbl2 cmake 3.21.4-21 on CBL Mariner 2.0",
-        "azl3 python3 3.12.9-9 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-19",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-33555",
       "title": "",
       "severity": "Moderate",
@@ -174582,10 +173593,9 @@
       "product": "azl3 rubygem-rdiscount 2.2.7.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 rubygem-rdiscount 2.2.7.1-1 on Azure Linux 3.0",
-        "cbl2 rubygem-rdiscount 2.2.0.2-3 on CBL Mariner 2.0",
-        "azl3 rubygem-rdiscount 2.2.7.4-1 on Azure Linux 3.0"
+        "cbl2 rubygem-rdiscount 2.2.0.2-3 on CBL Mariner 2.0"
       ],
-      "date": "2026-04-29",
+      "date": "2026-03-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -174826,8 +173836,7 @@
         "cbl2 python3 3.9.19-19 on CBL Mariner 2.0",
         "azl3 python3 3.12.9-9 on Azure Linux 3.0",
         "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-10 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-11 on Azure Linux 3.0"
+        "azl3 python3 3.12.9-10 on Azure Linux 3.0"
       ],
       "date": "2026-03-07",
       "exploited": false,
@@ -174891,7 +173900,7 @@
         "cbl2 mariadb 10.6.24-1 on CBL Mariner 2.0",
         "azl3 mariadb 10.11.16-1 on Azure Linux 3.0"
       ],
-      "date": "2026-04-15",
+      "date": "2026-03-25",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -175021,25 +174030,7 @@
         "azl3 kata-containers-cc 3.15.0.aks0-8 on Azure Linux 3.0",
         "cbl2 rust 1.72.0-15 on CBL Mariner 2.0"
       ],
-      "date": "2026-04-14",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-33542",
-      "title": "Incus does not verify combined fingerprint when downloading images from simplestreams servers",
-      "severity": "Moderate",
-      "cvss": null,
-      "product": "azl3 telegraf 1.31.0-19 on Azure Linux 3.0",
-      "products": [
-        "azl3 telegraf 1.31.0-19 on Azure Linux 3.0",
-        "azl3 telegraf 1.31.0-15 on Azure Linux 3.0",
-        "cbl2 telegraf 1.29.4-21 on CBL Mariner 2.0",
-        "azl3 telegraf 1.31.0-17 on Azure Linux 3.0",
-        "cbl2 telegraf 1.29.4-22 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-31",
+      "date": "2026-03-25",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -175113,7 +174104,7 @@
         "cbl2 mariadb 10.6.25-1 on CBL Mariner 2.0",
         "azl3 mariadb 10.11.16-1 on Azure Linux 3.0"
       ],
-      "date": "2026-04-22",
+      "date": "2026-03-25",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -175142,8 +174133,7 @@
         "azl3 python3 3.12.9-9 on Azure Linux 3.0",
         "cbl2 python3 3.9.19-19 on CBL Mariner 2.0",
         "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-10 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-11 on Azure Linux 3.0"
+        "azl3 python3 3.12.9-10 on Azure Linux 3.0"
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -175205,23 +174195,6 @@
         "azl3 unbound 1.19.1-5 on Azure Linux 3.0"
       ],
       "date": "2026-05-21",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-4224",
-      "title": "Stack overflow parsing XML with deeply nested DTD content models",
-      "severity": "Moderate",
-      "cvss": null,
-      "product": "azl3 python3 3.12.9-9 on Azure Linux 3.0",
-      "products": [
-        "azl3 python3 3.12.9-9 on Azure Linux 3.0",
-        "cbl2 python3 3.9.19-19 on CBL Mariner 2.0",
-        "azl3 python3 3.12.9-10 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-11 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -176092,23 +175065,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-5107",
-      "title": "FRRouting FRR EVPN Type-2 Route bgp_evpn.c process_type2_route access control",
-      "severity": "Low",
-      "cvss": 4.2,
-      "product": "azl3 frr 10.5.0-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 frr 10.5.0-1 on Azure Linux 3.0",
-        "cbl2 frr 8.5.5-5 on CBL Mariner 2.0",
-        "azl3 frr 10.5.0-2 on Azure Linux 3.0",
-        "azl3 frr 10.5.0-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-39883",
       "title": "mm/memory-failure: fix VM_BUG_ON_PAGE(PagePoisoned(page)) when unpoison memory",
       "severity": "Low",
@@ -176201,24 +175157,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-32777",
-      "title": "libexpat before 2.7.5 allows an infinite loop while parsing DTD content.",
-      "severity": "Low",
-      "cvss": 4.0,
-      "product": "azl3 expat 2.6.4-4 on Azure Linux 3.0",
-      "products": [
-        "azl3 expat 2.6.4-4 on Azure Linux 3.0",
-        "cbl2 expat 2.6.4-4 on CBL Mariner 2.0",
-        "azl3 cmake 3.30.3-12 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-9 on Azure Linux 3.0",
-        "cbl2 python3 3.9.19-19 on CBL Mariner 2.0"
-      ],
-      "date": "2026-03-17",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-39316",
       "title": "CUPS has a use-after-free in `cupsdDeleteTemporaryPrinters` via dangling subscription pointer",
       "severity": "Low",
@@ -176263,37 +175201,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2025-66037",
-      "title": "OpenSC: Out of Bounds vulnerability",
-      "severity": "Low",
-      "cvss": 3.9,
-      "product": "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-        "azl3 opensc 0.26.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2025-66038",
-      "title": "OpenSC: `sc_compacttlv_find_tag` can return out-of-bounds pointers",
-      "severity": "Low",
-      "cvss": 3.9,
-      "product": "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-        "azl3 opensc 0.26.1-1 on Azure Linux 3.0",
-        "azl3 opensc 0.27.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-3632",
       "title": "Libsoup: libsoup: http smuggling and server-side request forgery via malformed hostnames",
       "severity": "Low",
@@ -176303,8 +175210,7 @@
         "azl3 libsoup 3.4.4-12 on Azure Linux 3.0",
         "cbl2 libsoup 3.0.4-12 on CBL Mariner 2.0",
         "azl3 libsoup 3.4.4-14 on Azure Linux 3.0",
-        "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
-        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0"
+        "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0"
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -176321,8 +175227,7 @@
         "azl3 libsoup 3.4.4-12 on Azure Linux 3.0",
         "cbl2 libsoup 3.0.4-12 on CBL Mariner 2.0",
         "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
-        "azl3 libsoup 3.4.4-14 on Azure Linux 3.0",
-        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0"
+        "azl3 libsoup 3.4.4-14 on Azure Linux 3.0"
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -176339,8 +175244,7 @@
         "cbl2 libsoup 3.0.4-12 on CBL Mariner 2.0",
         "azl3 libsoup 3.4.4-14 on Azure Linux 3.0",
         "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
-        "azl3 libsoup 3.4.4-12 on Azure Linux 3.0",
-        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0"
+        "azl3 libsoup 3.4.4-12 on Azure Linux 3.0"
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -176357,37 +175261,6 @@
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2025-49010",
-      "title": "OpenSC: Stack-buffer-overflow WRITE in GET RESPONSE",
-      "severity": "Low",
-      "cvss": 3.8,
-      "product": "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-        "azl3 opensc 0.26.1-1 on Azure Linux 3.0",
-        "azl3 opensc 0.27.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-01",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2025-66215",
-      "title": "OpenSC: Stack-buffer-overflow WRITE in card-oberthur",
-      "severity": "Low",
-      "cvss": 3.8,
-      "product": "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 opensc 0.23.0-5 on CBL Mariner 2.0",
-        "azl3 opensc 0.26.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-02",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -176902,7 +175775,7 @@
     },
     {
       "cve_id": "CVE-2025-70888",
-      "title": "An issue in mtrojnar Osslsigncode affected at v2.10 and before allows a remote attacker to escalate privileges via the osslsigncode.c component",
+      "title": "",
       "severity": "Low",
       "cvss": 3.3,
       "product": "cbl2 osslsigncode 2.7-1 on CBL Mariner 2.0",
@@ -176983,23 +175856,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-0965",
-      "title": "Libssh: libssh: denial of service via improper configuration file handling",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product": "cbl2 libssh 0.10.6-5 on CBL Mariner 2.0",
-      "products": [
-        "cbl2 libssh 0.10.6-5 on CBL Mariner 2.0",
-        "azl3 libssh 0.10.6-5 on Azure Linux 3.0",
-        "azl3 libssh 0.10.6-6 on Azure Linux 3.0",
-        "azl3 libssh 0.10.6-7 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-10722",
       "title": "cilium ebpf LoadCollectionSpec/LoadCollectionSpecFromReader btf.go loadRawSpec integer overflow",
       "severity": "Low",
@@ -177013,36 +175869,6 @@
         "azl3 kubevirt 1.7.1-7 on Azure Linux 3.0"
       ],
       "date": "2026-06-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-21715",
-      "title": "A flaw in Node.js Permission Model filesystem enforcement leaves `fs.realpathSync.native()` without the required read permission checks, while all comparable filesystem functions correctly enforce them.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-read` can still use `fs.realpathSync.native()` to check file existence, resolve symlink targets, and enumerate filesystem paths outside of permitted directories.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-read` is intentionally restricted.",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product": "azl3 nodejs 20.14.0-14 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs 20.14.0-14 on Azure Linux 3.0",
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-08",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-21716",
-      "title": "An incomplete fix for CVE-2024-36137 leaves `FileHandle.chmod()` and `FileHandle.chown()` in the promises API without the required permission checks, while their callback-based equivalents (`fs.fchmod()`, `fs.fchown()`) were correctly patched.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-write` can still use promise-based `FileHandle` methods to modify file permissions and ownership on already-open file descriptors, bypassing the intended write restrictions.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-write` is intentionally restricted.",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product": "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-      "products": [
-        "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
-        "azl3 nodejs 20.14.0-14 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -177265,23 +176091,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-0968",
-      "title": "Libssh: libssh: denial of service due to malformed sftp message",
-      "severity": "Low",
-      "cvss": 3.1,
-      "product": "azl3 libssh 0.10.6-6 on Azure Linux 3.0",
-      "products": [
-        "azl3 libssh 0.10.6-6 on Azure Linux 3.0",
-        "cbl2 libssh 0.10.6-5 on CBL Mariner 2.0",
-        "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
-        "azl3 libssh 0.10.6-7 on Azure Linux 3.0"
-      ],
-      "date": "2026-04-05",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-35387",
       "title": "",
       "severity": "Low",
@@ -177456,24 +176265,6 @@
         "azl3 mariadb 10.11.16-1 on Azure Linux 3.0"
       ],
       "date": "2026-02-21",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-32778",
-      "title": "libexpat before 2.7.5 allows a NULL pointer dereference in the function setContext on retry after an earlier ouf-of-memory condition.",
-      "severity": "Low",
-      "cvss": 2.9,
-      "product": "azl3 expat 2.6.4-4 on Azure Linux 3.0",
-      "products": [
-        "azl3 expat 2.6.4-4 on Azure Linux 3.0",
-        "cbl2 expat 2.6.4-4 on CBL Mariner 2.0",
-        "azl3 cmake 3.30.3-12 on Azure Linux 3.0",
-        "cbl2 cmake 3.21.4-21 on CBL Mariner 2.0",
-        "azl3 python3 3.12.9-9 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -177699,23 +176490,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-0967",
-      "title": "Libssh: libssh: denial of service via inefficient regular expression processing",
-      "severity": "Low",
-      "cvss": 2.2,
-      "product": "azl3 libssh 0.10.6-5 on Azure Linux 3.0",
-      "products": [
-        "azl3 libssh 0.10.6-5 on Azure Linux 3.0",
-        "cbl2 libssh 0.10.6-5 on CBL Mariner 2.0",
-        "azl3 libssh 0.10.6-6 on Azure Linux 3.0",
-        "azl3 libssh 0.10.6-7 on Azure Linux 3.0"
-      ],
-      "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-28422",
       "title": "Vim has stack-buffer-overflow in build_stl_str_hl()",
       "severity": "Low",
@@ -177833,7 +176607,6 @@
       "products": [
         "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
         "azl3 python3 3.12.9-10 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-11 on Azure Linux 3.0",
         "cbl2 python3 3.9.19-19 on CBL Mariner 2.0",
         "azl3 python3 3.12.9-9 on Azure Linux 3.0"
       ],
@@ -178073,8 +176846,7 @@
       "product": "azl3 kata-containers-cc 3.15.0.aks0-7 on Azure Linux 3.0",
       "products": [
         "azl3 kata-containers-cc 3.15.0.aks0-7 on Azure Linux 3.0",
-        "azl3 kata-containers-cc 3.15.0.aks0-8 on Azure Linux 3.0",
-        "azl3 kata-containers-cc 3.15.0.aks0-9 on Azure Linux 3.0"
+        "azl3 kata-containers-cc 3.15.0.aks0-8 on Azure Linux 3.0"
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -178092,21 +176864,6 @@
         "azl3 jq 1.7.1-4 on Azure Linux 3.0"
       ],
       "date": "2026-04-17",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-34073",
-      "title": "cryptography has incomplete DNS name constraint enforcement on peer names",
-      "severity": "Low",
-      "cvss": null,
-      "product": "azl3 python-cryptography 42.0.5-4 on Azure Linux 3.0",
-      "products": [
-        "azl3 python-cryptography 42.0.5-4 on Azure Linux 3.0",
-        "cbl2 python-cryptography 3.3.2-7 on CBL Mariner 2.0"
-      ],
-      "date": "2026-04-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
