@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5568,
+    "total": 5601,
     "critical": 323,
-    "important": 2060,
-    "moderate": 1818,
-    "low": 158,
+    "important": 2061,
+    "moderate": 1821,
+    "low": 159,
     "exploited": 19,
-    "patched": 1219,
-    "updated_at": "2026-06-19 20:25 UTC",
+    "patched": 1225,
+    "updated_at": "2026-06-19 21:43 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -8185,9 +8185,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2026-45458",
@@ -8259,9 +8269,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2026-45461",
@@ -8280,6 +8300,15 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "113412",
+          "url": "https://support.google.com/googleplay/answer/113412?hl=en",
+          "fixed_build": "",
+          "subtype": "Release Notes",
+          "products": [
+            "Microsoft Office for Android"
+          ]
+        },
+        {
           "kb": "5002878",
           "url": "https://support.microsoft.com/help/5002878",
           "fixed_build": "16.0.5556.1005",
@@ -8288,9 +8317,19 @@
             "Microsoft Office 2016 (32-bit edition)",
             "Microsoft Office 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-45463",
@@ -8305,9 +8344,18 @@
         "Microsoft Office 2019 for 64-bit editions",
         "Microsoft 365 Apps for Enterprise for 32-bit Systems"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-19",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "113412",
+          "url": "https://support.google.com/googleplay/answer/113412?hl=en",
+          "fixed_build": "",
+          "subtype": "Release Notes",
+          "products": [
+            "Microsoft Office for Android"
+          ]
+        },
         {
           "kb": "5002878",
           "url": "https://support.microsoft.com/help/5002878",
@@ -8317,9 +8365,19 @@
             "Microsoft Office 2016 (32-bit edition)",
             "Microsoft Office 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-45472",
@@ -8338,6 +8396,15 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "113412",
+          "url": "https://support.google.com/googleplay/answer/113412?hl=en",
+          "fixed_build": "",
+          "subtype": "Release Notes",
+          "products": [
+            "Microsoft Office for Android"
+          ]
+        },
+        {
           "kb": "5002878",
           "url": "https://support.microsoft.com/help/5002878",
           "fixed_build": "16.0.5556.1005",
@@ -8346,9 +8413,19 @@
             "Microsoft Office 2016 (32-bit edition)",
             "Microsoft Office 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-45474",
@@ -8367,6 +8444,15 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "113412",
+          "url": "https://support.google.com/googleplay/answer/113412?hl=en",
+          "fixed_build": "",
+          "subtype": "Release Notes",
+          "products": [
+            "Microsoft Office for Android"
+          ]
+        },
+        {
           "kb": "5002878",
           "url": "https://support.microsoft.com/help/5002878",
           "fixed_build": "16.0.5556.1005",
@@ -8375,9 +8461,19 @@
             "Microsoft Office 2016 (32-bit edition)",
             "Microsoft Office 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-45607",
@@ -10737,7 +10833,7 @@
         "Windows Server 2019 (Server Core installation)",
         "Windows Server 2022"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-19",
       "exploited": false,
       "kb_articles": [
         {
@@ -10866,7 +10962,7 @@
         "Windows Server 2019 (Server Core installation)",
         "Windows Server 2022"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-19",
       "exploited": false,
       "kb_articles": [
         {
@@ -13841,8 +13937,28 @@
       ],
       "date": "2026-06-09",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "113412",
+          "url": "https://support.google.com/googleplay/answer/113412?hl=en",
+          "fixed_build": "",
+          "subtype": "Release Notes",
+          "products": [
+            "Microsoft Office for Android"
+          ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
+        }
+      ],
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2016-9535",
@@ -14968,6 +15084,20 @@
         }
       ],
       "kb_count": 7
+    },
+    {
+      "cve_id": "CVE-2026-12087",
+      "title": "Socket versions before 2.041 for Perl have an out-of-bounds heap read",
+      "severity": "Important",
+      "cvss": 9.1,
+      "product": "azl3 perl 5.38.2-509 on Azure Linux 3.0",
+      "products": [
+        "azl3 perl 5.38.2-509 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-33117",
@@ -25976,9 +26106,19 @@
             "Microsoft Excel 2016 (32-bit edition)",
             "Microsoft Excel 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-49759",
@@ -25989,7 +26129,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -75314,9 +75454,19 @@
             "Microsoft Excel 2016 (32-bit edition)",
             "Microsoft Excel 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-44819",
@@ -75388,9 +75538,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2026-44820",
@@ -75426,9 +75586,19 @@
             "Microsoft Excel 2016 (32-bit edition)",
             "Microsoft Excel 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-44823",
@@ -75464,9 +75634,19 @@
             "Microsoft Excel 2016 (32-bit edition)",
             "Microsoft Excel 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-44824",
@@ -75538,9 +75718,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2026-45457",
@@ -75555,10 +75745,21 @@
         "Microsoft Office LTSC for Mac 2021",
         "Microsoft Office LTSC for Mac 2024"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-19",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-45469",
@@ -75594,9 +75795,19 @@
             "Microsoft Excel 2016 (32-bit edition)",
             "Microsoft Excel 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-45471",
@@ -75668,9 +75879,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2026-45475",
@@ -75742,9 +75963,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2026-45486",
@@ -75761,8 +75992,19 @@
       ],
       "date": "2026-06-09",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-45487",
@@ -76778,8 +77020,19 @@
       ],
       "date": "2026-06-09",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-45645",
@@ -76806,9 +77059,19 @@
             "Microsoft Office 2016 (32-bit edition)",
             "Microsoft Office 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-45656",
@@ -114551,9 +114814,19 @@
             "Microsoft Excel 2016 (32-bit edition)",
             "Microsoft Excel 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-45596",
@@ -125753,7 +126026,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -125767,7 +126040,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -138967,9 +139240,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2026-45594",
@@ -144880,7 +145163,7 @@
         "Microsoft 365 Apps for Enterprise for 32-bit Systems",
         "Microsoft 365 Apps for Enterprise for 64-bit Systems"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-19",
       "exploited": false,
       "kb_articles": [
         {
@@ -144901,9 +145184,19 @@
             "Microsoft Excel 2016 (32-bit edition)",
             "Microsoft Excel 2016 (64-bit edition)"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-45459",
@@ -144918,10 +145211,21 @@
         "Microsoft Office LTSC 2024 for 32-bit editions",
         "Microsoft Office LTSC 2024 for 64-bit editions"
       ],
-      "date": "2026-06-09",
+      "date": "2026-06-19",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-45466",
@@ -144938,8 +145242,19 @@
       ],
       "date": "2026-06-09",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-45485",
@@ -145011,9 +145326,19 @@
           "products": [
             "Microsoft SharePoint Enterprise Server 2016"
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.110.26061317",
+          "subtype": "Security Update",
+          "products": [
+            "Microsoft Office LTSC for Mac 2021",
+            "Microsoft Office LTSC for Mac 2024"
+          ]
         }
       ],
-      "kb_count": 6
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2025-49731",
@@ -148981,6 +149306,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53689",
+      "title": "",
+      "severity": "Moderate",
+      "cvss": 7.1,
+      "product": "azl3 libnfs 5.0.2-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 libnfs 5.0.2-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-3770",
       "title": "SMM IDT Privilege Escalation Vulnerability",
       "severity": "Moderate",
@@ -150350,6 +150689,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-42014",
+      "title": "Gnutls: fix use-after-free in gnutls_pkcs11_token_set_pin",
+      "severity": "Moderate",
+      "cvss": 6.6,
+      "product": "azl3 gnutls 3.8.3-11 on Azure Linux 3.0",
+      "products": [
+        "azl3 gnutls 3.8.3-11 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-45130",
       "title": "Vim: Heap Buffer Overflow in spell file loading",
       "severity": "Moderate",
@@ -151538,7 +151891,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -168640,7 +168993,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -169999,8 +170352,9 @@
       "title": "opentelemetry-cpp: OTLP HTTP exporters read unbounded HTTP response",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product": "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0",
+      "product": "azl3 ceph 18.2.2-12 on Azure Linux 3.0",
       "products": [
+        "azl3 ceph 18.2.2-12 on Azure Linux 3.0",
         "azl3 opentelemetry-cpp 1.14.2-2 on Azure Linux 3.0"
       ],
       "date": "2026-06-15",
@@ -174538,6 +174892,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-9669",
+      "title": "bz2.BZ2Decompressor reuse after error can cause a stack buffer overflow",
+      "severity": "Moderate",
+      "cvss": null,
+      "product": "azl3 python3 3.12.9-11 on Azure Linux 3.0",
+      "products": [
+        "azl3 python3 3.12.9-11 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-2486",
       "title": "UEFI Shell accessible in AAVMF with Secure Boot enabled on Ubuntu",
       "severity": "Low",
@@ -174802,7 +175170,7 @@
       "products": [
         "azl3 erlang 26.2.5.20-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -177024,6 +177392,20 @@
         "azl3 mariadb 10.11.16-1 on Azure Linux 3.0"
       ],
       "date": "2026-03-31",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-43966",
+      "title": "HTTP Response Splitting via Non-VCHAR Bytes in cow_http_struct_hd:escape_string/2",
+      "severity": "Low",
+      "cvss": null,
+      "product": "azl3 rabbitmq-server 3.13.7-5 on Azure Linux 3.0",
+      "products": [
+        "azl3 rabbitmq-server 3.13.7-5 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -186296,6 +186678,398 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-01-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12437",
+      "title": "CVE-2026-12437 Use after free in WebShare",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12439",
+      "title": "CVE-2026-12439 Use after free in Digital Credentials",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12440",
+      "title": "CVE-2026-12440 Use after free in DigitalCredentials",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12441",
+      "title": "CVE-2026-12441 Use after free in File Input",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12443",
+      "title": "CVE-2026-12443 Use after free in Web Authentication",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12444",
+      "title": "CVE-2026-12444 Out of bounds read in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12445",
+      "title": "CVE-2026-12445 Use after free in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12446",
+      "title": "CVE-2026-12446 Insufficient data validation in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12447",
+      "title": "CVE-2026-12447 Heap buffer overflow in WebRTC",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12449",
+      "title": "CVE-2026-12449 Use after free in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12451",
+      "title": "CVE-2026-12451 Use after free in DigitalCredentials",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12452",
+      "title": "CVE-2026-12452 Use after free in Downloads",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12453",
+      "title": "CVE-2026-12453 Insufficient validation of untrusted input in Input",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12454",
+      "title": "CVE-2026-12454 Race in Safe Browsing",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12455",
+      "title": "CVE-2026-12455 Use after free in Tab Strip",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12456",
+      "title": "CVE-2026-12456 Insufficient validation of untrusted input in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12457",
+      "title": "CVE-2026-12457 Insufficient data validation in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12458",
+      "title": "CVE-2026-12458 Incorrect security UI in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12459",
+      "title": "CVE-2026-12459 Inappropriate implementation in Serial",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12460",
+      "title": "CVE-2026-12460 Insufficient policy enforcement in File System Access",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12461",
+      "title": "CVE-2026-12461 Out of bounds read in WebRTC",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12462",
+      "title": "CVE-2026-12462 Use after free in Media",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12463",
+      "title": "CVE-2026-12463 Inappropriate implementation in Views",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12464",
+      "title": "CVE-2026-12464 Use after free in Browser",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12465",
+      "title": "CVE-2026-12465 Insufficient validation of untrusted input in Metrics",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12466",
+      "title": "CVE-2026-12466 Heap buffer overflow in WebRTC",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12467",
+      "title": "CVE-2026-12467 Use after free in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12468",
+      "title": "CVE-2026-12468 Inappropriate implementation in Updater",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
