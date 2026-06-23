@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5732,
+    "total": 5734,
     "critical": 328,
     "important": 2095,
-    "moderate": 1893,
-    "low": 179,
+    "moderate": 1894,
+    "low": 180,
     "exploited": 19,
     "patched": 1225,
-    "updated_at": "2026-06-23 05:46 UTC",
+    "updated_at": "2026-06-23 09:32 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -175830,6 +175830,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-12003",
+      "title": "CPython >3.11 Insecure Input Validation resulting in privilege escalation",
+      "severity": "Moderate",
+      "cvss": null,
+      "product": "azl3 python3 3.12.9-11 on Azure Linux 3.0",
+      "products": [
+        "azl3 python3 3.12.9-11 on Azure Linux 3.0",
+        "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-1502",
       "title": "HTTP client proxy tunnel headers not validated for CR/LF",
       "severity": "Moderate",
@@ -177183,6 +177198,20 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2025-09-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11623",
+      "title": "tmux image.c image_free use after free",
+      "severity": "Low",
+      "cvss": 4.5,
+      "product": "azl3 tmux 3.4-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 tmux 3.4-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-22",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
