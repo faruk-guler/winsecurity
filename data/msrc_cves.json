@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5842,
+    "total": 5845,
     "critical": 334,
-    "important": 2131,
-    "moderate": 1945,
+    "important": 2132,
+    "moderate": 1946,
     "low": 195,
     "exploited": 19,
     "patched": 1225,
-    "updated_at": "2026-06-25 04:43 UTC",
+    "updated_at": "2026-06-25 08:20 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -26666,6 +26666,20 @@
         "azl3 libcontainers-common 20240213-3 on Azure Linux 3.0"
       ],
       "date": "2025-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-11816",
+      "title": "Path Traversal in keras-team/keras",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product": "azl3 keras 3.3.3-7 on Azure Linux 3.0",
+      "products": [
+        "azl3 keras 3.3.3-7 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-25",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -116892,7 +116906,7 @@
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-10",
+      "date": "2026-06-24",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -169340,6 +169354,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-4367",
+      "title": "Libxpm: libxpm: denial of service via out-of-bounds read in xpm file parsing",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 libXpm 3.5.17-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 libXpm 3.5.17-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-25",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-44119",
       "title": "Apache HTTP Server: escalation of privilege through expressions in .htaccess in multiple modules",
       "severity": "Moderate",
@@ -181717,6 +181745,20 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-01-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-46140",
+      "title": "Bluetooth: btmtk: validate WMT event SKB length before struct access",
+      "severity": "",
+      "cvss": 7.1,
+      "product": "azl3 kernel 6.6.142.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.142.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-25",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
