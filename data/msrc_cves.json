@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5845,
+    "total": 5859,
     "critical": 334,
     "important": 2132,
     "moderate": 1946,
     "low": 195,
     "exploited": 19,
     "patched": 1225,
-    "updated_at": "2026-06-26 19:17 UTC",
+    "updated_at": "2026-06-26 21:05 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -191228,6 +191228,202 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13021",
+      "title": "Chromium: CVE-2026-13021 Inappropriate implementation in DeviceBoundSessionCredentials",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13022",
+      "title": "Chromium: CVE-2026-13022 Inappropriate implementation in Autofill",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13023",
+      "title": "Chromium: CVE-2026-13023 Uninitialized Use in GPU",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13024",
+      "title": "Chromium: CVE-2026-13024 Insufficient validation of untrusted input in Navigation",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13025",
+      "title": "Chromium: CVE-2026-13025 Insufficient validation of untrusted input in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13026",
+      "title": "Chromium: CVE-2026-13026 Use after free in Digital Credentials",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13027",
+      "title": "Chromium: CVE-2026-13027 Use after free in FileSystem",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13029",
+      "title": "Chromium: CVE-2026-13029 Use after free in Web Authentication",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13031",
+      "title": "Chromium: CVE-2026-13031 Use after free in Blink",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13033",
+      "title": "Chromium: CVE-2026-13033 Out of bounds read in Blink>InterestGroups",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13034",
+      "title": "Chromium: CVE-2026-13034 Inappropriate implementation in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13035",
+      "title": "Chromium: CVE-2026-13035 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13036",
+      "title": "Chromium: CVE-2026-13036 Use after free in Blink",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13038",
+      "title": "Chromium: CVE-2026-13038 Use after free in Autofill",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
