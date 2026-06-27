@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5859,
+    "total": 5868,
     "critical": 334,
-    "important": 2132,
+    "important": 2133,
     "moderate": 1946,
     "low": 195,
     "exploited": 19,
     "patched": 1225,
-    "updated_at": "2026-06-27 00:02 UTC",
+    "updated_at": "2026-06-27 04:33 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -26264,6 +26264,20 @@
         "Windows Admin Center"
       ],
       "date": "2026-05-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-50521",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -189889,6 +189903,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-11647",
+      "title": "Chromium: CVE-2026-11647 Use after free in Printing",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-11648",
       "title": "Chromium: CVE-2026-11647 Use after free in Printing",
       "severity": "",
@@ -190827,6 +190855,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-12028",
+      "title": "Chromium: CVE-2026-12028 Use after free  GPU",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12030",
+      "title": "Chromium: CVE-2026-12031 Inappropriate implementation  Views",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12032",
+      "title": "Chromium: CVE-2026-12032 Inappropriate implementation  Passwords",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-1220",
       "title": "Chromium: CVE-2026-1220 Race in V8",
       "severity": "",
@@ -190850,6 +190920,20 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12438",
+      "title": "Chromium: CVE-2026-12438 Inappropriate implementation in WebView",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -190892,6 +190976,20 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12442",
+      "title": "Chromium: CVE-2026-12442 Use after free in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -190962,6 +191060,20 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12448",
+      "title": "Chromium: CVE-2026-12448 Inappropriate implementation in WebView",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -191228,6 +191340,20 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12469",
+      "title": "Chromium: CVE-2026-12469 Uninitialized Use in GPU",
+      "severity": "",
+      "cvss": null,
+      "product": "Microsoft Edge (Chromium-based)",
+      "products": [
+        "Microsoft Edge (Chromium-based)"
+      ],
+      "date": "2026-06-26",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
