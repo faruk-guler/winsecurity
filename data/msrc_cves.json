@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6184,
+    "total": 6191,
     "critical": 388,
     "important": 2172,
     "moderate": 2140,
     "low": 195,
     "exploited": 19,
     "patched": 1225,
-    "updated_at": "2026-06-29 03:30 UTC",
+    "updated_at": "2026-06-29 08:55 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -25329,7 +25329,8 @@
       "products": [
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-13",
       "exploited": false,
@@ -66491,9 +66492,9 @@
       "products": [
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
       ],
       "date": "2026-04-29",
       "exploited": false,
@@ -66728,8 +66729,8 @@
         "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-04-26",
       "exploited": false,
@@ -76379,9 +76380,9 @@
       "products": [
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
       ],
       "date": "2026-05-02",
       "exploited": false,
@@ -76445,6 +76446,7 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-08",
@@ -76474,6 +76476,7 @@
       "product": "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
@@ -96865,9 +96868,9 @@
       "products": [
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-02",
       "exploited": false,
@@ -112629,9 +112632,9 @@
       "products": [
         "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0"
+        "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0"
       ],
       "date": "2026-04-23",
       "exploited": false,
@@ -117224,9 +117227,9 @@
       "products": [
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-02",
       "exploited": false,
@@ -150660,8 +150663,9 @@
       "title": "libceph: Fix potential out-of-bounds access in crush_decode()",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
@@ -151558,6 +151562,7 @@
       "products": [
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
@@ -151827,8 +151832,8 @@
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
       "exploited": false,
@@ -151876,7 +151881,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-22",
       "exploited": false,
@@ -151909,7 +151915,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -151926,7 +151933,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -151973,6 +151981,7 @@
       "products": [
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
@@ -151991,6 +152000,7 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
@@ -152415,7 +152425,7 @@
       "products": [
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -153392,7 +153402,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -153407,6 +153418,7 @@
       "product": "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
@@ -153424,6 +153436,7 @@
       "product": "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
@@ -153443,7 +153456,8 @@
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-09",
       "exploited": false,
@@ -153920,8 +153934,9 @@
       "title": "fuse: limit FUSE_NOTIFY_RETRIEVE to uptodate folios",
       "severity": "Moderate",
       "cvss": 7.0,
-      "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
@@ -159116,7 +159131,8 @@
       "cvss": 5.7,
       "product": "azl3 perl 5.38.2-509 on Azure Linux 3.0",
       "products": [
-        "azl3 perl 5.38.2-509 on Azure Linux 3.0"
+        "azl3 perl 5.38.2-509 on Azure Linux 3.0",
+        "azl3 perl 5.38.2-512 on Azure Linux 3.0"
       ],
       "date": "2026-05-27",
       "exploited": false,
@@ -166466,8 +166482,9 @@
       "title": "erofs: avoid infinite loops due to corrupted subpage compact indexes",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
@@ -170087,10 +170104,10 @@
       "product": "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
       "exploited": false,
@@ -170332,7 +170349,7 @@
         "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-04-26",
       "exploited": false,
@@ -170401,8 +170418,8 @@
         "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
         "cbl2 kernel 5.15.202.1-1 on CBL Mariner 2.0",
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
       ],
       "date": "2026-04-27",
       "exploited": false,
@@ -170967,10 +170984,10 @@
       "product": "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.130.1-3 on Azure Linux 3.0",
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0"
       ],
       "date": "2026-04-26",
       "exploited": false,
@@ -171105,7 +171122,8 @@
       "products": [
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-13",
       "exploited": false,
@@ -171230,7 +171248,8 @@
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-25",
       "exploited": false,
@@ -171245,10 +171264,10 @@
       "product": "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-02",
       "exploited": false,
@@ -171283,7 +171302,8 @@
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -171332,7 +171352,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -171349,7 +171370,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -171366,7 +171388,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -171395,8 +171418,9 @@
       "title": "iommu/vt-d: Skip dev-iotlb flush for inaccessible PCIe device without scalable mode",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product": "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
@@ -171459,6 +171483,7 @@
       "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
@@ -171508,6 +171533,7 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
@@ -171536,8 +171562,9 @@
       "title": "team: avoid NETDEV_CHANGEMTU event when unregistering slave",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product": "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
@@ -171584,6 +171611,7 @@
       "product": "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
@@ -171603,7 +171631,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-22",
       "exploited": false,
@@ -171634,7 +171663,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-09",
       "exploited": false,
@@ -171651,7 +171681,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-09",
       "exploited": false,
@@ -171696,7 +171727,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-09",
       "exploited": false,
@@ -171713,7 +171745,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
       "exploited": false,
@@ -171746,7 +171779,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
       "exploited": false,
@@ -171763,7 +171797,8 @@
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
       "exploited": false,
@@ -171780,7 +171815,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-22",
       "exploited": false,
@@ -171796,6 +171832,7 @@
       "products": [
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
@@ -171814,7 +171851,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
       "exploited": false,
@@ -171826,8 +171864,9 @@
       "title": "perf/x86/intel/uncore: Fix die ID init and look up bugs",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product": "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
@@ -171859,8 +171898,9 @@
       "title": "scsi: qla2xxx: Completely fix fcport double free",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
@@ -171879,7 +171919,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-11",
       "exploited": false,
@@ -171896,7 +171937,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-09",
       "exploited": false,
@@ -171911,7 +171953,8 @@
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-22",
       "exploited": false,
@@ -171926,7 +171969,8 @@
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-22",
       "exploited": false,
@@ -174494,7 +174538,8 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
       "exploited": false,
@@ -174510,7 +174555,7 @@
       "products": [
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -175194,9 +175239,10 @@
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
       "products": [
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -175607,8 +175653,9 @@
       "title": "net/mlx5e: xsk: Fix DMA and xdp_frame leak on XDP_TX xmit failure",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
       "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
@@ -176531,6 +176578,7 @@
       "product": "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
@@ -177305,7 +177353,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -177322,7 +177371,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -178696,7 +178746,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -178949,7 +179000,8 @@
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-25",
       "exploited": false,
@@ -179300,7 +179352,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-07",
       "exploited": false,
@@ -181839,8 +181892,9 @@
       "title": "shutil.unpack_archive() doesn't check for Windows absolute paths in ZIPs",
       "severity": "Moderate",
       "cvss": null,
-      "product": "azl3 python3 3.12.9-10 on Azure Linux 3.0",
+      "product": "azl3 python3 3.12.9-13 on Azure Linux 3.0",
       "products": [
+        "azl3 python3 3.12.9-13 on Azure Linux 3.0",
         "azl3 python3 3.12.9-10 on Azure Linux 3.0",
         "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
         "cbl2 python3 3.9.19-19 on CBL Mariner 2.0",
@@ -182646,6 +182700,7 @@
       "product": "azl3 python3 3.12.9-11 on Azure Linux 3.0",
       "products": [
         "azl3 python3 3.12.9-11 on Azure Linux 3.0",
+        "azl3 python3 3.12.9-13 on Azure Linux 3.0",
         "azl3 python3 3.12.9-10 on Azure Linux 3.0",
         "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0"
       ],
@@ -183729,7 +183784,8 @@
       "product": "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
       "products": [
         "cbl2 libsoup 3.0.4-13 on CBL Mariner 2.0",
-        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0"
+        "azl3 libsoup 3.4.4-15 on Azure Linux 3.0",
+        "azl3 libsoup 3.4.4-16 on Azure Linux 3.0"
       ],
       "date": "2026-06-23",
       "exploited": false,
@@ -183930,7 +183986,8 @@
       "product": "azl3 gh 2.62.0-15 on Azure Linux 3.0",
       "products": [
         "azl3 gh 2.62.0-15 on Azure Linux 3.0",
-        "azl3 gh 2.62.0-16 on Azure Linux 3.0"
+        "azl3 gh 2.62.0-16 on Azure Linux 3.0",
+        "azl3 gh 2.62.0-17 on Azure Linux 3.0"
       ],
       "date": "2026-05-21",
       "exploited": false,
@@ -184348,7 +184405,8 @@
         "azl3 kernel 6.6.137.1-2 on Azure Linux 3.0",
         "azl3 kernel 6.6.138.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-22",
       "exploited": false,
@@ -185531,9 +185589,10 @@
       "product": "azl3 poetry 1.8.3-1 on Azure Linux 3.0",
       "products": [
         "azl3 poetry 1.8.3-1 on Azure Linux 3.0",
-        "azl3 poetry 1.8.5-1 on Azure Linux 3.0"
+        "azl3 poetry 1.8.5-1 on Azure Linux 3.0",
+        "azl3 poetry 1.8.5-2 on Azure Linux 3.0"
       ],
-      "date": "2026-04-26",
+      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -185582,7 +185641,8 @@
         "azl3 keda 2.14.1-11 on Azure Linux 3.0",
         "azl3 telegraf 1.31.0-19 on Azure Linux 3.0",
         "azl3 keda 2.14.1-13 on Azure Linux 3.0",
-        "azl3 telegraf 1.31.0-22 on Azure Linux 3.0"
+        "azl3 telegraf 1.31.0-22 on Azure Linux 3.0",
+        "azl3 keda 2.14.1-14 on Azure Linux 3.0"
       ],
       "date": "2026-05-10",
       "exploited": false,
@@ -185661,7 +185721,8 @@
       "product": "azl3 rabbitmq-server 3.13.7-3 on Azure Linux 3.0",
       "products": [
         "azl3 rabbitmq-server 3.13.7-3 on Azure Linux 3.0",
-        "azl3 rabbitmq-server 3.13.7-5 on Azure Linux 3.0"
+        "azl3 rabbitmq-server 3.13.7-5 on Azure Linux 3.0",
+        "azl3 rabbitmq-server 3.13.7-6 on Azure Linux 3.0"
       ],
       "date": "2026-05-15",
       "exploited": false,
@@ -185848,9 +185909,10 @@
         "cbl2 python3 3.9.19-19 on CBL Mariner 2.0",
         "azl3 python3 3.12.9-10 on Azure Linux 3.0",
         "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
-        "azl3 python3 3.12.9-11 on Azure Linux 3.0"
+        "azl3 python3 3.12.9-11 on Azure Linux 3.0",
+        "azl3 python3 3.12.9-13 on Azure Linux 3.0"
       ],
-      "date": "2026-04-29",
+      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -185864,6 +185926,7 @@
       "products": [
         "azl3 python3 3.12.9-10 on Azure Linux 3.0",
         "azl3 python3 3.12.9-11 on Azure Linux 3.0",
+        "azl3 python3 3.12.9-13 on Azure Linux 3.0",
         "azl3 tensorflow 2.16.1-11 on Azure Linux 3.0",
         "azl3 expat 2.6.4-6 on Azure Linux 3.0"
       ],
@@ -185944,6 +186007,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-52908",
+      "title": "RDMA: During rereg_mr ensure that REREG_ACCESS is compatible",
+      "severity": "",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52909",
+      "title": "ip6_vti: set netns_immutable on the fallback device.",
+      "severity": "",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52910",
+      "title": "bpf: Free reuseport cBPF prog after RCU grace period.",
+      "severity": "",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2023-50967",
       "title": "latchset jose through version 11 allows attackers to cause a denial of service (CPU consumption) via a large p2c (aka PBES2 Count) value.",
       "severity": "",
@@ -186003,6 +186108,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-58050",
+      "title": "libssh2 - Integer Overflow in publickey Subsystem Attribute Allocation",
+      "severity": "",
+      "cvss": 7.0,
+      "product": "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+      "products": [
+        "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+        "azl3 libssh2 1.11.1-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-8197",
       "title": "Rejected reason: Maintainers have included reasons at https://gitlab.gnome.org/GNOME/libsoup/-/issues/465",
       "severity": "",
@@ -186044,6 +186164,35 @@
         "Azure Linux 3.0 x64"
       ],
       "date": "2025-07-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58051",
+      "title": "libssh2 - Free of Uninitialized Pointer in publickey List Cleanup",
+      "severity": "",
+      "cvss": 6.5,
+      "product": "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+      "products": [
+        "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+        "azl3 libssh2 1.11.1-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58058",
+      "title": "Nmap - Integer Underflow in IPv6 Extension Header Parsing",
+      "severity": "",
+      "cvss": 6.5,
+      "product": "azl3 nmap 7.95-3 on Azure Linux 3.0",
+      "products": [
+        "azl3 nmap 7.95-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -186129,6 +186278,20 @@
         "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58055",
+      "title": "nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length",
+      "severity": "",
+      "cvss": 5.4,
+      "product": "azl3 nghttp2 1.61.0-3 on Azure Linux 3.0",
+      "products": [
+        "azl3 nghttp2 1.61.0-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -196797,7 +196960,8 @@
       "products": [
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.134.1-2 on Azure Linux 3.0",
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-24",
       "exploited": false,
