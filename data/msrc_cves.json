@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6191,
-    "critical": 388,
-    "important": 2172,
-    "moderate": 2140,
-    "low": 195,
+    "total": 6197,
+    "critical": 369,
+    "important": 2188,
+    "moderate": 2177,
+    "low": 203,
     "exploited": 19,
     "patched": 1225,
-    "updated_at": "2026-06-30 04:19 UTC",
+    "updated_at": "2026-06-30 08:05 UTC",
     "month": "Past 12 Months"
   },
   "cves": [
@@ -4946,20 +4946,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-52916",
-      "title": "batman-adv: frag: disallow unicast fragment in fragment",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-52919",
       "title": "batman-adv: fix tp_meter counter underflow during shutdown",
       "severity": "Critical",
@@ -4983,20 +4969,6 @@
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-52926",
-      "title": "batman-adv: clear current gateway during teardown",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5103,62 +5075,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-52963",
-      "title": "ALSA: usb-audio: Bound MIDI endpoint descriptor scans",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-52972",
-      "title": "crypto: af_alg - Cap AEAD AD length to 0x80000000",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-52977",
-      "title": "futex: Prevent lockup in requeue-PI during signal/ timeout wakeup",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-52981",
-      "title": "neigh: let neigh_xmit take skb ownership",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-52989",
       "title": "nvmet-tcp: propagate nvmet_tcp_build_pdu_iovec() errors to its callers",
       "severity": "Critical",
@@ -5167,7 +5083,7 @@
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5231,20 +5147,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-53006",
-      "title": "ipv6: fix possible UAF in icmpv6_rcv()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-53009",
       "title": "ice: fix double-free of tx_buf skb",
       "severity": "Critical",
@@ -5275,20 +5177,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-53011",
-      "title": "net/sched: taprio: fix use-after-free in advance_sched() on schedule switch",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-53017",
       "title": "f2fs: fix data loss caused by incorrect use of nat_entry flag",
       "severity": "Critical",
@@ -5312,48 +5200,6 @@
       "products": [
         "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53021",
-      "title": "scsi: target: core: Fix integer overflow in UNMAP bounds check",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53022",
-      "title": "platform/x86: dell-wmi-sysman: bound enumeration string aggregation",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53023",
-      "title": "fs/ntfs3: terminate the cached volume label after UTF-8 conversion",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
       "exploited": false,
@@ -5391,20 +5237,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-53035",
-      "title": "bpf, sockmap: Fix af_unix iter deadlock",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-53036",
       "title": "bpf, arm64: Fix off-by-one in check_imm signed range check",
       "severity": "Critical",
@@ -5413,7 +5245,7 @@
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5498,63 +5330,7 @@
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53066",
-      "title": "drm/sun4i: backend: fix error pointer dereference",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53068",
-      "title": "drm/komeda: fix integer overflow in AFBC framebuffer size check",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53071",
-      "title": "Bluetooth: l2cap: Add missing chan lock in l2cap_ecred_reconf_rsp",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53072",
-      "title": "Bluetooth: fix locking in hci_conn_request_evt() with HCI_PROTO_DEFER",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5568,7 +5344,7 @@
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5582,7 +5358,7 @@
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5596,22 +5372,7 @@
       "products": [
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53089",
-      "title": "bpf: Fix use-after-free in offloaded map/prog info fill",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5626,50 +5387,7 @@
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53108",
-      "title": "powerpc/64s: Fix unmap race with PMD migration entries",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53112",
-      "title": "wifi: rtlwifi: pci: fix possible use-after-free caused by unfinished irq_prepare_bcn_tasklet",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53128",
-      "title": "drbd: Balance RCU calls in drbd_adm_dump_devices()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -5684,6 +5402,20 @@
         "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53309",
+      "title": "ocfs2/dlm: fix off-by-one in dlm_match_regions() region comparison",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -28634,20 +28366,6 @@
         "azl3 memcached 1.6.27-4 on Azure Linux 3.0"
       ],
       "date": "2026-05-21",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53013",
-      "title": "macvlan: fix macvlan_get_size() not reserving space for IFLA_MACVLAN_BC_CUTOFF",
-      "severity": "Important",
-      "cvss": 8.1,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -79144,6 +78862,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-52908",
+      "title": "RDMA: During rereg_mr ensure that REREG_ACCESS is compatible",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52909",
+      "title": "ip6_vti: set netns_immutable on the fallback device.",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52910",
+      "title": "bpf: Free reuseport cBPF prog after RCU grace period.",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-52912",
       "title": "netfilter: nf_queue: hold bridge skb->dev while queued",
       "severity": "Important",
@@ -79167,6 +78927,20 @@
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52926",
+      "title": "batman-adv: clear current gateway during teardown",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -79214,6 +78988,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-52972",
+      "title": "crypto: af_alg - Cap AEAD AD length to 0x80000000",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-53005",
       "title": "af_unix: Drop all SCM attributes for SOCKMAP.",
       "severity": "Important",
@@ -79224,6 +79012,20 @@
         "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53021",
+      "title": "scsi: target: core: Fix integer overflow in UNMAP bounds check",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -79243,6 +79045,35 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53068",
+      "title": "drm/komeda: fix integer overflow in AFBC framebuffer size check",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53089",
+      "title": "bpf: Fix use-after-free in offloaded map/prog info fill",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-53097",
       "title": "wifi: mt76: mt7996: fix use-after-free bugs in mt7996_mac_dump_work()",
       "severity": "Important",
@@ -79253,6 +79084,20 @@
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53112",
+      "title": "wifi: rtlwifi: pci: fix possible use-after-free caused by unfinished irq_prepare_bcn_tasklet",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -79381,7 +79226,7 @@
         "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
         "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -88307,6 +88152,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53284",
+      "title": "btrfs: only release the dirty pages io tree after successful writes",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-55203",
       "title": "HAProxy - Integer Overflow in FCGI Demux Record Length Field",
       "severity": "Important",
@@ -97048,6 +96907,76 @@
         "azl3 jq 1.7.1-6 on Azure Linux 3.0"
       ],
       "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53023",
+      "title": "fs/ntfs3: terminate the cached volume label after UTF-8 conversion",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53293",
+      "title": "drm/amdgpu: fix AMDGPU_INFO_READ_MMR_REG",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53303",
+      "title": "f2fs: protect extension_list reading with sb_lock in f2fs_sbi_show()",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53306",
+      "title": "tty: hvc_iucv: fix off-by-one in number of supported devices",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-54369",
+      "title": "acl < 2.4.0 Symlink Traversal Privilege Escalation via libacl Functions",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product": "azl3 acl 2.3.1-2 on Azure Linux 3.0",
+      "products": [
+        "azl3 acl 2.3.1-2 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -118395,6 +118324,21 @@
       "kb_count": 10
     },
     {
+      "cve_id": "CVE-2026-58050",
+      "title": "libssh2 - Integer Overflow in publickey Subsystem Attribute Allocation",
+      "severity": "Important",
+      "cvss": 7.0,
+      "product": "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+      "products": [
+        "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+        "azl3 libssh2 1.11.1-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-38724",
       "title": "nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm()",
       "severity": "Important",
@@ -128667,6 +128611,21 @@
         "GitHub Copilot Chat"
       ],
       "date": "2026-06-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58051",
+      "title": "libssh2 - Free of Uninitialized Pointer in publickey List Cleanup",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product": "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+      "products": [
+        "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
+        "azl3 libssh2 1.11.1-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -152235,6 +152194,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-46140",
+      "title": "Bluetooth: btmtk: validate WMT event SKB length before struct access",
+      "severity": "Moderate",
+      "cvss": 7.1,
+      "product": "azl3 kernel 6.6.142.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.142.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-25",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-46146",
       "title": "ALSA: usb-audio: Avoid potential endless loop in convert_chmap_v3()",
       "severity": "Moderate",
@@ -152796,6 +152770,20 @@
         "azl3 libnfs 5.0.2-1 on Azure Linux 3.0"
       ],
       "date": "2026-06-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-54371",
+      "title": "attr < 2.6.0 Symlink Traversal Privilege Escalation via getfattr/setfattr",
+      "severity": "Moderate",
+      "cvss": 7.1,
+      "product": "azl3 acl 2.3.1-2 on Azure Linux 3.0",
+      "products": [
+        "azl3 acl 2.3.1-2 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -153787,6 +153775,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53006",
+      "title": "ipv6: fix possible UAF in icmpv6_rcv()",
+      "severity": "Moderate",
+      "cvss": 7.0,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53011",
+      "title": "net/sched: taprio: fix use-after-free in advance_sched() on schedule switch",
+      "severity": "Moderate",
+      "cvss": 7.0,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-53034",
       "title": "bpf, sockmap: Fix af_unix null-ptr-deref in proto update",
       "severity": "Moderate",
@@ -153803,6 +153819,34 @@
     {
       "cve_id": "CVE-2026-53059",
       "title": "dm log: fix out-of-bounds write due to region_count overflow",
+      "severity": "Moderate",
+      "cvss": 7.0,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53071",
+      "title": "Bluetooth: l2cap: Add missing chan lock in l2cap_ecred_reconf_rsp",
+      "severity": "Moderate",
+      "cvss": 7.0,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53072",
+      "title": "Bluetooth: fix locking in hci_conn_request_evt() with HCI_PROTO_DEFER",
       "severity": "Moderate",
       "cvss": 7.0,
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
@@ -154205,7 +154249,7 @@
         "azl3 python3 3.12.9-11 on Azure Linux 3.0",
         "azl3 cmake 3.30.3-14 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154241,7 +154285,7 @@
         "azl3 python3 3.12.9-11 on Azure Linux 3.0",
         "azl3 python3 3.12.9-13 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154259,7 +154303,7 @@
         "azl3 cmake 3.30.3-13 on Azure Linux 3.0",
         "azl3 python3 3.12.9-13 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154273,7 +154317,7 @@
       "products": [
         "azl3 expat 2.6.4-6 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154287,7 +154331,7 @@
       "products": [
         "azl3 expat 2.6.4-6 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -156322,6 +156366,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-58058",
+      "title": "Nmap - Integer Underflow in IPv6 Extension Header Parsing",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product": "azl3 nmap 7.95-3 on Azure Linux 3.0",
+      "products": [
+        "azl3 nmap 7.95-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6238",
       "title": "Buffer overread in ns_printrrf with corrupted RDATA field",
       "severity": "Moderate",
@@ -157805,6 +157863,20 @@
         "azl3 python-mistune 3.0.2-1 on Azure Linux 3.0"
       ],
       "date": "2026-05-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-44889",
+      "title": "WebOb: Location header normalization during redirect leads to open redirect",
+      "severity": "Moderate",
+      "cvss": 6.1,
+      "product": "azl3 python-webob 1.8.8-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 python-webob 1.8.8-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -174490,6 +174562,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-52916",
+      "title": "batman-adv: frag: disallow unicast fragment in fragment",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-52921",
       "title": "netfilter: ipset: stop hash:* range iteration at end",
       "severity": "Moderate",
@@ -174677,6 +174763,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-52963",
+      "title": "ALSA: usb-audio: Bound MIDI endpoint descriptor scans",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-52964",
       "title": "ALSA: usb-audio: Bound MIDI 2.0 endpoint descriptor scans",
       "severity": "Moderate",
@@ -174735,6 +174835,34 @@
     {
       "cve_id": "CVE-2026-52975",
       "title": "bonding: 3ad: implement proper RCU rules for port->aggregator",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52977",
+      "title": "futex: Prevent lockup in requeue-PI during signal/ timeout wakeup",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-52981",
+      "title": "neigh: let neigh_xmit take skb ownership",
       "severity": "Moderate",
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
@@ -174846,6 +174974,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53013",
+      "title": "macvlan: fix macvlan_get_size() not reserving space for IFLA_MACVLAN_BC_CUTOFF",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-53015",
       "title": "erofs: unify lcn as u64 for 32-bit platforms",
       "severity": "Moderate",
@@ -174861,8 +175003,36 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53022",
+      "title": "platform/x86: dell-wmi-sysman: bound enumeration string aggregation",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-53032",
       "title": "bpf: Fix NULL deref in map_kptr_match_type for scalar regs",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53035",
+      "title": "bpf, sockmap: Fix af_unix iter deadlock",
       "severity": "Moderate",
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
@@ -175015,6 +175185,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53066",
+      "title": "drm/sun4i: backend: fix error pointer dereference",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-53070",
       "title": "sctp: disable BH before calling udp_tunnel_xmit_skb()",
       "severity": "Moderate",
@@ -175144,6 +175328,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53108",
+      "title": "powerpc/64s: Fix unmap race with PMD migration entries",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+        "azl3 kernel 6.6.141.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-53109",
       "title": "powerpc/pgtable-frag: Fix bad page state in pte_frag_destroy",
       "severity": "Moderate",
@@ -175250,6 +175449,20 @@
     {
       "cve_id": "CVE-2026-53126",
       "title": "blk-cgroup: fix disk reference leak in blkcg_maybe_throttle_current()",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53128",
+      "title": "drbd: Balance RCU calls in drbd_adm_dump_devices()",
       "severity": "Moderate",
       "cvss": 5.5,
       "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
@@ -175778,6 +175991,216 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-53279",
+      "title": "drm/gma500/oaktrail_lvds: fix hang on init failure",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53287",
+      "title": "audit: fix incorrect inheritable capability in CAPSET records",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53289",
+      "title": "ice: fix NULL pointer dereference in ice_reset_all_vfs()",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53291",
+      "title": "ALSA: hda/conexant: Fix missing error check for jack detection",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53292",
+      "title": "net: phonet: do not BUG_ON() in pn_socket_autobind() on failed bind",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53294",
+      "title": "mailbox: mailbox-test: don't free the reused channel",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53295",
+      "title": "mailbox: add sanity check for channel array",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53296",
+      "title": "mailbox: mailbox-test: free channels on probe error",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53297",
+      "title": "net: mana: Guard mana_remove against double invocation",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53304",
+      "title": "scsi: sg: Resolve soft lockup issue when opening /dev/sgX",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53313",
+      "title": "drm/amd/display: Avoid NULL dereference in dc_dmub_srv error paths",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53314",
+      "title": "padata: Put CPU offline callback in ONLINE section to allow failure",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53320",
+      "title": "nilfs2: reject zero bd_oblocknr in nilfs_ioctl_mark_blocks_dirty()",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53325",
+      "title": "agp/amd64: Fix broken error propagation in agp_amd64_probe()",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53655",
+      "title": "node-tar applies PAX size override to intermediary GNU long-name/long-link headers, causing tar parser interpretation differential (file smuggling)",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product": "azl3 tar 1.35-2 on Azure Linux 3.0",
+      "products": [
+        "azl3 tar 1.35-2 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-54679",
       "title": "jq: potential integer overflow in jvp_string_append",
       "severity": "Moderate",
@@ -175969,6 +176392,20 @@
         "azl3 packer 1.9.5-16 on Azure Linux 3.0"
       ],
       "date": "2026-05-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58055",
+      "title": "nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length",
+      "severity": "Moderate",
+      "cvss": 5.4,
+      "product": "azl3 nghttp2 1.61.0-3 on Azure Linux 3.0",
+      "products": [
+        "azl3 nghttp2 1.61.0-3 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -177472,6 +177909,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-57436",
+      "title": "Nokogiri: Possible Use-After-Free when setting `Document#root=` to an invalid node type",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product": "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57437",
+      "title": "Nokogiri: Possible Use-After-Free when directly using `NokogirI::XML::XPathContext` beyond document lifetime",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product": "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-57451",
       "title": "Vim: Out-of-bounds Read in Text Property Count",
       "severity": "Moderate",
@@ -178570,7 +179035,7 @@
         "azl3 expat 2.6.4-6 on Azure Linux 3.0",
         "azl3 python3 3.12.9-11 on Azure Linux 3.0"
       ],
-      "date": "2026-06-27",
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -182217,6 +182682,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-41992",
+      "title": "Global Buffer Overflow in GNU gzip",
+      "severity": "Moderate",
+      "cvss": null,
+      "product": "azl3 gzip 1.13-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 gzip 1.13-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-4224",
       "title": "Stack overflow parsing XML with deeply nested DTD content models",
       "severity": "Moderate",
@@ -182743,6 +183222,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-54906",
+      "title": "concurrent-ruby: ReadWriteLock allows wrong-thread write release and stray read-release counter corruption",
+      "severity": "Low",
+      "cvss": 9.8,
+      "product": "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-2486",
       "title": "UEFI Shell accessible in AAVMF with Secure Boot enabled on Ubuntu",
       "severity": "Low",
@@ -183044,6 +183537,20 @@
         "azl3 binutils 2.41-7 on Azure Linux 3.0"
       ],
       "date": "2026-05-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-54905",
+      "title": "concurrent-ruby:  `ReentrantReadWriteLock` read-count overflow grants a write lock without exclusivity",
+      "severity": "Low",
+      "cvss": 5.5,
+      "product": "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -184476,6 +184983,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-49356",
+      "title": "Babel: Arbitrary File Read via sourceMappingURL Comment in @babel/core",
+      "severity": "Low",
+      "cvss": 3.2,
+      "product": "azl3 babel 2.15.0-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 babel 2.15.0-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-11731",
       "title": "Libxslt: type confusion in exsltfuncresultcompfunction of libxslt",
       "severity": "Low",
@@ -184853,6 +185374,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-57062",
+      "title": "CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is related to CVE-2026-34182.",
+      "severity": "Low",
+      "cvss": 2.9,
+      "product": "azl3 gnupg2 2.4.9-2 on Azure Linux 3.0",
+      "products": [
+        "azl3 gnupg2 2.4.9-2 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-54314",
       "title": "Thor before 1.4.0 can construct an unsafe shell command from library input. NOTE: this is disputed by the Supplier because \"the method that was fixed can only be used with arguments that are controlled by Thor, and there is no way an attacker can take control of those arguments.\"",
       "severity": "Low",
@@ -184925,6 +185460,20 @@
         "cbl2 mysql 8.0.45-3 on CBL Mariner 2.0"
       ],
       "date": "2026-04-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57234",
+      "title": "Nokogiri: XML::Schema on JRuby allows network requests when NONET is set, bypassing CVE-2020-26247",
+      "severity": "Low",
+      "cvss": 2.6,
+      "product": "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -185318,6 +185867,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-11979",
+      "title": "Stack-Based Buffer Overflow in libxml2",
+      "severity": "Low",
+      "cvss": null,
+      "product": "azl3 libxml2 2.11.5-10 on Azure Linux 3.0",
+      "products": [
+        "azl3 libxml2 2.11.5-10 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-1703",
       "title": "Limited path traversal when installing wheel archives",
       "severity": "Low",
@@ -185650,6 +186213,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-41991",
+      "title": "Predictable Temporary File in GNU gzip",
+      "severity": "Low",
+      "cvss": null,
+      "product": "azl3 gzip 1.13-1 on Azure Linux 3.0",
+      "products": [
+        "azl3 gzip 1.13-1 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-42250",
       "title": "Off-by-One Leading to Out-of-Bounds Write in bzip2",
       "severity": "Low",
@@ -185755,6 +186332,20 @@
         "azl3 packer 1.9.5-16 on Azure Linux 3.0"
       ],
       "date": "2026-05-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-47241",
+      "title": "Net::IMAP: Denial of Service via incomplete raw argument validation",
+      "severity": "Low",
+      "cvss": null,
+      "product": "azl3 ruby 3.3.5-8 on Azure Linux 3.0",
+      "products": [
+        "azl3 ruby 3.3.5-8 on Azure Linux 3.0"
+      ],
+      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -185978,20 +186569,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-54906",
-      "title": "concurrent-ruby: ReadWriteLock allows wrong-thread write release and stray read-release counter corruption",
-      "severity": "",
-      "cvss": 9.8,
-      "product": "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2023-6175",
       "title": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') in Wireshark",
       "severity": "",
@@ -186002,48 +186579,6 @@
         "Azure Linux 3.0 ARM"
       ],
       "date": "2025-07-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-52908",
-      "title": "RDMA: During rereg_mr ensure that REREG_ACCESS is compatible",
-      "severity": "",
-      "cvss": 7.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-52909",
-      "title": "ip6_vti: set netns_immutable on the fallback device.",
-      "severity": "",
-      "cvss": 7.8,
-      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-52910",
-      "title": "bpf: Free reuseport cBPF prog after RCU grace period.",
-      "severity": "",
-      "cvss": 7.8,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -186088,36 +186623,6 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-01-16",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-46140",
-      "title": "Bluetooth: btmtk: validate WMT event SKB length before struct access",
-      "severity": "",
-      "cvss": 7.1,
-      "product": "azl3 kernel 6.6.142.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.142.1-1 on Azure Linux 3.0",
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-25",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-58050",
-      "title": "libssh2 - Integer Overflow in publickey Subsystem Attribute Allocation",
-      "severity": "",
-      "cvss": 7.0,
-      "product": "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
-      "products": [
-        "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
-        "azl3 libssh2 1.11.1-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-29",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -186169,49 +186674,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-58051",
-      "title": "libssh2 - Free of Uninitialized Pointer in publickey List Cleanup",
-      "severity": "",
-      "cvss": 6.5,
-      "product": "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
-      "products": [
-        "azl3 libssh 0.10.6-8 on Azure Linux 3.0",
-        "azl3 libssh2 1.11.1-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-58058",
-      "title": "Nmap - Integer Underflow in IPv6 Extension Header Parsing",
-      "severity": "",
-      "cvss": 6.5,
-      "product": "azl3 nmap 7.95-3 on Azure Linux 3.0",
-      "products": [
-        "azl3 nmap 7.95-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-44889",
-      "title": "WebOb: Location header normalization during redirect leads to open redirect",
-      "severity": "",
-      "cvss": 6.1,
-      "product": "azl3 python-webob 1.8.8-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 python-webob 1.8.8-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-38611",
       "title": "vmci: Prevent the dispatching of uninitialized payloads",
       "severity": "",
@@ -186255,76 +186717,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-53655",
-      "title": "node-tar applies PAX size override to intermediary GNU long-name/long-link headers, causing tar parser interpretation differential (file smuggling)",
-      "severity": "",
-      "cvss": 5.5,
-      "product": "azl3 tar 1.35-2 on Azure Linux 3.0",
-      "products": [
-        "azl3 tar 1.35-2 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-54905",
-      "title": "concurrent-ruby:  `ReentrantReadWriteLock` read-count overflow grants a write lock without exclusivity",
-      "severity": "",
-      "cvss": 5.5,
-      "product": "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 rubygem-concurrent-ruby 1.2.2-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-58055",
-      "title": "nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length",
-      "severity": "",
-      "cvss": 5.4,
-      "product": "azl3 nghttp2 1.61.0-3 on Azure Linux 3.0",
-      "products": [
-        "azl3 nghttp2 1.61.0-3 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-57436",
-      "title": "Nokogiri: Possible Use-After-Free when setting `Document#root=` to an invalid node type",
-      "severity": "",
-      "cvss": 5.3,
-      "product": "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-57437",
-      "title": "Nokogiri: Possible Use-After-Free when directly using `NokogirI::XML::XPathContext` beyond document lifetime",
-      "severity": "",
-      "cvss": 5.3,
-      "product": "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-11563",
       "title": "wcurl path traversal with percent-encoded slashes",
       "severity": "",
@@ -186352,48 +186744,6 @@
         "azl3 nodejs 24.14.1-3 on Azure Linux 3.0"
       ],
       "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-49356",
-      "title": "Babel: Arbitrary File Read via sourceMappingURL Comment in @babel/core",
-      "severity": "",
-      "cvss": 3.2,
-      "product": "azl3 babel 2.15.0-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 babel 2.15.0-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-57062",
-      "title": "CMS (Cryptographic Message Syntax) parsing in gpgsm in GnuPG through 2.5.20 mishandles the CMS format for AES-GCM because aes-ICVlen is supposed to be 12 bytes but 4 bytes is accepted. NOTE: this is related to CVE-2026-34182.",
-      "severity": "",
-      "cvss": 2.9,
-      "product": "azl3 gnupg2 2.4.9-2 on Azure Linux 3.0",
-      "products": [
-        "azl3 gnupg2 2.4.9-2 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-57234",
-      "title": "Nokogiri: XML::Schema on JRuby allows network requests when NONET is set, bypassing CVE-2020-26247",
-      "severity": "",
-      "cvss": 2.6,
-      "product": "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 rubygem-nokogiri 1.15.4-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -197565,20 +197915,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-47241",
-      "title": "Net::IMAP: Denial of Service via incomplete raw argument validation",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 ruby 3.3.5-8 on Azure Linux 3.0",
-      "products": [
-        "azl3 ruby 3.3.5-8 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-5272",
       "title": "Chromium: CVE-2026-5272 Heap buffer overflow in GPU",
       "severity": "",
@@ -197826,258 +198162,6 @@
         "Microsoft Edge (Chromium-based)"
       ],
       "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53279",
-      "title": "drm/gma500/oaktrail_lvds: fix hang on init failure",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53284",
-      "title": "btrfs: only release the dirty pages io tree after successful writes",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53287",
-      "title": "audit: fix incorrect inheritable capability in CAPSET records",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53289",
-      "title": "ice: fix NULL pointer dereference in ice_reset_all_vfs()",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53291",
-      "title": "ALSA: hda/conexant: Fix missing error check for jack detection",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53292",
-      "title": "net: phonet: do not BUG_ON() in pn_socket_autobind() on failed bind",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53293",
-      "title": "drm/amdgpu: fix AMDGPU_INFO_READ_MMR_REG",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53294",
-      "title": "mailbox: mailbox-test: don't free the reused channel",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53295",
-      "title": "mailbox: add sanity check for channel array",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53296",
-      "title": "mailbox: mailbox-test: free channels on probe error",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53297",
-      "title": "net: mana: Guard mana_remove against double invocation",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53303",
-      "title": "f2fs: protect extension_list reading with sb_lock in f2fs_sbi_show()",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53304",
-      "title": "scsi: sg: Resolve soft lockup issue when opening /dev/sgX",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53306",
-      "title": "tty: hvc_iucv: fix off-by-one in number of supported devices",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53309",
-      "title": "ocfs2/dlm: fix off-by-one in dlm_match_regions() region comparison",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53313",
-      "title": "drm/amd/display: Avoid NULL dereference in dc_dmub_srv error paths",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.143.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53314",
-      "title": "padata: Put CPU offline callback in ONLINE section to allow failure",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53320",
-      "title": "nilfs2: reject zero bd_oblocknr in nilfs_ioctl_mark_blocks_dirty()",
-      "severity": "",
-      "cvss": null,
-      "product": "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0",
-      "products": [
-        "azl3 kernel 6.6.139.1-1 on Azure Linux 3.0"
-      ],
-      "date": "2026-06-28",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
