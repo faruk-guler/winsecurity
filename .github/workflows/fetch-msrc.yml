@@ -2,7 +2,7 @@ name: Fetch MSRC CVE Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Automatically runs every half hour
+    - cron: '0 * * * *' # Automatically runs every hour
   workflow_dispatch:                # Manual trigger from GitHub UI
 
 jobs:
@@ -49,19 +49,51 @@ jobs:
           # Generate last 12 months (oldest first, so newest overwrites in case of revisions)
           today = date.today()
           month_ids = []
+          MONTHS = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
           for i in range(11, -1, -1):
               m = today.month - i
               y = today.year
               while m <= 0:
                   m += 12
                   y -= 1
-              month_name = date(y, m, 1).strftime('%b')
+              month_name = MONTHS[m]
               month_ids.append(f"{y}-{month_name}")
 
           print("Generating data for months:", month_ids)
 
           cves_map = {}
-          
+          products_table = []
+          product_to_idx = {}
+
+          def get_product_idx(name):
+              if not name:
+                  return None
+              if name not in product_to_idx:
+                  idx = len(products_table)
+                  products_table.append(name)
+                  product_to_idx[name] = idx
+                  return idx
+              return product_to_idx[name]
+
+          def walk(branch, product_map):
+              """Recursively walk the ProductTree branches and populate product_map."""
+              if not branch:
+                  return
+              for p in branch.get('FullProductName', []):
+                  product_map[p['ProductID']] = p['Value']
+              for b in branch.get('Branch', []):
+                  walk(b, product_map)
+
+          def get_url_score(url):
+              """Return a priority score for a Microsoft URL (higher = more preferred)."""
+              if not url:
+                  return 0
+              u_l = url.lower()
+              if 'catalog.update.microsoft.com' in u_l: return 4
+              if 'support.microsoft.com' in u_l: return 3
+              if 'microsoft.com' in u_l: return 2
+              return 1
+
           for month_id in month_ids:
               url = f"https://api.msrc.microsoft.com/cvrf/v3.0/cvrf/{month_id}"
               print(f"Fetching: {url} ...")
@@ -72,20 +104,15 @@ jobs:
                   if e.code == 404:
                       print(f"-> Month {month_id} not published yet (404). Skipping.")
                       continue
+                  else:
+                      print(f"-> HTTP Error {e.code} fetching {month_id}. Aborting.")
+                      raise e
               except Exception as e:
-                  print(f"-> Error fetching {month_id}: {e}. Skipping.")
-                  continue
+                  print(f"-> Error fetching {month_id}: {e}. Aborting.")
+                  raise e
 
               product_map = {}
-              def walk(branch):
-                  if not branch:
-                      return
-                  for p in branch.get('FullProductName', []):
-                      product_map[p['ProductID']] = p['Value']
-                  for b in branch.get('Branch', []):
-                      walk(b)
-
-              walk(raw.get('ProductTree', {}))
+              walk(raw.get('ProductTree', {}), product_map)
 
               vulns = raw.get('Vulnerability', [])
               for v in vulns:
@@ -113,13 +140,19 @@ jobs:
                   cvss = None
                   for s in v.get('CVSSScoreSets', []):
                       if s.get('BaseScore') and ('3.1' in s.get('Vector','') or '3.0' in s.get('Vector','')):
-                          cvss = float(s['BaseScore'])
-                          break
+                          try:
+                              cvss = float(s['BaseScore'])
+                              break
+                          except ValueError:
+                              pass
                   if cvss is None:
                       for s in v.get('CVSSScoreSets', []):
                           if s.get('BaseScore'):
-                              cvss = float(s['BaseScore'])
-                              break
+                              try:
+                                  cvss = float(s['BaseScore'])
+                                  break
+                              except ValueError:
+                                  pass
 
                   products = []
                   for ps in v.get('ProductStatuses', []):
@@ -183,14 +216,6 @@ jobs:
 
                       kb_products = [product_map.get(pid, '') for pid in pids if product_map.get(pid, '')]
 
-                      def get_url_score(url):
-                          if not url: return 0
-                          u_l = url.lower()
-                          if 'catalog.update.microsoft.com' in u_l: return 4
-                          if 'support.microsoft.com' in u_l: return 3
-                          if 'microsoft.com' in u_l: return 2
-                          return 1
-
                       if kb_num not in kb_map:
                           kb_map[kb_num] = {
                               'kb': kb_num,
@@ -226,17 +251,17 @@ jobs:
                           'url': kb_info['url'],
                           'fixed_build': kb_info['fixed_build'],
                           'subtype': kb_info['subtype'],
-                          'products': kb_info['products'][:8]
+                          'product_idxs': [get_product_idx(p) for p in kb_info['products'][:8] if p]
                       })
-                  kb_articles.sort(key=lambda x: x['kb'])
+                  kb_articles.sort(key=lambda x: int(x['kb']) if x['kb'].isdigit() else 0)
 
                   cves_map[cve_id] = {
                       'cve_id':      cve_id,
                       'title':       title,
                       'severity':    severity,
                       'cvss':        cvss,
-                      'product':     product,
-                      'products':    products[:5],
+                      'product_idx': get_product_idx(product),
+                      'product_idxs': [get_product_idx(p) for p in products[:5] if p],
                       'date':        date_str,
                       'exploited':   exploited,
                       'kb_articles': kb_articles,
@@ -266,7 +291,11 @@ jobs:
               'month':      "Past 12 Months"
           }
 
-          output = {'meta': counts, 'cves': parsed}
+          output = {
+              'meta': counts,
+              'products': products_table,
+              'cves': parsed
+          }
 
           with open('data/msrc_cves.json', 'w', encoding='utf-8') as f:
               json.dump(output, f, ensure_ascii=False, indent=2)

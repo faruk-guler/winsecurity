@@ -8,6 +8,9 @@
   <meta property="og:title" content="Microsoft Security Tracker v2">
   <meta property="og:description" content="Live MSRC CVE dashboard with KB patch details, severity ratings, and exploit status.">
   <meta name="theme-color" content="#1d4ed8">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
 </head>
 <body style="margin:0;padding:1rem;box-sizing:border-box">
 
@@ -63,7 +66,7 @@
   --wst-important-border: #431407;
   --wst-moderate-bg: #1c1700;
   --wst-moderate-text: #fbbf24;
-  --wst-moderate-border: #422006;
+  --wst-moderate-border: #713f12;
   --wst-low-bg: #0a1628;
   --wst-low-text: #60a5fa;
   --wst-low-border: #1e3a5f;
@@ -169,14 +172,16 @@
   to { transform: rotate(360deg); }
 }
 /* Glow states */
-.wst-theme-toggle.is-dark .wst-theme-circle {
+.wst-theme-toggle.is-dark .wst-theme-circle,
+.wst-theme-toggle.is-dark-auto .wst-theme-circle {
   box-shadow:
     0 0 18px 8px rgba(251,191,36,.35),
     0 0 36px 12px rgba(239,68,68,.2),
     inset 0 0 8px rgba(0,0,0,.5);
   border-color: rgba(251,191,36,.4);
 }
-.wst-theme-toggle.is-light .wst-theme-circle {
+.wst-theme-toggle.is-light .wst-theme-circle,
+.wst-theme-toggle.is-light-auto .wst-theme-circle {
   box-shadow:
     0 0 18px 8px rgba(99,102,241,.45),
     0 0 36px 10px rgba(168,85,247,.25),
@@ -188,8 +193,10 @@
   text-transform: uppercase; color: rgba(255,255,255,.7);
   transition: color .3s;
 }
-.wst-theme-toggle.is-dark  .wst-theme-label { color: #fbbf24; }
-.wst-theme-toggle.is-light .wst-theme-label { color: #c4b5fd; }
+.wst-theme-toggle.is-dark  .wst-theme-label,
+.wst-theme-toggle.is-dark-auto  .wst-theme-label { color: #fbbf24; }
+.wst-theme-toggle.is-light .wst-theme-label,
+.wst-theme-toggle.is-light-auto .wst-theme-label { color: #c4b5fd; }
 
 /* ── Stat cards ── */
 .wst-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 1.25rem; }
@@ -368,33 +375,32 @@
 
 /* ── Mobile ── */
 @media (max-width: 600px) {
-  .wst-banner-actions { display: none; }
+  .wst-banner-actions .wst-btn { display: none; }
   .wst-controls select { min-width: 120px; }
   .wst-table th:nth-child(3), .wst-table td:nth-child(3),
   .wst-table th:nth-child(6), .wst-table td:nth-child(6) { display: none; }
 }
 </style>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
 
-<div class="wst" id="wst-root">
+
+<main class="wst" id="wst-root">
 
   <!-- Banner -->
-  <div class="wst-banner">
+  <header class="wst-banner">
     <div class="wst-banner-inner">
       <div>
-        <div class="wst-banner-title">
+        <h1 class="wst-banner-title">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
             <path d="m9 12 2 2 4-4"/>
           </svg>
           Microsoft Security Tracker v2
-        </div>
+        </h1>
         <div class="wst-banner-sub">
           Microsoft Security Response Center (MSRC) &mdash; <span id="wst-month">Loading…</span>
           &bull; <a href="https://farukguler.com" target="_blank" rel="noopener">farukguler.com</a>
-          &bull; <a href="https://github.com/faruk-guler" target="_blank" rel="noopener">My Github Page</a>
+          &bull; <a href="https://github.com/faruk-guler" target="_blank" rel="noopener">My GitHub Page</a>
         </div>
       </div>
       <div class="wst-banner-actions">
@@ -402,7 +408,7 @@
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           MSRC Portal
         </a>
-        <button class="wst-theme-toggle" id="wst-dark-btn" onclick="toggleDark()" title="Auto day/night mode — click to override for 1 hour">
+        <button class="wst-theme-toggle" id="wst-dark-btn" onclick="toggleTheme()" title="Theme mode: Auto / Light / Dark - Click to toggle">
           <div class="wst-theme-circle">
             <div class="wst-theme-circle-inner"></div>
             <div class="wst-theme-circle-ring"></div>
@@ -411,10 +417,10 @@
         </button>
       </div>
     </div>
-  </div>
+  </header>
 
   <!-- Stats -->
-  <div class="wst-stats">
+  <section class="wst-stats">
     <div class="wst-stat">
       <div class="wst-stat-label">Total CVEs</div>
       <div class="wst-stat-value total" id="wst-s-total">—</div>
@@ -440,23 +446,23 @@
       <div class="wst-stat-value exploit" id="wst-s-exploited">0</div>
       <div class="wst-stat-meta">Active exploits</div>
     </div>
-  </div>
+  </section>
 
   <!-- Controls -->
-  <div class="wst-controls">
+  <section class="wst-controls">
     <div class="wst-search-wrap">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="text" id="wst-search" placeholder="Search CVE ID or title…" autocomplete="off">
+      <input type="text" id="wst-search" placeholder="Search CVE ID or title…" autocomplete="off" aria-label="Search CVEs">
     </div>
-    <select id="wst-sev">
+    <select id="wst-sev" aria-label="Filter by Severity">
       <option value="">All severities</option>
       <option value="Critical">🔴 Critical</option>
       <option value="Important">🟠 Important</option>
       <option value="Moderate">🟡 Moderate</option>
       <option value="Low">🔵 Low</option>
     </select>
-    <select id="wst-prod">
-      <option value="">All products</option>
+    <select id="wst-prod" title="Only showing products with at least 5 CVEs. Use search box for others." aria-label="Filter by Popular Product">
+      <option value="">Popular products (≥5 CVEs)</option>
     </select>
     <button class="wst-toggle" id="wst-exploit-toggle" onclick="toggleExploit()" title="Show only actively exploited vulnerabilities">
       <span class="wst-exploit-dot"></span> Exploited
@@ -469,7 +475,7 @@
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.51"/></svg>
       Reset
     </button>
-  </div>
+  </section>
 
   <!-- Info bar -->
   <div class="wst-info">
@@ -495,15 +501,15 @@
         </tr>
       </thead>
       <tbody id="wst-tbody">
-        <tr><td colspan="6" class="wst-empty">Loading data…</td></tr>
+        <tr><td colspan="7" class="wst-empty">Loading data…</td></tr>
       </tbody>
     </table>
   </div>
 
   <!-- Pagination -->
-  <div class="wst-pager" id="wst-pager"></div>
+  <nav class="wst-pager" id="wst-pager" aria-label="Pagination"></nav>
 
-</div>
+</main>
 
 <script>
 // ── State ──
@@ -515,50 +521,53 @@ let page      = 1;
 let exploitOnly = false;
 const PAGE_SIZE = 50;
 
-// ── Auto Day / Night mode ──
-// Day: 07:00 – 21:00 → Light  |  Night: 21:00 – 07:00 → Dark
-const DAY_START  = 7;   // 07:00
-const DAY_END    = 21;  // 21:00
-let   manualOverrideUntil = 0;  // timestamp ms
-
-function isNightTime() {
-  const h = new Date().getHours();
-  return h < DAY_START || h >= DAY_END;
+// ── HTML escape utility (prevents XSS from data values) ──
+function esc(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
-function applyTheme(dark, isAuto) {
+// ── Theme: simple Light / Dark toggle ──
+// 'light' = default, 'dark' = dark mode
+let themeMode = localStorage.getItem('wst-theme-mode') || 'light';
+
+function applyTheme() {
   const root  = document.getElementById('wst-root');
   const btn   = document.getElementById('wst-dark-btn');
   const label = document.getElementById('wst-dark-label');
-  if (dark) {
+  const isDark = themeMode === 'dark';
+
+  btn.classList.remove('is-light', 'is-dark', 'is-light-auto', 'is-dark-auto');
+  btn.classList.add(isDark ? 'is-dark' : 'is-light');
+  label.textContent = isDark ? 'DARK' : 'LIGHT';
+
+  if (isDark) {
     root.setAttribute('data-wst-dark', '');
-    btn.classList.remove('is-light'); btn.classList.add('is-dark');
-    label.textContent = isAuto ? 'NIGHT' : 'DARK';
   } else {
     root.removeAttribute('data-wst-dark');
-    btn.classList.remove('is-dark'); btn.classList.add('is-light');
-    label.textContent = isAuto ? 'DAY' : 'LIGHT';
   }
 }
 
-function autoThemeCheck() {
-  // Skip if manual override is still active
-  if (Date.now() < manualOverrideUntil) return;
-  applyTheme(isNightTime(), true);
+function toggleTheme() {
+  themeMode = themeMode === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('wst-theme-mode', themeMode);
+  applyTheme();
 }
 
-function toggleDark() {
-  const isDark = document.getElementById('wst-root').hasAttribute('data-wst-dark');
-  // Manual override: valid for 1 hour, then reverts to auto
-  manualOverrideUntil = Date.now() + 60 * 60 * 1000;
-  applyTheme(!isDark, false);
-}
+// Apply saved theme on load
+applyTheme();
 
-// Initial load: apply auto theme
-autoThemeCheck();
-
-// Check every minute so day/night transition is instant
-setInterval(autoThemeCheck, 60 * 1000);
+// Check for auto updates every minute
+setInterval(() => {
+  if (themeMode === 'auto') {
+    applyTheme();
+  }
+}, 60 * 1000);
 
 // ── KB filter toggle ──
 let kbOnly = false;
@@ -590,7 +599,7 @@ function resetFilters() {
   sortCol = 'date'; sortDir = -1; page = 1;
   document.querySelectorAll('.wst-table th').forEach(th => { 
     th.classList.remove('sorted-asc','sorted-desc'); 
-    if (th.dataset.col === 'date') th.classList.add('sorted-desc'); // Date başlığına oku ekler
+    if (th.dataset.col === 'date') th.classList.add('sorted-desc'); // Adds arrow to Date header
   });
   applyFilters();
 }
@@ -625,25 +634,27 @@ function buildKbPanel(d) {
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         Patch / KB Articles
       </div>
-      <div class="wst-kb-none">No KB article linked for this CVE. Check <a href="https://msrc.microsoft.com/update-guide/vulnerability/${d.cve_id}" target="_blank" rel="noopener" style="color:var(--wst-accent)">MSRC page</a> for manual remediation guidance.</div>
+      <div class="wst-kb-none">No KB article linked for this CVE. Check <a href="https://msrc.microsoft.com/update-guide/vulnerability/${esc(d.cve_id)}" target="_blank" rel="noopener" style="color:var(--wst-accent)">MSRC page</a> for manual remediation guidance.</div>
     </div>`;
   }
   const cards = d.kb_articles.map(kb => {
     const prods = (kb.products || []).slice(0, 6).map(p =>
-      `<span class="wst-kb-product-tag">${p.length > 40 ? p.slice(0,40)+'…' : p}</span>`
+      `<span class="wst-kb-product-tag">${esc(p.length > 40 ? p.slice(0,40)+'\u2026' : p)}</span>`
     ).join('');
     const more = (kb.products || []).length > 6 ? `<span class="wst-kb-product-tag">+${kb.products.length - 6} more</span>` : '';
     const kbClean = kb.kb.replace(/^[Kk][Bb]/, '');
     const kbDisplay = /^\d+$/.test(kbClean) ? 'KB' + kbClean : kbClean;
+    // Fallback URL if empty
+    const kbUrl = kb.url || `https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB${encodeURIComponent(kbDisplay)}`;
     return `<div class="wst-kb-card">
       <div>
-        <a class="wst-kb-num" href="${kb.url}" target="_blank" rel="noopener">
+        <a class="wst-kb-num" href="${esc(kbUrl)}" target="_blank" rel="noopener">
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          ${kbDisplay}
+          ${esc(kbDisplay)}
         </a>
-        ${kb.subtype ? `<span style="font-size:10px;color:var(--wst-muted);margin-left:6px">${kb.subtype}</span>` : ''}
+        ${kb.subtype ? `<span style="font-size:10px;color:var(--wst-muted);margin-left:6px">${esc(kb.subtype)}</span>` : ''}
       </div>
-      ${kb.fixed_build ? `<div class="wst-kb-build">→ ${kb.fixed_build}</div>` : ''}
+      ${kb.fixed_build ? `<div class="wst-kb-build">&rarr; ${esc(kb.fixed_build)}</div>` : ''}
       <div class="wst-kb-products">${prods}${more}</div>
     </div>`;
   }).join('');
@@ -683,6 +694,7 @@ function render() {
       No results found. Try adjusting the filters.
     </td></tr>`;
     renderPager();
+    updateStats();
     return;
   }
 
@@ -691,17 +703,16 @@ function render() {
     const exploitBadge = d.exploited
       ? `<span title="Actively exploited in the wild" style="margin-left:5px"><span class="wst-exploit-dot"></span></span>`
       : '';
-    const kbBadge = d.kb_count > 0
-      ? `<span class="wst-kb-badge">KB×${d.kb_count}</span>`
-      : '';
     const kbCell = d.kb_count > 0
       ? `<span style="font-size:12px;font-weight:600;color:#2563eb">${d.kb_count}</span>`
       : `<span style="font-size:11px;color:var(--wst-subtle)">—</span>`;
+    // Use esc() to prevent XSS from API title/product values
+    const allProds = (d.products && d.products.length ? d.products : (d.product ? [d.product] : []));
     return `<tr class="data-row" id="dr-${idx}" onclick="toggleKbRow(${idx})">
-      <td><a class="wst-cve-link" href="https://msrc.microsoft.com/update-guide/vulnerability/${d.cve_id}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${d.cve_id || '—'}</a>${exploitBadge}</td>
-      <td style="word-break:break-word;line-height:1.45">${d.title || '—'}<svg class="wst-row-expand" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></td>
-      <td><div class="wst-product" title="${(d.products||[d.product]).join(', ')}">${d.product || '—'}</div></td>
-      <td><span class="wst-badge ${d.severity || 'Unknown'}">${d.severity || 'Unknown'}</span></td>
+      <td><a class="wst-cve-link" href="https://msrc.microsoft.com/update-guide/vulnerability/${esc(d.cve_id)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(d.cve_id) || '—'}</a>${exploitBadge}</td>
+      <td style="word-break:break-word;line-height:1.45">${esc(d.title) || '—'}<svg class="wst-row-expand" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></td>
+      <td><div class="wst-product" title="${esc(allProds.join(', '))}">${esc(d.product) || '—'}</div></td>
+      <td><span class="wst-badge ${esc(d.severity || 'Unknown')}">${esc(d.severity) || 'Unknown'}</span></td>
       <td>${scoreBar(d.cvss)}</td>
       <td style="text-align:center">${kbCell}</td>
       <td class="wst-date">${fmt(d.date)}</td>
@@ -749,6 +760,7 @@ function buildPageRange(cur, total) {
   return r;
 }
 
+// ── Page navigation ──
 function goPage(p) {
   const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
   if (p < 1 || p > totalPages) return;
@@ -791,23 +803,28 @@ function applyFilters() {
     return true;
   });
 
-  if (sortCol) applySort(false);
+  if (sortCol) applySort();
   render();
 }
 
 // ── Sort ──
-function applySort(toggleDir = true) {
-  if (toggleDir) sortDir = (sortCol === this._col) ? -sortDir : 1;
+function applySort() {
   filtered.sort((a, b) => {
     let av = a[sortCol], bv = b[sortCol];
     if (sortCol === 'severity') {
       const o = {Critical:0,Important:1,Moderate:2,Low:3};
       av = o[av] ?? 4; bv = o[bv] ?? 4;
     }
-    if (av === null || av === undefined) av = sortDir === 1 ? Infinity : -Infinity;
-    if (bv === null || bv === undefined) bv = sortDir === 1 ? Infinity : -Infinity;
-    if (av < bv) return -sortDir;
-    if (av > bv) return  sortDir;
+    // Handle empty, null and undefined values by sending them to the bottom of the list
+    const isAvEmpty = av === null || av === undefined || av === '';
+    const isBvEmpty = bv === null || bv === undefined || bv === '';
+    if (isAvEmpty && isBvEmpty) return 0;
+    if (isAvEmpty) return 1;
+    if (isBvEmpty) return -1;
+
+    // sortDir: 1 = ascending (a→z), -1 = descending (z→a)
+    if (av < bv) return -1 * sortDir;
+    if (av > bv) return  1 * sortDir;
     return 0;
   });
 }
@@ -820,7 +837,7 @@ document.querySelectorAll('.wst-table th[data-col]').forEach(th => {
     else { sortCol = col; sortDir = 1; }
     document.querySelectorAll('.wst-table th').forEach(t => t.classList.remove('sorted-asc','sorted-desc'));
     th.classList.add(sortDir === 1 ? 'sorted-asc' : 'sorted-desc');
-    applySort(false);
+    applySort();
     page = 1;
     render();
   });
@@ -831,12 +848,19 @@ function populateProducts() {
   const sel = document.getElementById('wst-prod');
   while (sel.options.length > 1) sel.remove(1);
   
-  const allProds = [];
+  const counts = {};
   RAW_ALL.forEach(d => {
-    if (d.product) allProds.push(d.product);
-    if (d.products) allProds.push(...d.products);
+    const pSet = new Set();
+    if (d.product) pSet.add(d.product);
+    if (d.products) d.products.forEach(p => pSet.add(p));
+    pSet.forEach(p => counts[p] = (counts[p] || 0) + 1);
   });
-  const prods = [...new Set(allProds)].sort();
+  
+  // Only include products with at least 5 CVE occurrences to prevent dropdown bloat
+  const prods = Object.entries(counts)
+    .filter(([p, count]) => count >= 5)
+    .map(([p]) => p)
+    .sort();
   
   prods.forEach(p => {
     const o = document.createElement('option');
@@ -855,7 +879,7 @@ document.getElementById('wst-search').addEventListener('input', () => {
 document.getElementById('wst-sev').addEventListener('change',  () => { page = 1; applyFilters(); });
 document.getElementById('wst-prod').addEventListener('change', () => { page = 1; applyFilters(); });
 
-// ── Load data from JSON file (standalone, no Jekyll) ──
+// ── Load data from JSON file ──
 async function loadData() {
   const tb = document.getElementById('wst-tbody');
   tb.innerHTML = '<tr><td colspan="7" class="wst-empty">Loading CVE data…</td></tr>';
@@ -863,13 +887,35 @@ async function loadData() {
     const resp = await fetch('./data/msrc_cves.json');
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
-    RAW_ALL = data.cves || [];
+    
+    // Decompress product interning schema
+    const productsList = data.products || [];
+    RAW_ALL = (data.cves || []).map(c => ({
+      cve_id: c.cve_id,
+      title: c.title,
+      severity: c.severity,
+      cvss: c.cvss,
+      product: productsList[c.product_idx] || '',
+      products: (c.product_idxs || []).map(idx => productsList[idx] || '').filter(Boolean),
+      date: c.date,
+      exploited: c.exploited,
+      kb_count: c.kb_count,
+      kb_articles: (c.kb_articles || []).map(k => ({
+        kb: k.kb,
+        url: k.url,
+        fixed_build: k.fixed_build,
+        subtype: k.subtype,
+        products: (k.product_idxs || []).map(idx => productsList[idx] || '').filter(Boolean)
+      }))
+    }));
+
     // Update meta info in the UI
     const meta = data.meta || {};
     const monthEl = document.getElementById('wst-month');
     const updEl   = document.getElementById('wst-updated');
-    if (monthEl) monthEl.textContent = meta.month || '';
+    if (monthEl) monthEl.textContent = meta.month || 'Past 12 Months';
     if (updEl)   updEl.textContent   = meta.updated_at || 'unknown';
+    
     // Init table
     populateProducts();
     filtered = RAW_ALL.slice();

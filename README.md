@@ -2,7 +2,7 @@
 
 A live CVE tracking dashboard powered by the **Microsoft Security Response Center (MSRC) API**, built as a standalone HTML page with automated daily updates via GitHub Actions.
 
-![Preview](https://img.shields.io/badge/CVEs-June%202026-blue) ![Auto-update](https://img.shields.io/badge/Auto--update-hourly-green) ![License](https://img.shields.io/badge/license-Apache%20License%202.0-green)
+![Preview](https://img.shields.io/badge/CVEs-Past%2012%20Months-blue) ![Auto-update](https://img.shields.io/badge/Auto--update-hourly-green) ![License](https://img.shields.io/badge/license-Apache%20License%202.0-green)
 
 <img src="data/homepage.jpeg" alt="alt text" width="580" height="330">
 ---
@@ -37,7 +37,21 @@ data/
   msrc_cves.json        # Parsed CVE data (auto-generated, do not edit)
 index.html              # The standalone dashboard page
 README.md               # Project documentation
+winsecurity.py          # Local testing and data validation script
 ```
+
+---
+
+## Local Testing
+
+If you want to run the data collection script locally on your machine:
+
+1. Ensure you have Python installed.
+2. Run the script:
+   ```bash
+   python winsecurity.py
+   ```
+   This will fetch the rolling 12 months of MSRC CVE data and update `data/msrc_cves.json` locally.
 
 ---
 
