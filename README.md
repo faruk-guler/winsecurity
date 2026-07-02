@@ -4,7 +4,8 @@ A live CVE tracking dashboard powered by the **Microsoft Security Response Cente
 
 ![Preview](https://img.shields.io/badge/CVEs-Past%2012%20Months-blue) ![Auto-update](https://img.shields.io/badge/Auto--update-hourly-green) ![License](https://img.shields.io/badge/license-Apache%20License%202.0-green)
 
-<img src="data/homepage.jpeg" alt="alt text" width="580" height="330">
+![Dashboard Preview](data/homepage.jpeg)
+
 ---
 
 ## What It Does
@@ -17,8 +18,8 @@ A live CVE tracking dashboard powered by the **Microsoft Security Response Cente
 ## Live Features
 
 | Feature | Details |
-|---|---|
-| **Auto day/night theme** | Switches automatically (07:00–21:00 Light, 21:00–07:00 Dark) |
+| --- | --- |
+| **Light / Dark theme** | Click the toggle button to switch themes; preference is saved |
 | **Click a row** | Expands KB patch panel — shows KB numbers, fixed builds, affected products |
 | **"Has KB Patch" filter** | Instantly narrows to only patched CVEs |
 | **KB search** | Type `KB5094125` in the search box to find which CVE it fixes |
@@ -29,7 +30,7 @@ A live CVE tracking dashboard powered by the **Microsoft Security Response Cente
 
 ## Project Structure
 
-```
+```text
 .github/
   workflows/
     fetch-msrc.yml      # GitHub Actions: fetches + parses MSRC API hourly
@@ -37,7 +38,7 @@ data/
   msrc_cves.json        # Parsed CVE data (auto-generated, do not edit)
 index.html              # The standalone dashboard page
 README.md               # Project documentation
-winsecurity.py          # Local testing and data validation script
+winsecurity.py          # Data collection script (used by both CI and local testing)
 ```
 
 ---
@@ -48,10 +49,12 @@ If you want to run the data collection script locally on your machine:
 
 1. Ensure you have Python installed.
 2. Run the script:
-   ```bash
-   python winsecurity.py
-   ```
-   This will fetch the rolling 12 months of MSRC CVE data and update `data/msrc_cves.json` locally.
+
+```bash
+python winsecurity.py
+```
+
+This will fetch the rolling 12 months of MSRC CVE data and update `data/msrc_cves.json` locally.
 
 ---
 
@@ -68,7 +71,7 @@ Create a new GitHub repository (e.g., `github.com/faruk-guler/winsecurity`) and 
 
 ### 2. Enable GitHub Actions write permissions
 
-Go to your repo → **Settings → Actions → General → Workflow permissions**  
+Go to your repo → **Settings → Actions → General → Workflow permissions**
 → Select **"Read and write permissions"** and check **"Allow GitHub Actions to create and approve pull requests"** → Save.
 
 ### 3. Enable GitHub Actions
@@ -77,13 +80,13 @@ Go to the **Actions** tab of your repository, select **Fetch MSRC CVE Data**, an
 
 ### 4. Enable GitHub Pages
 
-Go to your repo → **Settings → Pages**  
-→ Under **Build and deployment**, set **Source** to **Deploy from a branch**  
+Go to your repo → **Settings → Pages**
+→ Under **Build and deployment**, set **Source** to **Deploy from a branch**
 → Choose your branch (e.g., `main` or `master`) and folder (`/ (root)`) → Save.
 
 Your dashboard will be live at:
 
-```
+```text
 https://faruk-guler.github.io/winsecurity/
 ```
 
@@ -91,7 +94,7 @@ https://faruk-guler.github.io/winsecurity/
 
 ## Auto-Update Schedule
 
-The GitHub Actions workflow runs **every hour**.  
+The GitHub Actions workflow runs **every hour**.
 Each month it automatically picks up the new Patch Tuesday release from Microsoft and consolidates it with the previous 11 months of data.
 
 ---
@@ -107,4 +110,4 @@ Each month it automatically picks up the new Patch Tuesday release from Microsof
 
 ## Author
 
-Faruk GULER /Sysadmin
+Faruk GULER / Sysadmin
