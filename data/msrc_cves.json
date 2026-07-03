@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 5748,
+    "total": 6077,
     "critical": 347,
-    "important": 1969,
-    "moderate": 2002,
-    "low": 193,
+    "important": 2008,
+    "moderate": 2005,
+    "low": 194,
     "exploited": 18,
     "patched": 1099,
-    "updated_at": "2026-07-03 20:13 UTC",
+    "updated_at": "2026-07-03 22:03 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1360,8 +1360,8 @@
     "Windows Narrator Braille",
     "Azure HorizonDB",
     "Dynamics 365 Customer Voice",
-    "azl3 runc 1.3.3-2 on Azure Linux 3.0",
-    "Microsoft Entra Provisioning Service"
+    "Microsoft Entra Provisioning Service",
+    "azl3 runc 1.3.3-2 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -4023,9 +4023,9 @@
       "title": "Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1350,
+      "product_idx": 1349,
       "product_idxs": [
-        1350
+        1349
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -16089,6 +16089,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-58289",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 9.0,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-54351",
       "title": "In iperf before 3.19.1, net.c has a buffer overflow when --skip-rx-copy is used (for MSG_TRUNC in recv).",
       "severity": "Important",
@@ -22818,6 +22832,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-56645",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57974",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57981",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6473",
       "title": "PostgreSQL server undersizes allocations, via integer wraparound",
       "severity": "Important",
@@ -23018,6 +23074,20 @@
         }
       ],
       "kb_count": 5
+    },
+    {
+      "cve_id": "CVE-2026-57983",
+      "title": "Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
+      "severity": "Important",
+      "cvss": 8.7,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2006-10003",
@@ -24153,6 +24223,76 @@
         108
       ],
       "date": "2026-07-02",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58284",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58285",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58287",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58288",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58295",
+      "title": "Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -25665,6 +25805,62 @@
         958,
         1204,
         673
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58282",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58283",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58286",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58293",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
       ],
       "date": "2026-07-03",
       "exploited": false,
@@ -71698,6 +71894,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-57985",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.6,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2024-47866",
       "title": "RGW DoS attack with empty HTTP header in S3 object copy",
       "severity": "Important",
@@ -79236,6 +79446,132 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-57975",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57984",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57986",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57992",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58276",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58290",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58292",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58294",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58299",
+      "title": "Microsoft Edge for Android Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-5928",
       "title": "Static buffer overflow in deprecated nis_local_principal",
       "severity": "Important",
@@ -80932,6 +81268,34 @@
         1075
       ],
       "date": "2026-06-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57991",
+      "title": "Microsoft Edge (Chromium-based) Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 7.4,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-02",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57993",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 7.4,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -83437,6 +83801,20 @@
         }
       ],
       "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-58298",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 7.2,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-7246",
@@ -86979,6 +87357,62 @@
         1292
       ],
       "date": "2026-07-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57977",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57988",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58296",
+      "title": "Microsoft Edge for Android Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58297",
+      "title": "Microsoft Edge for Android Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -107567,6 +108001,20 @@
       "kb_count": 8
     },
     {
+      "cve_id": "CVE-2026-58522",
+      "title": "Microsoft Edge for Android Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 6.8,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-47179",
       "title": "Configuration Manager Elevation of Privilege Vulnerability",
       "severity": "Important",
@@ -115714,6 +116162,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-56646",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57987",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-58051",
       "title": "libssh2 - Free of Uninitialized Pointer in publickey List Cleanup",
       "severity": "Important",
@@ -115725,6 +116201,20 @@
         1286
       ],
       "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58523",
+      "title": "Microsoft Edge for Android Security Feature Bypass Vulnerability",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -117252,6 +117742,20 @@
       "kb_count": 3
     },
     {
+      "cve_id": "CVE-2026-58300",
+      "title": "Microsoft Edge for Android Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 6.2,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-55330",
       "title": "Windows BitLocker Security Feature Bypass Vulnerability",
       "severity": "Important",
@@ -118004,6 +118508,20 @@
         }
       ],
       "kb_count": 4
+    },
+    {
+      "cve_id": "CVE-2026-58291",
+      "title": "Microsoft Edge (Chromium-based) Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 6.1,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-25250",
@@ -128867,6 +129385,34 @@
         }
       ],
       "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-58278",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 5.4,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-58524",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 5.4,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2023-20585",
@@ -141676,6 +142222,20 @@
         1213
       ],
       "date": "2026-05-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-45489",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -160213,6 +160773,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-45488",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Moderate",
+      "cvss": 5.4,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-45494",
       "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
       "severity": "Moderate",
@@ -164422,6 +164996,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-55945",
+      "title": "Microsoft Edge (Chromium-based) Information Disclosure Vulnerability",
+      "severity": "Moderate",
+      "cvss": 4.2,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-40110",
       "title": "drm/vmwgfx: Fix a null-ptr access in the cursor snooper",
       "severity": "Moderate",
@@ -166568,6 +167156,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-58597",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Low",
+      "cvss": 4.3,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6412",
       "title": "Continued acceptance of SHA-1/MD5 digests in certificate processing",
       "severity": "Low",
@@ -167550,9 +168152,9 @@
       "title": "runc: Malicious image with /dev symlink can trigger limited host filesystem integrity violations",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1349,
+      "product_idx": 1350,
       "product_idxs": [
-        1349
+        1350
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -178634,6 +179236,4010 @@
         108
       ],
       "date": "2026-06-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13774",
+      "title": "Chromium: CVE-2026-13774 Use after free in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13775",
+      "title": "Chromium: CVE-2026-13775 Use after free in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13776",
+      "title": "Chromium: CVE-2026-13776 Type Confusion in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13779",
+      "title": "Chromium: CVE-2026-13779 Use after free in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13780",
+      "title": "Chromium: CVE-2026-13780 Insufficient validation of untrusted input in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13781",
+      "title": "Chromium: CVE-2026-13781 Insufficient validation of untrusted input in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13782",
+      "title": "Chromium: CVE-2026-13782 Use after free in Browser",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13783",
+      "title": "Chromium: CVE-2026-13783 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13784",
+      "title": "Chromium: CVE-2026-13784 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13786",
+      "title": "Chromium: CVE-2026-13786 Use after free in Ozone",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13787",
+      "title": "Chromium: CVE-2026-13787 Use after free in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13790",
+      "title": "Chromium: CVE-2026-13790 Side-channel information leakage in Scroll",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13793",
+      "title": "Chromium: CVE-2026-13793 Insufficient policy enforcement in SVG",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13794",
+      "title": "Chromium: CVE-2026-13794 Insufficient validation of untrusted input in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13796",
+      "title": "Chromium: CVE-2026-13796 Integer overflow in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13797",
+      "title": "Chromium: CVE-2026-13797 Insufficient validation of untrusted input in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13798",
+      "title": "Chromium: CVE-2026-13798 Heap buffer overflow in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13799",
+      "title": "Chromium: CVE-2026-13799 Use after free in QUIC",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13800",
+      "title": "Chromium: CVE-2026-13800 Inappropriate implementation in Updater",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13801",
+      "title": "Chromium: CVE-2026-13801 Integer overflow in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13802",
+      "title": "Chromium: CVE-2026-13802 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13803",
+      "title": "Chromium: CVE-2026-13803 Type Confusion in Chrome Tabs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13804",
+      "title": "Chromium: CVE-2026-13804 Use after free in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13806",
+      "title": "Chromium: CVE-2026-13806 Insufficient validation of untrusted input in Accessibility",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13810",
+      "title": "Chromium: CVE-2026-13810 Inappropriate implementation in Input",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13811",
+      "title": "Chromium: CVE-2026-13811 Use after free in IME",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13814",
+      "title": "Chromium: CVE-2026-13814 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13815",
+      "title": "Chromium: CVE-2026-13815 Use after free in Blink",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13817",
+      "title": "Chromium: CVE-2026-13817 Insufficient validation of untrusted input in Glic",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13818",
+      "title": "Chromium: CVE-2026-13818 Inappropriate implementation in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13820",
+      "title": "Chromium: CVE-2026-13820 Out of bounds read in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13821",
+      "title": "Chromium: CVE-2026-13821 Use after free in Canvas",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13823",
+      "title": "Chromium: CVE-2026-13823 Use after free in Glic",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13824",
+      "title": "Chromium: CVE-2026-13824 Insufficient validation of untrusted input in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13828",
+      "title": "Chromium: CVE-2026-13828 Inappropriate implementation in Enterprise",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13829",
+      "title": "Chromium: CVE-2026-13829 Insufficient validation of untrusted input in Settings",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13830",
+      "title": "Chromium: CVE-2026-13830 Use after free in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13831",
+      "title": "Chromium: CVE-2026-13831 Use after free in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13832",
+      "title": "Chromium: CVE-2026-13832 Use after free in Headless",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13834",
+      "title": "Chromium: CVE-2026-13834 Insufficient validation of untrusted input in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13835",
+      "title": "Chromium: CVE-2026-13835 Inappropriate implementation in XML",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13836",
+      "title": "Chromium: CVE-2026-13836 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13837",
+      "title": "Chromium: CVE-2026-13837 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13838",
+      "title": "Chromium: CVE-2026-13838 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13839",
+      "title": "Chromium: CVE-2026-13839 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13840",
+      "title": "Chromium: CVE-2026-13840 Insufficient policy enforcement in Canvas",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13841",
+      "title": "Chromium: CVE-2026-13841 Integer overflow in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13844",
+      "title": "Chromium: CVE-2026-13844 Use after free in Updater",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13845",
+      "title": "Chromium: CVE-2026-13845 Use after free in DOM",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13848",
+      "title": "Chromium: CVE-2026-13848 Use after free in Forms",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13849",
+      "title": "Chromium: CVE-2026-13849 Insufficient validation of untrusted input in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13853",
+      "title": "Chromium: CVE-2026-13853 Use after free in Journeys",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13854",
+      "title": "Chromium: CVE-2026-13854 Use after free in Ozone",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13855",
+      "title": "Chromium: CVE-2026-13855 Use after free in Ozone",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13857",
+      "title": "Chromium: CVE-2026-13857 Inappropriate implementation in Geometry",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13858",
+      "title": "Chromium: CVE-2026-13858 Out of bounds read in FFmpeg",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13859",
+      "title": "Chromium: CVE-2026-13859 Inappropriate implementation in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13860",
+      "title": "Chromium: CVE-2026-13860 Incorrect security UI in Autofill",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13861",
+      "title": "Chromium: CVE-2026-13861 Use after free in Core",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13864",
+      "title": "Chromium: CVE-2026-13864 Insufficient policy enforcement in WebHID",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13865",
+      "title": "Chromium: CVE-2026-13865 Insufficient validation of untrusted input in Enterprise",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13867",
+      "title": "Chromium: CVE-2026-13867 Inappropriate implementation in Geolocation",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13869",
+      "title": "Chromium: CVE-2026-13869 Use after free in Device",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13871",
+      "title": "Chromium: CVE-2026-13871 Insufficient data validation in GuestView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13873",
+      "title": "Chromium: CVE-2026-13873 Out of bounds memory access in Layout",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13874",
+      "title": "Chromium: CVE-2026-13874 Inappropriate implementation in DataTransfer",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13875",
+      "title": "Chromium: CVE-2026-13875 Insufficient validation of untrusted input in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13876",
+      "title": "Chromium: CVE-2026-13876 Inappropriate implementation in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13877",
+      "title": "Chromium: CVE-2026-13877 Insufficient validation of untrusted input in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13879",
+      "title": "Chromium: CVE-2026-13879 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13881",
+      "title": "Chromium: CVE-2026-13881 Insufficient data validation in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13882",
+      "title": "Chromium: CVE-2026-13882 Inappropriate implementation in USB",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13883",
+      "title": "Chromium: CVE-2026-13883 Type Confusion in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13884",
+      "title": "Chromium: CVE-2026-13884 Heap buffer overflow in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13886",
+      "title": "Chromium: CVE-2026-13886 Policy bypass in Isolated Web Apps",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13888",
+      "title": "Chromium: CVE-2026-13888 Use after free in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13890",
+      "title": "Chromium: CVE-2026-13890 Out of bounds read in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13891",
+      "title": "Chromium: CVE-2026-13891 Insufficient validation of untrusted input in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13893",
+      "title": "Chromium: CVE-2026-13893 Insufficient validation of untrusted input in WebUI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13894",
+      "title": "Chromium: CVE-2026-13894 Insufficient policy enforcement in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13895",
+      "title": "Chromium: CVE-2026-13895 Inappropriate implementation in Autofill",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13896",
+      "title": "Chromium: CVE-2026-13896 Insufficient policy enforcement in Glic",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13897",
+      "title": "Chromium: CVE-2026-13897 Insufficient policy enforcement in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13898",
+      "title": "Chromium: CVE-2026-13898 Use after free in Cast Receiver",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13899",
+      "title": "Chromium: CVE-2026-13899 Use after free in HTML",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13900",
+      "title": "Chromium: CVE-2026-13900 Insufficient validation of untrusted input in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13901",
+      "title": "Chromium: CVE-2026-13901 Insufficient validation of untrusted input in Serial",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13903",
+      "title": "Chromium: CVE-2026-13903 Insufficient policy enforcement in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13906",
+      "title": "Chromium: CVE-2026-13906 Out of bounds read in Codecs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13909",
+      "title": "Chromium: CVE-2026-13909 Insufficient policy enforcement in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13911",
+      "title": "Chromium: CVE-2026-13911 Insufficient data validation in Spellcheck",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13919",
+      "title": "Chromium: CVE-2026-13919 Insufficient data validation in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13920",
+      "title": "Chromium: CVE-2026-13920 Insufficient validation of untrusted input in Media",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13921",
+      "title": "Chromium: CVE-2026-13921 Insufficient validation of untrusted input in DeviceBoundSessionCredentials",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13922",
+      "title": "Chromium: CVE-2026-13922 Side-channel information leakage in Paint",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13925",
+      "title": "Chromium: CVE-2026-13925 Inappropriate implementation in Downloads",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13928",
+      "title": "Chromium: CVE-2026-13928 Insufficient validation of untrusted input in Enterprise",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13930",
+      "title": "Chromium: CVE-2026-13930 Insufficient policy enforcement in Actor",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13931",
+      "title": "Chromium: CVE-2026-13931 Inappropriate implementation in Media",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13933",
+      "title": "Chromium: CVE-2026-13933 Insufficient policy enforcement in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13934",
+      "title": "Chromium: CVE-2026-13934 Insufficient validation of untrusted input in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13935",
+      "title": "Chromium: CVE-2026-13935 Side-channel information leakage in ComputePressure",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13937",
+      "title": "Chromium: CVE-2026-13937 Insufficient policy enforcement in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13938",
+      "title": "Chromium: CVE-2026-13938 Integer overflow in Fonts",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13940",
+      "title": "Chromium: CVE-2026-13940 Uninitialized Use in Cast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13941",
+      "title": "Chromium: CVE-2026-13941 Inappropriate implementation in SiteSettings",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13942",
+      "title": "Chromium: CVE-2026-13942 Insufficient validation of untrusted input in Video Capture",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13945",
+      "title": "Chromium: CVE-2026-13945 Insufficient policy enforcement in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13947",
+      "title": "Chromium: CVE-2026-13947 Uninitialized Use in XR",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13948",
+      "title": "Chromium: CVE-2026-13948 Insufficient policy enforcement in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13950",
+      "title": "Chromium: CVE-2026-13950 Uninitialized Use in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13951",
+      "title": "Chromium: CVE-2026-13951 Policy bypass in USB",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13952",
+      "title": "Chromium: CVE-2026-13952 Inappropriate implementation in PerformanceAPIs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13953",
+      "title": "Chromium: CVE-2026-13953 Inappropriate implementation in SplitView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13954",
+      "title": "Chromium: CVE-2026-13954 Insufficient policy enforcement in XML",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13956",
+      "title": "Chromium: CVE-2026-13956 Incorrect security UI in PageInfo",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13957",
+      "title": "Chromium: CVE-2026-13957 Incorrect security UI in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13958",
+      "title": "Chromium: CVE-2026-13958 Uninitialized Use in Codecs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13959",
+      "title": "Chromium: CVE-2026-13959 Insufficient validation of untrusted input in Blink",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13960",
+      "title": "Chromium: CVE-2026-13960 Inappropriate implementation in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13961",
+      "title": "Chromium: CVE-2026-13961 Insufficient validation of untrusted input in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13962",
+      "title": "Chromium: CVE-2026-13962 Insufficient data validation in PDF",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13963",
+      "title": "Chromium: CVE-2026-13963 Inappropriate implementation in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13965",
+      "title": "Chromium: CVE-2026-13965 Use after free in Oilpan",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13966",
+      "title": "Chromium: CVE-2026-13966 Inappropriate implementation in History",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13967",
+      "title": "Chromium: CVE-2026-13967 Type Confusion in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13968",
+      "title": "Chromium: CVE-2026-13968 Insufficient validation of untrusted input in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13970",
+      "title": "Chromium: CVE-2026-13970 Uninitialized Use in Media",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13971",
+      "title": "Chromium: CVE-2026-13971 Uninitialized Use in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13972",
+      "title": "Chromium: CVE-2026-13972 Inappropriate implementation in Paint",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13973",
+      "title": "Chromium: CVE-2026-13973 Inappropriate implementation in UI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13976",
+      "title": "Chromium: CVE-2026-13976 Heap buffer overflow in Storage",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13977",
+      "title": "Chromium: CVE-2026-13977 Inappropriate implementation in HTMLParser",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13978",
+      "title": "Chromium: CVE-2026-13978 Insufficient policy enforcement in PageInfo",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13979",
+      "title": "Chromium: CVE-2026-13979 Inappropriate implementation in Paint",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13982",
+      "title": "Chromium: CVE-2026-13982 Incorrect security UI in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13984",
+      "title": "Chromium: CVE-2026-13984 Incorrect security UI in TabStrip",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13985",
+      "title": "Chromium: CVE-2026-13985 Inappropriate implementation in MediaCapture",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13986",
+      "title": "Chromium: CVE-2026-13986 Inappropriate implementation in Media UI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13988",
+      "title": "Chromium: CVE-2026-13988 Inappropriate implementation in Paint",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13989",
+      "title": "Chromium: CVE-2026-13989 Insufficient policy enforcement in PageInfo",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13990",
+      "title": "Chromium: CVE-2026-13990 Insufficient validation of untrusted input in DataTransfer",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13993",
+      "title": "Chromium: CVE-2026-13993 Incorrect security UI in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13996",
+      "title": "Chromium: CVE-2026-13996 Incorrect security UI in Permissions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13999",
+      "title": "Chromium: CVE-2026-13999 Inappropriate implementation in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14000",
+      "title": "Chromium: CVE-2026-14000 Inappropriate implementation in XML",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14001",
+      "title": "Chromium: CVE-2026-14001 Inappropriate implementation in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14002",
+      "title": "Chromium: CVE-2026-14002 Inappropriate implementation in Geolocation",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14003",
+      "title": "Chromium: CVE-2026-14003 Insufficient policy enforcement in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14004",
+      "title": "Chromium: CVE-2026-14004 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14006",
+      "title": "Chromium: CVE-2026-14006 Use after free in Navigation",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14007",
+      "title": "Chromium: CVE-2026-14007 Insufficient policy enforcement in PermissionsPolicy",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14008",
+      "title": "Chromium: CVE-2026-14008 Uninitialized Use in WebXR",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14009",
+      "title": "Chromium: CVE-2026-14009 Insufficient data validation in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14010",
+      "title": "Chromium: CVE-2026-14010 Uninitialized Use in Codecs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14011",
+      "title": "Chromium: CVE-2026-14011 Out of bounds read in SurfaceCapture",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14012",
+      "title": "Chromium: CVE-2026-14012 Side-channel information leakage in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14013",
+      "title": "Chromium: CVE-2026-14013 Inappropriate implementation in SVG",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14014",
+      "title": "Chromium: CVE-2026-14014 Inappropriate implementation in Paint",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14015",
+      "title": "Chromium: CVE-2026-14015 Inappropriate implementation in WebRTC",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14016",
+      "title": "Chromium: CVE-2026-14016 Insufficient policy enforcement in SVG",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14017",
+      "title": "Chromium: CVE-2026-14017 Inappropriate implementation in Navigation",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14018",
+      "title": "Chromium: CVE-2026-14018 Use after free in Updater",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14019",
+      "title": "Chromium: CVE-2026-14019 Inappropriate implementation in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14020",
+      "title": "Chromium: CVE-2026-14020 Insufficient validation of untrusted input in WebXR",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14021",
+      "title": "Chromium: CVE-2026-14021 Insufficient validation of untrusted input in StorageAccessAPI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14022",
+      "title": "Chromium: CVE-2026-14022 Insufficient validation of untrusted input in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14023",
+      "title": "Chromium: CVE-2026-14023 Insufficient validation of untrusted input in SanitizerAPI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14024",
+      "title": "Chromium: CVE-2026-14024 Use after free in Ozone",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14025",
+      "title": "Chromium: CVE-2026-14025 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14026",
+      "title": "Chromium: CVE-2026-14026 Incorrect security UI in SplitView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14027",
+      "title": "Chromium: CVE-2026-14027 Use after free in SignIn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14030",
+      "title": "Chromium: CVE-2026-14030 Incorrect security UI in SplitView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14031",
+      "title": "Chromium: CVE-2026-14031 Incorrect security UI in File Input",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14032",
+      "title": "Chromium: CVE-2026-14032 Use after free in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14033",
+      "title": "Chromium: CVE-2026-14033 Insufficient policy enforcement in Media",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14034",
+      "title": "Chromium: CVE-2026-14034 Inappropriate implementation in WebXR",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14035",
+      "title": "Chromium: CVE-2026-14035 Insufficient policy enforcement in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14036",
+      "title": "Chromium: CVE-2026-14036 Insufficient policy enforcement in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14037",
+      "title": "Chromium: CVE-2026-14037 Insufficient policy enforcement in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14038",
+      "title": "Chromium: CVE-2026-14038 Insufficient validation of untrusted input in New Tab Page",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14039",
+      "title": "Chromium: CVE-2026-14039 Insufficient policy enforcement in GetUserMedia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14040",
+      "title": "Chromium: CVE-2026-14040 Use after free in BrowserTag",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14041",
+      "title": "Chromium: CVE-2026-14041 Insufficient policy enforcement in Serial",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14042",
+      "title": "Chromium: CVE-2026-14042 Inappropriate implementation in Isolated Web Apps",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14043",
+      "title": "Chromium: CVE-2026-14043 Use after free in GetUserMedia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14044",
+      "title": "Chromium: CVE-2026-14044 Use after free in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14045",
+      "title": "Chromium: CVE-2026-14045 Insufficient validation of untrusted input in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14046",
+      "title": "Chromium: CVE-2026-14046 Inappropriate implementation in CustomTabs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14047",
+      "title": "Chromium: CVE-2026-14047 Insufficient policy enforcement in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14048",
+      "title": "Chromium: CVE-2026-14048 Use after free in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14049",
+      "title": "Chromium: CVE-2026-14049 Inappropriate implementation in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14050",
+      "title": "Chromium: CVE-2026-14050 Insufficient policy enforcement in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14051",
+      "title": "Chromium: CVE-2026-14051 Uninitialized Use in GamepadAPI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14052",
+      "title": "Chromium: CVE-2026-14052 Insufficient policy enforcement in FileSystem",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14053",
+      "title": "Chromium: CVE-2026-14053 Insufficient policy enforcement in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14054",
+      "title": "Chromium: CVE-2026-14054 Insufficient policy enforcement in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14055",
+      "title": "Chromium: CVE-2026-14055 Insufficient validation of untrusted input in Device Trust",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14056",
+      "title": "Chromium: CVE-2026-14056 Insufficient validation of untrusted input in Media",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14057",
+      "title": "Chromium: CVE-2026-14057 Insufficient policy enforcement in FedCM",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14058",
+      "title": "Chromium: CVE-2026-14058 Policy bypass in Parser",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14059",
+      "title": "Chromium: CVE-2026-14059 Insufficient policy enforcement in Related-Website-Sets",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14060",
+      "title": "Chromium: CVE-2026-14060 Insufficient validation of untrusted input in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14061",
+      "title": "Chromium: CVE-2026-14061 Inappropriate implementation in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14062",
+      "title": "Chromium: CVE-2026-14062 Inappropriate implementation in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14063",
+      "title": "Chromium: CVE-2026-14063 Out of bounds memory access in Chromecast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14064",
+      "title": "Chromium: CVE-2026-14064 Use after free in PageInfo",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14065",
+      "title": "Chromium: CVE-2026-14065 Insufficient validation of untrusted input in PageInfo",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14068",
+      "title": "Chromium: CVE-2026-14068 Inappropriate implementation in Omnibox",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14069",
+      "title": "Chromium: CVE-2026-14069 Integer overflow in WebNN",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14070",
+      "title": "Chromium: CVE-2026-14070 Uninitialized Use in WebNN",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14071",
+      "title": "Chromium: CVE-2026-14071 Side-channel information leakage in WebAudio",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14072",
+      "title": "Chromium: CVE-2026-14072 Incorrect security UI in SplitView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14073",
+      "title": "Chromium: CVE-2026-14073 Insufficient policy enforcement in WebXR",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14074",
+      "title": "Chromium: CVE-2026-14074 Side-channel information leakage in WebAuthentication",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14076",
+      "title": "Chromium: CVE-2026-14076 Policy bypass in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14077",
+      "title": "Chromium: CVE-2026-14077 Incorrect security UI in Select",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14078",
+      "title": "Chromium: CVE-2026-14078 Policy bypass in WebRTC",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14079",
+      "title": "Chromium: CVE-2026-14079 Policy bypass in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14080",
+      "title": "Chromium: CVE-2026-14080 Insufficient validation of untrusted input in TabSwitcher",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14081",
+      "title": "Chromium: CVE-2026-14081 Insufficient policy enforcement in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14082",
+      "title": "Chromium: CVE-2026-14082 Race in Storage",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14083",
+      "title": "Chromium: CVE-2026-14083 Insufficient validation of untrusted input in HTML",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14084",
+      "title": "Chromium: CVE-2026-14084 Insufficient validation of untrusted input in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14085",
+      "title": "Chromium: CVE-2026-14085 Side-channel information leakage in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14086",
+      "title": "Chromium: CVE-2026-14086 Insufficient policy enforcement in HID",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14087",
+      "title": "Chromium: CVE-2026-14087 Insufficient validation of untrusted input in WebNN",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14088",
+      "title": "Chromium: CVE-2026-14088 Uninitialized Use in Canvas",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14089",
+      "title": "Chromium: CVE-2026-14089 Insufficient validation of untrusted input in PopupBlocker",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14091",
+      "title": "Chromium: CVE-2026-14091 Use after free in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14092",
+      "title": "Chromium: CVE-2026-14092 Insufficient policy enforcement in Privacy",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14093",
+      "title": "Chromium: CVE-2026-14093 Use after free in Cast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14094",
+      "title": "Chromium: CVE-2026-14094 Use after free in Installer",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14095",
+      "title": "Chromium: CVE-2026-14095 Insufficient validation of untrusted input in Browser",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14097",
+      "title": "Chromium: CVE-2026-14097 Inappropriate implementation in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14098",
+      "title": "Chromium: CVE-2026-14098 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14100",
+      "title": "Chromium: CVE-2026-14100 Insufficient data validation in NetworkCache",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14102",
+      "title": "Chromium: CVE-2026-14102 Use after free in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14103",
+      "title": "Chromium: CVE-2026-14103 Use after free in SSL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14104",
+      "title": "Chromium: CVE-2026-14104 Insufficient validation of untrusted input in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14105",
+      "title": "Chromium: CVE-2026-14105 Insufficient policy enforcement in Speech",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14106",
+      "title": "Chromium: CVE-2026-14106 Insufficient validation of untrusted input in Text",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14107",
+      "title": "Chromium: CVE-2026-14107 Use after free in Scheduling",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14108",
+      "title": "Chromium: CVE-2026-14108 Use after free in PDFium",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14109",
+      "title": "Chromium: CVE-2026-14109 Insufficient policy enforcement in Mojo",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14110",
+      "title": "Chromium: CVE-2026-14110 Inappropriate implementation in DarkMode",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14111",
+      "title": "Chromium: CVE-2026-14111 Use after free in WebProtect",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14112",
+      "title": "Chromium: CVE-2026-14112 Inappropriate implementation in Enterprise",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14113",
+      "title": "Chromium: CVE-2026-14113 Use after free in Updater",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14115",
+      "title": "Chromium: CVE-2026-14115 Insufficient validation of untrusted input in Cast",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14116",
+      "title": "Chromium: CVE-2026-14116 Insufficient validation of untrusted input in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14117",
+      "title": "Chromium: CVE-2026-14117 Insufficient validation of untrusted input in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14118",
+      "title": "Chromium: CVE-2026-14118 Insufficient data validation in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14119",
+      "title": "Chromium: CVE-2026-14119 Type Confusion in Bluetooth",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14120",
+      "title": "Chromium: CVE-2026-14120 Inappropriate implementation in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14121",
+      "title": "Chromium: CVE-2026-14121 Use after free in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14122",
+      "title": "Chromium: CVE-2026-14122 Insufficient validation of untrusted input in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14124",
+      "title": "Chromium: CVE-2026-14124 Inappropriate implementation in CredentialProvider",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14125",
+      "title": "Chromium: CVE-2026-14125 Uninitialized Use in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14127",
+      "title": "Chromium: CVE-2026-14127 Inappropriate implementation in Printing",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14129",
+      "title": "Chromium: CVE-2026-14129 Incorrect security UI in PreviewTab",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14130",
+      "title": "Chromium: CVE-2026-14130 Incorrect security UI in Omnibox",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14131",
+      "title": "Chromium: CVE-2026-14131 Insufficient validation of untrusted input in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14132",
+      "title": "Chromium: CVE-2026-14132 Inappropriate implementation in WebXR",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14133",
+      "title": "Chromium: CVE-2026-14133 Race in History Embeddings",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14134",
+      "title": "Chromium: CVE-2026-14134 Inappropriate implementation in Autofill",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14135",
+      "title": "Chromium: CVE-2026-14135 Insufficient validation of untrusted input in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14138",
+      "title": "Chromium: CVE-2026-14138 Inappropriate implementation in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14139",
+      "title": "Chromium: CVE-2026-14139 Inappropriate implementation in TabStrip",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14140",
+      "title": "Chromium: CVE-2026-14140 Insufficient validation of untrusted input in Input",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14141",
+      "title": "Chromium: CVE-2026-14141 Incorrect security UI in Document Picture-in-Picture",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14142",
+      "title": "Chromium: CVE-2026-14142 Inappropriate implementation in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14143",
+      "title": "Chromium: CVE-2026-14143 Incorrect security UI in Passwords",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14144",
+      "title": "Chromium: CVE-2026-14144 Incorrect security UI in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14145",
+      "title": "Chromium: CVE-2026-14145 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14146",
+      "title": "Chromium: CVE-2026-14146 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14147",
+      "title": "Chromium: CVE-2026-14147 Inappropriate implementation in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14148",
+      "title": "Chromium: CVE-2026-14148 Type Confusion in CSS",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14149",
+      "title": "Chromium: CVE-2026-14149 Use after free in Audio",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14150",
+      "title": "Chromium: CVE-2026-14150 Insufficient validation of untrusted input in Speech",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14151",
+      "title": "Chromium: CVE-2026-14151 Inappropriate implementation in AI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14152",
+      "title": "Chromium: CVE-2026-14152 Out of bounds write in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14153",
+      "title": "Chromium: CVE-2026-14153 Inappropriate implementation in Glic",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14154",
+      "title": "Chromium: CVE-2026-14154 Inappropriate implementation in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14155",
+      "title": "Chromium: CVE-2026-14155 Insufficient policy enforcement in StorageAccessAPI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-14156",
+      "title": "Chromium: CVE-2026-14156 Policy bypass in StorageAccessAPI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
