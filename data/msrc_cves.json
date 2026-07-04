@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6077,
+    "total": 6078,
     "critical": 347,
     "important": 2008,
-    "moderate": 2005,
+    "moderate": 2006,
     "low": 194,
     "exploited": 18,
     "patched": 1099,
-    "updated_at": "2026-07-04 04:34 UTC",
+    "updated_at": "2026-07-04 07:45 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -160065,6 +160065,20 @@
         93
       ],
       "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53223",
+      "title": "net: guard timestamp cmsgs to real error queue skbs",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 92,
+      "product_idxs": [
+        92
+      ],
+      "date": "2026-07-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
