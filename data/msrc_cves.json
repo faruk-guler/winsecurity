@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6030,
-    "critical": 348,
-    "important": 1999,
-    "moderate": 1976,
-    "low": 185,
+    "total": 6005,
+    "critical": 347,
+    "important": 1987,
+    "moderate": 1967,
+    "low": 182,
     "exploited": 18,
     "patched": 1099,
-    "updated_at": "2026-07-08 20:19 UTC",
+    "updated_at": "2026-07-08 22:04 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1333,18 +1333,9 @@
     "azl3 python-mistune 3.2.1-1 on Azure Linux 3.0",
     "azl3 python-webob 1.8.8-1 on Azure Linux 3.0",
     "azl3 libxml2 2.11.5-10 on Azure Linux 3.0",
+    "Microsoft Entra Provisioning Service",
     "azl3 dhcpcd 10.0.8-2 on Azure Linux 3.0",
-    "azl3 dhcpcd 10.0.8-4 on Azure Linux 3.0",
-    "azl3 libreswan 4.15-1 on Azure Linux 3.0",
-    "azl3 curl 8.11.1-9 on Azure Linux 3.0",
-    "azl3 rust 1.75.0-30 on Azure Linux 3.0",
-    "azl3 rust 1.90.0-9 on Azure Linux 3.0",
-    "azl3 openssl 3.3.7-3 on Azure Linux 3.0",
-    "azl3 php 8.3.31-1 on Azure Linux 3.0",
-    "azl3 erlang 26.2.5.21-2 on Azure Linux 3.0",
-    "azl3 pytorch 2.2.2-15 on Azure Linux 3.0",
-    "azl3 runc 1.3.3-2 on Azure Linux 3.0",
-    "Microsoft Entra Provisioning Service"
+    "azl3 runc 1.3.3-2 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -4006,9 +3997,9 @@
       "title": "Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1333,
+      "product_idx": 1322,
       "product_idxs": [
-        1333
+        1322
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -7050,24 +7041,6 @@
         996
       ],
       "date": "2026-06-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-9547",
-      "title": "SSH improper host validation",
-      "severity": "Critical",
-      "cvss": 9.1,
-      "product_idx": 1295,
-      "product_idxs": [
-        1295,
-        1326,
-        1325,
-        1170,
-        1327
-      ],
-      "date": "2026-07-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -16060,41 +16033,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-8924",
-      "title": "trailing dot domain super cookie",
-      "severity": "Important",
-      "cvss": 9.1,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1295,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-8926",
-      "title": "password leak with netrc and user in URL",
-      "severity": "Important",
-      "cvss": 9.1,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-38714",
       "title": "hfsplus: fix slab-out-of-bounds in hfsplus_bnode_read()",
       "severity": "Important",
@@ -24608,6 +24546,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-58525",
+      "title": "Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 108,
+      "product_idxs": [
+        108
+      ],
+      "date": "2026-07-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-40170",
       "title": "net: use dst_dev_rcu() in sk_setup_caps()",
       "severity": "Important",
@@ -25802,34 +25754,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-50721",
-      "title": "IKEv1 Denial of Service via RSA-SHA1 (PKCS#1 Version 1.5 Encrypted) authentication payload",
-      "severity": "Important",
-      "cvss": 8.1,
-      "product_idx": 1324,
-      "product_idxs": [
-        1324
-      ],
-      "date": "2026-07-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-50722",
-      "title": "IKEv2 Denial of Service via RSA-SHA1 (PKCS#1 RSASSA-PKCS1-v1_5) authentication payload",
-      "severity": "Important",
-      "cvss": 8.1,
-      "product_idx": 1324,
-      "product_idxs": [
-        1324
-      ],
-      "date": "2026-07-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-55200",
       "title": "libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c",
       "severity": "Important",
@@ -25946,24 +25870,6 @@
         1290
       ],
       "date": "2026-06-20",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-8286",
-      "title": "wrong STARTTLS connection reuse",
-      "severity": "Important",
-      "cvss": 8.1,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1295,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -73884,20 +73790,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-12413",
-      "title": "IKEv2 Denial of Service via malformed fragmentation",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1324,
-      "product_idxs": [
-        1324
-      ],
-      "date": "2026-07-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-1519",
       "title": "Excessive NSEC3 iterations cause high CPU load during insecure delegation validation",
       "severity": "Important",
@@ -79570,24 +79462,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-8932",
-      "title": "incomplete mTLS config matching in conn reuse",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1295,
-      "product_idxs": [
-        1295,
-        1170,
-        1325,
-        1326,
-        1327
-      ],
-      "date": "2026-07-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-9076",
       "title": "Out-of-Bounds Read in CMS Password-Based Decryption",
       "severity": "Important",
@@ -79615,23 +79489,6 @@
         1116
       ],
       "date": "2026-05-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-9545",
-      "title": "exposing HTTP/3 early data",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -80263,22 +80120,6 @@
         830
       ],
       "date": "2026-03-15",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-12064",
-      "title": "proto-default skips SSH verification",
-      "severity": "Important",
-      "cvss": 7.4,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1326,
-        1327
-      ],
-      "date": "2026-07-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -83658,20 +83499,6 @@
         1116
       ],
       "date": "2026-06-01",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53362",
-      "title": "ipv6: account for fraggap on the paged allocation path",
-      "severity": "Important",
-      "cvss": 7.3,
-      "product_idx": 94,
-      "product_idxs": [
-        94
-      ],
-      "date": "2026-07-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -107209,20 +107036,6 @@
         }
       ],
       "kb_count": 10
-    },
-    {
-      "cve_id": "CVE-2026-53359",
-      "title": "KVM: x86: Fix shadow paging use-after-free due to unexpected role",
-      "severity": "Important",
-      "cvss": 7.0,
-      "product_idx": 94,
-      "product_idxs": [
-        94
-      ],
-      "date": "2026-07-05",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-38724",
@@ -135664,20 +135477,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-55952",
-      "title": "TLS 1.3 server denial of service via malformed ClientHello pre-shared key extension",
-      "severity": "Important",
-      "cvss": null,
-      "product_idx": 1330,
-      "product_idxs": [
-        1330
-      ],
-      "date": "2026-07-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-6210",
       "title": "Type confusion and heap-buffer-overflow in Qt SVG marker handling causing application crash",
       "severity": "Important",
@@ -135734,24 +135533,6 @@
         1177
       ],
       "date": "2026-05-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-9079",
-      "title": "stale proxy password leak",
-      "severity": "Important",
-      "cvss": null,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1295,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -141209,12 +140990,11 @@
       "title": "Dhcpcd: dhcpcd infinite loop and out-of-bounds read via zero-length ipv6 nd option in router advertisement handling",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1322,
+      "product_idx": 1323,
       "product_idxs": [
-        1322,
         1323
       ],
-      "date": "2026-07-05",
+      "date": "2026-07-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -142114,24 +141894,6 @@
         46
       ],
       "date": "2026-04-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-8458",
-      "title": "wrong reuse for different services",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1295,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -144554,22 +144316,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-8925",
-      "title": "SASL double-free",
-      "severity": "Moderate",
-      "cvss": 5.9,
-      "product_idx": 1170,
-      "product_idxs": [
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-06",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-13281",
       "title": "Portworx Half-Blind SSRF in kube-controller-manager",
       "severity": "Moderate",
@@ -144840,21 +144586,6 @@
         78
       ],
       "date": "2025-09-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-14355",
-      "title": "ext/openssl: Memory corruption in openssl_encrypt with AES-WRAP-PAD",
-      "severity": "Moderate",
-      "cvss": 5.6,
-      "product_idx": 1328,
-      "product_idxs": [
-        1328,
-        1329
-      ],
-      "date": "2026-07-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -152324,20 +152055,6 @@
         10
       ],
       "date": "2025-09-03",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-12480",
-      "title": "Arbitrary HDF5 File Read via Virtual Dataset Bypass in keras-team/keras",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 376,
-      "product_idxs": [
-        376
-      ],
-      "date": "2026-07-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -161008,24 +160725,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-11856",
-      "title": "cross-origin Digest auth state leak",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1295,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-06",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-12969",
       "title": "Dnsmasq: dnsmasq: out-of-bounds read in find_soa() due to missing extrabytes validation",
       "severity": "Moderate",
@@ -161869,24 +161568,6 @@
         268
       ],
       "date": "2026-05-23",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-8927",
-      "title": "env-set cross-proxy Digest auth state leak",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 1295,
-      "product_idxs": [
-        1295,
-        1325,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -163706,20 +163387,6 @@
         92
       ],
       "date": "2026-05-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53361",
-      "title": "af_unix: Set gc_in_progress to true in unix_gc().",
-      "severity": "Moderate",
-      "cvss": 4.5,
-      "product_idx": 94,
-      "product_idxs": [
-        94
-      ],
-      "date": "2026-07-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -165996,34 +165663,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-54886",
-      "title": "SSH SFTP server denial of service via extended channel data infinite loop",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1330,
-      "product_idxs": [
-        1330
-      ],
-      "date": "2026-07-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-54891",
-      "title": "Plaintext APPLICATION_DATA injected during TLS handshake delivered to client application post-handshake in ssl",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1330,
-      "product_idxs": [
-        1330
-      ],
-      "date": "2026-07-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-5503",
       "title": "out-of-bounds write in TLSX_EchChangeSNI via attacker-controlled publicName",
       "severity": "Moderate",
@@ -166492,20 +166131,6 @@
         108
       ],
       "date": "2025-12-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-14647",
-      "title": "onnx onnxruntime old.cc convPoolShapeInference_opset19 out-of-bounds",
-      "severity": "Low",
-      "cvss": 4.3,
-      "product_idx": 1331,
-      "product_idxs": [
-        1331
-      ],
-      "date": "2026-07-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -167013,24 +166638,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-10536",
-      "title": "HTTP/2 stream-dependency tree UAF",
-      "severity": "Low",
-      "cvss": 3.7,
-      "product_idx": 1326,
-      "product_idxs": [
-        1326,
-        1325,
-        1295,
-        1170,
-        1327
-      ],
-      "date": "2026-07-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-11525",
       "title": "undici vulnerable to Set-Cookie SameSite attribute downgrade via permissive substring matching",
       "severity": "Low",
@@ -167150,22 +166757,6 @@
         1180
       ],
       "date": "2026-05-16",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-9080",
-      "title": "UAF after pause in socket callback",
-      "severity": "Low",
-      "cvss": 3.7,
-      "product_idx": 1170,
-      "product_idxs": [
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -167542,9 +167133,9 @@
       "title": "runc: Malicious image with /dev symlink can trigger limited host filesystem integrity violations",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1332,
+      "product_idx": 1324,
       "product_idxs": [
-        1332
+        1324
       ],
       "date": "2026-07-02",
       "exploited": false,
