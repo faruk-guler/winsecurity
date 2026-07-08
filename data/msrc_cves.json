@@ -2,12 +2,12 @@
   "meta": {
     "total": 6030,
     "critical": 348,
-    "important": 1998,
-    "moderate": 1975,
-    "low": 186,
+    "important": 1999,
+    "moderate": 1976,
+    "low": 185,
     "exploited": 18,
     "patched": 1099,
-    "updated_at": "2026-07-08 05:50 UTC",
+    "updated_at": "2026-07-08 08:26 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -107211,6 +107211,20 @@
       "kb_count": 10
     },
     {
+      "cve_id": "CVE-2026-53359",
+      "title": "KVM: x86: Fix shadow paging use-after-free due to unexpected role",
+      "severity": "Important",
+      "cvss": 7.0,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-38724",
       "title": "nfsd: handle get_client_locked() failure in nfsd4_setclientid_confirm()",
       "severity": "Important",
@@ -142105,6 +142119,24 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-8458",
+      "title": "wrong reuse for different services",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1325,
+      "product_idxs": [
+        1325,
+        1295,
+        1170,
+        1326,
+        1327
+      ],
+      "date": "2026-07-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-9149",
       "title": "Libsolv: heap buffer overflow in libsolv repo_add_solv via negative maxsize from crafted .solv file",
       "severity": "Moderate",
@@ -167123,24 +167155,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-8458",
-      "title": "wrong reuse for different services",
-      "severity": "Low",
-      "cvss": 3.7,
-      "product_idx": 1325,
-      "product_idxs": [
-        1325,
-        1295,
-        1170,
-        1326,
-        1327
-      ],
-      "date": "2026-07-04",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-9080",
       "title": "UAF after pause in socket callback",
       "severity": "Low",
@@ -184317,20 +184331,6 @@
         108
       ],
       "date": "2026-04-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-53359",
-      "title": "KVM: x86: Fix shadow paging use-after-free due to unexpected role",
-      "severity": "",
-      "cvss": null,
-      "product_idx": 94,
-      "product_idxs": [
-        94
-      ],
-      "date": "2026-07-05",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
