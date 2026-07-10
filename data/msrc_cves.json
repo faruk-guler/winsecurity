@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6123,
+    "total": 6126,
     "critical": 350,
     "important": 2028,
-    "moderate": 2024,
+    "moderate": 2027,
     "low": 199,
     "exploited": 18,
     "patched": 1099,
-    "updated_at": "2026-07-10 06:50 UTC",
+    "updated_at": "2026-07-10 10:23 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1378,8 +1378,11 @@
     "azl3 libXfont2 2.0.6-1 on Azure Linux 3.0",
     "azl3 rubygem-webrick 1.8.1-3 on Azure Linux 3.0",
     "azl3 telegraf 1.31.0-23 on Azure Linux 3.0",
+    "azl3 kpatch 0.9.8-3 on Azure Linux 3.0",
+    "azl3 patch 2.7.6-9 on Azure Linux 3.0",
     "azl3 runc 1.3.3-2 on Azure Linux 3.0",
     "azl3 clamav 1.5.2-3 on Azure Linux 3.0",
+    "azl3 etcd 3.5.30-2 on Azure Linux 3.0",
     "Microsoft Entra Provisioning Service"
   ],
   "cves": [
@@ -4042,9 +4045,9 @@
       "title": "Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1369,
+      "product_idx": 1372,
       "product_idxs": [
-        1369
+        1372
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -46001,9 +46004,9 @@
       "title": "WinRAR / UnRAR RAR5 recovery-volume (.rev) out-of-bounds heap write in RecVolumes5::ReadHeader",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1368,
+      "product_idx": 1370,
       "product_idxs": [
-        1368
+        1370
       ],
       "date": "2026-07-09",
       "exploited": false,
@@ -142681,7 +142684,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -142858,6 +142861,20 @@
         673
       ],
       "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-59818",
+      "title": "etcd: gRPC client listener does not enforce `--client-crl-file` certificate revocation",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1371,
+      "product_idxs": [
+        1371
+      ],
+      "date": "2026-07-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159404,7 +159421,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159534,7 +159551,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159604,7 +159621,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159618,7 +159635,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159632,7 +159649,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159646,7 +159663,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159900,7 +159917,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -159957,7 +159974,7 @@
       "product_idxs": [
         92
       ],
-      "date": "2026-06-27",
+      "date": "2026-07-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -167249,6 +167266,36 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-56288",
+      "title": "NULL Pointer Dereference in GNU patch",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1367,
+      "product_idxs": [
+        1367,
+        1368
+      ],
+      "date": "2026-07-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-56289",
+      "title": "Loop with Unreachable Exit Condition in GNU patch",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1367,
+      "product_idxs": [
+        1367,
+        1368
+      ],
+      "date": "2026-07-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6357",
       "title": "pip self-update functionality can import newly installed modules after wheel installation",
       "severity": "Moderate",
@@ -168877,9 +168924,9 @@
       "title": "runc: Malicious image with /dev symlink can trigger limited host filesystem integrity violations",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1367,
+      "product_idx": 1369,
       "product_idxs": [
-        1367
+        1369
       ],
       "date": "2026-07-02",
       "exploited": false,
