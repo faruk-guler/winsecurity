@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6300,
+    "total": 6296,
     "critical": 350,
     "important": 2046,
     "moderate": 2038,
     "low": 199,
     "exploited": 18,
     "patched": 1099,
-    "updated_at": "2026-07-12 14:55 UTC",
+    "updated_at": "2026-07-12 15:59 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1369,6 +1369,7 @@
     "Windows Narrator Braille",
     "Azure HorizonDB",
     "Dynamics 365 Customer Voice",
+    "Microsoft Entra Provisioning Service",
     "azl3 libreswan 4.15-1 on Azure Linux 3.0",
     "azl3 curl 8.11.1-9 on Azure Linux 3.0",
     "azl3 openssl 3.3.7-3 on Azure Linux 3.0",
@@ -1389,8 +1390,7 @@
     "azl3 python-setuptools 69.0.3-5 on Azure Linux 3.0",
     "azl3 runc 1.3.3-2 on Azure Linux 3.0",
     "azl3 etcd 3.5.30-2 on Azure Linux 3.0",
-    "azl3 mtr 0.95-3 on Azure Linux 3.0",
-    "Microsoft Entra Provisioning Service"
+    "azl3 mtr 0.95-3 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -4052,9 +4052,9 @@
       "title": "Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1379,
+      "product_idx": 1358,
       "product_idxs": [
-        1379
+        1358
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -7123,7 +7123,7 @@
       "product_idxs": [
         1278,
         1327,
-        1359,
+        1360,
         1170,
         1329
       ],
@@ -15114,7 +15114,7 @@
       "product_idx": 347,
       "product_idxs": [
         347,
-        1365
+        1366
       ],
       "date": "2026-07-09",
       "exploited": false,
@@ -15829,9 +15829,9 @@
       "title": "DBI versions before 1.650 for Perl read one byte out-of-bounds in preparse when deleting an initial SQL comment",
       "severity": "Important",
       "cvss": 9.1,
-      "product_idx": 1372,
+      "product_idx": 1373,
       "product_idxs": [
-        1372
+        1373
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -16153,9 +16153,9 @@
       "title": "trailing dot domain super cookie",
       "severity": "Important",
       "cvss": 9.1,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1278,
         1170,
         1327,
@@ -20031,9 +20031,9 @@
       "title": "DBI versions before 1.650 for Perl are vulnerable to code injection via caller-influenced Profile",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1372,
+      "product_idx": 1373,
       "product_idxs": [
-        1372
+        1373
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -23000,9 +23000,9 @@
       "title": "NATS Server: Route API Auth Bypass",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -23386,9 +23386,9 @@
       "title": "DBI versions before 1.650 for Perl have a heap overflow when preparsing SQL statements with an extreme number of placeholders",
       "severity": "Important",
       "cvss": 8.6,
-      "product_idx": 1372,
+      "product_idx": 1373,
       "product_idxs": [
-        1372
+        1373
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -23517,9 +23517,9 @@
       "title": "libXfont2 BitmapScaleBitmaps Integer Overflow Heap Buffer Overflow",
       "severity": "Important",
       "cvss": 8.5,
-      "product_idx": 1364,
+      "product_idx": 1365,
       "product_idxs": [
-        1364
+        1365
       ],
       "date": "2026-07-09",
       "exploited": false,
@@ -23531,9 +23531,9 @@
       "title": "libXfont2 PCF Font Parsing Heap Buffer Overflow",
       "severity": "Important",
       "cvss": 8.5,
-      "product_idx": 1364,
+      "product_idx": 1365,
       "product_idxs": [
-        1364
+        1365
       ],
       "date": "2026-07-09",
       "exploited": false,
@@ -23545,9 +23545,9 @@
       "title": "libXfont2 computeProps Property Buffer Heap Buffer Overflow",
       "severity": "Important",
       "cvss": 8.5,
-      "product_idx": 1364,
+      "product_idx": 1365,
       "product_idxs": [
-        1364
+        1365
       ],
       "date": "2026-07-09",
       "exploited": false,
@@ -24526,7 +24526,7 @@
       "product_idxs": [
         108
       ],
-      "date": "2026-07-14",
+      "date": "2026-07-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -26047,9 +26047,9 @@
       "title": "IKEv1 Denial of Service via RSA-SHA1 (PKCS#1 Version 1.5 Encrypted) authentication payload",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1358,
+      "product_idx": 1359,
       "product_idxs": [
-        1358
+        1359
       ],
       "date": "2026-07-04",
       "exploited": false,
@@ -26061,9 +26061,9 @@
       "title": "IKEv2 Denial of Service via RSA-SHA1 (PKCS#1 RSASSA-PKCS1-v1_5) authentication payload",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1358,
+      "product_idx": 1359,
       "product_idxs": [
-        1358
+        1359
       ],
       "date": "2026-07-04",
       "exploited": false,
@@ -26196,9 +26196,9 @@
       "title": "wrong STARTTLS connection reuse",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1278,
         1170,
         1327,
@@ -46079,9 +46079,9 @@
       "title": "WinRAR / UnRAR RAR5 recovery-volume (.rev) out-of-bounds heap write in RecVolumes5::ReadHeader",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-09",
       "exploited": false,
@@ -71333,9 +71333,9 @@
       "title": "Vim: Arbitrary Code Execution via PHP Omni-Completion",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1370,
+      "product_idx": 1371,
       "product_idxs": [
-        1370
+        1371
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -72145,9 +72145,9 @@
       "title": "NATS Server: Remote crash via integer overflow in Connz pagination",
       "severity": "Important",
       "cvss": 7.7,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -74227,9 +74227,9 @@
       "title": "IKEv2 Denial of Service via malformed fragmentation",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1358,
+      "product_idx": 1359,
       "product_idxs": [
-        1358
+        1359
       ],
       "date": "2026-07-04",
       "exploited": false,
@@ -74271,9 +74271,9 @@
       "title": "ClamAV PE File Format Processing Out-of-Bounds Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -74285,9 +74285,9 @@
       "title": "ClamAV FSG File Format Processing Out-of-Bounds Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -74299,9 +74299,9 @@
       "title": "ClamAV 7Zip File Format Processing Out-of-Bounds Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -74313,9 +74313,9 @@
       "title": "ClamAV InstallShield File Format Processing Resource Exhaustion Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -74327,9 +74327,9 @@
       "title": "ClamAV PESpin File Format Processing Out-of-Bounds Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -74341,9 +74341,9 @@
       "title": "ClamAV ALZ Archive Processing Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -74355,9 +74355,9 @@
       "title": "ClamAV DMG File Processing Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -80096,9 +80096,9 @@
       "title": "Mistune plugins/formatting: quadratic-time parsing on long runs of `~~x~~`, `==x==`, and `^^x^^` markers (strikethrough / mark / insert)",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1373,
+      "product_idx": 1374,
       "product_idxs": [
-        1373
+        1374
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -80110,9 +80110,9 @@
       "title": "inline_parser: quadratic-time parsing on long runs of `**x**` and `***x***` emphasis pairs",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1373,
+      "product_idx": 1374,
       "product_idxs": [
-        1373
+        1374
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -80124,9 +80124,9 @@
       "title": "Mistune block_parser: quadratic-time parsing on long lists of repeated reference-link definitions",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1373,
+      "product_idx": 1374,
       "product_idxs": [
-        1373
+        1374
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -80199,7 +80199,7 @@
       "product_idxs": [
         1278,
         1170,
-        1359,
+        1360,
         1327,
         1329
       ],
@@ -80245,9 +80245,9 @@
       "title": "exposing HTTP/3 early data",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1170,
         1327,
         1329
@@ -80893,9 +80893,9 @@
       "title": "proto-default skips SSH verification",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1327,
         1329
       ],
@@ -136411,9 +136411,9 @@
       "title": "TLS 1.3 server denial of service via malformed ClientHello pre-shared key extension",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1362,
+      "product_idx": 1363,
       "product_idxs": [
-        1362
+        1363
       ],
       "date": "2026-07-07",
       "exploited": false,
@@ -136486,9 +136486,9 @@
       "title": "stale proxy password leak",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1278,
         1170,
         1327,
@@ -137288,7 +137288,7 @@
       "product_idx": 218,
       "product_idxs": [
         218,
-        1366
+        1367
       ],
       "date": "2026-07-09",
       "exploited": false,
@@ -137517,9 +137517,9 @@
       "title": "NATS Server: Pre-auth server crash via double INFO in leafnode handshake",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -141193,9 +141193,9 @@
       "title": "NATS Server: MQTT-over-WebSocket Path Can Crash WebSocket-Only JetStream Servers Before MQTT Is Enabled",
       "severity": "Moderate",
       "cvss": 6.8,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -143155,9 +143155,9 @@
       "title": "NATS Server: Queue Subscribe Authz Bypass",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -143169,9 +143169,9 @@
       "title": "NATS Server: Subscribe Authz Bypass via Wildcard-Overlap",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -143183,9 +143183,9 @@
       "title": "etcd: gRPC client listener does not enforce `--client-crl-file` certificate revocation",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1377,
+      "product_idx": 1378,
       "product_idxs": [
-        1377
+        1378
       ],
       "date": "2026-07-10",
       "exploited": false,
@@ -143312,9 +143312,9 @@
       "title": "wrong reuse for different services",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1278,
         1170,
         1327,
@@ -144951,9 +144951,9 @@
       "product_idx": 1303,
       "product_idxs": [
         1303,
-        1374,
-        844,
         1375,
+        844,
+        1376,
         816
       ],
       "date": "2026-07-11",
@@ -144966,9 +144966,9 @@
       "title": "Mistune: XSS via unescaped class option in Admonition directive",
       "severity": "Moderate",
       "cvss": 6.1,
-      "product_idx": 1373,
+      "product_idx": 1374,
       "product_idxs": [
-        1373
+        1374
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -145851,9 +145851,9 @@
       "title": "password leak with netrc and user in URL",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1170,
         1327,
         1329
@@ -146143,10 +146143,10 @@
       "title": "ext/openssl: Memory corruption in openssl_encrypt with AES-WRAP-PAD",
       "severity": "Moderate",
       "cvss": 5.6,
-      "product_idx": 1360,
+      "product_idx": 1361,
       "product_idxs": [
-        1360,
-        1361
+        1361,
+        1362
       ],
       "date": "2026-07-06",
       "exploited": false,
@@ -162440,9 +162440,9 @@
       "title": "cross-origin Digest auth state leak",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359,
+        1360,
         1278,
         1170,
         1327,
@@ -163339,7 +163339,7 @@
       "product_idx": 1278,
       "product_idxs": [
         1278,
-        1359,
+        1360,
         1170,
         1327,
         1329
@@ -165870,9 +165870,9 @@
       "title": "NATS Server: MQTT retained and QoS replay bypass subscribe deny filters",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -165884,9 +165884,9 @@
       "title": "Mistune toc / TableOfContents directive: heading IDs use predictable `toc_N` numbering with no slugification, allowing collision with attacker-controlled `id=\"toc_N\"` content",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1373,
+      "product_idx": 1374,
       "product_idxs": [
-        1373
+        1374
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -166743,9 +166743,9 @@
       "title": "Out-of-bound read in mtr",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1378,
+      "product_idx": 1379,
       "product_idxs": [
-        1378
+        1379
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -167601,9 +167601,9 @@
       "title": "SSH SFTP server denial of service via extended channel data infinite loop",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1362,
+      "product_idx": 1363,
       "product_idxs": [
-        1362
+        1363
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -167615,9 +167615,9 @@
       "title": "Plaintext APPLICATION_DATA injected during TLS handshake delivered to client application post-handshake in ssl",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1362,
+      "product_idx": 1363,
       "product_idxs": [
-        1362
+        1363
       ],
       "date": "2026-07-07",
       "exploited": false,
@@ -167629,9 +167629,9 @@
       "title": "Pion DTLS: Denial of service via panic while parsing a crafted ECDHE_PSK ServerKeyExchange message",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -167688,10 +167688,10 @@
       "title": "NULL Pointer Dereference in GNU patch",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1368,
+      "product_idx": 1369,
       "product_idxs": [
-        1368,
-        1369
+        1369,
+        1370
       ],
       "date": "2026-07-10",
       "exploited": false,
@@ -167703,10 +167703,10 @@
       "title": "Loop with Unreachable Exit Condition in GNU patch",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1368,
+      "product_idx": 1369,
       "product_idxs": [
-        1368,
-        1369
+        1369,
+        1370
       ],
       "date": "2026-07-10",
       "exploited": false,
@@ -168259,9 +168259,9 @@
       "title": "onnx onnxruntime old.cc convPoolShapeInference_opset19 out-of-bounds",
       "severity": "Low",
       "cvss": 4.3,
-      "product_idx": 1363,
+      "product_idx": 1364,
       "product_idxs": [
-        1363
+        1364
       ],
       "date": "2026-07-07",
       "exploited": false,
@@ -168806,7 +168806,7 @@
       "product_idx": 1327,
       "product_idxs": [
         1327,
-        1359,
+        1360,
         1278,
         1170,
         1329
@@ -169342,9 +169342,9 @@
       "title": "runc: Malicious image with /dev symlink can trigger limited host filesystem integrity violations",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1376,
+      "product_idx": 1377,
       "product_idxs": [
-        1376
+        1377
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -170953,48 +170953,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-15308",
-      "title": "Incremental HTMLParser feed() allows CPU-exhaustion DoS via repeated unterminated markup declarations",
-      "severity": "",
-      "cvss": 7.5,
-      "product_idx": 844,
-      "product_idxs": [
-        844
-      ],
-      "date": "2026-07-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-59873",
-      "title": "node-tar: Decompression/parse DoS via unlimited input",
-      "severity": "",
-      "cvss": 7.5,
-      "product_idx": 782,
-      "product_idxs": [
-        782
-      ],
-      "date": "2026-07-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-59874",
-      "title": "node-tar: Negative tar entry size causes infinite loop in archive replace",
-      "severity": "",
-      "cvss": 7.5,
-      "product_idx": 782,
-      "product_idxs": [
-        782
-      ],
-      "date": "2026-07-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-21223",
       "title": "Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
       "severity": "",
@@ -171047,20 +171005,6 @@
         787
       ],
       "date": "2026-02-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-59871",
-      "title": "node-tar: Process crash via PAX numeric path type confusion",
-      "severity": "",
-      "cvss": 5.3,
-      "product_idx": 782,
-      "product_idxs": [
-        782
-      ],
-      "date": "2026-07-12",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
