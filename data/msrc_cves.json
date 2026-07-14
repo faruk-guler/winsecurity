@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6300,
-    "critical": 350,
-    "important": 2046,
-    "moderate": 2039,
-    "low": 198,
+    "total": 6304,
+    "critical": 351,
+    "important": 2048,
+    "moderate": 2043,
+    "low": 199,
     "exploited": 18,
     "patched": 1099,
-    "updated_at": "2026-07-14 05:29 UTC",
+    "updated_at": "2026-07-14 08:02 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1388,6 +1388,7 @@
     "azl3 python-mistune 3.3.0-1 on Azure Linux 3.0",
     "azl3 python-virtualenv 20.36.1-5 on Azure Linux 3.0",
     "azl3 python-setuptools 69.0.3-5 on Azure Linux 3.0",
+    "azl3 gawk 5.2.2-1 on Azure Linux 3.0",
     "azl3 runc 1.3.3-2 on Azure Linux 3.0",
     "azl3 etcd 3.5.30-2 on Azure Linux 3.0",
     "azl3 mtr 0.95-3 on Azure Linux 3.0",
@@ -4053,9 +4054,9 @@
       "title": "Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1380,
+      "product_idx": 1381,
       "product_idxs": [
-        1380
+        1381
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -13598,6 +13599,20 @@
         }
       ],
       "kb_count": 7
+    },
+    {
+      "cve_id": "CVE-2026-59873",
+      "title": "node-tar: Decompression/parse DoS via unlimited input",
+      "severity": "Critical",
+      "cvss": 7.5,
+      "product_idx": 783,
+      "product_idxs": [
+        783
+      ],
+      "date": "2026-07-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-21521",
@@ -74281,6 +74296,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-15308",
+      "title": "Incremental HTMLParser feed() allows CPU-exhaustion DoS via repeated unterminated markup declarations",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 845,
+      "product_idxs": [
+        845
+      ],
+      "date": "2026-07-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-20213",
       "title": "ClamAV PE File Format Processing Out-of-Bounds Memory Corruption Vulnerability",
       "severity": "Important",
@@ -80102,6 +80131,20 @@
         269
       ],
       "date": "2026-07-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-59874",
+      "title": "node-tar: Negative tar entry size causes infinite loop in archive replace",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 783,
+      "product_idxs": [
+        783
+      ],
+      "date": "2026-07-12",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -143217,9 +143260,9 @@
       "title": "etcd: gRPC client listener does not enforce `--client-crl-file` certificate revocation",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1378,
+      "product_idx": 1379,
       "product_idxs": [
-        1378
+        1379
       ],
       "date": "2026-07-10",
       "exploited": false,
@@ -144992,7 +145035,7 @@
         1376,
         817
       ],
-      "date": "2026-07-11",
+      "date": "2026-07-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -153687,7 +153730,7 @@
       "product_idxs": [
         377
       ],
-      "date": "2026-07-07",
+      "date": "2026-07-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -163383,6 +163426,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-59871",
+      "title": "node-tar: Process crash via PAX numeric path type confusion",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 783,
+      "product_idxs": [
+        783
+      ],
+      "date": "2026-07-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6402",
       "title": "webpack-dev-server vulnerable to cross-origin source code exposure on non-HTTPS origins",
       "severity": "Moderate",
@@ -166857,9 +166914,9 @@
       "title": "Out-of-bound read in mtr",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1379,
+      "product_idx": 1380,
       "product_idxs": [
-        1379
+        1380
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -167293,6 +167350,48 @@
         1091
       ],
       "date": "2026-04-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-40467",
+      "title": "Use after free in gawk",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1377,
+      "product_idxs": [
+        1377
+      ],
+      "date": "2026-07-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-40469",
+      "title": "Heap buffer overflow in gawk",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1377,
+      "product_idxs": [
+        1377
+      ],
+      "date": "2026-07-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-40553",
+      "title": "Stack-based buffer overflow in gawk",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1377,
+      "product_idxs": [
+        1377
+      ],
+      "date": "2026-07-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -169456,9 +169555,9 @@
       "title": "runc: Malicious image with /dev symlink can trigger limited host filesystem integrity violations",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1377,
+      "product_idx": 1378,
       "product_idxs": [
-        1377
+        1378
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -170612,6 +170711,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-40468",
+      "title": "Heap buffer overflow in gawk",
+      "severity": "Low",
+      "cvss": null,
+      "product_idx": 1377,
+      "product_idxs": [
+        1377
+      ],
+      "date": "2026-07-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-41140",
       "title": "Poetry: Path traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4",
       "severity": "Low",
@@ -171052,48 +171165,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-15308",
-      "title": "Incremental HTMLParser feed() allows CPU-exhaustion DoS via repeated unterminated markup declarations",
-      "severity": "",
-      "cvss": 7.5,
-      "product_idx": 845,
-      "product_idxs": [
-        845
-      ],
-      "date": "2026-07-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-59873",
-      "title": "node-tar: Decompression/parse DoS via unlimited input",
-      "severity": "",
-      "cvss": 7.5,
-      "product_idx": 783,
-      "product_idxs": [
-        783
-      ],
-      "date": "2026-07-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-59874",
-      "title": "node-tar: Negative tar entry size causes infinite loop in archive replace",
-      "severity": "",
-      "cvss": 7.5,
-      "product_idx": 783,
-      "product_idxs": [
-        783
-      ],
-      "date": "2026-07-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-21223",
       "title": "Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
       "severity": "",
@@ -171146,20 +171217,6 @@
         788
       ],
       "date": "2026-02-26",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-59871",
-      "title": "node-tar: Process crash via PAX numeric path type confusion",
-      "severity": "",
-      "cvss": 5.3,
-      "product_idx": 783,
-      "product_idxs": [
-        783
-      ],
-      "date": "2026-07-12",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
