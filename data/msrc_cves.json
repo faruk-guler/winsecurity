@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6799,
+    "total": 6813,
     "critical": 408,
-    "important": 2536,
-    "moderate": 2005,
+    "important": 2542,
+    "moderate": 2012,
     "low": 186,
     "exploited": 21,
-    "patched": 1635,
-    "updated_at": "2026-07-15 22:09 UTC",
+    "patched": 1636,
+    "updated_at": "2026-07-15 23:57 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1378,6 +1378,7 @@
     "azl3 python-virtualenv 20.36.1-5 on Azure Linux 3.0",
     "azl3 python-setuptools 69.0.3-5 on Azure Linux 3.0",
     "azl3 gawk 5.2.2-1 on Azure Linux 3.0",
+    "azl3 libarchive 3.7.7-6 on Azure Linux 3.0",
     "azl3 runc 1.3.3-2 on Azure Linux 3.0",
     "azl3 etcd 3.5.30-2 on Azure Linux 3.0",
     "azl3 mtr 0.95-3 on Azure Linux 3.0"
@@ -30196,7 +30197,7 @@
       "product_idxs": [
         1357
       ],
-      "date": "2026-07-11",
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -34050,12 +34051,221 @@
       "product_idxs": [
         162,
         400,
-        1326
+        1326,
+        422,
+        423
       ],
       "date": "2026-07-14",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            466,
+            467,
+            468,
+            469
+          ]
+        },
+        {
+          "kb": "5100984",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            434,
+            435
+          ]
+        },
+        {
+          "kb": "5100985",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            440,
+            441
+          ]
+        },
+        {
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            447,
+            448,
+            449
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            432,
+            433
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            457,
+            458,
+            459,
+            463,
+            464,
+            465
+          ]
+        },
+        {
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101003",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1131,
+            1130
+          ]
+        },
+        {
+          "kb": "5101004",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            480,
+            481
+          ]
+        },
+        {
+          "kb": "5101005",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            452,
+            453
+          ]
+        },
+        {
+          "kb": "5101006",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            454,
+            455,
+            456,
+            460,
+            461,
+            462
+          ]
+        },
+        {
+          "kb": "5101007",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            422,
+            423,
+            424,
+            425
+          ]
+        },
+        {
+          "kb": "5101008",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            442,
+            443,
+            444,
+            445
+          ]
+        },
+        {
+          "kb": "5101009",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            430,
+            431
+          ]
+        },
+        {
+          "kb": "5101010",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            450,
+            451
+          ]
+        },
+        {
+          "kb": "5101011",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            436,
+            437
+          ]
+        },
+        {
+          "kb": "5101014",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1138,
+            1132
+          ]
+        }
+      ],
+      "kb_count": 19
     },
     {
       "cve_id": "CVE-2026-47631",
@@ -73658,6 +73868,21 @@
       "kb_count": 9
     },
     {
+      "cve_id": "CVE-2026-39822",
+      "title": "Root escape via symlink plus trailing slash in os",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 1273,
+      "product_idxs": [
+        1273,
+        1305
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-39853",
       "title": "osslsigncode has a Stack Buffer Overflow via Unbounded Digest Copy During Signature Verification",
       "severity": "Important",
@@ -89033,7 +89258,19 @@
       "exploited": false,
       "kb_articles": [
         {
-          "kb": "5087048",
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            469,
+            468,
+            466,
+            467
+          ]
+        },
+        {
+          "kb": "5100984",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -89043,7 +89280,7 @@
           ]
         },
         {
-          "kb": "5087049",
+          "kb": "5100985",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -89053,7 +89290,50 @@
           ]
         },
         {
-          "kb": "5087053",
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            447,
+            446,
+            448,
+            449,
+            1129
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            433,
+            432
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -89067,7 +89347,27 @@
           ]
         },
         {
-          "kb": "5087057",
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101002",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
+          "fixed_build": "4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1132,
+            1138
+          ]
+        },
+        {
+          "kb": "5101003",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
           "subtype": "Security Update",
@@ -89077,7 +89377,7 @@
           ]
         },
         {
-          "kb": "5087058",
+          "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -89087,7 +89387,7 @@
           ]
         },
         {
-          "kb": "5087059",
+          "kb": "5101005",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -89097,40 +89397,7 @@
           ]
         },
         {
-          "kb": "5087061",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
-          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            447,
-            446,
-            448,
-            449,
-            1129
-          ]
-        },
-        {
-          "kb": "5087062",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            433,
-            432
-          ]
-        },
-        {
-          "kb": "5087063",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            438,
-            439
-          ]
-        },
-        {
-          "kb": "5087064",
+          "kb": "5101006",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -89144,7 +89411,7 @@
           ]
         },
         {
-          "kb": "5087065",
+          "kb": "5101007",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -89156,7 +89423,7 @@
           ]
         },
         {
-          "kb": "5087066",
+          "kb": "5101008",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
           "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -89169,7 +89436,7 @@
           ]
         },
         {
-          "kb": "5087067",
+          "kb": "5101009",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -89179,7 +89446,7 @@
           ]
         },
         {
-          "kb": "5087068",
+          "kb": "5101010",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -89189,7 +89456,7 @@
           ]
         },
         {
-          "kb": "5087069",
+          "kb": "5101011",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -89199,51 +89466,9 @@
           ]
         },
         {
-          "kb": "5087077",
+          "kb": "5101014",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1132,
-            1138
-          ]
-        },
-        {
-          "kb": "5087537",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            469,
-            468,
-            466,
-            467
-          ]
-        },
-        {
-          "kb": "5092427",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            485,
-            486
-          ]
-        },
-        {
-          "kb": "5092430",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            483,
-            484
-          ]
-        },
-        {
-          "kb": "5092431",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
-          "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
             1132,
@@ -89276,17 +89501,223 @@
       "title": ".NET Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 400,
+      "product_idx": 419,
       "product_idxs": [
-        400,
         419,
         421,
-        162,
-        1326
+        1326,
+        422,
+        423
       ],
       "date": "2026-07-14",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            466,
+            467,
+            468,
+            469
+          ]
+        },
+        {
+          "kb": "5100984",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            434,
+            435
+          ]
+        },
+        {
+          "kb": "5100985",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            440,
+            441
+          ]
+        },
+        {
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            447,
+            448,
+            449
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            432,
+            433
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            457,
+            458,
+            459,
+            463,
+            464,
+            465
+          ]
+        },
+        {
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101003",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1131,
+            1130
+          ]
+        },
+        {
+          "kb": "5101004",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            480,
+            481
+          ]
+        },
+        {
+          "kb": "5101005",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            452,
+            453
+          ]
+        },
+        {
+          "kb": "5101006",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            454,
+            455,
+            456,
+            460,
+            461,
+            462
+          ]
+        },
+        {
+          "kb": "5101007",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            422,
+            423,
+            424,
+            425
+          ]
+        },
+        {
+          "kb": "5101008",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            442,
+            443,
+            444,
+            445
+          ]
+        },
+        {
+          "kb": "5101009",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            430,
+            431
+          ]
+        },
+        {
+          "kb": "5101010",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            450,
+            451
+          ]
+        },
+        {
+          "kb": "5101011",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            436,
+            437
+          ]
+        },
+        {
+          "kb": "5101014",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1138,
+            1132
+          ]
+        },
         {
           "kb": "5104032",
           "url": "https://support.microsoft.com/kb/5104032",
@@ -89306,7 +89737,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 21
     },
     {
       "cve_id": "CVE-2026-50650",
@@ -89325,7 +89756,19 @@
       "exploited": false,
       "kb_articles": [
         {
-          "kb": "5087048",
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            466,
+            467,
+            469,
+            468
+          ]
+        },
+        {
+          "kb": "5100984",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -89335,7 +89778,7 @@
           ]
         },
         {
-          "kb": "5087049",
+          "kb": "5100985",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -89345,7 +89788,49 @@
           ]
         },
         {
-          "kb": "5087053",
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            447,
+            449,
+            448
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            432,
+            433
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -89359,7 +89844,27 @@
           ]
         },
         {
-          "kb": "5087057",
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101002",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
+          "fixed_build": "4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1132,
+            1138
+          ]
+        },
+        {
+          "kb": "5101003",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
           "subtype": "Security Update",
@@ -89369,7 +89874,7 @@
           ]
         },
         {
-          "kb": "5087058",
+          "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -89379,7 +89884,7 @@
           ]
         },
         {
-          "kb": "5087059",
+          "kb": "5101005",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -89389,39 +89894,7 @@
           ]
         },
         {
-          "kb": "5087061",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
-          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            446,
-            447,
-            449,
-            448
-          ]
-        },
-        {
-          "kb": "5087062",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            432,
-            433
-          ]
-        },
-        {
-          "kb": "5087063",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            438,
-            439
-          ]
-        },
-        {
-          "kb": "5087064",
+          "kb": "5101006",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -89435,7 +89908,7 @@
           ]
         },
         {
-          "kb": "5087065",
+          "kb": "5101007",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -89447,7 +89920,7 @@
           ]
         },
         {
-          "kb": "5087066",
+          "kb": "5101008",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
           "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -89459,7 +89932,7 @@
           ]
         },
         {
-          "kb": "5087067",
+          "kb": "5101009",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -89469,7 +89942,7 @@
           ]
         },
         {
-          "kb": "5087068",
+          "kb": "5101010",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -89479,7 +89952,7 @@
           ]
         },
         {
-          "kb": "5087069",
+          "kb": "5101011",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -89489,51 +89962,9 @@
           ]
         },
         {
-          "kb": "5087077",
+          "kb": "5101014",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1132,
-            1138
-          ]
-        },
-        {
-          "kb": "5087537",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            466,
-            467,
-            469,
-            468
-          ]
-        },
-        {
-          "kb": "5092427",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            485,
-            486
-          ]
-        },
-        {
-          "kb": "5092430",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            483,
-            484
-          ]
-        },
-        {
-          "kb": "5092431",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
-          "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
             1132,
@@ -99199,7 +99630,8 @@
       "cvss": 7.5,
       "product_idx": 845,
       "product_idxs": [
-        845
+        845,
+        817
       ],
       "date": "2026-07-12",
       "exploited": false,
@@ -104684,7 +105116,19 @@
       "exploited": false,
       "kb_articles": [
         {
-          "kb": "5087048",
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            466,
+            467,
+            468,
+            469
+          ]
+        },
+        {
+          "kb": "5100984",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -104694,7 +105138,7 @@
           ]
         },
         {
-          "kb": "5087049",
+          "kb": "5100985",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -104704,7 +105148,49 @@
           ]
         },
         {
-          "kb": "5087053",
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            447,
+            448,
+            449
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            432,
+            433
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            486,
+            485
+          ]
+        },
+        {
+          "kb": "5101000",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -104718,7 +105204,27 @@
           ]
         },
         {
-          "kb": "5087057",
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101002",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
+          "fixed_build": "4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1132,
+            1138
+          ]
+        },
+        {
+          "kb": "5101003",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
           "subtype": "Security Update",
@@ -104728,7 +105234,7 @@
           ]
         },
         {
-          "kb": "5087058",
+          "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -104738,7 +105244,7 @@
           ]
         },
         {
-          "kb": "5087059",
+          "kb": "5101005",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -104748,39 +105254,7 @@
           ]
         },
         {
-          "kb": "5087061",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
-          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            446,
-            447,
-            448,
-            449
-          ]
-        },
-        {
-          "kb": "5087062",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            432,
-            433
-          ]
-        },
-        {
-          "kb": "5087063",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            438,
-            439
-          ]
-        },
-        {
-          "kb": "5087064",
+          "kb": "5101006",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -104794,7 +105268,7 @@
           ]
         },
         {
-          "kb": "5087065",
+          "kb": "5101007",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -104806,7 +105280,7 @@
           ]
         },
         {
-          "kb": "5087066",
+          "kb": "5101008",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
           "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -104818,7 +105292,7 @@
           ]
         },
         {
-          "kb": "5087067",
+          "kb": "5101009",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -104828,7 +105302,7 @@
           ]
         },
         {
-          "kb": "5087068",
+          "kb": "5101010",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -104838,7 +105312,7 @@
           ]
         },
         {
-          "kb": "5087069",
+          "kb": "5101011",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -104848,51 +105322,9 @@
           ]
         },
         {
-          "kb": "5087077",
+          "kb": "5101014",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1132,
-            1138
-          ]
-        },
-        {
-          "kb": "5087537",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            466,
-            467,
-            468,
-            469
-          ]
-        },
-        {
-          "kb": "5092427",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            486,
-            485
-          ]
-        },
-        {
-          "kb": "5092430",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            483,
-            484
-          ]
-        },
-        {
-          "kb": "5092431",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
-          "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
             1132,
@@ -106883,6 +107315,212 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            466,
+            467,
+            468,
+            469
+          ]
+        },
+        {
+          "kb": "5100984",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            434,
+            435
+          ]
+        },
+        {
+          "kb": "5100985",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            440,
+            441
+          ]
+        },
+        {
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            447,
+            448,
+            449
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            432,
+            433
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            457,
+            458,
+            459,
+            463,
+            464,
+            465
+          ]
+        },
+        {
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101003",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1131,
+            1130
+          ]
+        },
+        {
+          "kb": "5101004",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            480,
+            481
+          ]
+        },
+        {
+          "kb": "5101005",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            452,
+            453
+          ]
+        },
+        {
+          "kb": "5101006",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            454,
+            455,
+            456,
+            460,
+            461,
+            462
+          ]
+        },
+        {
+          "kb": "5101007",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            422,
+            423,
+            424,
+            425
+          ]
+        },
+        {
+          "kb": "5101008",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            442,
+            443,
+            444,
+            445
+          ]
+        },
+        {
+          "kb": "5101009",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            430,
+            431
+          ]
+        },
+        {
+          "kb": "5101010",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            450,
+            451
+          ]
+        },
+        {
+          "kb": "5101011",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            436,
+            437
+          ]
+        },
+        {
+          "kb": "5101014",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1138,
+            1132
+          ]
+        },
+        {
           "kb": "5104032",
           "url": "https://support.microsoft.com/kb/5104032",
           "fixed_build": "8.0.29",
@@ -106915,7 +107553,7 @@
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 22
     },
     {
       "cve_id": "CVE-2026-50527",
@@ -106934,7 +107572,19 @@
       "exploited": false,
       "kb_articles": [
         {
-          "kb": "5087048",
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            467,
+            466,
+            468,
+            469
+          ]
+        },
+        {
+          "kb": "5100984",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -106944,7 +107594,7 @@
           ]
         },
         {
-          "kb": "5087049",
+          "kb": "5100985",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -106954,7 +107604,49 @@
           ]
         },
         {
-          "kb": "5087053",
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            449,
+            448,
+            447
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            433,
+            432
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -106968,7 +107660,27 @@
           ]
         },
         {
-          "kb": "5087057",
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101002",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
+          "fixed_build": "4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1132,
+            1138
+          ]
+        },
+        {
+          "kb": "5101003",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
           "subtype": "Security Update",
@@ -106978,7 +107690,7 @@
           ]
         },
         {
-          "kb": "5087058",
+          "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -106988,7 +107700,7 @@
           ]
         },
         {
-          "kb": "5087059",
+          "kb": "5101005",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -106998,39 +107710,7 @@
           ]
         },
         {
-          "kb": "5087061",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
-          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            446,
-            449,
-            448,
-            447
-          ]
-        },
-        {
-          "kb": "5087062",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            433,
-            432
-          ]
-        },
-        {
-          "kb": "5087063",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            438,
-            439
-          ]
-        },
-        {
-          "kb": "5087064",
+          "kb": "5101006",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -107044,7 +107724,7 @@
           ]
         },
         {
-          "kb": "5087065",
+          "kb": "5101007",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -107056,7 +107736,7 @@
           ]
         },
         {
-          "kb": "5087066",
+          "kb": "5101008",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
           "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -107068,7 +107748,7 @@
           ]
         },
         {
-          "kb": "5087067",
+          "kb": "5101009",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -107078,7 +107758,7 @@
           ]
         },
         {
-          "kb": "5087068",
+          "kb": "5101010",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -107088,7 +107768,7 @@
           ]
         },
         {
-          "kb": "5087069",
+          "kb": "5101011",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -107098,51 +107778,9 @@
           ]
         },
         {
-          "kb": "5087077",
+          "kb": "5101014",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1132,
-            1138
-          ]
-        },
-        {
-          "kb": "5087537",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            467,
-            466,
-            468,
-            469
-          ]
-        },
-        {
-          "kb": "5092427",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            485,
-            486
-          ]
-        },
-        {
-          "kb": "5092430",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            483,
-            484
-          ]
-        },
-        {
-          "kb": "5092431",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
-          "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
             1132,
@@ -107319,7 +107957,19 @@
       "exploited": false,
       "kb_articles": [
         {
-          "kb": "5087048",
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            466,
+            467,
+            468,
+            469
+          ]
+        },
+        {
+          "kb": "5100984",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -107329,7 +107979,7 @@
           ]
         },
         {
-          "kb": "5087049",
+          "kb": "5100985",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
           "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
           "subtype": "Security Update",
@@ -107339,7 +107989,50 @@
           ]
         },
         {
-          "kb": "5087053",
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            447,
+            1129,
+            448,
+            449
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            432,
+            433
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -107353,7 +108046,27 @@
           ]
         },
         {
-          "kb": "5087057",
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101002",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
+          "fixed_build": "4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1138,
+            1132
+          ]
+        },
+        {
+          "kb": "5101003",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
           "subtype": "Security Update",
@@ -107363,7 +108076,7 @@
           ]
         },
         {
-          "kb": "5087058",
+          "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -107373,7 +108086,7 @@
           ]
         },
         {
-          "kb": "5087059",
+          "kb": "5101005",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
           "subtype": "Security Update",
@@ -107383,40 +108096,7 @@
           ]
         },
         {
-          "kb": "5087061",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
-          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            446,
-            447,
-            1129,
-            448,
-            449
-          ]
-        },
-        {
-          "kb": "5087062",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            432,
-            433
-          ]
-        },
-        {
-          "kb": "5087063",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            438,
-            439
-          ]
-        },
-        {
-          "kb": "5087064",
+          "kb": "5101006",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -107430,7 +108110,7 @@
           ]
         },
         {
-          "kb": "5087065",
+          "kb": "5101007",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -107442,7 +108122,7 @@
           ]
         },
         {
-          "kb": "5087066",
+          "kb": "5101008",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
           "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -107455,7 +108135,7 @@
           ]
         },
         {
-          "kb": "5087067",
+          "kb": "5101009",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -107465,7 +108145,7 @@
           ]
         },
         {
-          "kb": "5087068",
+          "kb": "5101010",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
           "subtype": "Security Update",
@@ -107475,7 +108155,7 @@
           ]
         },
         {
-          "kb": "5087069",
+          "kb": "5101011",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
           "fixed_build": "4.8.4803.0",
           "subtype": "Security Update",
@@ -107485,51 +108165,9 @@
           ]
         },
         {
-          "kb": "5087077",
+          "kb": "5101014",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1138,
-            1132
-          ]
-        },
-        {
-          "kb": "5087537",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            466,
-            467,
-            468,
-            469
-          ]
-        },
-        {
-          "kb": "5092427",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            485,
-            486
-          ]
-        },
-        {
-          "kb": "5092430",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            483,
-            484
-          ]
-        },
-        {
-          "kb": "5092431",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092431",
-          "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
             1138,
@@ -108553,6 +109191,48 @@
         }
       ],
       "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-57219",
+      "title": "RabbitMQ: Unauthenticated disclosure of OAuth client credentials via an HTTP API endpoint with certain less common OAuth 2 configurations",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1179,
+      "product_idxs": [
+        1179
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57220",
+      "title": "RabbitMQ: Stream listener does not enforce configured frame-size limit during authentication, permitting unauth'd mem-exhaust DoS",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1179,
+      "product_idxs": [
+        1179
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57432",
+      "title": "Perl versions through 5.43.10 have an integer overflow in S_measure_struct leading to an out-of-bounds heap read in pack and unpack",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1218,
+      "product_idxs": [
+        1218
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-57434",
@@ -153730,6 +154410,212 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087537",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            466,
+            467,
+            468,
+            469
+          ]
+        },
+        {
+          "kb": "5100984",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087048",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            434,
+            435
+          ]
+        },
+        {
+          "kb": "5100985",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087049",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            440,
+            441
+          ]
+        },
+        {
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087061",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            446,
+            447,
+            448,
+            449
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087062",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            432,
+            433
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087063",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            438,
+            439
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092427",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            485,
+            486
+          ]
+        },
+        {
+          "kb": "5101000",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087053",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            457,
+            458,
+            459,
+            463,
+            464,
+            465
+          ]
+        },
+        {
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5092430",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            483,
+            484
+          ]
+        },
+        {
+          "kb": "5101003",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1131,
+            1130
+          ]
+        },
+        {
+          "kb": "5101004",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            480,
+            481
+          ]
+        },
+        {
+          "kb": "5101005",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087059",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            452,
+            453
+          ]
+        },
+        {
+          "kb": "5101006",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087064",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            454,
+            455,
+            456,
+            460,
+            461,
+            462
+          ]
+        },
+        {
+          "kb": "5101007",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087065",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            422,
+            423,
+            424,
+            425
+          ]
+        },
+        {
+          "kb": "5101008",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087066",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            442,
+            443,
+            444,
+            445
+          ]
+        },
+        {
+          "kb": "5101009",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087067",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            430,
+            431
+          ]
+        },
+        {
+          "kb": "5101010",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087068",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            450,
+            451
+          ]
+        },
+        {
+          "kb": "5101011",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087069",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            436,
+            437
+          ]
+        },
+        {
+          "kb": "5101014",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087077",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1138,
+            1132
+          ]
+        },
+        {
           "kb": "5104032",
           "url": "https://support.microsoft.com/kb/5104032",
           "fixed_build": "8.0.29",
@@ -153762,7 +154648,7 @@
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 22
     },
     {
       "cve_id": "CVE-2026-54108",
@@ -154274,6 +155160,20 @@
         109
       ],
       "date": "2026-07-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57217",
+      "title": "RabbitMQ: Topic authorization can lead to cross-tenant routing-key bypass",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product_idx": 1179,
+      "product_idxs": [
+        1179
+      ],
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -171105,7 +172005,7 @@
         112,
         113
       ],
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [
         {
@@ -184010,6 +184910,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-57215",
+      "title": "RabbitMQ: Direct-reply-to binding persistence can lead to unauthorized reply-channel injection and persistent phantom",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1179,
+      "product_idxs": [
+        1179
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6210",
       "title": "Type confusion and heap-buffer-overflow in Qt SVG marker handling causing application crash",
       "severity": "Important",
@@ -188667,6 +189581,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-57216",
+      "title": "RabbitMQ: AMQP 1.0, AMQP 0-9-1, Stream Protocol loopback enforcement can lead to remote guest sessions due to listener-address loopback checks",
+      "severity": "Moderate",
+      "cvss": 6.8,
+      "product_idx": 1179,
+      "product_idxs": [
+        1179
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-58208",
       "title": "NATS Server: MQTT-over-WebSocket Path Can Crash WebSocket-Only JetStream Servers Before MQTT Is Enabled",
       "severity": "Moderate",
@@ -190482,6 +191410,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-57211",
+      "title": "RabbitMQ: UNC SSRF affecting the management UI on Windows",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1179,
+      "product_idxs": [
+        1179
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-57453",
       "title": "Vim: PowerShell Command Injection via Unescaped Filename in zip.vim Extraction",
       "severity": "Moderate",
@@ -190533,7 +191475,7 @@
       "product_idxs": [
         1357
       ],
-      "date": "2026-07-11",
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -190543,9 +191485,9 @@
       "title": "etcd: gRPC client listener does not enforce `--client-crl-file` certificate revocation",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1368,
+      "product_idx": 1369,
       "product_idxs": [
-        1368
+        1369
       ],
       "date": "2026-07-10",
       "exploited": false,
@@ -210212,6 +211154,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-42505",
+      "title": "Invoking Encrypted Client Hello privacy leak in crypto/tls",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1273,
+      "product_idxs": [
+        1273,
+        1305
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-42507",
       "title": "Arbitrary inputs are included in errors without any escaping in net/textproto",
       "severity": "Moderate",
@@ -210440,6 +211397,20 @@
         783
       ],
       "date": "2026-07-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-59875",
+      "title": "node-tar: Uncaught Exception DoS via NUL byte in PAX path/linkpath records",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 783,
+      "product_idxs": [
+        783
+      ],
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -211452,6 +212423,20 @@
         1196
       ],
       "date": "2026-06-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-57213",
+      "title": "RabbitMQ: Stored XSS federation management plugin via unsanitized consumer_tag rendering",
+      "severity": "Moderate",
+      "cvss": 4.8,
+      "product_idx": 1179,
+      "product_idxs": [
+        1179
+      ],
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -212657,6 +213642,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-59831",
+      "title": "GitHub CLI `gh codespace jupyter` could allow remote code execution when connecting to a malicious Codespace",
+      "severity": "Moderate",
+      "cvss": 4.4,
+      "product_idx": 1184,
+      "product_idxs": [
+        1184
+      ],
+      "date": "2026-07-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-40269",
       "title": "ALSA: usb-audio: Fix potential overflow of PCM transfer buffer",
       "severity": "Moderate",
@@ -213247,6 +214246,20 @@
         366
       ],
       "date": "2025-10-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13221",
+      "title": "Perl versions through 5.43.9 produce silently incorrect regular expression matches when an alternation of more than 65535 fixed string branches is compiled into a trie in Perl_study_chunk",
+      "severity": "Moderate",
+      "cvss": 4.0,
+      "product_idx": 1218,
+      "product_idxs": [
+        1218
+      ],
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -213887,9 +214900,9 @@
       "title": "Out-of-bound read in mtr",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1369,
+      "product_idx": 1370,
       "product_idxs": [
-        1369
+        1370
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -216372,9 +217385,9 @@
       "title": "runc: Malicious image with /dev symlink can trigger limited host filesystem integrity violations",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367
+        1368
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -218005,6 +219018,21 @@
         667
       ],
       "date": "2026-02-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-15028",
+      "title": "Libarchive: heap overflow oob read while parsing a tar archive contains a pax extended header",
+      "severity": "",
+      "cvss": 3.9,
+      "product_idx": 1295,
+      "product_idxs": [
+        1295,
+        1367
+      ],
+      "date": "2026-07-15",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
