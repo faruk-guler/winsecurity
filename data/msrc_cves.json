@@ -7,7 +7,7 @@
     "low": 187,
     "exploited": 21,
     "patched": 1642,
-    "updated_at": "2026-07-16 23:58 UTC",
+    "updated_at": "2026-07-17 03:29 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -144853,7 +144853,10 @@
           "product_idxs": [
             171,
             172,
-            115
+            115,
+            116,
+            173,
+            174
           ]
         },
         {
