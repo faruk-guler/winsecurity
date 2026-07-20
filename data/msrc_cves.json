@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 6855,
+    "total": 6937,
     "critical": 411,
-    "important": 2556,
-    "moderate": 2015,
+    "important": 2559,
+    "moderate": 2019,
     "low": 187,
     "exploited": 21,
     "patched": 1642,
-    "updated_at": "2026-07-20 21:58 UTC",
+    "updated_at": "2026-07-20 23:07 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1381,9 +1381,16 @@
     "azl3 python-setuptools 69.0.3-5 on Azure Linux 3.0",
     "azl3 gawk 5.2.2-1 on Azure Linux 3.0",
     "azl3 libarchive 3.7.7-6 on Azure Linux 3.0",
+    "azl3 coredns 1.11.4-17 on Azure Linux 3.0",
+    "azl3 squid 6.13-4 on Azure Linux 3.0",
+    "azl3 busybox 1.36.1-24 on Azure Linux 3.0",
+    "azl3 nginx 1.28.3-6 on Azure Linux 3.0",
+    "azl3 qemu 9.1.0-10 on Azure Linux 3.0",
     "azl3 runc 1.3.3-2 on Azure Linux 3.0",
     "azl3 etcd 3.5.30-2 on Azure Linux 3.0",
-    "azl3 mtr 0.95-3 on Azure Linux 3.0"
+    "azl3 mtr 0.95-3 on Azure Linux 3.0",
+    "azl3 rubygem-excon 0.102.0-1 on Azure Linux 3.0",
+    "azl3 rpm-ostree 2024.4-11 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -31105,6 +31112,20 @@
       "kb_count": 4
     },
     {
+      "cve_id": "CVE-2026-53366",
+      "title": "ipv4: account for fraggap on the paged allocation path",
+      "severity": "Important",
+      "cvss": 8.5,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-55999",
       "title": "xorg-server / xwayland glamor font atlas Heap Buffer Overflow",
       "severity": "Important",
@@ -34099,7 +34120,7 @@
         422,
         423
       ],
-      "date": "2026-07-14",
+      "date": "2026-07-20",
       "exploited": false,
       "kb_articles": [
         {
@@ -34201,16 +34222,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -34309,7 +34320,7 @@
           ]
         }
       ],
-      "kb_count": 19
+      "kb_count": 18
     },
     {
       "cve_id": "CVE-2026-47631",
@@ -89298,7 +89309,7 @@
         400,
         162
       ],
-      "date": "2026-07-14",
+      "date": "2026-07-20",
       "exploited": false,
       "kb_articles": [
         {
@@ -89408,16 +89419,6 @@
           "product_idxs": [
             1132,
             1138
-          ]
-        },
-        {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
           ]
         },
         {
@@ -89538,7 +89539,7 @@
           ]
         }
       ],
-      "kb_count": 22
+      "kb_count": 21
     },
     {
       "cve_id": "CVE-2026-50649",
@@ -89652,16 +89653,6 @@
           "product_idxs": [
             483,
             484
-          ]
-        },
-        {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
           ]
         },
         {
@@ -89781,7 +89772,7 @@
           ]
         }
       ],
-      "kb_count": 21
+      "kb_count": 20
     },
     {
       "cve_id": "CVE-2026-50650",
@@ -89908,15 +89899,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -90033,7 +90015,7 @@
           ]
         }
       ],
-      "kb_count": 22
+      "kb_count": 21
     },
     {
       "cve_id": "CVE-2026-50656",
@@ -105309,16 +105291,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -105450,7 +105422,7 @@
           ]
         }
       ],
-      "kb_count": 23
+      "kb_count": 22
     },
     {
       "cve_id": "CVE-2026-48863",
@@ -106188,16 +106160,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -106296,7 +106258,7 @@
           ]
         }
       ],
-      "kb_count": 24
+      "kb_count": 23
     },
     {
       "cve_id": "CVE-2026-50328",
@@ -106676,16 +106638,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -106784,7 +106736,7 @@
           ]
         }
       ],
-      "kb_count": 24
+      "kb_count": 23
     },
     {
       "cve_id": "CVE-2026-50368",
@@ -106956,16 +106908,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -107064,7 +107006,7 @@
           ]
         }
       ],
-      "kb_count": 24
+      "kb_count": 23
     },
     {
       "cve_id": "CVE-2026-50379",
@@ -107299,16 +107241,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -107429,7 +107361,7 @@
           ]
         }
       ],
-      "kb_count": 27
+      "kb_count": 26
     },
     {
       "cve_id": "CVE-2026-50414",
@@ -108304,16 +108236,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -108444,7 +108366,7 @@
           ]
         }
       ],
-      "kb_count": 22
+      "kb_count": 21
     },
     {
       "cve_id": "CVE-2026-50527",
@@ -108568,16 +108490,6 @@
           "product_idxs": [
             1132,
             1138
-          ]
-        },
-        {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
           ]
         },
         {
@@ -108711,7 +108623,7 @@
           ]
         }
       ],
-      "kb_count": 23
+      "kb_count": 22
     },
     {
       "cve_id": "CVE-2026-50647",
@@ -108897,16 +108809,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -109027,7 +108929,7 @@
           ]
         }
       ],
-      "kb_count": 27
+      "kb_count": 26
     },
     {
       "cve_id": "CVE-2026-50648",
@@ -109152,16 +109054,6 @@
           "product_idxs": [
             1138,
             1132
-          ]
-        },
-        {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
           ]
         },
         {
@@ -109296,7 +109188,7 @@
           ]
         }
       ],
-      "kb_count": 23
+      "kb_count": 22
     },
     {
       "cve_id": "CVE-2026-50651",
@@ -109464,16 +109356,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -109572,7 +109454,7 @@
           ]
         }
       ],
-      "kb_count": 19
+      "kb_count": 18
     },
     {
       "cve_id": "CVE-2026-50653",
@@ -109689,16 +109571,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -109797,7 +109669,7 @@
           ]
         }
       ],
-      "kb_count": 19
+      "kb_count": 18
     },
     {
       "cve_id": "CVE-2026-50685",
@@ -111279,6 +111151,34 @@
         1364
       ],
       "date": "2026-07-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62309",
+      "title": "CoreDNS: proxyproto plugin panics on PPv2 datagram with non-UDP transport — single 28-byte packet remote DoS",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1370,
+      "product_idxs": [
+        1370
+      ],
+      "date": "2026-07-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62389",
+      "title": "ws < 8.21.1 Default maxFragments Allows Memory Exhaustion DoS",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 269,
+      "product_idxs": [
+        269
+      ],
+      "date": "2026-07-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -156169,16 +156069,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -156309,7 +156199,7 @@
           ]
         }
       ],
-      "kb_count": 22
+      "kb_count": 21
     },
     {
       "cve_id": "CVE-2026-54108",
@@ -162151,16 +162041,6 @@
           ]
         },
         {
-          "kb": "5101003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087057",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1131,
-            1130
-          ]
-        },
-        {
           "kb": "5101004",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5087058",
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
@@ -162259,7 +162139,7 @@
           ]
         }
       ],
-      "kb_count": 23
+      "kb_count": 22
     },
     {
       "cve_id": "CVE-2026-55199",
@@ -193263,6 +193143,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-47729",
+      "title": "Squid: Memory disclosure in FTP gateway",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1371,
+      "product_idxs": [
+        1371
+      ],
+      "date": "2026-07-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-48858",
       "title": "ftp client PASV response IP not validated against control peer, enabling SSRF and FTP bounce attacks",
       "severity": "Moderate",
@@ -193440,9 +193334,9 @@
       "title": "etcd: gRPC client listener does not enforce `--client-crl-file` certificate revocation",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1371,
+      "product_idx": 1376,
       "product_idxs": [
-        1371
+        1376
       ],
       "date": "2026-07-16",
       "exploited": false,
@@ -209868,6 +209762,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-50012",
+      "title": "Squid: Memory corruption in cache_digest reply handling",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 1371,
+      "product_idxs": [
+        1371
+      ],
+      "date": "2026-07-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-50262",
       "title": "Xorg-x11-server: xorg-x11-server-xwayland: xorg-x11-server: out-of-bounds read/write in glx changedrawableattributes",
       "severity": "Moderate",
@@ -213399,6 +213307,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-62299",
+      "title": "CoreDNS: rewrite-plugin EDNS0 response-revert nil-pointer panic (remote DoS) when a downstream plugin returns a response with no OPT record",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1370,
+      "product_idxs": [
+        1370
+      ],
+      "date": "2026-07-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6402",
       "title": "webpack-dev-server vulnerable to cross-origin source code exposure on non-HTTPS origins",
       "severity": "Moderate",
@@ -216883,9 +216805,9 @@
       "title": "Out-of-bound read in mtr",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1372,
+      "product_idx": 1377,
       "product_idxs": [
-        1372
+        1377
       ],
       "date": "2026-07-11",
       "exploited": false,
@@ -217599,6 +217521,24 @@
         109
       ],
       "date": "2026-05-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-45784",
+      "title": "rust-openssl: Potential out-of-bounds write in `CipherCtxRef::cipher_update_inplace` for AES-KW-PAD ciphers",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1379,
+      "product_idxs": [
+        1379,
+        1350,
+        1351,
+        795,
+        1363
+      ],
+      "date": "2026-07-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -219383,9 +219323,9 @@
       "title": "runc: Malicious image with /dev symlink can trigger limited host filesystem integrity violations",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1370,
+      "product_idx": 1375,
       "product_idxs": [
-        1370
+        1375
       ],
       "date": "2026-07-02",
       "exploited": false,
@@ -220947,6 +220887,76 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-60005",
+      "title": "NGINX ngx_http_slice_module vulnerability",
+      "severity": "",
+      "cvss": 8.2,
+      "product_idx": 1373,
+      "product_idxs": [
+        1373
+      ],
+      "date": "2026-07-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42533",
+      "title": "NGINX Map directive and Regex matching vulnerability",
+      "severity": "",
+      "cvss": 8.1,
+      "product_idx": 1373,
+      "product_idxs": [
+        1373
+      ],
+      "date": "2026-07-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-3842",
+      "title": "Qemu-kvm: hyperv/syndbg: missing mapped-length guard after cpu_physical_memory_map causes host oob write",
+      "severity": "",
+      "cvss": 7.8,
+      "product_idx": 1374,
+      "product_idxs": [
+        1374
+      ],
+      "date": "2026-07-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-38754",
+      "title": "A heap overflow in the ifsbreakup() function (shell/ash.c) of Busybox v1.38.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted input.",
+      "severity": "",
+      "cvss": 7.5,
+      "product_idx": 1372,
+      "product_idxs": [
+        1372
+      ],
+      "date": "2026-07-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-38755",
+      "title": "A heap overflow in the evalcommand() function (shell/ash.c) of Busybox v1.38.0 allows attackers to cause a Denial of Service (DoS) via supplying a crafted input.",
+      "severity": "",
+      "cvss": 7.5,
+      "product_idx": 1372,
+      "product_idxs": [
+        1372
+      ],
+      "date": "2026-07-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-21223",
       "title": "Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
       "severity": "",
@@ -220956,6 +220966,34 @@
         109
       ],
       "date": "2026-01-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-54171",
+      "title": "Excon: redact additional sensitive/risky headers when following redirects",
+      "severity": "",
+      "cvss": 6.5,
+      "product_idx": 1378,
+      "product_idxs": [
+        1378
+      ],
+      "date": "2026-07-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-56434",
+      "title": "NGINX ngx_http_ssi_module vulnerability",
+      "severity": "",
+      "cvss": 6.5,
+      "product_idx": 1373,
+      "product_idxs": [
+        1373
+      ],
+      "date": "2026-07-19",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -238458,15 +238496,337 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-53366",
-      "title": "ipv4: account for fraggap on the paged allocation path",
+      "cve_id": "CVE-2026-53368",
+      "title": "f2fs: fix fsck inconsistency caused by incorrect nat_entry flag usage",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53374",
+      "title": "drm/amdgpu: zero-initialize GART table on allocation",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53375",
+      "title": "drm/amdgpu/vce: Prevent partial address patches",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53376",
+      "title": "drm/amdkfd: Add upper bound check for num_of_nodes",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53377",
+      "title": "drm/msm: always recover the gpu",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53381",
+      "title": "virtiofs: fix UAF on submount umount",
       "severity": "",
       "cvss": null,
       "product_idx": 94,
       "product_idxs": [
         94
       ],
-      "date": "2026-07-17",
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53382",
+      "title": "media: vidtv: fix NULL pointer dereference in vidtv_mux_push_si",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53383",
+      "title": "ksmbd: reject non-VALID session in compound request branch",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53384",
+      "title": "serial: 8250_dw: unregister 8250 port if clk_notifier_register() fails",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53385",
+      "title": "vc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53386",
+      "title": "iio: adc: ti-ads1298: add bounds check to pga_settings index",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53387",
+      "title": "iio: light: veml6075: add bounds check to veml6075_it_ms index",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53388",
+      "title": "fuse: re-lock request before replacing page cache folio",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53390",
+      "title": "ksmbd: fix out-of-bounds read in smb_check_perm_dacl()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53391",
+      "title": "NFSv4/pNFS: reject zero-length r_addr in nfs4_decode_mp_ds_addr",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53392",
+      "title": "NFSv4/flexfiles: reject zero filehandle version count",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53393",
+      "title": "nfsd: reset write verifier on deferred writeback errors",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53397",
+      "title": "nfsd: fix posix_acl leak on SETACL decode failure",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53398",
+      "title": "NFSD: Fix SECINFO_NO_NAME decode error cleanup",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53399",
+      "title": "nfsd: release layout stid on setlease failure",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53400",
+      "title": "i2c: core: fix adapter registration race",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53401",
+      "title": "fbdev: omap2: fix use-after-free in omapfb_mmap",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53402",
+      "title": "fbdev: fbcon: fix out-of-bounds read in err_out of fbcon_do_set_font()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-53403",
+      "title": "fbdev: Fix fb_new_modelist to prevent null-ptr-deref in fb_videomode_to_var",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -239699,6 +240059,636 @@
         109
       ],
       "date": "2026-04-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63793",
+      "title": "ntfs: serialize volume label accesses",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63794",
+      "title": "KVM: SVM: Fix page overflow in sev_dbg_crypt() for ENCRYPT path",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63795",
+      "title": "9p: avoid putting oldfid in p9_client_walk() error path",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63796",
+      "title": "ocfs2: reject oversized group bitmap descriptors",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63797",
+      "title": "rpmsg: char: Fix use-after-free on probe error path",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63798",
+      "title": "irqchip/imgpdc: Fix resource leak, add missing chained handler cleanup on remove",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63800",
+      "title": "pNFS: Fix use-after-free in pnfs_update_layout()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63801",
+      "title": "tipc: fix slab-use-after-free Read in tipc_aead_decrypt_done",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63802",
+      "title": "blk-cgroup: fix UAF in __blkcg_rstat_flush()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63803",
+      "title": "hdlc_ppp: sync per-proto timers before freeing hdlc state",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63804",
+      "title": "gfs2: fix use-after-free in gfs2_qd_dealloc",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63805",
+      "title": "crypto: nx - fix nx_crypto_ctx_exit argument",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63806",
+      "title": "KVM: Replace guest-triggerable BUG_ON() in ioeventfd datamatch with get_unaligned()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63807",
+      "title": "KVM: x86/mmu: Ensure hugepage is in by slot before checking max mapping level",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63808",
+      "title": "exfat: fix potential use-after-free in exfat_find_dir_entry()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63809",
+      "title": "bpf: use kvfree() for replaced sysctl write buffer",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63810",
+      "title": "block: Avoid mounting the bdev pseudo-filesystem in userspace",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63811",
+      "title": "f2fs: read COW data with the original inode during atomic write",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63812",
+      "title": "f2fs: fix incorrect FI_NO_EXTENT handling in __destroy_extent_node()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63814",
+      "title": "f2fs: validate ACL entry sizes in f2fs_acl_from_disk()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63815",
+      "title": "f2fs: bound i_inline_xattr_size for non-inline-xattr inodes",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63816",
+      "title": "f2fs: atomic: fix UAF issue on f2fs_inode_info.atomic_inode",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63817",
+      "title": "f2fs: validate compress cache inode only when enabled",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63818",
+      "title": "f2fs: validate orphan inode entry count",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63819",
+      "title": "f2fs: fix to do sanity check on f2fs_get_node_folio_ra()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63821",
+      "title": "wifi: rtw88: usb: fix memory leaks on USB write failures",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63822",
+      "title": "wifi: ath11k: fix warning when unbinding",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63823",
+      "title": "keys: Pin request_key_auth payload in instantiate paths",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63824",
+      "title": "KEYS: fix overflow in keyctl_pkey_params_get_2()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63825",
+      "title": "gcov: use atomic counter updates to fix concurrent access crashes",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63826",
+      "title": "fbdev: fix use-after-free in store_modes()",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63827",
+      "title": "apparmor: fix use-after-free in rawdata dedup loop",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63828",
+      "title": "apparmor: mediate the implicit connect of TCP fast open sendmsg",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63829",
+      "title": "net: ip_gre: require CAP_NET_ADMIN in the device netns for changelink",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63830",
+      "title": "net: skmsg: preserve sg.copy across SG transforms",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63831",
+      "title": "mac802154: llsec: add skb_cow_data() before in-place crypto",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63832",
+      "title": "wifi: mt76: add wcid publish check in mt76_sta_add",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63833",
+      "title": "ntfs3: reject direct userspace writes to reserved $LX* xattrs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63834",
+      "title": "batman-adv: tp_meter: restrict number of unacked list entries",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63835",
+      "title": "batman-adv: v: prevent OGM aggregation on disabled hardif",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63836",
+      "title": "batman-adv: tp_meter: avoid divide-by-zero for dec_cwnd",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 94,
+      "product_idxs": [
+        94
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63853",
+      "title": "drm/amdgpu/vcn: set no_user_fence for VCN v4.0 enc ring",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63858",
+      "title": "netfilter: nf_tables: add hook transactions for device deletions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63871",
+      "title": "Bluetooth: ISO: Fix data-race on iso_pi fields in hci_get_route calls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63872",
+      "title": "esp: fix page frag reference leak on skb_to_sgvec failure",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 95,
+      "product_idxs": [
+        95
+      ],
+      "date": "2026-07-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
