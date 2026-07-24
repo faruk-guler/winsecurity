@@ -7,7 +7,7 @@
     "low": 211,
     "exploited": 21,
     "patched": 1642,
-    "updated_at": "2026-07-24 17:36 UTC",
+    "updated_at": "2026-07-24 19:23 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1440,8 +1440,7 @@
     "azl3 mtr 0.95-3 on Azure Linux 3.0",
     "azl3 rubygem-excon 0.102.0-1 on Azure Linux 3.0",
     "azl3 rpm-ostree 2024.4-11 on Azure Linux 3.0",
-    "azl3 syslog-ng 4.3.1-3 on Azure Linux 3.0",
-    "Online Services"
+    "azl3 syslog-ng 4.3.1-3 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -8439,12 +8438,12 @@
     },
     {
       "cve_id": "CVE-2026-62835",
-      "title": "Online Services Information Disclosure Vulnerability",
+      "title": "Azure Portal Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1430,
+      "product_idx": 207,
       "product_idxs": [
-        1430
+        207
       ],
       "date": "2026-07-23",
       "exploited": false,
