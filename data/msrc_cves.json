@@ -7,7 +7,7 @@
     "low": 211,
     "exploited": 21,
     "patched": 1642,
-    "updated_at": "2026-07-24 21:02 UTC",
+    "updated_at": "2026-07-24 23:02 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1440,7 +1440,9 @@
     "azl3 mtr 0.95-3 on Azure Linux 3.0",
     "azl3 rubygem-excon 0.102.0-1 on Azure Linux 3.0",
     "azl3 rpm-ostree 2024.4-11 on Azure Linux 3.0",
-    "azl3 syslog-ng 4.3.1-3 on Azure Linux 3.0"
+    "azl3 syslog-ng 4.3.1-3 on Azure Linux 3.0",
+    "Microsoft Edge Copilot for Android",
+    "Microsoft Edge Copilot for IOS"
   ],
   "cves": [
     {
@@ -7922,21 +7924,6 @@
         989
       ],
       "date": "2026-05-14",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-48561",
-      "title": "Microsoft Copilot Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 9.6,
-      "product_idx": 1252,
-      "product_idxs": [
-        1252,
-        996
-      ],
-      "date": "2026-07-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -20178,6 +20165,21 @@
         292
       ],
       "date": "2026-03-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-48561",
+      "title": "Microsoft Edge Copilot Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": null,
+      "product_idx": 1430,
+      "product_idxs": [
+        1430,
+        1431
+      ],
+      "date": "2026-07-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
