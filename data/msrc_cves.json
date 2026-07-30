@@ -7,7 +7,7 @@
     "low": 196,
     "exploited": 21,
     "patched": 1642,
-    "updated_at": "2026-07-30 17:26 UTC",
+    "updated_at": "2026-07-30 19:24 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -3675,6 +3675,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-24304",
+      "title": "Azure Cosmos DB Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 699,
+      "product_idxs": [
+        699
+      ],
+      "date": "2026-07-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-27211",
       "title": "Cloud Hypervisor: Host File Exfiltration via QCOW Backing File Abuse",
       "severity": "Critical",
@@ -4178,20 +4192,6 @@
         1021
       ],
       "date": "2026-04-23",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-24304",
-      "title": "Azure Resource Manager Elevation of Privilege Vulnerability",
-      "severity": "Critical",
-      "cvss": 9.9,
-      "product_idx": 760,
-      "product_idxs": [
-        760
-      ],
-      "date": "2026-01-22",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
