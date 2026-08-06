@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 7027,
-    "critical": 397,
+    "total": 7047,
+    "critical": 414,
     "important": 2542,
     "moderate": 1828,
     "low": 177,
     "exploited": 21,
     "patched": 1546,
-    "updated_at": "2026-08-06 15:12 UTC",
+    "updated_at": "2026-08-06 23:57 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1303,7 +1303,14 @@
     "azl3 rpm-ostree 2024.4-11 on Azure Linux 3.0",
     "azl3 syslog-ng 4.3.1-3 on Azure Linux 3.0",
     "azl3 coreutils 9.4-6 on Azure Linux 3.0",
-    "azl3 nano 6.4-3 on Azure Linux 3.0"
+    "azl3 nano 6.4-3 on Azure Linux 3.0",
+    "Azure SQL Managed Instance",
+    "Application Insights Profiler",
+    "Azure Confidential Ledger",
+    "Azure SRE Agent",
+    "Azure SQL Database",
+    "Azure Service Bus",
+    "Microsoft 365 Admin Center"
   ],
   "cves": [
     {
@@ -3836,6 +3843,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-56162",
+      "title": "Azure SQL Database Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 1297,
+      "product_idxs": [
+        1297
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-56163",
       "title": "Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -3915,6 +3936,34 @@
         1231
       ],
       "date": "2026-07-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63508",
+      "title": "Microsoft Planetary Computer Pro Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 1123,
+      "product_idxs": [
+        1123
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-65667",
+      "title": "Microsoft Teams Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 683,
+      "product_idxs": [
+        683
+      ],
+      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -4191,6 +4240,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-50481",
+      "title": "Azure Active Directory Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 1131,
+      "product_idxs": [
+        1131
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-50515",
+      "title": "Azure Service Bus Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 1298,
+      "product_idxs": [
+        1298
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-50517",
       "title": "Microsoft M365 Copilot Remote Code Execution Vulnerability",
       "severity": "Critical",
@@ -4346,6 +4423,34 @@
         1200
       ],
       "date": "2026-07-02",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-59115",
+      "title": "Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 1200,
+      "product_idxs": [
+        1200
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62830",
+      "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 1296,
+      "product_idxs": [
+        1296
+      ],
+      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -6436,6 +6541,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-62873",
+      "title": "Microsoft 365 Admin Center Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1299,
+      "product_idxs": [
+        1299
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-63797",
       "title": "rpmsg: char: Fix use-after-free on probe error path",
       "severity": "Critical",
@@ -7057,6 +7176,48 @@
       "kb_count": 4
     },
     {
+      "cve_id": "CVE-2026-56161",
+      "title": "Azure Logic Apps Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.6,
+      "product_idx": 618,
+      "product_idxs": [
+        618
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62896",
+      "title": "Microsoft Teams Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.6,
+      "product_idx": 683,
+      "product_idxs": [
+        683
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-70332",
+      "title": "Microsoft Office SharePoint Spoofing Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.6,
+      "product_idx": 504,
+      "product_idxs": [
+        504
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-64656",
       "title": "Azure Application Gateway Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -7366,6 +7527,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-59118",
+      "title": "Microsoft Power Apps Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.3,
+      "product_idx": 906,
+      "product_idxs": [
+        906
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-62835",
       "title": "Azure Portal Information Disclosure Vulnerability",
       "severity": "Critical",
@@ -7581,6 +7756,20 @@
         435
       ],
       "date": "2026-07-26",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-68823",
+      "title": "Azure Confidential Ledger Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.1,
+      "product_idx": 1295,
+      "product_idxs": [
+        1295
+      ],
+      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -8708,6 +8897,20 @@
         }
       ],
       "kb_count": 6
+    },
+    {
+      "cve_id": "CVE-2026-49163",
+      "title": "Application Insights Profiler Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.8,
+      "product_idx": 1294,
+      "product_idxs": [
+        1294
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-50370",
@@ -9965,6 +10168,20 @@
       "kb_count": 9
     },
     {
+      "cve_id": "CVE-2026-65668",
+      "title": "Microsoft Purview eDiscovery Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.8,
+      "product_idx": 905,
+      "product_idxs": [
+        905
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-59271",
       "title": "Redis Enterprise Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -9975,6 +10192,20 @@
         396
       ],
       "date": "2025-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62836",
+      "title": "Azure SQL Managed Instance Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.7,
+      "product_idx": 1293,
+      "product_idxs": [
+        1293
+      ],
+      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -16758,6 +16989,20 @@
         656
       ],
       "date": "2026-07-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62918",
+      "title": "Microsoft Teams Spoofing Vulnerability",
+      "severity": "Critical",
+      "cvss": 7.5,
+      "product_idx": 683,
+      "product_idxs": [
+        683
+      ],
+      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -227363,6 +227608,18 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-50516",
+      "title": "Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
+      "severity": "",
+      "cvss": null,
+      "product_idx": null,
+      "product_idxs": [],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-5272",
       "title": "Chromium: CVE-2026-5272 Heap buffer overflow in GPU",
       "severity": "",
@@ -228455,6 +228712,18 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-62869",
+      "title": "Azure Entra ID Spoofing Vulnerability",
+      "severity": "",
+      "cvss": null,
+      "product_idx": null,
+      "product_idxs": [],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-6296",
       "title": "Chromium: CVE-2026-6296 Heap buffer overflow in ANGLE",
       "severity": "",
@@ -228758,6 +229027,18 @@
         184
       ],
       "date": "2026-04-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63522",
+      "title": "Azure SQL Database Elevation of Privilege Vulnerability",
+      "severity": "",
+      "cvss": null,
+      "product_idx": null,
+      "product_idxs": [],
+      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
