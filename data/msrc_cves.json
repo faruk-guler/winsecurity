@@ -1,13 +1,13 @@
 {
   "meta": {
     "total": 7756,
-    "critical": 433,
+    "critical": 436,
     "important": 2665,
     "moderate": 2273,
     "low": 216,
     "exploited": 21,
     "patched": 1546,
-    "updated_at": "2026-08-07 17:48 UTC",
+    "updated_at": "2026-08-07 18:54 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1307,8 +1307,8 @@
     "Azure SQL Managed Instance",
     "Application Insights Profiler",
     "Azure Confidential Ledger",
-    "Azure SRE Agent",
     "Azure SQL Database",
+    "Azure SRE Agent",
     "Azure Service Bus",
     "Microsoft 365 Admin Center",
     "azl3 kernel 6.6.43.1-7 on Azure Linux 3.0",
@@ -4137,9 +4137,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1297,
+      "product_idx": 1296,
       "product_idxs": [
-        1297
+        1296
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4736,9 +4736,9 @@
       "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1296,
+      "product_idx": 1297,
       "product_idxs": [
-        1296
+        1297
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -7716,6 +7716,20 @@
         498
       ],
       "date": "2025-11-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-50516",
+      "title": "Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.4,
+      "product_idx": 911,
+      "product_idxs": [
+        911
+      ],
+      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -10701,6 +10715,20 @@
         }
       ],
       "kb_count": 9
+    },
+    {
+      "cve_id": "CVE-2026-62869",
+      "title": "Azure Entra ID Spoofing Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.8,
+      "product_idx": 195,
+      "product_idxs": [
+        195
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-65668",
@@ -16383,6 +16411,20 @@
         }
       ],
       "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-63522",
+      "title": "Azure SQL Database Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 7.8,
+      "product_idx": 1296,
+      "product_idxs": [
+        1296
+      ],
+      "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-59500",
@@ -106839,7 +106881,7 @@
       "product_idxs": [
         1074
       ],
-      "date": "2026-07-24",
+      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -239680,18 +239722,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-50516",
-      "title": "Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
-      "severity": "",
-      "cvss": null,
-      "product_idx": null,
-      "product_idxs": [],
-      "date": "2026-08-06",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-5272",
       "title": "Chromium: CVE-2026-5272 Heap buffer overflow in GPU",
       "severity": "",
@@ -240784,18 +240814,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-62869",
-      "title": "Azure Entra ID Spoofing Vulnerability",
-      "severity": "",
-      "cvss": null,
-      "product_idx": null,
-      "product_idxs": [],
-      "date": "2026-08-06",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-6296",
       "title": "Chromium: CVE-2026-6296 Heap buffer overflow in ANGLE",
       "severity": "",
@@ -241099,18 +241117,6 @@
         184
       ],
       "date": "2026-04-17",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-63522",
-      "title": "Azure SQL Database Elevation of Privilege Vulnerability",
-      "severity": "",
-      "cvss": null,
-      "product_idx": null,
-      "product_idxs": [],
-      "date": "2026-08-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
