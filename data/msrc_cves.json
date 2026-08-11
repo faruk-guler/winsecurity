@@ -7,7 +7,7 @@
     "low": 226,
     "exploited": 22,
     "patched": 1916,
-    "updated_at": "2026-08-11 20:40 UTC",
+    "updated_at": "2026-08-11 21:44 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -3067,21 +3067,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -7258,21 +7258,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -7361,21 +7361,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -7858,21 +7858,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -11865,21 +11865,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -12131,21 +12131,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -12258,21 +12258,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -12395,21 +12395,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -12446,21 +12446,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -15685,21 +15685,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -15929,21 +15929,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -19141,21 +19141,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -19831,21 +19831,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -19893,9 +19893,19 @@
             144,
             145
           ]
+        },
+        {
+          "kb": "5123303",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5123303",
+          "fixed_build": "10.0.20348.5499",
+          "subtype": "Security Update",
+          "product_idxs": [
+            131,
+            132
+          ]
         }
       ],
-      "kb_count": 13
+      "kb_count": 14
     },
     {
       "cve_id": "CVE-2026-66807",
@@ -30269,21 +30279,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -32582,21 +32592,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -32743,21 +32753,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -32904,21 +32914,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -33065,21 +33075,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -33226,21 +33236,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -39097,21 +39107,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -39224,21 +39234,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -39385,21 +39395,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -39612,21 +39622,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -43103,9 +43113,43 @@
             144,
             145
           ]
+        },
+        {
+          "kb": "5123273",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5123273",
+          "fixed_build": "10.0.26200.9165",
+          "subtype": "Security Update",
+          "product_idxs": [
+            293,
+            292,
+            144,
+            145
+          ]
+        },
+        {
+          "kb": "5123303",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5123303",
+          "fixed_build": "10.0.20348.5499",
+          "subtype": "Security Update",
+          "product_idxs": [
+            131,
+            132
+          ]
+        },
+        {
+          "kb": "5123607",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5123607",
+          "fixed_build": "10.0.26200.9165",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            293,
+            292,
+            144,
+            145
+          ]
         }
       ],
-      "kb_count": 11
+      "kb_count": 14
     },
     {
       "cve_id": "CVE-2022-50406",
@@ -91626,21 +91670,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -96808,21 +96852,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -96981,9 +97025,9 @@
           ]
         },
         {
-          "kb": "5120386",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
             160,
@@ -97134,21 +97178,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -97846,21 +97890,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -98007,21 +98051,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -98168,21 +98212,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -98458,21 +98502,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -98619,21 +98663,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -99091,21 +99135,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -99305,21 +99349,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -99710,21 +99754,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -99871,21 +99915,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -100032,21 +100076,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -100475,21 +100519,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -100636,21 +100680,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -100926,21 +100970,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -101087,21 +101131,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -101248,21 +101292,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -101482,21 +101526,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -101643,21 +101687,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -101804,21 +101848,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -102250,21 +102294,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -102669,21 +102713,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -102810,21 +102854,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -102971,21 +103015,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -103132,21 +103176,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -103269,21 +103313,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -103396,21 +103440,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -103557,21 +103601,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -103849,21 +103893,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -104319,21 +104363,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -104482,21 +104526,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -104585,21 +104629,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -104791,21 +104835,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -105086,21 +105130,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -105247,21 +105291,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -105408,21 +105452,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -105569,21 +105613,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -107078,9 +107122,9 @@
           ]
         },
         {
-          "kb": "5120386",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
             160,
@@ -107477,21 +107521,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -107638,21 +107682,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -108081,21 +108125,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -108471,21 +108515,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -109570,21 +109614,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -109731,21 +109775,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -109892,21 +109936,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -110053,21 +110097,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -123569,9 +123613,9 @@
           ]
         },
         {
-          "kb": "5120385",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "kb": "5120386",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
             158,
@@ -124781,21 +124825,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -124942,21 +124986,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -125275,21 +125319,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -125436,21 +125480,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -125601,21 +125645,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -157407,21 +157451,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -159343,21 +159387,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -159891,21 +159935,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -160125,21 +160169,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -160515,21 +160559,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -160911,21 +160955,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -161072,21 +161116,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -161233,21 +161277,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -161394,21 +161438,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -161555,21 +161599,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -161716,21 +161760,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -161877,21 +161921,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -162038,21 +162082,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -162272,21 +162316,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -162506,21 +162550,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -163193,21 +163237,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -163969,21 +164013,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -165368,21 +165412,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -167693,21 +167737,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -167854,21 +167898,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -168015,21 +168059,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -168331,21 +168375,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -168492,21 +168536,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -168653,21 +168697,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -168814,21 +168858,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -168975,21 +169019,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -169266,9 +169310,9 @@
           ]
         },
         {
-          "kb": "5120386",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
             160,
@@ -177245,21 +177289,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -177406,21 +177450,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -177567,21 +177611,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -177728,21 +177772,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -177889,21 +177933,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -178026,21 +178070,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -178127,9 +178171,9 @@
           ]
         },
         {
-          "kb": "5120386",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
             160,
@@ -178222,21 +178266,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -178325,21 +178369,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -178428,21 +178472,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -178531,21 +178575,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -178634,21 +178678,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -178761,21 +178805,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -179039,21 +179083,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -179722,21 +179766,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -184884,21 +184928,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -185051,9 +185095,19 @@
             144,
             145
           ]
+        },
+        {
+          "kb": "5123303",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5123303",
+          "fixed_build": "10.0.20348.5499",
+          "subtype": "Security Update",
+          "product_idxs": [
+            131,
+            132
+          ]
         }
       ],
-      "kb_count": 11
+      "kb_count": 12
     },
     {
       "cve_id": "CVE-2026-68819",
@@ -185126,21 +185180,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -185407,9 +185461,9 @@
           ]
         },
         {
-          "kb": "5120386",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
             160,
@@ -185558,9 +185612,9 @@
           ]
         },
         {
-          "kb": "5120386",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
             160,
@@ -199826,21 +199880,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -199987,21 +200041,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -200148,21 +200202,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -200309,21 +200363,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -200470,21 +200524,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -200631,21 +200685,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -201264,21 +201318,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -201425,21 +201479,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -201586,21 +201640,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -201747,21 +201801,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -201908,21 +201962,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -202069,21 +202123,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -202256,21 +202310,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -202417,21 +202471,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -202578,21 +202632,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -202851,21 +202905,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -203343,21 +203397,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -203504,21 +203558,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -206437,21 +206491,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
@@ -209594,21 +209648,21 @@
         {
           "kb": "5120385",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.2.9200.26279",
+          "fixed_build": "6.3.9600.23338",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            158,
-            159
+            160,
+            161
           ]
         },
         {
           "kb": "5120386",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.3.9600.23337",
+          "fixed_build": "6.2.9200.26280",
           "subtype": "Monthly Rollup",
           "product_idxs": [
-            160,
-            161
+            158,
+            159
           ]
         },
         {
