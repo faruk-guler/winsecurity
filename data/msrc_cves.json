@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 8053,
+    "total": 8092,
     "critical": 520,
-    "important": 3008,
+    "important": 3009,
     "moderate": 2209,
     "low": 226,
     "exploited": 22,
     "patched": 1916,
-    "updated_at": "2026-08-11 19:00 UTC",
+    "updated_at": "2026-08-11 20:40 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1469,8 +1469,10 @@
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016 (Server Core installation)",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for 32-bit Systems",
     "Microsoft Entra Connect",
+    "OneDrive for MacOS",
     "Azure SQL Database",
     "Azure SRE Agent",
+    "Copilot Cowork",
     "Application Insights Profiler",
     "Azure Confidential Ledger",
     "cbl2 net-snmp 5.9.4-1",
@@ -1487,9 +1489,7 @@
     "azl3 cpio 2.14-1 on Azure Linux 3.0",
     "azl3 expat 2.8.2-1 on Azure Linux 3.0",
     "azl3 clamav 1.5.3-1 on Azure Linux 3.0",
-    "azl3 stunnel 5.74-1 on Azure Linux 3.0",
-    "Copilot Cowork",
-    "OneDrive for MacOS"
+    "azl3 stunnel 5.74-1 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -4202,9 +4202,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1458,
+      "product_idx": 1459,
       "product_idxs": [
-        1458
+        1459
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4801,9 +4801,9 @@
       "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1459,
+      "product_idx": 1460,
       "product_idxs": [
-        1459
+        1460
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -9092,9 +9092,9 @@
       "title": "Copilot Cowork Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1477,
+      "product_idx": 1461,
       "product_idxs": [
-        1477
+        1461
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -9199,9 +9199,9 @@
       "title": "Apache Portable Runtime Utility: SQL Injection in apr_dbd_oracle",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1466,
+      "product_idx": 1468,
       "product_idxs": [
-        1466
+        1468
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -9368,9 +9368,9 @@
       "title": "Azure Confidential Ledger Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1461,
+      "product_idx": 1463,
       "product_idxs": [
-        1461
+        1463
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -10506,9 +10506,9 @@
       "title": "Application Insights Profiler Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1460,
+      "product_idx": 1462,
       "product_idxs": [
-        1460
+        1462
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -19358,9 +19358,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 1458,
+      "product_idx": 1459,
       "product_idxs": [
-        1458
+        1459
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -22684,9 +22684,9 @@
       "title": "Kata guest escape: runtime-rs guest-root to host-root escape via virtiofs",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1467,
+      "product_idx": 1469,
       "product_idxs": [
-        1467,
+        1469,
         1356
       ],
       "date": "2026-08-09",
@@ -111512,9 +111512,9 @@
       "title": "Apache Portable Runtime Utility: apr_password_validate() vulnerable to timing attack",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1466,
+      "product_idx": 1468,
       "product_idxs": [
-        1466
+        1468
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -113107,9 +113107,9 @@
       "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113121,9 +113121,9 @@
       "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113135,9 +113135,9 @@
       "title": "ClamAV PESpin File Format Processing Integer Overflow Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113149,9 +113149,9 @@
       "title": "ClamAV GPT File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113163,9 +113163,9 @@
       "title": "ClamAV PDF File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113177,9 +113177,9 @@
       "title": "ClamAV Mach-O File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113191,9 +113191,9 @@
       "title": "ClamAV XAR File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -116798,9 +116798,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR redis client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1466,
+      "product_idx": 1468,
       "product_idxs": [
-        1466
+        1468
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -116812,9 +116812,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR memcached client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1466,
+      "product_idx": 1468,
       "product_idxs": [
-        1466
+        1468
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -130836,9 +130836,9 @@
       "title": "Libkcapi: memory corruption via uncanceled aio requests on error in libkcapi's one-shot aio path",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1468,
+      "product_idx": 1470,
       "product_idxs": [
-        1468
+        1470
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -136488,9 +136488,9 @@
       "title": "go-git: Worktree operations may follow symlinks",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1471,
+      "product_idx": 1473,
       "product_idxs": [
-        1471
+        1473
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -168086,9 +168086,9 @@
       "title": "Microsoft OneDrive for MacOS Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 6.7,
-      "product_idx": 1478,
+      "product_idx": 1458,
       "product_idxs": [
-        1478
+        1458
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -205148,6 +205148,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-70339",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 5.4,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2023-20585",
       "title": "AMD: CVE-2023-20585 IOMMU Write Buffer Vulnerability",
       "severity": "Important",
@@ -221063,9 +221077,9 @@
       "title": "Stunnel: stack-based out-of-bounds read/write in stunnel s_vlog via oversized log message",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1476,
+      "product_idx": 1478,
       "product_idxs": [
-        1476
+        1478
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -221077,9 +221091,9 @@
       "title": "Libkcapi: iv reuse in libkcapi one-shot symmetric cipher chunking causes cipher state reset across chunk boundaries",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1468,
+      "product_idx": 1470,
       "product_idxs": [
-        1468
+        1470
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -221637,9 +221651,9 @@
       "title": "go-git: Malicious reference names may modify files outside the reference storage",
       "severity": "Moderate",
       "cvss": 6.3,
-      "product_idx": 1471,
+      "product_idx": 1473,
       "product_idxs": [
-        1471
+        1473
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -222092,9 +222106,9 @@
       "title": "libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.",
       "severity": "Moderate",
       "cvss": 6.2,
-      "product_idx": 1474,
+      "product_idx": 1476,
       "product_idxs": [
-        1474
+        1476
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -224166,9 +224180,9 @@
       "title": "Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch",
       "severity": "Moderate",
       "cvss": 5.7,
-      "product_idx": 1472,
+      "product_idx": 1474,
       "product_idxs": [
-        1472
+        1474
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -234483,9 +234497,9 @@
       "title": "Rpm: heap buffer overflow in ndb slot table parsing",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1469,
+      "product_idx": 1471,
       "product_idxs": [
-        1469
+        1471
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -240477,9 +240491,9 @@
       "title": "Stunnel: ssrf bypass in stunnel socks proxy via ipv4-mapped ipv6 loopback and unspecified addresses allows access to loopback-only services",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1476,
+      "product_idx": 1478,
       "product_idxs": [
-        1476
+        1478
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -241289,9 +241303,9 @@
       "title": "Apache Portable Runtime Utility: apr-util XML stack recursion crash",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1466,
+      "product_idx": 1468,
       "product_idxs": [
-        1466
+        1468
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -242276,9 +242290,9 @@
       "title": "Libkcapi: infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to unhandled io_getevents() timeout return",
       "severity": "Moderate",
       "cvss": 5.1,
-      "product_idx": 1468,
+      "product_idx": 1470,
       "product_idxs": [
-        1468
+        1470
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -247393,9 +247407,9 @@
       "title": "Path Traversal in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1473,
+      "product_idx": 1475,
       "product_idxs": [
-        1473
+        1475
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -247407,9 +247421,9 @@
       "title": "Uncontrolled Memory Allocation in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1473,
+      "product_idx": 1475,
       "product_idxs": [
-        1473
+        1475
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -247421,9 +247435,9 @@
       "title": "Improper Output Encoding in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1473,
+      "product_idx": 1475,
       "product_idxs": [
-        1473
+        1475
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -249779,9 +249793,9 @@
       "title": "Popt-devel: popt-static: off-by-one in poptstuffargs",
       "severity": "Low",
       "cvss": 2.5,
-      "product_idx": 1465,
+      "product_idx": 1467,
       "product_idxs": [
-        1465,
+        1467,
         1351
       ],
       "date": "2026-08-07",
@@ -250006,7 +250020,7 @@
       "product_idx": 1351,
       "product_idxs": [
         1351,
-        1465
+        1467
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -251152,9 +251166,9 @@
       "title": "Libvirt: libvirt: newline injection in network xml dns txt/srv fields allows dnsmasq config directive injection",
       "severity": "",
       "cvss": 2.3,
-      "product_idx": 1470,
+      "product_idx": 1472,
       "product_idxs": [
-        1470
+        1472
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -251239,9 +251253,9 @@
       "title": "",
       "severity": "",
       "cvss": null,
-      "product_idx": 1462,
+      "product_idx": 1464,
       "product_idxs": [
-        1462,
+        1464,
         590
       ],
       "date": "2026-08-07",
@@ -251254,10 +251268,10 @@
       "title": "",
       "severity": "",
       "cvss": null,
-      "product_idx": 1463,
+      "product_idx": 1465,
       "product_idxs": [
-        1463,
-        1464
+        1465,
+        1466
       ],
       "date": "2025-04-01",
       "exploited": false,
@@ -272512,6 +272526,538 @@
         188
       ],
       "date": "2026-02-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19137",
+      "title": "CVE-2026-19137 Use after free in WebGL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19138",
+      "title": "CVE-2026-19138 Heap buffer overflow in CrashReporting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19139",
+      "title": "CVE-2026-19139 Race in CredentialProvider",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19140",
+      "title": "CVE-2026-19140 Use after free in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19142",
+      "title": "CVE-2026-19142 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19144",
+      "title": "CVE-2026-19144 Use after free in HTML",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19145",
+      "title": "CVE-2026-19145 Use after free in Translate",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19146",
+      "title": "CVE-2026-19146 Uninitialized Use in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19147",
+      "title": "CVE-2026-19147 Use after free in Aura",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19148",
+      "title": "CVE-2026-19148 Out of bounds write in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19149",
+      "title": "CVE-2026-19149 Use after free in Aura",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19150",
+      "title": "CVE-2026-19150 Inappropriate implementation in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19151",
+      "title": "CVE-2026-19151 Use after free in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19152",
+      "title": "CVE-2026-19152 Inappropriate implementation in Navigation",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19153",
+      "title": "CVE-2026-19153 Insufficient validation of untrusted input in Workers",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19155",
+      "title": "CVE-2026-19155 Use after free in Payments",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19156",
+      "title": "CVE-2026-19156 Heap buffer overflow in Base",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19157",
+      "title": "CVE-2026-19157 Out of bounds write in ANGLE",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19158",
+      "title": "CVE-2026-19158 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19159",
+      "title": "CVE-2026-19159 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19160",
+      "title": "CVE-2026-19160 Uninitialized Use in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19161",
+      "title": "CVE-2026-19161 Uninitialized Use in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19162",
+      "title": "CVE-2026-19162 Out of bounds write in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19163",
+      "title": "CVE-2026-19163 Use after free in Media",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19164",
+      "title": "CVE-2026-19164 Insufficient validation of untrusted input in Codecs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19165",
+      "title": "CVE-2026-19165 Use after free in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19166",
+      "title": "CVE-2026-19166 Use after free in Web Authentication",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19167",
+      "title": "CVE-2026-19167 Integer overflow in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19168",
+      "title": "CVE-2026-19168 Inappropriate implementation in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19169",
+      "title": "CVE-2026-19169 Insufficient validation of untrusted input in Contextual Tasks",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19170",
+      "title": "CVE-2026-19170 Use after free in WebGL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19171",
+      "title": "CVE-2026-19171 Use after free in Media",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19172",
+      "title": "CVE-2026-19172 Use after free in Views",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19173",
+      "title": "CVE-2026-19173 Out of bounds write in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19174",
+      "title": "CVE-2026-19174 Integer overflow in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19175",
+      "title": "CVE-2026-19175 Use after free in Payments",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19176",
+      "title": "CVE-2026-19176 Use after free in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19177",
+      "title": "CVE-2026-19177 Insufficient validation of untrusted input in UI",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 188,
+      "product_idxs": [
+        188
+      ],
+      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
