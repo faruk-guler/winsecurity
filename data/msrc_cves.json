@@ -7,7 +7,7 @@
     "low": 219,
     "exploited": 22,
     "patched": 1916,
-    "updated_at": "2026-08-12 22:39 UTC",
+    "updated_at": "2026-08-12 23:39 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -3067,7 +3067,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -7107,7 +7107,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -11849,7 +11849,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -11978,7 +11978,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -12242,7 +12242,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -15669,7 +15669,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -15913,7 +15913,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -19125,7 +19125,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -19815,7 +19815,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -19893,13 +19893,13 @@
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -19915,6 +19915,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -19925,20 +19934,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68804",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -19954,6 +19963,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -19964,20 +19982,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68816",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -19993,6 +20011,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -20003,7 +20030,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2025-59500",
@@ -30221,7 +30248,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -32534,7 +32561,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -32695,7 +32722,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -32856,7 +32883,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -33017,7 +33044,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -33178,7 +33205,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -33878,10 +33905,10 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
         169,
         170,
-        171,
-        172
+        171
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -33897,6 +33924,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -33907,7 +33943,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-65811",
@@ -39172,7 +39208,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -39333,7 +39369,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -42989,7 +43025,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -77492,7 +77528,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             292,
@@ -91592,7 +91628,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -96774,7 +96810,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -96939,7 +96975,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97100,7 +97136,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97217,7 +97253,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97346,7 +97382,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97419,7 +97455,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97548,7 +97584,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97651,7 +97687,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97812,7 +97848,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -97973,7 +98009,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -98134,7 +98170,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -98263,7 +98299,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -98424,7 +98460,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -98585,7 +98621,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -98726,7 +98762,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -98896,7 +98932,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99057,7 +99093,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99110,7 +99146,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99271,7 +99307,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99374,7 +99410,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99515,7 +99551,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99676,7 +99712,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99837,7 +99873,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -99998,7 +100034,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -100139,7 +100175,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -100280,7 +100316,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -100441,7 +100477,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -100602,7 +100638,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -100731,7 +100767,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -100892,7 +100928,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101053,7 +101089,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101214,7 +101250,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101287,7 +101323,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101448,7 +101484,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101609,7 +101645,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101770,7 +101806,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101853,7 +101889,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -101926,7 +101962,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -102055,7 +102091,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -102216,7 +102252,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -102357,7 +102393,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -102474,7 +102510,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -102635,7 +102671,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -102776,7 +102812,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -102937,7 +102973,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -103098,7 +103134,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -103362,7 +103398,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -103523,7 +103559,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -103652,7 +103688,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -103922,7 +103958,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -103995,7 +104031,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -104124,7 +104160,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -104285,7 +104321,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -104620,7 +104656,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -104840,7 +104876,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -105052,7 +105088,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -105213,7 +105249,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -105374,7 +105410,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -105535,7 +105571,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -105704,7 +105740,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -105845,7 +105881,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -107016,7 +107052,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -107119,7 +107155,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -107262,7 +107298,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -107423,7 +107459,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -107584,7 +107620,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -107725,7 +107761,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -107866,7 +107902,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -108027,7 +108063,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -108417,7 +108453,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -108481,7 +108517,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -108668,48 +108704,9 @@
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
-        169,
-        170,
-        171,
-        172,
-        165
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "831049",
-          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
-          "fixed_build": "16.112.26081010",
-          "subtype": "Security Update",
-          "product_idxs": [
-            165,
-            166
-          ]
-        },
-        {
-          "kb": "5002903",
-          "url": "https://support.microsoft.com/help/5002903",
-          "fixed_build": "16.0.5565.1001",
-          "subtype": "Security Update",
-          "product_idxs": [
-            167,
-            168
-          ]
-        }
-      ],
-      "kb_count": 2
-    },
-    {
-      "cve_id": "CVE-2026-68795",
-      "title": "Microsoft Excel Remote Code Execution Vulnerability",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 1242,
-      "product_idxs": [
-        1242,
+        164,
         169,
         170,
         171,
@@ -108729,6 +108726,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -108739,20 +108745,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
-      "cve_id": "CVE-2026-68796",
+      "cve_id": "CVE-2026-68795",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 1242,
       "product_idxs": [
+        1242,
+        164,
         169,
         170,
-        171,
-        172,
-        165
+        171
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -108768,6 +108774,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -108778,7 +108793,55 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-68796",
+      "title": "Microsoft Excel Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 164,
+      "product_idxs": [
+        164,
+        169,
+        170,
+        171,
+        172
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.112.26081010",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165,
+            166
+          ]
+        },
+        {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
+          "kb": "5002903",
+          "url": "https://support.microsoft.com/help/5002903",
+          "fixed_build": "16.0.5565.1001",
+          "subtype": "Security Update",
+          "product_idxs": [
+            167,
+            168
+          ]
+        }
+      ],
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68798",
@@ -108814,13 +108877,13 @@
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -108836,6 +108899,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -108846,7 +108918,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68801",
@@ -108856,6 +108928,54 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
+        169,
+        170,
+        171
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.112.26081010",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165,
+            166
+          ]
+        },
+        {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
+          "kb": "5002903",
+          "url": "https://support.microsoft.com/help/5002903",
+          "fixed_build": "16.0.5565.1001",
+          "subtype": "Security Update",
+          "product_idxs": [
+            167,
+            168
+          ]
+        }
+      ],
+      "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-68803",
+      "title": "Microsoft Excel Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 164,
+      "product_idxs": [
+        164,
         169,
         170,
         171,
@@ -108875,42 +108995,12 @@
           ]
         },
         {
-          "kb": "5002903",
-          "url": "https://support.microsoft.com/help/5002903",
-          "fixed_build": "16.0.5565.1001",
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
           "subtype": "Security Update",
           "product_idxs": [
-            167,
-            168
-          ]
-        }
-      ],
-      "kb_count": 2
-    },
-    {
-      "cve_id": "CVE-2026-68803",
-      "title": "Microsoft Excel Remote Code Execution Vulnerability",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 169,
-      "product_idxs": [
-        169,
-        170,
-        171,
-        172,
-        165
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "831049",
-          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
-          "fixed_build": "16.112.26081010",
-          "subtype": "Security Update",
-          "product_idxs": [
-            165,
-            166
+            164
           ]
         },
         {
@@ -108924,20 +109014,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68805",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -108953,6 +109043,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -108963,7 +109062,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68806",
@@ -108973,6 +109072,54 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
+        169,
+        170,
+        171
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.112.26081010",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165,
+            166
+          ]
+        },
+        {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
+          "kb": "5002903",
+          "url": "https://support.microsoft.com/help/5002903",
+          "fixed_build": "16.0.5565.1001",
+          "subtype": "Security Update",
+          "product_idxs": [
+            167,
+            168
+          ]
+        }
+      ],
+      "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-68807",
+      "title": "Microsoft Excel Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 164,
+      "product_idxs": [
+        164,
         169,
         170,
         171,
@@ -108992,42 +109139,12 @@
           ]
         },
         {
-          "kb": "5002903",
-          "url": "https://support.microsoft.com/help/5002903",
-          "fixed_build": "16.0.5565.1001",
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
           "subtype": "Security Update",
           "product_idxs": [
-            167,
-            168
-          ]
-        }
-      ],
-      "kb_count": 2
-    },
-    {
-      "cve_id": "CVE-2026-68807",
-      "title": "Microsoft Excel Remote Code Execution Vulnerability",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 169,
-      "product_idxs": [
-        169,
-        170,
-        171,
-        172,
-        165
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "831049",
-          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
-          "fixed_build": "16.112.26081010",
-          "subtype": "Security Update",
-          "product_idxs": [
-            165,
-            166
+            164
           ]
         },
         {
@@ -109041,7 +109158,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68810",
@@ -109051,10 +109168,10 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
         169,
         170,
-        171,
-        172
+        171
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -109070,6 +109187,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -109080,7 +109206,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68811",
@@ -109090,6 +109216,54 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
+        169,
+        170,
+        171
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.112.26081010",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165,
+            166
+          ]
+        },
+        {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
+          "kb": "5002903",
+          "url": "https://support.microsoft.com/help/5002903",
+          "fixed_build": "16.0.5565.1001",
+          "subtype": "Security Update",
+          "product_idxs": [
+            167,
+            168
+          ]
+        }
+      ],
+      "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-68812",
+      "title": "Microsoft Excel Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 164,
+      "product_idxs": [
+        164,
         169,
         170,
         171,
@@ -109109,42 +109283,12 @@
           ]
         },
         {
-          "kb": "5002903",
-          "url": "https://support.microsoft.com/help/5002903",
-          "fixed_build": "16.0.5565.1001",
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
           "subtype": "Security Update",
           "product_idxs": [
-            167,
-            168
-          ]
-        }
-      ],
-      "kb_count": 2
-    },
-    {
-      "cve_id": "CVE-2026-68812",
-      "title": "Microsoft Excel Remote Code Execution Vulnerability",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 169,
-      "product_idxs": [
-        169,
-        170,
-        171,
-        172,
-        165
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "831049",
-          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
-          "fixed_build": "16.112.26081010",
-          "subtype": "Security Update",
-          "product_idxs": [
-            165,
-            166
+            164
           ]
         },
         {
@@ -109158,7 +109302,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68814",
@@ -109168,6 +109312,54 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
+        169,
+        170,
+        171
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.112.26081010",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165,
+            166
+          ]
+        },
+        {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
+          "kb": "5002903",
+          "url": "https://support.microsoft.com/help/5002903",
+          "fixed_build": "16.0.5565.1001",
+          "subtype": "Security Update",
+          "product_idxs": [
+            167,
+            168
+          ]
+        }
+      ],
+      "kb_count": 3
+    },
+    {
+      "cve_id": "CVE-2026-68815",
+      "title": "Microsoft Excel Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 164,
+      "product_idxs": [
+        164,
         169,
         170,
         171,
@@ -109187,42 +109379,12 @@
           ]
         },
         {
-          "kb": "5002903",
-          "url": "https://support.microsoft.com/help/5002903",
-          "fixed_build": "16.0.5565.1001",
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
           "subtype": "Security Update",
           "product_idxs": [
-            167,
-            168
-          ]
-        }
-      ],
-      "kb_count": 2
-    },
-    {
-      "cve_id": "CVE-2026-68815",
-      "title": "Microsoft Excel Remote Code Execution Vulnerability",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 169,
-      "product_idxs": [
-        169,
-        170,
-        171,
-        172,
-        165
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "831049",
-          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
-          "fixed_build": "16.112.26081010",
-          "subtype": "Security Update",
-          "product_idxs": [
-            165,
-            166
+            164
           ]
         },
         {
@@ -109236,20 +109398,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68817",
       "title": "Microsoft Excel Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -109265,6 +109427,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -109275,7 +109446,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-69278",
@@ -109516,7 +109687,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -109677,7 +109848,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -109838,7 +110009,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -109999,7 +110170,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -123436,7 +123607,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -124613,7 +124784,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -124774,7 +124945,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -125107,7 +125278,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -125268,7 +125439,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -157212,7 +157383,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -159148,7 +159319,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -159289,7 +159460,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -159406,7 +159577,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -159535,7 +159706,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -159696,7 +159867,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -159769,7 +159940,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -159930,7 +160101,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160003,7 +160174,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160086,7 +160257,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160159,7 +160330,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160320,7 +160491,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160449,7 +160620,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160502,7 +160673,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160555,7 +160726,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160716,7 +160887,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -160877,7 +161048,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -161038,7 +161209,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -161199,7 +161370,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -161360,7 +161531,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -161521,7 +161692,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -161682,7 +161853,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -161843,7 +162014,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -161916,7 +162087,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162077,7 +162248,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162150,7 +162321,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162311,7 +162482,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162452,7 +162623,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162535,7 +162706,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162618,7 +162789,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162747,7 +162918,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -162998,7 +163169,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163167,7 +163338,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163240,7 +163411,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163292,7 +163463,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163335,7 +163506,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163388,7 +163559,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163440,7 +163611,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163482,7 +163653,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163524,7 +163695,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163597,7 +163768,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -163758,7 +163929,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -165157,7 +165328,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -165274,7 +165445,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -167482,7 +167653,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -167643,7 +167814,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -167804,7 +167975,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -167959,7 +168130,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -168120,7 +168291,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -168281,7 +168452,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -168442,7 +168613,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -168603,7 +168774,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -168764,7 +168935,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -177034,7 +177205,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -177195,7 +177366,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -177356,7 +177527,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -177517,7 +177688,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -177678,7 +177849,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -178550,7 +178721,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -178691,7 +178862,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -179350,7 +179521,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -179511,7 +179682,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -179687,10 +179858,10 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
         169,
         170,
-        171,
-        172
+        171
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -179706,6 +179877,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -179716,7 +179896,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-70328",
@@ -179726,10 +179906,10 @@
       "product_idx": 1242,
       "product_idxs": [
         1242,
+        164,
         169,
         170,
-        171,
-        172
+        171
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -179745,6 +179925,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -179755,7 +179944,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-21265",
@@ -180093,7 +180282,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -184778,7 +184967,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -185198,7 +185387,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -185349,7 +185538,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -199625,7 +199814,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -199786,7 +199975,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -199947,7 +200136,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -200108,7 +200297,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -200269,7 +200458,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -200430,7 +200619,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -200571,7 +200760,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -200644,7 +200833,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -200773,7 +200962,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -200902,7 +201091,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -201063,7 +201252,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -201224,7 +201413,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -201385,7 +201574,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -201546,7 +201735,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -201707,7 +201896,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -201868,7 +202057,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -202055,7 +202244,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -202216,7 +202405,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -202377,7 +202566,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -202460,7 +202649,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -202650,7 +202839,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -203142,7 +203331,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -203303,7 +203492,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -203449,13 +203638,13 @@
       "title": "Microsoft Excel Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.5,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -203471,6 +203660,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -203481,20 +203679,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68799",
       "title": "Microsoft Excel Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.5,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -203510,6 +203708,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -203520,20 +203727,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68802",
       "title": "Microsoft Excel Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.5,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -203549,6 +203756,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -203559,20 +203775,20 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68808",
       "title": "Microsoft Excel Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.5,
-      "product_idx": 169,
+      "product_idx": 164,
       "product_idxs": [
+        164,
         169,
         170,
         171,
-        172,
-        165
+        172
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -203588,6 +203804,15 @@
           ]
         },
         {
+          "kb": "5002884",
+          "url": "https://support.microsoft.com/help/5002884",
+          "fixed_build": "16.0.10417.20175",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
           "kb": "5002903",
           "url": "https://support.microsoft.com/help/5002903",
           "fixed_build": "16.0.5565.1001",
@@ -203598,7 +203823,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-68809",
@@ -204055,7 +204280,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -206236,7 +206461,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -206339,7 +206564,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -206874,7 +207099,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -209393,7 +209618,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
@@ -213686,7 +213911,7 @@
         {
           "kb": "5120994",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26100.9106",
+          "fixed_build": "10.0.26200.9106",
           "subtype": "Security Hotpatch Update",
           "product_idxs": [
             293,
