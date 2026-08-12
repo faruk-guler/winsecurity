@@ -7,7 +7,7 @@
     "low": 219,
     "exploited": 22,
     "patched": 1916,
-    "updated_at": "2026-08-12 15:58 UTC",
+    "updated_at": "2026-08-12 17:03 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1430,6 +1430,7 @@
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016 (Server Core installation)",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for 32-bit Systems",
+    "Microsoft Entra Connect",
     "OneDrive for MacOS",
     "Azure SQL Database",
     "Azure SRE Agent",
@@ -1456,8 +1457,7 @@
     "azl3 expat 2.8.2-1 on Azure Linux 3.0",
     "azl3 clamav 1.5.3-1 on Azure Linux 3.0",
     "azl3 stunnel 5.74-1 on Azure Linux 3.0",
-    "azl3 valkey 8.0.10-1 on Azure Linux 3.0",
-    "Microsoft Entra Connect"
+    "azl3 valkey 8.0.10-1 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -4170,9 +4170,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1420,
+      "product_idx": 1421,
       "product_idxs": [
-        1420
+        1421
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4769,9 +4769,9 @@
       "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1421,
+      "product_idx": 1422,
       "product_idxs": [
-        1421
+        1422
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -8624,10 +8624,10 @@
       "title": "Kata Containers: Config Path Annotation Arbitrary File Loading",
       "severity": "Critical",
       "cvss": 9.6,
-      "product_idx": 1431,
+      "product_idx": 1432,
       "product_idxs": [
-        1431,
-        1432
+        1432,
+        1433
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -9058,9 +9058,9 @@
       "title": "Copilot Cowork Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1422,
+      "product_idx": 1423,
       "product_idxs": [
-        1422
+        1423
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -9165,9 +9165,9 @@
       "title": "Apache Portable Runtime Utility: SQL Injection in apr_dbd_oracle",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1430,
+      "product_idx": 1431,
       "product_idxs": [
-        1430
+        1431
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -9320,9 +9320,9 @@
       "title": "Azure Confidential Ledger Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1424,
+      "product_idx": 1425,
       "product_idxs": [
-        1424
+        1425
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -10458,9 +10458,9 @@
       "title": "Application Insights Profiler Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1423,
+      "product_idx": 1424,
       "product_idxs": [
-        1423
+        1424
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -19310,9 +19310,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 1420,
+      "product_idx": 1421,
       "product_idxs": [
-        1420
+        1421
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -22646,10 +22646,10 @@
       "title": "Kata guest escape: runtime-rs guest-root to host-root escape via virtiofs",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1433,
+      "product_idx": 1434,
       "product_idxs": [
-        1433,
-        1432
+        1434,
+        1433
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -107158,9 +107158,9 @@
       "title": "Microsoft Entra Connect Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1446,
+      "product_idx": 1419,
       "product_idxs": [
-        1446
+        1419
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -111397,9 +111397,9 @@
       "title": "Apache Portable Runtime Utility: apr_password_validate() vulnerable to timing attack",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1430,
+      "product_idx": 1431,
       "product_idxs": [
-        1430
+        1431
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -112978,9 +112978,9 @@
       "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1443,
+      "product_idx": 1444,
       "product_idxs": [
-        1443
+        1444
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -112992,9 +112992,9 @@
       "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1443,
+      "product_idx": 1444,
       "product_idxs": [
-        1443
+        1444
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113006,9 +113006,9 @@
       "title": "ClamAV PESpin File Format Processing Integer Overflow Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1443,
+      "product_idx": 1444,
       "product_idxs": [
-        1443
+        1444
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113020,9 +113020,9 @@
       "title": "ClamAV GPT File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1443,
+      "product_idx": 1444,
       "product_idxs": [
-        1443
+        1444
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113034,9 +113034,9 @@
       "title": "ClamAV PDF File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1443,
+      "product_idx": 1444,
       "product_idxs": [
-        1443
+        1444
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113048,9 +113048,9 @@
       "title": "ClamAV Mach-O File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1443,
+      "product_idx": 1444,
       "product_idxs": [
-        1443
+        1444
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -113062,9 +113062,9 @@
       "title": "ClamAV XAR File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1443,
+      "product_idx": 1444,
       "product_idxs": [
-        1443
+        1444
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -116669,9 +116669,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR redis client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1430,
+      "product_idx": 1431,
       "product_idxs": [
-        1430
+        1431
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -116683,9 +116683,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR memcached client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1430,
+      "product_idx": 1431,
       "product_idxs": [
-        1430
+        1431
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -123593,9 +123593,9 @@
       "title": "Client-Side Memory Leak in OCSP Response Checking",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1431,
+      "product_idx": 1432,
       "product_idxs": [
-        1431
+        1432
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -125724,9 +125724,9 @@
       "title": "gopacket: Multiple layer decoders panic on crafted packets (out-of-bounds/underflow) enabling unauthenticated remote DoS via DecodingLayerParser",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1439,
+      "product_idx": 1440,
       "product_idxs": [
-        1439
+        1440
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -130616,9 +130616,9 @@
       "title": "Libkcapi: memory corruption via uncanceled aio requests on error in libkcapi's one-shot aio path",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1434,
+      "product_idx": 1435,
       "product_idxs": [
-        1434
+        1435
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -136261,9 +136261,9 @@
       "title": "go-git: Worktree operations may follow symlinks",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1438,
+      "product_idx": 1439,
       "product_idxs": [
-        1438
+        1439
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -167843,9 +167843,9 @@
       "title": "Microsoft OneDrive for MacOS Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 6.7,
-      "product_idx": 1419,
+      "product_idx": 1420,
       "product_idxs": [
-        1419
+        1420
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -212677,9 +212677,9 @@
       "title": "HDF5 H5Pget_fill_value NULL Pointer Dereference via Malformed Fill Value Message",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1428,
+      "product_idx": 1429,
       "product_idxs": [
-        1428
+        1429
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -217010,9 +217010,9 @@
       "title": "Redis - Heap Out-of-Bounds Read in Cluster Bus PING Message Handler",
       "severity": "Moderate",
       "cvss": 7.1,
-      "product_idx": 1445,
+      "product_idx": 1446,
       "product_idxs": [
-        1445
+        1446
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -220515,9 +220515,9 @@
       "title": "Stunnel: stack-based out-of-bounds read/write in stunnel s_vlog via oversized log message",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1444,
+      "product_idx": 1445,
       "product_idxs": [
-        1444
+        1445
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -220529,9 +220529,9 @@
       "title": "Libkcapi: iv reuse in libkcapi one-shot symmetric cipher chunking causes cipher state reset across chunk boundaries",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1434,
+      "product_idx": 1435,
       "product_idxs": [
-        1434
+        1435
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -221075,9 +221075,9 @@
       "title": "go-git: Malicious reference names may modify files outside the reference storage",
       "severity": "Moderate",
       "cvss": 6.3,
-      "product_idx": 1438,
+      "product_idx": 1439,
       "product_idxs": [
-        1438
+        1439
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -221530,9 +221530,9 @@
       "title": "libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.",
       "severity": "Moderate",
       "cvss": 6.2,
-      "product_idx": 1442,
+      "product_idx": 1443,
       "product_idxs": [
-        1442
+        1443
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -223547,9 +223547,9 @@
       "title": "Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch",
       "severity": "Moderate",
       "cvss": 5.7,
-      "product_idx": 1440,
+      "product_idx": 1441,
       "product_idxs": [
-        1440
+        1441
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -223589,10 +223589,10 @@
       "title": "Kata Containers: Unauthorized mem-agent ttRPC methods let an untrusted host tamper with confidential-guest memory",
       "severity": "Moderate",
       "cvss": 5.7,
-      "product_idx": 1431,
+      "product_idx": 1432,
       "product_idxs": [
-        1431,
-        1432
+        1432,
+        1433
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -233847,9 +233847,9 @@
       "title": "Rpm: heap buffer overflow in ndb slot table parsing",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1435,
+      "product_idx": 1436,
       "product_idxs": [
-        1435
+        1436
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -239777,9 +239777,9 @@
       "title": "Stunnel: ssrf bypass in stunnel socks proxy via ipv4-mapped ipv6 loopback and unspecified addresses allows access to loopback-only services",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1444,
+      "product_idx": 1445,
       "product_idxs": [
-        1444
+        1445
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -240588,9 +240588,9 @@
       "title": "Apache Portable Runtime Utility: apr-util XML stack recursion crash",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1430,
+      "product_idx": 1431,
       "product_idxs": [
-        1430
+        1431
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -241574,9 +241574,9 @@
       "title": "Libkcapi: infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to unhandled io_getevents() timeout return",
       "severity": "Moderate",
       "cvss": 5.1,
-      "product_idx": 1434,
+      "product_idx": 1435,
       "product_idxs": [
-        1434
+        1435
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -245300,9 +245300,9 @@
       "title": "HDF5 divide-by-zero (SIGFPE) via mismatched chunk-layout dimensionality and dataspace rank on dataset open",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1428,
+      "product_idx": 1429,
       "product_idxs": [
-        1428
+        1429
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -245314,9 +245314,9 @@
       "title": "Nbit filter NULL/short parameter-array dereference",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1428,
+      "product_idx": 1429,
       "product_idxs": [
-        1428
+        1429
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -245328,9 +245328,9 @@
       "title": "HDF5 out-of-bounds heap read in N-Bit filter decompression",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1428,
+      "product_idx": 1429,
       "product_idxs": [
-        1428
+        1429
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -245342,9 +245342,9 @@
       "title": "HDF5 integer underflow in Fletcher32 filter leads to massive out-of-bounds read",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1428,
+      "product_idx": 1429,
       "product_idxs": [
-        1428
+        1429
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -246426,9 +246426,9 @@
       "title": "GitHub CLI: Unescaped variable components in request URLs could allow path traversal",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1436,
+      "product_idx": 1437,
       "product_idxs": [
-        1436
+        1437
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -246440,9 +246440,9 @@
       "title": "GitHub CLI: Terminal escape sequence injection in multiple `gh` commands",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1436,
+      "product_idx": 1437,
       "product_idxs": [
-        1436
+        1437
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -246454,9 +246454,9 @@
       "title": "Path Traversal in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1441,
+      "product_idx": 1442,
       "product_idxs": [
-        1441
+        1442
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -246468,9 +246468,9 @@
       "title": "Uncontrolled Memory Allocation in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1441,
+      "product_idx": 1442,
       "product_idxs": [
-        1441
+        1442
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -246482,9 +246482,9 @@
       "title": "Improper Output Encoding in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1441,
+      "product_idx": 1442,
       "product_idxs": [
-        1441
+        1442
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -248794,9 +248794,9 @@
       "title": "Popt-devel: popt-static: off-by-one in poptstuffargs",
       "severity": "Low",
       "cvss": 2.5,
-      "product_idx": 1429,
+      "product_idx": 1430,
       "product_idxs": [
-        1429,
+        1430,
         1385
       ],
       "date": "2026-08-07",
@@ -249021,7 +249021,7 @@
       "product_idx": 1385,
       "product_idxs": [
         1385,
-        1429
+        1430
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -249333,9 +249333,9 @@
       "title": "HDF5 h5dump Untrusted Pointer Dereference in Binary Output of Variable-Length String Datasets",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1428,
+      "product_idx": 1429,
       "product_idxs": [
-        1428
+        1429
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -250066,9 +250066,9 @@
       "title": "GitHub CLI: Partial token disclosure in `gh auth status` output",
       "severity": "",
       "cvss": 3.3,
-      "product_idx": 1436,
+      "product_idx": 1437,
       "product_idxs": [
-        1436
+        1437
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -250080,9 +250080,9 @@
       "title": "Libvirt: libvirt: newline injection in network xml dns txt/srv fields allows dnsmasq config directive injection",
       "severity": "",
       "cvss": 2.3,
-      "product_idx": 1437,
+      "product_idx": 1438,
       "product_idxs": [
-        1437
+        1438
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -250167,9 +250167,9 @@
       "title": "",
       "severity": "",
       "cvss": null,
-      "product_idx": 1425,
+      "product_idx": 1426,
       "product_idxs": [
-        1425,
+        1426,
         590
       ],
       "date": "2026-08-07",
@@ -250182,10 +250182,10 @@
       "title": "",
       "severity": "",
       "cvss": null,
-      "product_idx": 1426,
+      "product_idx": 1427,
       "product_idxs": [
-        1426,
-        1427
+        1427,
+        1428
       ],
       "date": "2025-04-01",
       "exploited": false,
@@ -274885,9 +274885,9 @@
       "title": "GitHub CLI: Attestation Verification Bypass via Unescaped Regex Metacharacters in SAN Matching",
       "severity": "",
       "cvss": null,
-      "product_idx": 1436,
+      "product_idx": 1437,
       "product_idxs": [
-        1436
+        1437
       ],
       "date": "2026-08-11",
       "exploited": false,
