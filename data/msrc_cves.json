@@ -6,8 +6,8 @@
     "moderate": 2165,
     "low": 219,
     "exploited": 22,
-    "patched": 1916,
-    "updated_at": "2026-08-13 22:40 UTC",
+    "patched": 1917,
+    "updated_at": "2026-08-13 23:39 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -41922,8 +41922,18 @@
       ],
       "date": "2026-07-14",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "105944",
+          "url": "https://www.microsoft.com/en-us/download/details.aspx?id=105944",
+          "fixed_build": "15.0.1121.120",
+          "subtype": "Security Update",
+          "product_idxs": [
+            744
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-28364",
