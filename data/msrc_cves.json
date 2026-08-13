@@ -7,7 +7,7 @@
     "low": 219,
     "exploited": 22,
     "patched": 1916,
-    "updated_at": "2026-08-13 15:59 UTC",
+    "updated_at": "2026-08-13 17:05 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -105018,15 +105018,14 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 740,
+      "product_idx": 324,
       "product_idxs": [
-        740,
-        742,
         324,
-        298,
-        323
+        326,
+        1409,
+        317
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-13",
       "exploited": false,
       "kb_articles": [
         {
@@ -105035,9 +105034,7 @@
           "fixed_build": "8.0.30",
           "subtype": "Security Update",
           "product_idxs": [
-            324,
-            298,
-            323
+            324
           ]
         },
         {
@@ -105046,23 +105043,11 @@
           "fixed_build": "9.0.19",
           "subtype": "Security Update",
           "product_idxs": [
-            299,
-            325,
             326
-          ]
-        },
-        {
-          "kb": "5122106",
-          "url": "https://support.microsoft.com/help/5122106",
-          "fixed_build": "10.0.11",
-          "subtype": "Security Update",
-          "product_idxs": [
-            740,
-            742
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-62876",
@@ -105717,11 +105702,11 @@
       "product_idxs": [
         1409,
         741,
-        740,
-        742,
-        324
+        324,
+        326,
+        317
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-13",
       "exploited": false,
       "kb_articles": [
         {
@@ -105730,9 +105715,7 @@
           "fixed_build": "8.0.30",
           "subtype": "Security Update",
           "product_idxs": [
-            324,
-            298,
-            323
+            324
           ]
         },
         {
@@ -105741,9 +105724,7 @@
           "fixed_build": "9.0.19",
           "subtype": "Security Update",
           "product_idxs": [
-            299,
-            326,
-            325
+            326
           ]
         },
         {
@@ -105752,9 +105733,7 @@
           "fixed_build": "10.0.11",
           "subtype": "Security Update",
           "product_idxs": [
-            741,
-            740,
-            742
+            741
           ]
         }
       ],
@@ -110312,15 +110291,15 @@
       "title": ".NET Core Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1418,
+      "product_idx": 1409,
       "product_idxs": [
-        1418,
-        339,
-        340,
-        1327,
-        345
+        1409,
+        317,
+        326,
+        324,
+        741
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-13",
       "exploited": false,
       "kb_articles": [
         {
@@ -110539,9 +110518,7 @@
           "fixed_build": "8.0.30",
           "subtype": "Security Update",
           "product_idxs": [
-            298,
-            324,
-            323
+            324
           ]
         },
         {
@@ -110550,9 +110527,7 @@
           "fixed_build": "9.0.19",
           "subtype": "Security Update",
           "product_idxs": [
-            326,
-            299,
-            325
+            326
           ]
         },
         {
@@ -110561,9 +110536,7 @@
           "fixed_build": "10.0.11",
           "subtype": "Security Update",
           "product_idxs": [
-            742,
-            741,
-            740
+            741
           ]
         }
       ],
@@ -125712,13 +125685,13 @@
       "title": "Microsoft QUIC Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 740,
+      "product_idx": 741,
       "product_idxs": [
-        740,
         741,
-        742,
         317,
-        1409
+        1409,
+        326,
+        324
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -125729,9 +125702,7 @@
           "fixed_build": "8.0.30",
           "subtype": "Security Update",
           "product_idxs": [
-            324,
-            323,
-            298
+            324
           ]
         },
         {
@@ -125740,9 +125711,7 @@
           "fixed_build": "9.0.19",
           "subtype": "Security Update",
           "product_idxs": [
-            299,
-            326,
-            325
+            326
           ]
         },
         {
@@ -125751,9 +125720,7 @@
           "fixed_build": "10.0.11",
           "subtype": "Security Update",
           "product_idxs": [
-            740,
-            741,
-            742
+            741
           ]
         }
       ],
@@ -163060,13 +163027,13 @@
       "title": ".NET Framework Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1330,
+      "product_idx": 741,
       "product_idxs": [
-        1330,
-        740,
-        1327,
-        1329,
-        325
+        741,
+        324,
+        326,
+        1409,
+        317
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -163115,8 +163082,6 @@
           "fixed_build": "8.0.30",
           "subtype": "Security Update",
           "product_idxs": [
-            323,
-            298,
             324
           ]
         },
@@ -163126,8 +163091,6 @@
           "fixed_build": "9.0.19",
           "subtype": "Security Update",
           "product_idxs": [
-            325,
-            299,
             326
           ]
         },
@@ -163137,9 +163100,7 @@
           "fixed_build": "10.0.11",
           "subtype": "Security Update",
           "product_idxs": [
-            740,
-            741,
-            742
+            741
           ]
         }
       ],
@@ -179231,13 +179192,12 @@
       "title": ".NET Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 740,
+      "product_idx": 324,
       "product_idxs": [
-        740,
-        742,
         324,
-        298,
-        323
+        326,
+        317,
+        1409
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -179248,9 +179208,7 @@
           "fixed_build": "8.0.30",
           "subtype": "Security Update",
           "product_idxs": [
-            324,
-            298,
-            323
+            324
           ]
         },
         {
@@ -179259,23 +179217,11 @@
           "fixed_build": "9.0.19",
           "subtype": "Security Update",
           "product_idxs": [
-            299,
-            325,
             326
-          ]
-        },
-        {
-          "kb": "5122106",
-          "url": "https://support.microsoft.com/help/5122106",
-          "fixed_build": "10.0.11",
-          "subtype": "Security Update",
-          "product_idxs": [
-            740,
-            742
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-62912",
