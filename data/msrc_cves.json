@@ -1,13 +1,13 @@
 {
   "meta": {
     "total": 8020,
-    "critical": 519,
-    "important": 2990,
+    "critical": 520,
+    "important": 2989,
     "moderate": 2165,
     "low": 219,
     "exploited": 22,
     "patched": 1916,
-    "updated_at": "2026-08-13 14:56 UTC",
+    "updated_at": "2026-08-13 15:59 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -22138,6 +22138,109 @@
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-65796",
+      "title": "Windows iSCSI Target Service Denial of Service Vulnerability",
+      "severity": "Critical",
+      "cvss": 5.9,
+      "product_idx": 127,
+      "product_idxs": [
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "date": "2026-08-13",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5120228",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120228",
+          "fixed_build": "10.0.26100.33222",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            143,
+            146
+          ]
+        },
+        {
+          "kb": "5120229",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120229",
+          "fixed_build": "10.0.20348.5440",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            131,
+            132
+          ]
+        },
+        {
+          "kb": "5120233",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120233",
+          "fixed_build": "10.0.26100.33296",
+          "subtype": "Security Update",
+          "product_idxs": [
+            143,
+            146
+          ]
+        },
+        {
+          "kb": "5120238",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
+          "fixed_build": "10.0.17763.9115",
+          "subtype": "Security Update",
+          "product_idxs": [
+            127,
+            128,
+            129,
+            130
+          ]
+        },
+        {
+          "kb": "5120242",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120242",
+          "fixed_build": "10.0.20348.5499",
+          "subtype": "Security Update",
+          "product_idxs": [
+            131,
+            132
+          ]
+        },
+        {
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
+          "subtype": "Monthly Rollup",
+          "product_idxs": [
+            160,
+            161
+          ]
+        },
+        {
+          "kb": "5120386",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
+          "fixed_build": "6.2.9200.26280",
+          "subtype": "Monthly Rollup",
+          "product_idxs": [
+            158,
+            159
+          ]
+        },
+        {
+          "kb": "5120418",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120418",
+          "fixed_build": "10.0.14393.9418",
+          "subtype": "Security Update",
+          "product_idxs": [
+            148,
+            149,
+            150,
+            151
+          ]
+        }
+      ],
+      "kb_count": 8
     },
     {
       "cve_id": "CVE-2025-53799",
@@ -184758,109 +184861,6 @@
         }
       ],
       "kb_count": 3
-    },
-    {
-      "cve_id": "CVE-2026-65796",
-      "title": "Windows iSCSI Target Service Denial of Service Vulnerability",
-      "severity": "Important",
-      "cvss": 5.9,
-      "product_idx": 127,
-      "product_idxs": [
-        127,
-        128,
-        129,
-        130,
-        131
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5120228",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120228",
-          "fixed_build": "10.0.26100.33222",
-          "subtype": "Security Hotpatch Update",
-          "product_idxs": [
-            143,
-            146
-          ]
-        },
-        {
-          "kb": "5120229",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120229",
-          "fixed_build": "10.0.20348.5440",
-          "subtype": "Security Hotpatch Update",
-          "product_idxs": [
-            131,
-            132
-          ]
-        },
-        {
-          "kb": "5120233",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120233",
-          "fixed_build": "10.0.26100.33296",
-          "subtype": "Security Update",
-          "product_idxs": [
-            143,
-            146
-          ]
-        },
-        {
-          "kb": "5120238",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
-          "subtype": "Security Update",
-          "product_idxs": [
-            127,
-            128,
-            129,
-            130
-          ]
-        },
-        {
-          "kb": "5120242",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120242",
-          "fixed_build": "10.0.20348.5499",
-          "subtype": "Security Update",
-          "product_idxs": [
-            131,
-            132
-          ]
-        },
-        {
-          "kb": "5120385",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
-          "fixed_build": "6.3.9600.23338",
-          "subtype": "Monthly Rollup",
-          "product_idxs": [
-            160,
-            161
-          ]
-        },
-        {
-          "kb": "5120386",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
-          "fixed_build": "6.2.9200.26280",
-          "subtype": "Monthly Rollup",
-          "product_idxs": [
-            158,
-            159
-          ]
-        },
-        {
-          "kb": "5120418",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120418",
-          "fixed_build": "10.0.14393.9418",
-          "subtype": "Security Update",
-          "product_idxs": [
-            148,
-            149,
-            150,
-            151
-          ]
-        }
-      ],
-      "kb_count": 8
     },
     {
       "cve_id": "CVE-2026-6727",
