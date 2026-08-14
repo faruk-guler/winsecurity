@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 8363,
+    "total": 8364,
     "critical": 547,
-    "important": 3054,
+    "important": 3055,
     "moderate": 2385,
     "low": 243,
     "exploited": 22,
     "patched": 1917,
-    "updated_at": "2026-08-14 21:23 UTC",
+    "updated_at": "2026-08-14 22:21 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -110416,6 +110416,20 @@
         204
       ],
       "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69414",
+      "title": "Microsoft Defender Elevation of Privilege Vulnerability",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 1188,
+      "product_idxs": [
+        1188
+      ],
+      "date": "2026-08-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
