@@ -7,7 +7,7 @@
     "low": 213,
     "exploited": 22,
     "patched": 1917,
-    "updated_at": "2026-08-14 18:52 UTC",
+    "updated_at": "2026-08-14 19:47 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -77894,8 +77894,9 @@
       "title": "Bluetooth: MGMT: Fix list corruption and UAF in command complete handlers",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 272,
+      "product_idx": 789,
       "product_idxs": [
+        789,
         272,
         56,
         445
@@ -232833,9 +232834,9 @@
       "product_idxs": [
         272,
         465,
+        789,
         617,
-        56,
-        445
+        56
       ],
       "date": "2026-05-30",
       "exploited": false,
