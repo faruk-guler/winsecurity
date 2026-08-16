@@ -7,7 +7,7 @@
     "low": 243,
     "exploited": 22,
     "patched": 1917,
-    "updated_at": "2026-08-16 17:18 UTC",
+    "updated_at": "2026-08-16 18:27 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1462,9 +1462,11 @@
     "Azure SQL Managed Instance",
     "Azure Service Bus",
     "Microsoft 365 Admin Center",
+    "PowerShell 7.6",
     "Azure Monitor Agent Linux Extension",
     "Microsoft Visual Studio 2026 version 18.8",
     "App Installer",
+    "Microsoft Teams for iOS",
     "Azure Storage Explorer",
     "Azure CycleCloud 8.9.2",
     "Python extension for Visual Studio Code",
@@ -1492,9 +1494,7 @@
     "azl3 perl 5.38.2-514 on Azure Linux 3.0",
     "azl3 cpio 2.14-1 on Azure Linux 3.0",
     "azl3 expat 2.8.2-1 on Azure Linux 3.0",
-    "azl3 stunnel 5.74-1 on Azure Linux 3.0",
-    "PowerShell 7.6",
-    "Microsoft Teams for iOS"
+    "azl3 stunnel 5.74-1 on Azure Linux 3.0"
   ],
   "cves": [
     {
@@ -3026,7 +3026,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -4192,9 +4192,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1463,
+      "product_idx": 1465,
       "product_idxs": [
-        1463
+        1465
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4791,9 +4791,9 @@
       "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1464,
+      "product_idx": 1466,
       "product_idxs": [
-        1464
+        1466
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -7612,7 +7612,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -7715,7 +7715,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -8222,7 +8222,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -9478,9 +9478,9 @@
       "title": "Copilot Cowork Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1465,
+      "product_idx": 1467,
       "product_idxs": [
-        1465
+        1467
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -9585,9 +9585,9 @@
       "title": "Apache Portable Runtime Utility: SQL Injection in apr_dbd_oracle",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1472,
+      "product_idx": 1474,
       "product_idxs": [
-        1472
+        1474
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -9754,9 +9754,9 @@
       "title": "Azure Confidential Ledger Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1467,
+      "product_idx": 1469,
       "product_idxs": [
-        1467
+        1469
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -10892,9 +10892,9 @@
       "title": "Application Insights Profiler Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1466,
+      "product_idx": 1468,
       "product_idxs": [
-        1466
+        1468
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -12205,7 +12205,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -12366,7 +12366,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -12495,7 +12495,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -12598,7 +12598,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -12759,7 +12759,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16025,7 +16025,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16186,7 +16186,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16269,7 +16269,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16430,7 +16430,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16533,7 +16533,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16616,7 +16616,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16719,7 +16719,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -16790,7 +16790,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -19687,7 +19687,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -19950,9 +19950,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 1463,
+      "product_idx": 1465,
       "product_idxs": [
-        1463
+        1465
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -20377,7 +20377,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -23313,9 +23313,9 @@
       "title": "Kata guest escape: runtime-rs guest-root to host-root escape via virtiofs",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1473,
+      "product_idx": 1475,
       "product_idxs": [
-        1473,
+        1475,
         1360
       ],
       "date": "2026-08-09",
@@ -24737,27 +24737,27 @@
       "exploited": false,
       "kb_articles": [
         {
-          "kb": "5002882",
-          "url": "https://support.microsoft.com/help/5002882",
-          "fixed_build": "16.0.19725.20434",
+          "kb": "5002893",
+          "url": "https://support.microsoft.com/help/5002893",
+          "fixed_build": "16.0.19725.20522",
           "subtype": "Security Update",
           "product_idxs": [
             175
           ]
         },
         {
-          "kb": "5002883",
-          "url": "https://support.microsoft.com/help/5002883",
-          "fixed_build": "16.0.10417.20175",
+          "kb": "5002894",
+          "url": "https://support.microsoft.com/help/5002894",
+          "fixed_build": "16.0.10417.20198",
           "subtype": "Security Update",
           "product_idxs": [
             174
           ]
         },
         {
-          "kb": "5002891",
-          "url": "https://support.microsoft.com/help/5002891",
-          "fixed_build": "16.0.5561.1001",
+          "kb": "5002905",
+          "url": "https://support.microsoft.com/help/5002905",
+          "fixed_build": "16.0.5565.1001",
           "subtype": "Security Update",
           "product_idxs": [
             173
@@ -30870,7 +30870,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -32717,9 +32717,9 @@
       "title": "Azure Storage Explorer Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1454,
+      "product_idx": 1456,
       "product_idxs": [
-        1454
+        1456
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -33183,7 +33183,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -33344,7 +33344,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -33505,7 +33505,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -33666,7 +33666,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -33827,7 +33827,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -33990,10 +33990,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1457,
-            1458,
             1459,
-            1460
+            1460,
+            1461,
+            1462
           ]
         },
         {
@@ -35052,7 +35052,7 @@
       "product_idxs": [
         973,
         974,
-        1482
+        1451
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -39813,7 +39813,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -39916,7 +39916,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -40077,7 +40077,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -43662,7 +43662,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -78123,7 +78123,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             128,
@@ -89984,7 +89984,7 @@
       "product_idx": 973,
       "product_idxs": [
         973,
-        1482,
+        1451,
         974
       ],
       "date": "2026-08-11",
@@ -92468,9 +92468,9 @@
       "title": "Visual Studio Code Python Extension Security Feature Bypass Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1456,
+      "product_idx": 1458,
       "product_idxs": [
-        1456
+        1458
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -92526,7 +92526,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -94957,7 +94957,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -97708,7 +97708,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -97883,7 +97883,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -98034,7 +98034,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -98312,7 +98312,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -98514,7 +98514,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -98746,7 +98746,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -98907,7 +98907,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -99068,7 +99068,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -99229,7 +99229,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -99358,7 +99358,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -99519,7 +99519,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -99680,7 +99680,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -99801,7 +99801,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -99991,7 +99991,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -100205,7 +100205,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -100469,7 +100469,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -100610,7 +100610,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -100771,7 +100771,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -100932,7 +100932,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -101093,7 +101093,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -101234,7 +101234,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -101375,7 +101375,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -101536,7 +101536,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -101697,7 +101697,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -101826,7 +101826,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -101987,7 +101987,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -102148,7 +102148,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -102382,7 +102382,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -102543,7 +102543,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -102704,7 +102704,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -103021,7 +103021,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -103150,7 +103150,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -103311,7 +103311,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -103569,7 +103569,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -103720,7 +103720,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -103871,7 +103871,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -104032,7 +104032,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -104193,7 +104193,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -104296,7 +104296,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -104457,7 +104457,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -104618,7 +104618,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -104773,7 +104773,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -104876,7 +104876,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -105090,7 +105090,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -105219,7 +105219,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -105406,7 +105406,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -105509,7 +105509,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -105715,7 +105715,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -105895,7 +105895,7 @@
       "product_idxs": [
         324,
         326,
-        1452,
+        1453,
         317
       ],
       "date": "2026-08-13",
@@ -105971,7 +105971,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -106132,7 +106132,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -106293,7 +106293,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -106454,7 +106454,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -106571,9 +106571,9 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1452,
+      "product_idx": 1453,
       "product_idxs": [
-        1452,
+        1453,
         742,
         324,
         326,
@@ -106778,7 +106778,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -106880,7 +106880,7 @@
         743,
         298,
         299,
-        1452,
+        1453,
         741
       ],
       "date": "2026-08-11",
@@ -107961,7 +107961,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -108171,9 +108171,9 @@
       "title": "Microsoft Entra Connect Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1461,
+      "product_idx": 1463,
       "product_idxs": [
-        1461
+        1463
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -108229,7 +108229,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -108358,7 +108358,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -108519,7 +108519,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -108680,7 +108680,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -108821,7 +108821,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -108962,7 +108962,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -109096,10 +109096,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
+            1462,
+            1459,
             1460,
-            1457,
-            1458,
-            1459
+            1461
           ]
         },
         {
@@ -109352,7 +109352,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -110526,7 +110526,7 @@
       "product_idxs": [
         974,
         973,
-        1482
+        1451
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -110582,7 +110582,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -110743,7 +110743,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -110904,7 +110904,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -111065,7 +111065,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -111182,9 +111182,9 @@
       "title": ".NET Core Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1460,
+      "product_idx": 1462,
       "product_idxs": [
-        1460,
+        1462,
         339,
         340,
         1428,
@@ -111199,10 +111199,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
+            1462,
+            1459,
             1460,
-            1457,
-            1458,
-            1459
+            1461
           ]
         },
         {
@@ -112535,9 +112535,9 @@
       "title": "Apache Portable Runtime Utility: apr_password_validate() vulnerable to timing attack",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1472,
+      "product_idx": 1474,
       "product_idxs": [
-        1472
+        1474
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -117846,9 +117846,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR redis client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1472,
+      "product_idx": 1474,
       "product_idxs": [
-        1472
+        1474
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -117860,9 +117860,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR memcached client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1472,
+      "product_idx": 1474,
       "product_idxs": [
-        1472
+        1474
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -124586,7 +124586,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -125910,7 +125910,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -126071,7 +126071,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -126401,7 +126401,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -126562,7 +126562,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -126752,7 +126752,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -126815,7 +126815,7 @@
       "product_idxs": [
         742,
         317,
-        1452,
+        1453,
         326,
         324
       ],
@@ -126857,9 +126857,9 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1452,
+      "product_idx": 1453,
       "product_idxs": [
-        1452,
+        1453,
         741,
         743,
         324,
@@ -127052,7 +127052,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -128996,7 +128996,7 @@
       "product_idxs": [
         973,
         974,
-        1482
+        1451
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -131836,7 +131836,7 @@
       "product_idxs": [
         973,
         974,
-        1482
+        1451
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -131978,9 +131978,9 @@
       "title": "Windows Package Manager Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1453,
+      "product_idx": 1454,
       "product_idxs": [
-        1453
+        1454
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -132035,9 +132035,9 @@
       "title": "Libkcapi: memory corruption via uncanceled aio requests on error in libkcapi's one-shot aio path",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1474,
+      "product_idx": 1476,
       "product_idxs": [
-        1474
+        1476
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -132093,9 +132093,9 @@
       "title": "Azure Monitor Agent Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.2,
-      "product_idx": 1451,
+      "product_idx": 1452,
       "product_idxs": [
-        1451
+        1452
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -137776,9 +137776,9 @@
       "title": "go-git: Worktree operations may follow symlinks",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1477,
+      "product_idx": 1479,
       "product_idxs": [
-        1477
+        1479
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -158630,7 +158630,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -160583,7 +160583,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -160744,7 +160744,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -161002,7 +161002,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -161131,7 +161131,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -161365,7 +161365,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -161755,7 +161755,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -161916,7 +161916,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -162151,7 +162151,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -162312,7 +162312,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -162473,7 +162473,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -162634,7 +162634,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -162795,7 +162795,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -162956,7 +162956,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -163117,7 +163117,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -163278,7 +163278,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -163512,7 +163512,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -163746,7 +163746,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -163907,7 +163907,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -164214,7 +164214,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -164427,7 +164427,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -164632,7 +164632,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -165203,7 +165203,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -166602,7 +166602,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -168927,7 +168927,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -169088,7 +169088,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -169249,7 +169249,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -169366,9 +169366,9 @@
       "title": "Microsoft OneDrive for MacOS Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 6.7,
-      "product_idx": 1462,
+      "product_idx": 1464,
       "product_idxs": [
-        1462
+        1464
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -169424,7 +169424,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -169565,7 +169565,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -169726,7 +169726,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -169887,7 +169887,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -170048,7 +170048,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -170209,7 +170209,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -170526,7 +170526,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -178497,7 +178497,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -178658,7 +178658,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -178819,7 +178819,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -178980,7 +178980,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179141,7 +179141,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179302,7 +179302,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179405,7 +179405,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179498,7 +179498,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179601,7 +179601,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179704,7 +179704,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179807,7 +179807,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -179910,7 +179910,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -180013,7 +180013,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -180174,7 +180174,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -180315,7 +180315,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -180503,7 +180503,7 @@
         324,
         326,
         317,
-        1452
+        1453
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -180828,9 +180828,9 @@
       "title": "Microsoft Teams iOS Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1483,
+      "product_idx": 1455,
       "product_idxs": [
-        1483
+        1455
       ],
       "date": "2026-08-16",
       "exploited": false,
@@ -180959,7 +180959,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -181076,9 +181076,9 @@
       "title": "Azure CycleCloud Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1455,
+      "product_idx": 1457,
       "product_idxs": [
-        1455
+        1457
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -186100,9 +186100,9 @@
       "title": ".NET Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1452,
+      "product_idx": 1453,
       "product_idxs": [
-        1452,
+        1453,
         741,
         743,
         324,
@@ -186195,7 +186195,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -186344,7 +186344,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -186603,7 +186603,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -186754,7 +186754,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -201020,7 +201020,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -201181,7 +201181,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -201342,7 +201342,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -201503,7 +201503,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -201664,7 +201664,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -201825,7 +201825,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -201986,7 +201986,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -202200,7 +202200,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -202329,7 +202329,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -202458,7 +202458,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -202619,7 +202619,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -202780,7 +202780,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -202941,7 +202941,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -203102,7 +203102,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -203263,7 +203263,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -203450,7 +203450,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -203611,7 +203611,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -203772,7 +203772,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -204045,7 +204045,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -204537,7 +204537,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -204698,7 +204698,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -207667,7 +207667,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -208325,7 +208325,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -210824,7 +210824,7 @@
         {
           "kb": "5120238",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
-          "fixed_build": "10.0.17763.9115",
+          "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
             127,
@@ -223232,9 +223232,9 @@
       "title": "Stunnel: stack-based out-of-bounds read/write in stunnel s_vlog via oversized log message",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1481,
+      "product_idx": 1483,
       "product_idxs": [
-        1481
+        1483
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -223246,9 +223246,9 @@
       "title": "Libkcapi: iv reuse in libkcapi one-shot symmetric cipher chunking causes cipher state reset across chunk boundaries",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1474,
+      "product_idx": 1476,
       "product_idxs": [
-        1474
+        1476
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -223861,9 +223861,9 @@
       "title": "go-git: Malicious reference names may modify files outside the reference storage",
       "severity": "Moderate",
       "cvss": 6.3,
-      "product_idx": 1477,
+      "product_idx": 1479,
       "product_idxs": [
-        1477
+        1479
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -224344,9 +224344,9 @@
       "title": "libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.",
       "severity": "Moderate",
       "cvss": 6.2,
-      "product_idx": 1480,
+      "product_idx": 1482,
       "product_idxs": [
-        1480
+        1482
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -226481,9 +226481,9 @@
       "title": "Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch",
       "severity": "Moderate",
       "cvss": 5.7,
-      "product_idx": 1478,
+      "product_idx": 1480,
       "product_idxs": [
-        1478
+        1480
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -236814,9 +236814,9 @@
       "title": "Rpm: heap buffer overflow in ndb slot table parsing",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -244198,9 +244198,9 @@
       "title": "Stunnel: ssrf bypass in stunnel socks proxy via ipv4-mapped ipv6 loopback and unspecified addresses allows access to loopback-only services",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1481,
+      "product_idx": 1483,
       "product_idxs": [
-        1481
+        1483
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -245038,9 +245038,9 @@
       "title": "Apache Portable Runtime Utility: apr-util XML stack recursion crash",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1472,
+      "product_idx": 1474,
       "product_idxs": [
-        1472
+        1474
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -246072,9 +246072,9 @@
       "title": "Libkcapi: infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to unhandled io_getevents() timeout return",
       "severity": "Moderate",
       "cvss": 5.1,
-      "product_idx": 1474,
+      "product_idx": 1476,
       "product_idxs": [
-        1474
+        1476
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -251290,9 +251290,9 @@
       "title": "Path Traversal in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1479,
+      "product_idx": 1481,
       "product_idxs": [
-        1479
+        1481
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -251304,9 +251304,9 @@
       "title": "Uncontrolled Memory Allocation in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1479,
+      "product_idx": 1481,
       "product_idxs": [
-        1479
+        1481
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -251318,9 +251318,9 @@
       "title": "Improper Output Encoding in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1479,
+      "product_idx": 1481,
       "product_idxs": [
-        1479
+        1481
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -253853,9 +253853,9 @@
       "title": "Popt-devel: popt-static: off-by-one in poptstuffargs",
       "severity": "Low",
       "cvss": 2.5,
-      "product_idx": 1471,
+      "product_idx": 1473,
       "product_idxs": [
-        1471,
+        1473,
         1355
       ],
       "date": "2026-08-07",
@@ -254079,7 +254079,7 @@
       "product_idx": 1355,
       "product_idxs": [
         1355,
-        1471
+        1473
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -255283,9 +255283,9 @@
       "title": "Libvirt: libvirt: newline injection in network xml dns txt/srv fields allows dnsmasq config directive injection",
       "severity": "",
       "cvss": 2.3,
-      "product_idx": 1476,
+      "product_idx": 1478,
       "product_idxs": [
-        1476
+        1478
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -255370,9 +255370,9 @@
       "title": "",
       "severity": "",
       "cvss": null,
-      "product_idx": 1468,
+      "product_idx": 1470,
       "product_idxs": [
-        1468,
+        1470,
         592
       ],
       "date": "2026-08-07",
@@ -255385,10 +255385,10 @@
       "title": "",
       "severity": "",
       "cvss": null,
-      "product_idx": 1469,
+      "product_idx": 1471,
       "product_idxs": [
-        1469,
-        1470
+        1471,
+        1472
       ],
       "date": "2025-04-01",
       "exploited": false,
