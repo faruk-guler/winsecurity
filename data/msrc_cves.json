@@ -7,7 +7,7 @@
     "low": 243,
     "exploited": 22,
     "patched": 1918,
-    "updated_at": "2026-08-17 15:23 UTC",
+    "updated_at": "2026-08-17 16:26 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -102281,7 +102281,7 @@
     },
     {
       "cve_id": "CVE-2026-62722",
-      "title": "Windows Bind Filter Driver Elevation of Privilege Vulnerability",
+      "title": "Microsoft Brokering File System Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
       "product_idx": 143,
