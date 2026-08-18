@@ -7,7 +7,7 @@
     "low": 213,
     "exploited": 22,
     "patched": 1918,
-    "updated_at": "2026-08-18 20:21 UTC",
+    "updated_at": "2026-08-18 21:22 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1354,7 +1354,6 @@
     "Microsoft Surface Hub 2S",
     "Minecraft Bedrock Dedicated Server",
     "Microsoft Dynamics NAV 2018",
-    "Fabric Data Warehouse",
     "Windows Subsystem for Linux (WSL2)",
     "Remote Desktop Web Client",
     "Azure API Management (APIM)",
@@ -1364,6 +1363,7 @@
     "Azure DNS",
     "Windows Terminal App",
     "Azure Portal",
+    "Fabric Data Warehouse",
     "Azure SQL Managed Instance",
     "Azure Service Bus",
     "Microsoft 365 Admin Center",
@@ -4147,9 +4147,9 @@
       "title": "Data Quality Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1347,
+      "product_idx": 1346,
       "product_idxs": [
-        1347
+        1346
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -4159,20 +4159,6 @@
     {
       "cve_id": "CVE-2026-58275",
       "title": "Azure DNS Elevation of Privilege Vulnerability",
-      "severity": "Critical",
-      "cvss": 10.0,
-      "product_idx": 1350,
-      "product_idxs": [
-        1350
-      ],
-      "date": "2026-07-23",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-58630",
-      "title": "Azure App Service on Azure Stack Hub Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
       "product_idx": 1349,
@@ -4185,13 +4171,27 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-62825",
-      "title": "Azure Key Vault Elevation of Privilege Vulnerability",
+      "cve_id": "CVE-2026-58630",
+      "title": "Azure App Service on Azure Stack Hub Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
       "product_idx": 1348,
       "product_idxs": [
         1348
+      ],
+      "date": "2026-07-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62825",
+      "title": "Azure Key Vault Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 1347,
+      "product_idxs": [
+        1347
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -8917,9 +8917,9 @@
       "title": "Azure Portal Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1352,
+      "product_idx": 1351,
       "product_idxs": [
-        1352
+        1351
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -16274,9 +16274,9 @@
       "title": "Azure API Management (APIM) Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.0,
-      "product_idx": 1346,
+      "product_idx": 1345,
       "product_idxs": [
-        1346
+        1345
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -31834,9 +31834,9 @@
       "title": "Microsoft Fabric Data Warehouse Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1343,
+      "product_idx": 1352,
       "product_idxs": [
-        1343
+        1352
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -94733,9 +94733,9 @@
       "title": "Windows Subsystem for Linux (WSL2) Kernel Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1344,
+      "product_idx": 1343,
       "product_idxs": [
-        1344
+        1343
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -123575,9 +123575,9 @@
       "title": "Windows Terminal Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1351,
+      "product_idx": 1350,
       "product_idxs": [
-        1351
+        1350
       ],
       "date": "2026-07-28",
       "exploited": false,
@@ -133538,7 +133538,7 @@
       "product_idx": 628,
       "product_idxs": [
         628,
-        1345
+        1344
       ],
       "date": "2026-07-16",
       "exploited": false,
@@ -177982,9 +177982,9 @@
       "title": "Windows Subsystem for Linux (WSL2) Kernel Tampering Vulnerability",
       "severity": "Important",
       "cvss": 6.3,
-      "product_idx": 1344,
+      "product_idx": 1343,
       "product_idxs": [
-        1344
+        1343
       ],
       "date": "2026-07-14",
       "exploited": false,
