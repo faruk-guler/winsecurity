@@ -7,7 +7,7 @@
     "low": 213,
     "exploited": 22,
     "patched": 1918,
-    "updated_at": "2026-08-18 15:30 UTC",
+    "updated_at": "2026-08-18 16:29 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1330,7 +1330,6 @@
     "Microsoft SQL Server 2025 for x64-based Systems (CU6)",
     "Azure Open AI",
     "Microsoft Entra Provisioning Service",
-    "Windows Terminal App",
     "Azure AI Search",
     "Surface Management Services",
     "Azure Red Hat OpenShift (ARO)",
@@ -1363,6 +1362,7 @@
     "Azure Key Vault",
     "Azure App Service for Linux",
     "Azure DNS",
+    "Windows Terminal App",
     "Azure Portal",
     "Azure SQL Managed Instance",
     "Azure Service Bus",
@@ -4147,9 +4147,9 @@
       "title": "Data Quality Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1348,
+      "product_idx": 1347,
       "product_idxs": [
-        1348
+        1347
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -4159,20 +4159,6 @@
     {
       "cve_id": "CVE-2026-58275",
       "title": "Azure DNS Elevation of Privilege Vulnerability",
-      "severity": "Critical",
-      "cvss": 10.0,
-      "product_idx": 1351,
-      "product_idxs": [
-        1351
-      ],
-      "date": "2026-07-23",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-58630",
-      "title": "Azure App Service on Azure Stack Hub Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
       "product_idx": 1350,
@@ -4185,13 +4171,27 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-62825",
-      "title": "Azure Key Vault Elevation of Privilege Vulnerability",
+      "cve_id": "CVE-2026-58630",
+      "title": "Azure App Service on Azure Stack Hub Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
       "product_idx": 1349,
       "product_idxs": [
         1349
+      ],
+      "date": "2026-07-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62825",
+      "title": "Azure Key Vault Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 1348,
+      "product_idxs": [
+        1348
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -4544,9 +4544,9 @@
       "title": "Microsoft Surface Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1321,
+      "product_idx": 1320,
       "product_idxs": [
-        1321
+        1320
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -6986,9 +6986,9 @@
       "title": "Minecraft Bedrock Dedicated Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1342,
+      "product_idx": 1341,
       "product_idxs": [
-        1342
+        1341
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -7000,9 +7000,9 @@
       "title": "Microsoft Dynamics NAV and Microsoft Dynamics 365 Business Central (On Premises) Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1343,
+      "product_idx": 1342,
       "product_idxs": [
-        1343
+        1342
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -7013,7 +7013,7 @@
           "fixed_build": "11.0.50704.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1343
+            1342
           ]
         }
       ],
@@ -12612,9 +12612,9 @@
       "title": "Azure AI Search Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.5,
-      "product_idx": 1320,
+      "product_idx": 1319,
       "product_idxs": [
-        1320
+        1319
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -16274,9 +16274,9 @@
       "title": "Azure API Management (APIM) Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.0,
-      "product_idx": 1347,
+      "product_idx": 1346,
       "product_idxs": [
-        1347
+        1346
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -22741,9 +22741,9 @@
       "title": "Azure Red Hat OpenShift (ARO) Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1322,
+      "product_idx": 1321,
       "product_idxs": [
-        1322
+        1321
       ],
       "date": "2026-07-23",
       "exploited": false,
@@ -29731,10 +29731,10 @@
       "title": "Configuration Manager Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1331,
+      "product_idx": 1330,
       "product_idxs": [
+        1330,
         1331,
-        1332,
         305
       ],
       "date": "2026-07-14",
@@ -29746,7 +29746,7 @@
           "fixed_build": "5.0.9141.1030",
           "subtype": "Security Update",
           "product_idxs": [
-            1331
+            1330
           ]
         },
         {
@@ -29755,7 +29755,7 @@
           "fixed_build": "5.0.9146.1021",
           "subtype": "Security Update",
           "product_idxs": [
-            1332,
+            1331,
             305
           ]
         }
@@ -29815,12 +29815,12 @@
     },
     {
       "cve_id": "CVE-2026-47632",
-      "title": "Azure Monitor Agent Metrics Extension Elevation of Privilege Vulnerability",
+      "title": "Azure Connected Machine Agent Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1184,
+      "product_idx": 186,
       "product_idxs": [
-        1184
+        186
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -30976,9 +30976,9 @@
       "title": "Game: Age of Empires II: Definitive Edition Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1325,
+      "product_idx": 1324,
       "product_idxs": [
-        1325
+        1324
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -30989,7 +30989,7 @@
           "fixed_build": "101.103.46651.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1325
+            1324
           ]
         }
       ],
@@ -31834,9 +31834,9 @@
       "title": "Microsoft Fabric Data Warehouse Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1344,
+      "product_idx": 1343,
       "product_idxs": [
-        1344
+        1343
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -31998,9 +31998,9 @@
       "title": "Azure CycleCloud Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1328,
+      "product_idx": 1327,
       "product_idxs": [
-        1328
+        1327
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -33401,8 +33401,8 @@
           "fixed_build": "4.8.9344.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -33441,8 +33441,8 @@
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169",
           "subtype": "Security Update",
           "product_idxs": [
-            1334,
-            1333
+            1333,
+            1332
           ]
         }
       ],
@@ -36225,9 +36225,9 @@
       "title": "Azure Spring Apps Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1326,
+      "product_idx": 1325,
       "product_idxs": [
-        1326
+        1325
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -37811,8 +37811,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1336,
-            1335
+            1335,
+            1334
           ]
         },
         {
@@ -37919,8 +37919,8 @@
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
           "subtype": "Security Update",
           "product_idxs": [
-            1334,
-            1333
+            1333,
+            1332
           ]
         },
         {
@@ -38623,9 +38623,9 @@
       "title": "Microsoft Bing App for IOS Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1330,
+      "product_idx": 1329,
       "product_idxs": [
-        1330
+        1329
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -39194,9 +39194,9 @@
       "title": "Azure CycleCloud Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1328,
+      "product_idx": 1327,
       "product_idxs": [
-        1328
+        1327
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -80504,9 +80504,9 @@
       "title": "Visual Studio Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1327,
+      "product_idx": 1326,
       "product_idxs": [
-        1327,
+        1326,
         303,
         317
       ],
@@ -80587,13 +80587,13 @@
       "title": "Surface Broker SDMA Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1337,
+      "product_idx": 1336,
       "product_idxs": [
+        1336,
         1337,
         1338,
         1339,
-        1340,
-        1341
+        1340
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -89022,9 +89022,9 @@
       "product_idxs": [
         324,
         326,
+        1333,
         1334,
-        1335,
-        1333
+        1332
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -89133,8 +89133,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -89231,8 +89231,8 @@
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
           "subtype": "Security Update",
           "product_idxs": [
-            1334,
-            1333
+            1333,
+            1332
           ]
         },
         {
@@ -92036,9 +92036,9 @@
       "title": "Windows Remote Help Defense Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1329,
+      "product_idx": 1328,
       "product_idxs": [
-        1329
+        1328
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -94733,9 +94733,9 @@
       "title": "Windows Subsystem for Linux (WSL2) Kernel Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1345,
+      "product_idx": 1344,
       "product_idxs": [
-        1345
+        1344
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -107273,12 +107273,12 @@
       "title": ".NET Framework Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1335,
+      "product_idx": 1334,
       "product_idxs": [
-        1335,
-        1336,
         1334,
+        1335,
         1333,
+        1332,
         327
       ],
       "date": "2026-08-11",
@@ -107450,8 +107450,8 @@
           "fixed_build": "4.8.9344.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -107490,8 +107490,8 @@
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169",
           "subtype": "Security Update",
           "product_idxs": [
-            1334,
-            1333
+            1333,
+            1332
           ]
         }
       ],
@@ -109381,7 +109381,7 @@
         1368,
         339,
         340,
-        1333,
+        1332,
         345
       ],
       "date": "2026-08-13",
@@ -109553,8 +109553,8 @@
           "fixed_build": "4.8.9344.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -109593,8 +109593,8 @@
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169",
           "subtype": "Security Update",
           "product_idxs": [
-            1333,
-            1334
+            1332,
+            1333
           ]
         },
         {
@@ -117543,10 +117543,10 @@
       "title": "OData for ASP.NET and ASP.NET Core Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1324,
+      "product_idx": 1323,
       "product_idxs": [
-        1324,
-        1323
+        1323,
+        1322
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -118652,8 +118652,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -119102,8 +119102,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -119352,8 +119352,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -119657,8 +119657,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -120439,10 +120439,10 @@
       "title": "OData for ASP.NET and ASP.NET Core Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1323,
+      "product_idx": 1322,
       "product_idxs": [
-        1323,
-        1324
+        1322,
+        1323
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -120454,9 +120454,9 @@
       "title": ".NET Framework Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1327,
+      "product_idx": 1326,
       "product_idxs": [
-        1327,
+        1326,
         741,
         303,
         743,
@@ -120620,8 +120620,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -120718,8 +120718,8 @@
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
           "subtype": "Security Update",
           "product_idxs": [
-            1333,
-            1334
+            1332,
+            1333
           ]
         },
         {
@@ -121183,8 +121183,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
@@ -121618,234 +121618,9 @@
       "product_idx": 1297,
       "product_idxs": [
         1297,
+        1332,
         1333,
         1334,
-        1335,
-        1336
-      ],
-      "date": "2026-07-16",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5099535",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5099535",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            371,
-            372,
-            373,
-            374
-          ]
-        },
-        {
-          "kb": "5100984",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100984",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
-          "subtype": "Security Update",
-          "product_idxs": [
-            339,
-            340
-          ]
-        },
-        {
-          "kb": "5100985",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100985",
-          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
-          "subtype": "Security Update",
-          "product_idxs": [
-            345,
-            346
-          ]
-        },
-        {
-          "kb": "5100989",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100989",
-          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            351,
-            352,
-            353,
-            354
-          ]
-        },
-        {
-          "kb": "5100990",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100990",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            337,
-            338
-          ]
-        },
-        {
-          "kb": "5100991",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100991",
-          "fixed_build": "4.7.4143.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            343,
-            344
-          ]
-        },
-        {
-          "kb": "5100998",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100998",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            390,
-            391
-          ]
-        },
-        {
-          "kb": "5101000",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101000",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            362,
-            363,
-            364,
-            368,
-            369,
-            370
-          ]
-        },
-        {
-          "kb": "5101001",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101001",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            388,
-            389
-          ]
-        },
-        {
-          "kb": "5101002",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101002",
-          "fixed_build": "4.8.9340.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1335,
-            1336
-          ]
-        },
-        {
-          "kb": "5101004",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101004",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            385,
-            386
-          ]
-        },
-        {
-          "kb": "5101005",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101005",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            357,
-            358
-          ]
-        },
-        {
-          "kb": "5101006",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101006",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            359,
-            360,
-            361,
-            365,
-            366,
-            367
-          ]
-        },
-        {
-          "kb": "5101007",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101007",
-          "fixed_build": "4.8.4803.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            327,
-            328,
-            329,
-            330
-          ]
-        },
-        {
-          "kb": "5101008",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101008",
-          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            347,
-            348,
-            349,
-            350
-          ]
-        },
-        {
-          "kb": "5101009",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101009",
-          "fixed_build": "4.8.4803.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            335,
-            336
-          ]
-        },
-        {
-          "kb": "5101010",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101010",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            355,
-            356
-          ]
-        },
-        {
-          "kb": "5101011",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101011",
-          "fixed_build": "4.8.4803.0",
-          "subtype": "Security Update",
-          "product_idxs": [
-            341,
-            342
-          ]
-        },
-        {
-          "kb": "5101014",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101014",
-          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1333,
-            1334
-          ]
-        }
-      ],
-      "kb_count": 19
-    },
-    {
-      "cve_id": "CVE-2026-50653",
-      "title": "Azure Active Directory Denial of Service Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1297,
-      "product_idxs": [
-        1297,
-        1333,
-        1334,
-        1336,
         1335
       ],
       "date": "2026-07-16",
@@ -121955,7 +121730,7 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1336,
+            1334,
             1335
           ]
         },
@@ -122053,8 +121828,233 @@
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
           "subtype": "Security Update",
           "product_idxs": [
-            1333,
+            1332,
+            1333
+          ]
+        }
+      ],
+      "kb_count": 19
+    },
+    {
+      "cve_id": "CVE-2026-50653",
+      "title": "Azure Active Directory Denial of Service Vulnerability",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1297,
+      "product_idxs": [
+        1297,
+        1332,
+        1333,
+        1335,
+        1334
+      ],
+      "date": "2026-07-16",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5099535",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5099535",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            371,
+            372,
+            373,
+            374
+          ]
+        },
+        {
+          "kb": "5100984",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100984",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            339,
+            340
+          ]
+        },
+        {
+          "kb": "5100985",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100985",
+          "fixed_build": "2.0.50727.8983 & 3.0.30729.8978",
+          "subtype": "Security Update",
+          "product_idxs": [
+            345,
+            346
+          ]
+        },
+        {
+          "kb": "5100989",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100989",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            351,
+            352,
+            353,
+            354
+          ]
+        },
+        {
+          "kb": "5100990",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100990",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            337,
+            338
+          ]
+        },
+        {
+          "kb": "5100991",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100991",
+          "fixed_build": "4.7.4143.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            343,
+            344
+          ]
+        },
+        {
+          "kb": "5100998",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5100998",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            390,
+            391
+          ]
+        },
+        {
+          "kb": "5101000",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101000",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            362,
+            363,
+            364,
+            368,
+            369,
+            370
+          ]
+        },
+        {
+          "kb": "5101001",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101001",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            388,
+            389
+          ]
+        },
+        {
+          "kb": "5101002",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101002",
+          "fixed_build": "4.8.9340.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1335,
             1334
+          ]
+        },
+        {
+          "kb": "5101004",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101004",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            385,
+            386
+          ]
+        },
+        {
+          "kb": "5101005",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101005",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.9339.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            357,
+            358
+          ]
+        },
+        {
+          "kb": "5101006",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101006",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            359,
+            360,
+            361,
+            365,
+            366,
+            367
+          ]
+        },
+        {
+          "kb": "5101007",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101007",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            327,
+            328,
+            329,
+            330
+          ]
+        },
+        {
+          "kb": "5101008",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101008",
+          "fixed_build": "2.0.50727.9069 & 3.0.30729.9067 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            347,
+            348,
+            349,
+            350
+          ]
+        },
+        {
+          "kb": "5101009",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101009",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            335,
+            336
+          ]
+        },
+        {
+          "kb": "5101010",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101010",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168 & 4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            355,
+            356
+          ]
+        },
+        {
+          "kb": "5101011",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101011",
+          "fixed_build": "4.8.4803.0",
+          "subtype": "Security Update",
+          "product_idxs": [
+            341,
+            342
+          ]
+        },
+        {
+          "kb": "5101014",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5101014",
+          "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1332,
+            1333
           ]
         }
       ],
@@ -123575,9 +123575,9 @@
       "title": "Windows Terminal Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1319,
+      "product_idx": 1351,
       "product_idxs": [
-        1319
+        1351
       ],
       "date": "2026-07-28",
       "exploited": false,
@@ -133538,7 +133538,7 @@
       "product_idx": 628,
       "product_idxs": [
         628,
-        1346
+        1345
       ],
       "date": "2026-07-16",
       "exploited": false,
@@ -160259,13 +160259,13 @@
       "title": ".NET Framework Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1336,
+      "product_idx": 1335,
       "product_idxs": [
-        1336,
-        1333,
         1335,
+        1332,
+        1334,
         742,
-        1334
+        1333
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -160294,8 +160294,8 @@
           "fixed_build": "4.8.9344.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1336,
-            1335
+            1335,
+            1334
           ]
         },
         {
@@ -160304,8 +160304,8 @@
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169",
           "subtype": "Security Update",
           "product_idxs": [
-            1333,
-            1334
+            1332,
+            1333
           ]
         },
         {
@@ -172763,8 +172763,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1336,
-            1335
+            1335,
+            1334
           ]
         },
         {
@@ -172861,8 +172861,8 @@
           "fixed_build": "2.0.50727.9182 & 3.0.30729.9168",
           "subtype": "Security Update",
           "product_idxs": [
-            1333,
-            1334
+            1332,
+            1333
           ]
         },
         {
@@ -173779,9 +173779,9 @@
       "title": "Azure CycleCloud Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1328,
+      "product_idx": 1327,
       "product_idxs": [
-        1328
+        1327
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -177982,9 +177982,9 @@
       "title": "Windows Subsystem for Linux (WSL2) Kernel Tampering Vulnerability",
       "severity": "Important",
       "cvss": 6.3,
-      "product_idx": 1345,
+      "product_idx": 1344,
       "product_idxs": [
-        1345
+        1344
       ],
       "date": "2026-07-14",
       "exploited": false,
@@ -181687,8 +181687,8 @@
           "fixed_build": "4.8.9340.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1335,
-            1336
+            1334,
+            1335
           ]
         },
         {
