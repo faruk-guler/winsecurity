@@ -1,13 +1,13 @@
 {
   "meta": {
     "total": 7743,
-    "critical": 506,
+    "critical": 507,
     "important": 2804,
     "moderate": 2088,
     "low": 213,
     "exploited": 22,
     "patched": 1918,
-    "updated_at": "2026-08-18 12:42 UTC",
+    "updated_at": "2026-08-18 13:40 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1367,13 +1367,14 @@
     "Azure SQL Managed Instance",
     "Azure Service Bus",
     "Microsoft 365 Admin Center",
+    "PowerShell 7.6",
     "Azure Monitor Agent Linux Extension",
     "Microsoft Visual Studio 2026 version 18.8",
     "App Installer",
     "Microsoft Teams for iOS",
     "Azure Storage Explorer",
     "Azure CycleCloud 8.9.2",
-    "PowerShell 7.6",
+    "Copilot Web",
     "Python extension for Visual Studio Code",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for x64-based Systems",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016",
@@ -1386,7 +1387,6 @@
     "Copilot Cowork",
     "Application Insights Profiler",
     "Azure Confidential Ledger",
-    "cbl2 net-snmp 5.9.4-1",
     "cbl2 libdwarf 0.9.0-3",
     "azl3 libdwarf 0.9.0-1 on Azure Linux 3.0",
     "azl3 hdf5 1.14.6-4 on Azure Linux 3.0",
@@ -4105,9 +4105,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1370,
+      "product_idx": 1371,
       "product_idxs": [
-        1370
+        1371
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4704,9 +4704,9 @@
       "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1371,
+      "product_idx": 1372,
       "product_idxs": [
-        1371
+        1372
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -8903,9 +8903,9 @@
       "title": "Copilot Cowork Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1372,
+      "product_idx": 1373,
       "product_idxs": [
-        1372
+        1373
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -9137,9 +9137,9 @@
       "title": "Azure Confidential Ledger Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1374,
+      "product_idx": 1375,
       "product_idxs": [
-        1374
+        1375
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -9408,6 +9408,20 @@
         516
       ],
       "date": "2025-11-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-24301",
+      "title": "Microsoft Copilot Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.8,
+      "product_idx": 1363,
+      "product_idxs": [
+        1363
+      ],
+      "date": "2026-08-18",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -10257,9 +10271,9 @@
       "title": "Application Insights Profiler Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1373,
+      "product_idx": 1374,
       "product_idxs": [
-        1373
+        1374
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -19301,9 +19315,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 1370,
+      "product_idx": 1371,
       "product_idxs": [
-        1370
+        1371
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -31970,9 +31984,9 @@
       "title": "Azure Storage Explorer Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1360,
+      "product_idx": 1361,
       "product_idxs": [
-        1360
+        1361
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -33229,10 +33243,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1364,
             1365,
             1366,
-            1367
+            1367,
+            1368
           ]
         },
         {
@@ -34247,7 +34261,7 @@
       "product_idxs": [
         973,
         974,
-        1362
+        1356
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -88746,7 +88760,7 @@
       "product_idx": 973,
       "product_idxs": [
         973,
-        1362,
+        1356,
         974
       ],
       "date": "2026-08-11",
@@ -91216,9 +91230,9 @@
       "title": "Visual Studio Code Python Extension Security Feature Bypass Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1363,
+      "product_idx": 1364,
       "product_idxs": [
-        1363
+        1364
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -100846,7 +100860,7 @@
         130,
         131
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-17",
       "exploited": false,
       "kb_articles": [
         {
@@ -103316,7 +103330,7 @@
         130,
         131
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-17",
       "exploited": false,
       "kb_articles": [
         {
@@ -104629,7 +104643,7 @@
       "product_idxs": [
         324,
         326,
-        1357,
+        1358,
         317
       ],
       "date": "2026-08-13",
@@ -105305,9 +105319,9 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1357,
+      "product_idx": 1358,
       "product_idxs": [
-        1357,
+        1358,
         742,
         324,
         326,
@@ -105614,7 +105628,7 @@
         743,
         298,
         299,
-        1357,
+        1358,
         741
       ],
       "date": "2026-08-11",
@@ -106351,9 +106365,9 @@
       "title": "Microsoft Entra Connect Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1368,
+      "product_idx": 1369,
       "product_idxs": [
-        1368
+        1369
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -106663,7 +106677,7 @@
         130,
         131
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-17",
       "exploited": false,
       "kb_articles": [
         {
@@ -107276,10 +107290,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1367,
-            1364,
+            1368,
             1365,
-            1366
+            1366,
+            1367
           ]
         },
         {
@@ -108706,7 +108720,7 @@
       "product_idxs": [
         974,
         973,
-        1362
+        1356
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -109362,9 +109376,9 @@
       "title": ".NET Core Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1367,
+      "product_idx": 1368,
       "product_idxs": [
-        1367,
+        1368,
         339,
         340,
         1333,
@@ -109379,10 +109393,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1367,
-            1364,
+            1368,
             1365,
-            1366
+            1366,
+            1367
           ]
         },
         {
@@ -124369,7 +124383,7 @@
       "product_idxs": [
         742,
         317,
-        1357,
+        1358,
         326,
         324
       ],
@@ -124411,9 +124425,9 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1357,
+      "product_idx": 1358,
       "product_idxs": [
-        1357,
+        1358,
         741,
         743,
         324,
@@ -126362,7 +126376,7 @@
       "product_idxs": [
         973,
         974,
-        1362
+        1356
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -129173,7 +129187,7 @@
       "product_idxs": [
         973,
         974,
-        1362
+        1356
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -129301,9 +129315,9 @@
       "title": "Windows Package Manager Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1358,
+      "product_idx": 1359,
       "product_idxs": [
-        1358
+        1359
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -129416,9 +129430,9 @@
       "title": "Azure Monitor Agent Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.2,
-      "product_idx": 1356,
+      "product_idx": 1357,
       "product_idxs": [
-        1356
+        1357
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -157592,7 +157606,7 @@
         144,
         145
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-17",
       "exploited": false,
       "kb_articles": [
         {
@@ -160639,7 +160653,7 @@
         144,
         145
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-17",
       "exploited": false,
       "kb_articles": [
         {
@@ -165268,9 +165282,9 @@
       "title": "Microsoft OneDrive for MacOS Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 6.7,
-      "product_idx": 1369,
+      "product_idx": 1370,
       "product_idxs": [
-        1369
+        1370
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -176377,7 +176391,7 @@
         324,
         326,
         317,
-        1357
+        1358
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -176702,9 +176716,9 @@
       "title": "Microsoft Teams iOS Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1359,
+      "product_idx": 1360,
       "product_idxs": [
-        1359
+        1360
       ],
       "date": "2026-08-16",
       "exploited": false,
@@ -176950,9 +176964,9 @@
       "title": "Azure CycleCloud Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1361,
+      "product_idx": 1362,
       "product_idxs": [
-        1361
+        1362
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -181960,9 +181974,9 @@
       "title": ".NET Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1357,
+      "product_idx": 1358,
       "product_idxs": [
-        1357,
+        1358,
         741,
         743,
         324,
@@ -246367,21 +246381,6 @@
         }
       ],
       "kb_count": 6
-    },
-    {
-      "cve_id": "CVE-2024-26464",
-      "title": "",
-      "severity": "",
-      "cvss": null,
-      "product_idx": 1375,
-      "product_idxs": [
-        1375,
-        592
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2024-31745",
