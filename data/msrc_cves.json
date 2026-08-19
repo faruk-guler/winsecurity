@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 7743,
+    "total": 7745,
     "critical": 507,
-    "important": 2805,
+    "important": 2807,
     "moderate": 2087,
     "low": 213,
     "exploited": 22,
-    "patched": 1918,
-    "updated_at": "2026-08-19 20:25 UTC",
+    "patched": 1920,
+    "updated_at": "2026-08-19 21:23 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -158719,6 +158719,164 @@
       "kb_count": 13
     },
     {
+      "cve_id": "CVE-2026-62727",
+      "title": "Windows Telephony Service Elevation of Privilege Vulnerability",
+      "severity": "Important",
+      "cvss": 7.0,
+      "product_idx": 127,
+      "product_idxs": [
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5120228",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120228",
+          "fixed_build": "10.0.26100.33222",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            143,
+            146
+          ]
+        },
+        {
+          "kb": "5120229",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120229",
+          "fixed_build": "10.0.20348.5440",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            131,
+            132
+          ]
+        },
+        {
+          "kb": "5120233",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120233",
+          "fixed_build": "10.0.26100.33296",
+          "subtype": "Security Update",
+          "product_idxs": [
+            143,
+            146
+          ]
+        },
+        {
+          "kb": "5120238",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120238",
+          "fixed_build": "10.0.17763.9121",
+          "subtype": "Security Update",
+          "product_idxs": [
+            127,
+            128,
+            129,
+            130
+          ]
+        },
+        {
+          "kb": "5120242",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120242",
+          "fixed_build": "10.0.20348.5499",
+          "subtype": "Security Update",
+          "product_idxs": [
+            131,
+            132
+          ]
+        },
+        {
+          "kb": "5120249",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120249",
+          "fixed_build": "10.0.19044.7663",
+          "subtype": "Security Update",
+          "product_idxs": [
+            133,
+            134,
+            135,
+            136,
+            137,
+            138
+          ]
+        },
+        {
+          "kb": "5120385",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120385",
+          "fixed_build": "6.3.9600.23338",
+          "subtype": "Monthly Rollup",
+          "product_idxs": [
+            160,
+            161
+          ]
+        },
+        {
+          "kb": "5120386",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120386",
+          "fixed_build": "6.2.9200.26280",
+          "subtype": "Monthly Rollup",
+          "product_idxs": [
+            158,
+            159
+          ]
+        },
+        {
+          "kb": "5120418",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120418",
+          "fixed_build": "10.0.14393.9418",
+          "subtype": "Security Update",
+          "product_idxs": [
+            148,
+            149,
+            150,
+            151
+          ]
+        },
+        {
+          "kb": "5120994",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
+          "fixed_build": "10.0.26200.9106",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            144,
+            145
+          ]
+        },
+        {
+          "kb": "5121000",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5121000",
+          "fixed_build": "10.0.28000.2704",
+          "subtype": "Security Update",
+          "product_idxs": [
+            395,
+            437
+          ]
+        },
+        {
+          "kb": "5121003",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5121003",
+          "fixed_build": "10.0.26200.9168",
+          "subtype": "Security Update",
+          "product_idxs": [
+            293,
+            292,
+            144
+          ]
+        },
+        {
+          "kb": "5122880",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5122880",
+          "fixed_build": "10.0.22621.7566",
+          "subtype": "Security Update",
+          "product_idxs": [
+            141,
+            142
+          ]
+        }
+      ],
+      "kb_count": 13
+    },
+    {
       "cve_id": "CVE-2026-62728",
       "title": "Windows Common Log File System Driver Elevation of Privilege Vulnerability",
       "severity": "Important",
@@ -177104,6 +177262,30 @@
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69550",
+      "title": "Windows App for Mac Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product_idx": 703,
+      "product_idxs": [
+        703
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "868963",
+          "url": "https://go.microsoft.com/fwlink/?linkid=868963",
+          "fixed_build": "",
+          "subtype": "Security Update",
+          "product_idxs": [
+            703
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-70327",
