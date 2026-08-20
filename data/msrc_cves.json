@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 7705,
-    "critical": 505,
-    "important": 2782,
-    "moderate": 2082,
-    "low": 206,
-    "exploited": 22,
-    "patched": 1920,
-    "updated_at": "2026-08-20 21:26 UTC",
+    "total": 7396,
+    "critical": 477,
+    "important": 2746,
+    "moderate": 1876,
+    "low": 174,
+    "exploited": 23,
+    "patched": 1921,
+    "updated_at": "2026-08-20 22:26 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1358,53 +1358,49 @@
     "Windows Terminal App",
     "Azure Portal",
     "Fabric Data Warehouse",
-    "Azure SQL Managed Instance",
-    "Azure Service Bus",
-    "Microsoft 365 Admin Center",
-    "PowerShell 7.6",
-    "Azure Monitor Agent Linux Extension",
-    "Microsoft Visual Studio 2026 version 18.8",
-    "App Installer",
-    "Microsoft Teams for iOS",
-    "Azure Storage Explorer",
-    "Azure CycleCloud 8.9.2",
     "Copilot Web",
+    "Azure Monitor Agent Linux Extension",
+    "Application Insights Profiler",
+    "Azure Service Bus",
+    "PowerShell 7.6",
     "Python extension for Visual Studio Code",
+    "Azure SQL Database",
+    "Azure Storage Explorer",
+    "Copilot Cowork",
+    "Azure SRE Agent",
+    "Azure SQL Managed Instance",
+    "Microsoft Visual Studio 2026 version 18.8",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for x64-based Systems",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016 (Server Core installation)",
     "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for 32-bit Systems",
+    "Microsoft 365 Admin Center",
+    "Microsoft Fabric",
     "Microsoft Entra Connect",
     "OneDrive for MacOS",
-    "Azure SQL Database",
-    "Azure SRE Agent",
-    "Copilot Cowork",
-    "Application Insights Profiler",
+    "Microsoft Teams for iOS",
+    "Azure CycleCloud 8.9.2",
+    "App Installer",
     "Azure Confidential Ledger",
-    "cbl2 libdwarf 0.9.0-3",
-    "azl3 libdwarf 0.9.0-1 on Azure Linux 3.0",
-    "azl3 hdf5 1.14.6-4 on Azure Linux 3.0",
-    "azl3 popt 1.19-1 on Azure Linux 3.0",
-    "azl3 rsync 3.4.3-1 on Azure Linux 3.0",
-    "azl3 apr-util 1.6.3-2 on Azure Linux 3.0",
-    "azl3 kata-containers 3.32.0.kata0-2 on Azure Linux 3.0",
-    "azl3 kata-containers-cc 3.15.0.aks0-16 on Azure Linux 3.0",
-    "azl3 kata-containers 3.19.1.kata3-7 on Azure Linux 3.0",
-    "azl3 libkcapi 1.5.0-2 on Azure Linux 3.0",
-    "azl3 rpm 4.18.2-1 on Azure Linux 3.0",
-    "azl3 gh 2.62.0-20 on Azure Linux 3.0",
-    "azl3 javapackages-bootstrap 1.14.0-4 on Azure Linux 3.0",
-    "azl3 libvirt 10.10.0-2 on Azure Linux 3.0",
-    "azl3 packer 1.9.5-18 on Azure Linux 3.0",
-    "azl3 telegraf 1.31.0-28 on Azure Linux 3.0",
-    "azl3 perl 5.38.2-514 on Azure Linux 3.0",
-    "azl3 cpio 2.14-1 on Azure Linux 3.0",
-    "azl3 expat 2.8.2-1 on Azure Linux 3.0",
-    "azl3 clamav 1.5.3-1 on Azure Linux 3.0",
-    "azl3 stunnel 5.74-1 on Azure Linux 3.0",
-    "azl3 valkey 8.0.10-1 on Azure Linux 3.0"
+    "Azure Data Manager for Energy",
+    "Azure Virtual Machines",
+    "Microsoft Copilot in Azure"
   ],
   "cves": [
+    {
+      "cve_id": "CVE-2026-69836",
+      "title": "Microsoft Entra ID Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 199,
+      "product_idxs": [
+        199
+      ],
+      "date": "2026-08-20",
+      "exploited": true,
+      "kb_articles": [],
+      "kb_count": 0
+    },
     {
       "cve_id": "CVE-2026-58644",
       "title": "Microsoft SharePoint Remote Code Execution Vulnerability",
@@ -4086,9 +4082,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1365,
+      "product_idx": 1353,
       "product_idxs": [
-        1365
+        1353
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4208,6 +4204,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-65770",
+      "title": "Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 1160,
+      "product_idxs": [
+        1160
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-65801",
+      "title": "Microsoft Exchange Online Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 947,
+      "product_idxs": [
+        947
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-65816",
+      "title": "Azure Arc Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 993,
+      "product_idxs": [
+        993
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-66803",
       "title": "Azure Cosmos DB Remote Code Execution Vulnerability",
       "severity": "Critical",
@@ -4217,6 +4255,20 @@
         625
       ],
       "date": "2026-07-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69555",
+      "title": "Azure Arc Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 729,
+      "product_idxs": [
+        729
+      ],
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -4497,9 +4549,9 @@
       "title": "Azure Service Bus Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1348,
+      "product_idx": 1350,
       "product_idxs": [
-        1348
+        1350
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4685,11 +4737,67 @@
       "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1366,
+      "product_idx": 1356,
       "product_idxs": [
-        1366
+        1356
       ],
       "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63509",
+      "title": "Microsoft Fabric Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 1364,
+      "product_idxs": [
+        1364
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-68782",
+      "title": "Azure SQL Database Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 1353,
+      "product_idxs": [
+        1353
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-68789",
+      "title": "Azure SQL Database Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 1353,
+      "product_idxs": [
+        1353
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69851",
+      "title": "Microsoft Entra ID Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 199,
+      "product_idxs": [
+        199
+      ],
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -7479,9 +7587,9 @@
       "title": "Microsoft 365 Admin Center Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1349,
+      "product_idx": 1363,
       "product_idxs": [
-        1349
+        1363
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -7695,48 +7803,6 @@
       "kb_count": 8
     },
     {
-      "cve_id": "CVE-2026-64562",
-      "title": "KVM: nVMX: Hide shadow VMCS right after VMCLEAR",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64564",
-      "title": "sctp: don't free the ASCONF's own transport in DEL-IP processing",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64565",
-      "title": "Input: ims-pcu - fix heap-buffer-overflow in ims_pcu_process_data()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-65791",
       "title": "Windows iSCSI Target Service Remote Code Execution Vulnerability",
       "severity": "Critical",
@@ -7838,552 +7904,6 @@
         }
       ],
       "kb_count": 8
-    },
-    {
-      "cve_id": "CVE-2026-68121",
-      "title": "pppoe: reload header pointer after dev_hard_header()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68127",
-      "title": "ila: reload IPv6 header after pskb_may_pull in checksum adjust",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68131",
-      "title": "rbd: Reset positive result codes to zero in object map update path",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68132",
-      "title": "super: fix emergency thaw deadlock on frozen block devices",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68140",
-      "title": "net/iucv: fix use-after-free of a severed iucv_path",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68142",
-      "title": "geneve: require CAP_NET_ADMIN in the device netns for changelink",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68143",
-      "title": "net: slip: serialize receive against buffer reallocation",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68144",
-      "title": "phonet: pep: fix use-after-free in pep_get_sb()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68146",
-      "title": "ftrace: Add global mutex to serialize trace_parser access",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68153",
-      "title": "libceph: remove debugfs files before client teardown",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68166",
-      "title": "userfaultfd: prevent registration of special VMAs",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68176",
-      "title": "tracing: Fix mmiotrace possible NULL dereferencing of hiter->dev",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68180",
-      "title": "intel_th: fix MSC output device reference leak",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68185",
-      "title": "LoongArch: Move jump_label_init() before parse_early_param()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68198",
-      "title": "wifi: ath6kl: fix use-after-free in aggr_reset_state()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68207",
-      "title": "media: ti: vpe: unwind v4l2 device registration on probe error",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68210",
-      "title": "media: stm32: dcmi: unregister notifier on probe failure",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68212",
-      "title": "media: saa7134: Fix a possible memory leak in saa7134_video_init1",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68214",
-      "title": "media: rtl2832: fix use-after-free in rtl2832_remove()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68218",
-      "title": "media: pci: dm1105: Free allocated workqueue",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68236",
-      "title": "drm/amd/display: set new_stream to NULL after release",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68287",
-      "title": "drop_monitor: fix size calculations for 64-bit attributes",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68310",
-      "title": "wifi: mt76: mt7915: guard HE capability lookups",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68324",
-      "title": "iommu/intel: Fix out-of-bounds memset in dmar_latency_disable()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68325",
-      "title": "iommu/amd: Bound the early ACPI HID map",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68340",
-      "title": "hwmon: occ: validate poll response sensor blocks",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68349",
-      "title": "wifi: carl9170: fix buffer overflow in rx_stream failover path",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68354",
-      "title": "firewire: net: Fix fragmented datagram reassembly",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68357",
-      "title": "watchdog: pretimeout: Fix UAF in watchdog_unregister_governor()",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68359",
-      "title": "hwmon: (nzxt-smart2) Stop device IO before calling hid_hw_stop",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68360",
-      "title": "hwmon: (corsair-cpro) Stop device IO before calling hid_hw_stop",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68364",
-      "title": "drm/amd/display: Fix ISM dc_lock deadlock during suspend",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68377",
-      "title": "net/sched: act_tunnel_key: Defer dst_release to RCU callback",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68391",
-      "title": "Bluetooth: mgmt: hold reference for hci_conn in mgmt_pending_cmds",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68395",
-      "title": "ata: sata_dwc_460ex: enable SATA interrupts only after IRQ handler is registered",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68399",
-      "title": "bpf: Fix UAF in sock clone early bailouts",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68402",
-      "title": "wifi: cfg80211: bound element ID read when checking non-inheritance",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68406",
-      "title": "wifi: cfg80211: validate PMSR FTM preamble range",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68407",
-      "title": "wifi: nl80211: free RNR data on MBSSID mismatch",
-      "severity": "Critical",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-59218",
@@ -8603,21 +8123,6 @@
       "kb_count": 9
     },
     {
-      "cve_id": "CVE-2026-50540",
-      "title": "Kata Containers: Config Path Annotation Arbitrary File Loading",
-      "severity": "Critical",
-      "cvss": 9.6,
-      "product_idx": 1376,
-      "product_idxs": [
-        1376,
-        1377
-      ],
-      "date": "2026-08-10",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-55008",
       "title": "Microsoft Exchange Server Spoofing Vulnerability",
       "severity": "Critical",
@@ -8695,6 +8200,20 @@
         712
       ],
       "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69400",
+      "title": "Azure Logic Apps Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.6,
+      "product_idx": 700,
+      "product_idxs": [
+        700
+      ],
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9041,11 +8560,25 @@
       "title": "Copilot Cowork Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1367,
+      "product_idx": 1355,
       "product_idxs": [
-        1367
+        1355
       ],
       "date": "2026-08-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62834",
+      "title": "Azure Data Factory Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.3,
+      "product_idx": 929,
+      "product_idxs": [
+        929
+      ],
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9139,20 +8672,6 @@
         1231
       ],
       "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-34191",
-      "title": "Apache Portable Runtime Utility: SQL Injection in apr_dbd_oracle",
-      "severity": "Critical",
-      "cvss": 9.1,
-      "product_idx": 1375,
-      "product_idxs": [
-        1375
-      ],
-      "date": "2026-08-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9257,15 +8776,15 @@
       "kb_count": 3
     },
     {
-      "cve_id": "CVE-2026-68160",
-      "title": "ceph: fix pre-auth out-of-bounds read on snaptrace in ceph_handle_caps()",
+      "cve_id": "CVE-2026-66309",
+      "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 56,
+      "product_idx": 1353,
       "product_idxs": [
-        56
+        1353
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9275,9 +8794,9 @@
       "title": "Azure Confidential Ledger Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1369,
+      "product_idx": 1370,
       "product_idxs": [
-        1369
+        1370
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -9555,9 +9074,9 @@
       "title": "Microsoft Copilot Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1357,
+      "product_idx": 1347,
       "product_idxs": [
-        1357
+        1347
       ],
       "date": "2026-08-18",
       "exploited": false,
@@ -10409,9 +9928,9 @@
       "title": "Application Insights Profiler Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1368,
+      "product_idx": 1349,
       "product_idxs": [
-        1368
+        1349
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -12453,9 +11972,9 @@
       "title": "Azure SQL Managed Instance Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.7,
-      "product_idx": 1347,
+      "product_idx": 1357,
       "product_idxs": [
-        1347
+        1357
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -12603,6 +12122,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-66800",
+      "title": "Azure Data Factory Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.6,
+      "product_idx": 929,
+      "product_idxs": [
+        929
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69519",
+      "title": "Azure Stack HCI Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.6,
+      "product_idx": 1165,
+      "product_idxs": [
+        1165
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69558",
+      "title": "Microsoft Partner Center Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.6,
+      "product_idx": 622,
+      "product_idxs": [
+        622
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-56167",
       "title": "Azure AI Search Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -12612,6 +12173,34 @@
         1313
       ],
       "date": "2026-07-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69419",
+      "title": "Azure Data Manager for Energy Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.5,
+      "product_idx": 1371,
+      "product_idxs": [
+        1371
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69543",
+      "title": "Azure Virtual Machines Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.5,
+      "product_idx": 1372,
+      "product_idxs": [
+        1372
+      ],
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -19320,9 +18909,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 1365,
+      "product_idx": 1353,
       "product_idxs": [
-        1365
+        1353
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -20108,6 +19697,20 @@
         699
       ],
       "date": "2026-06-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69855",
+      "title": "Microsoft Copilot in Azure Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 7.7,
+      "product_idx": 1373,
+      "product_idxs": [
+        1373
+      ],
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -22651,21 +22254,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-47243",
-      "title": "Kata guest escape: runtime-rs guest-root to host-root escape via virtiofs",
-      "severity": "Critical",
-      "cvss": null,
-      "product_idx": 1378,
-      "product_idxs": [
-        1378,
-        1377
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-4739",
       "title": "Integer overflow vulnerabilities in InsightSoftwareConsortium/ITK",
       "severity": "Critical",
@@ -23699,48 +23287,6 @@
         }
       ],
       "kb_count": 2
-    },
-    {
-      "cve_id": "CVE-2026-64584",
-      "title": "usb: gadget: f_midi: cancel pending IN work before freeing the midi object",
-      "severity": "Important",
-      "cvss": 9.8,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64593",
-      "title": "btrfs: do not trim a device which is not writeable",
-      "severity": "Important",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64594",
-      "title": "usb: gadget: f_fs: initialize reset_work at allocation time",
-      "severity": "Important",
-      "cvss": 9.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-42904",
@@ -31910,9 +31456,9 @@
       "title": "Azure Storage Explorer Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1355,
+      "product_idx": 1354,
       "product_idxs": [
-        1355
+        1354
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -33983,21 +33529,6 @@
       "kb_count": 5
     },
     {
-      "cve_id": "CVE-2026-68480",
-      "title": "x86/bugs: Make Safe-RET robust against interrupt injection",
-      "severity": "Important",
-      "cvss": 8.8,
-      "product_idx": 465,
-      "product_idxs": [
-        465,
-        791
-      ],
-      "date": "2026-08-08",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-6893",
       "title": "Dracut: dracut: root code execution via dhcp options command injection",
       "severity": "Important",
@@ -34187,7 +33718,7 @@
       "product_idxs": [
         961,
         962,
-        1350
+        1351
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -34564,20 +34095,6 @@
         867
       ],
       "date": "2026-04-29",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64597",
-      "title": "smb: client: fix double-free in SMB2_close() replay",
-      "severity": "Important",
-      "cvss": 8.6,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -35701,20 +35218,6 @@
       "kb_count": 9
     },
     {
-      "cve_id": "CVE-2026-64604",
-      "title": "KVM: VMX: Grab vmcs12 on CR8 interception update iff vCPU is in guest mode",
-      "severity": "Important",
-      "cvss": 8.4,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-12977",
       "title": "CVE-2025-12977",
       "severity": "Important",
@@ -36360,21 +35863,6 @@
         188
       ],
       "date": "2026-07-08",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68082",
-      "title": "libceph: fix two unsafe bare decodes in decode_lockers()",
-      "severity": "Important",
-      "cvss": 8.2,
-      "product_idx": 465,
-      "product_idxs": [
-        465,
-        791
-      ],
-      "date": "2026-08-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -39093,20 +38581,6 @@
         1149
       ],
       "date": "2026-05-10",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68366",
-      "title": "usb: gadget: uvc: clamp SEND_RESPONSE length to the response buffer",
-      "severity": "Important",
-      "cvss": 8.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -88551,7 +88025,7 @@
       "product_idx": 961,
       "product_idxs": [
         961,
-        1350,
+        1351,
         962
       ],
       "date": "2026-08-11",
@@ -91021,9 +90495,9 @@
       "title": "Visual Studio Code Python Extension Security Feature Bypass Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1358,
+      "product_idx": 1352,
       "product_idxs": [
-        1358
+        1352
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -104444,7 +103918,7 @@
       "product_idxs": [
         324,
         326,
-        1352,
+        1358,
         317
       ],
       "date": "2026-08-13",
@@ -105120,9 +104594,9 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1352,
+      "product_idx": 1358,
       "product_idxs": [
-        1352,
+        1358,
         708,
         324,
         326,
@@ -105429,7 +104903,7 @@
         709,
         298,
         299,
-        1352,
+        1358,
         707
       ],
       "date": "2026-08-11",
@@ -106166,9 +105640,9 @@
       "title": "Microsoft Entra Connect Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1363,
+      "product_idx": 1365,
       "product_idxs": [
-        1363
+        1365
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -107524,118 +106998,6 @@
       "kb_count": 4
     },
     {
-      "cve_id": "CVE-2026-68108",
-      "title": "drm/amdgpu/vce: fix integer overflow in image size",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68152",
-      "title": "amt: fix use-after-free in AMT delayed works",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68181",
-      "title": "mei: bus: access mei_device under device_lock on cleanup",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68186",
-      "title": "binfmt_misc: set have_execfd only once the interpreter is opened",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68188",
-      "title": "Bluetooth: RFCOMM: Fix session UAF in set_termios",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68318",
-      "title": "pds_core: fix use-after-free on workqueue during remove",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68335",
-      "title": "rds: drop incoming messages that cross network namespace boundaries",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68416",
-      "title": "mtd: fix double free and WARN_ON in add_mtd_device() error paths",
-      "severity": "Important",
-      "cvss": 7.8,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-68792",
       "title": "Microsoft Office Elevation of Privilege Vulnerability",
       "severity": "Important",
@@ -108521,7 +107883,7 @@
       "product_idxs": [
         962,
         961,
-        1350
+        1351
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -110193,20 +109555,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68124",
-      "title": "mctp: serial: handle zero-length frames to prevent rx buffer overflow",
-      "severity": "Important",
-      "cvss": 7.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-9804",
       "title": "Kubevirt: kubevirt: vmexport directory symlink escape enables exporter pod file read",
       "severity": "Important",
@@ -110433,20 +109781,6 @@
         59
       ],
       "date": "2025-11-17",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2025-49506",
-      "title": "Apache Portable Runtime Utility: apr_password_validate() vulnerable to timing attack",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1375,
-      "product_idxs": [
-        1375
-      ],
-      "date": "2026-08-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -111914,104 +111248,6 @@
         783
       ],
       "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-20337",
-      "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1389,
-      "product_idxs": [
-        1389
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-20338",
-      "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1389,
-      "product_idxs": [
-        1389
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-20339",
-      "title": "ClamAV PESpin File Format Processing Integer Overflow Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1389,
-      "product_idxs": [
-        1389
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-20345",
-      "title": "ClamAV GPT File Format Processing Memory Corruption Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1389,
-      "product_idxs": [
-        1389
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-20346",
-      "title": "ClamAV PDF File Format Processing Memory Corruption Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1389,
-      "product_idxs": [
-        1389
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-20347",
-      "title": "ClamAV Mach-O File Format Processing Memory Corruption Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1389,
-      "product_idxs": [
-        1389
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-20348",
-      "title": "ClamAV XAR File Format Processing Memory Corruption Vulnerability",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1389,
-      "product_idxs": [
-        1389
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -115560,34 +114796,6 @@
         1124
       ],
       "date": "2026-06-20",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-34501",
-      "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR redis client",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1375,
-      "product_idxs": [
-        1375
-      ],
-      "date": "2026-08-10",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-34502",
-      "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR memcached client",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1375,
-      "product_idxs": [
-        1375
-      ],
-      "date": "2026-08-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -122417,20 +121625,6 @@
       "kb_count": 9
     },
     {
-      "cve_id": "CVE-2026-54876",
-      "title": "Client-Side Memory Leak in OCSP Response Checking",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1376,
-      "product_idxs": [
-        1376
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-54983",
       "title": "Windows Active Directory Federation Services Denial of Service Vulnerability",
       "severity": "Important",
@@ -123893,7 +123087,7 @@
         130,
         131
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [
         {
@@ -124153,7 +123347,7 @@
       "product_idxs": [
         708,
         317,
-        1352,
+        1358,
         326,
         324
       ],
@@ -124195,9 +123389,9 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1352,
+      "product_idx": 1358,
       "product_idxs": [
-        1352,
+        1358,
         707,
         709,
         324,
@@ -124240,20 +123434,6 @@
         }
       ],
       "kb_count": 3
-    },
-    {
-      "cve_id": "CVE-2026-64577",
-      "title": "gtp: check skb_pull_data() return in gtp1u_send_echo_resp()",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-6479",
@@ -124368,20 +123548,6 @@
       "kb_count": 6
     },
     {
-      "cve_id": "CVE-2026-65819",
-      "title": "gopacket: Multiple layer decoders panic on crafted packets (out-of-bounds/underflow) enabling unauthenticated remote DoS via DecodingLayerParser",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 1385,
-      "product_idxs": [
-        1385
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-66315",
       "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "severity": "Important",
@@ -124405,48 +123571,6 @@
         1149
       ],
       "date": "2026-05-10",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68155",
-      "title": "libceph: Reject monmaps advertising zero monitors",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68320",
-      "title": "sctp: fix auth_chunk_list capacity check in sctp_auth_ep_add_chunkid",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-69152",
-      "title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
-      "severity": "Important",
-      "cvss": 7.5,
-      "product_idx": 83,
-      "product_idxs": [
-        83
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -126146,7 +125270,7 @@
       "product_idxs": [
         961,
         962,
-        1350
+        1351
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -128957,7 +128081,7 @@
       "product_idxs": [
         961,
         962,
-        1350
+        1351
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -129085,9 +128209,9 @@
       "title": "Windows Package Manager Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1353,
+      "product_idx": 1369,
       "product_idxs": [
-        1353
+        1369
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -129138,20 +128262,6 @@
       "kb_count": 3
     },
     {
-      "cve_id": "CVE-2026-71226",
-      "title": "Libkcapi: memory corruption via uncanceled aio requests on error in libkcapi's one-shot aio path",
-      "severity": "Important",
-      "cvss": 7.3,
-      "product_idx": 1379,
-      "product_idxs": [
-        1379
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-20803",
       "title": "Microsoft SQL Server Elevation of Privilege Vulnerability",
       "severity": "Important",
@@ -129200,9 +128310,9 @@
       "title": "Azure Monitor Agent Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.2,
-      "product_idx": 1351,
+      "product_idx": 1348,
       "product_idxs": [
-        1351
+        1348
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -133099,6 +132209,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-55013",
+      "title": "Windows Remote Help Defense Spoofing Vulnerability",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 1322,
+      "product_idxs": [
+        1322
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-55122",
       "title": "Microsoft Excel Information Disclosure Vulnerability",
       "severity": "Important",
@@ -133381,20 +132505,6 @@
       "kb_count": 1
     },
     {
-      "cve_id": "CVE-2026-64590",
-      "title": "dma-buf/udmabuf: skip redundant cpu sync to fix cacheline EEXIST warning",
-      "severity": "Important",
-      "cvss": 7.1,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-65675",
       "title": "CoPilot Chat Security Feature Bypass Vulnerability",
       "severity": "Important",
@@ -133418,34 +132528,6 @@
         188
       ],
       "date": "2026-07-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68130",
-      "title": "ksmbd: defer destroy_previous_session() until after NTLM authentication",
-      "severity": "Important",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-71556",
-      "title": "go-git: Worktree operations may follow symlinks",
-      "severity": "Important",
-      "cvss": 7.1,
-      "product_idx": 1384,
-      "product_idxs": [
-        1384
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -158573,7 +157655,7 @@
         130,
         131
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-20",
       "exploited": false,
       "kb_articles": [
         {
@@ -165136,9 +164218,9 @@
       "title": "Microsoft OneDrive for MacOS Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 6.7,
-      "product_idx": 1364,
+      "product_idx": 1366,
       "product_idxs": [
-        1364
+        1366
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -176245,7 +175327,7 @@
         324,
         326,
         317,
-        1352
+        1358
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -176570,9 +175652,9 @@
       "title": "Microsoft Teams iOS Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1354,
+      "product_idx": 1367,
       "product_idxs": [
-        1354
+        1367
       ],
       "date": "2026-08-16",
       "exploited": false,
@@ -176818,9 +175900,9 @@
       "title": "Azure CycleCloud Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1356,
+      "product_idx": 1368,
       "product_idxs": [
-        1356
+        1368
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -176970,6 +176052,45 @@
         }
       ],
       "kb_count": 1
+    },
+    {
+      "cve_id": "CVE-2026-70105",
+      "title": "Microsoft Word Information Disclosure Vulnerability",
+      "severity": "Important",
+      "cvss": 6.5,
+      "product_idx": 169,
+      "product_idxs": [
+        169,
+        170,
+        171,
+        172,
+        165
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.112.26081010",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165,
+            166
+          ]
+        },
+        {
+          "kb": "5002901",
+          "url": "https://support.microsoft.com/help/5002901",
+          "fixed_build": "16.0.5565.1000",
+          "subtype": "Security Update",
+          "product_idxs": [
+            176,
+            177
+          ]
+        }
+      ],
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-70327",
@@ -181850,9 +180971,9 @@
       "title": ".NET Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1352,
+      "product_idx": 1358,
       "product_idxs": [
-        1352,
+        1358,
         707,
         709,
         324,
@@ -194872,6 +193993,20 @@
         }
       ],
       "kb_count": 9
+    },
+    {
+      "cve_id": "CVE-2026-55015",
+      "title": "Microsoft Remote Help Denial of Service Vulnerability",
+      "severity": "Important",
+      "cvss": 5.5,
+      "product_idx": 1322,
+      "product_idxs": [
+        1322
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-55023",
@@ -209947,20 +209082,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-19024",
-      "title": "HDF5 H5Pget_fill_value NULL Pointer Dereference via Malformed Fill Value Message",
-      "severity": "Important",
-      "cvss": null,
-      "product_idx": 1372,
-      "product_idxs": [
-        1372
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-22185",
       "title": "OpenLDAP <= 2.6.10 LMDB mdb_load Heap Buffer Underflow in readline()",
       "severity": "Important",
@@ -210698,20 +209819,6 @@
         564
       ],
       "date": "2026-05-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-69249",
-      "title": "python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
-      "severity": "Important",
-      "cvss": null,
-      "product_idx": 855,
-      "product_idxs": [
-        855
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -211897,34 +211004,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68299",
-      "title": "vmxnet3: fix BUG_ON in vmxnet3_get_hdr_len() for Geneve packets",
-      "severity": "Moderate",
-      "cvss": 7.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68373",
-      "title": "wifi: at76c50x-usb: avoid length underflow in at76_guess_freq()",
-      "severity": "Moderate",
-      "cvss": 7.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-7511",
       "title": "PKCS7_verify signer confusion allows forged signatures to be accepted",
       "severity": "Moderate",
@@ -212236,20 +211315,6 @@
         1099
       ],
       "date": "2026-05-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68337",
-      "title": "bpf: Reject redirect helpers without a bpf_net_context",
-      "severity": "Moderate",
-      "cvss": 7.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -213886,398 +212951,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-64583",
-      "title": "usb: gadget: udc: bdc: free IRQ and drain func_wake_notify before teardown",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68083",
-      "title": "ksmbd: fix path resolution in ksmbd_vfs_kern_path_create",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68084",
-      "title": "staging: vme_user: fix location monitor leak in tsi148 bridge",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68085",
-      "title": "Bluetooth: hci_uart: clear HCI_UART_SENDING when write_work is canceled",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68088",
-      "title": "usb: gadget: function: rndis: add length check to response query",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68104",
-      "title": "drm/amdgpu: invoke pm_genpd_remove() before freeing genpd",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68135",
-      "title": "net: hip04: fix RX buffer leak on build_skb failure",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68138",
-      "title": "net/sched: serialize qdisc_rtab_list against concurrent get/put",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68162",
-      "title": "sctp: avoid auth_enable sysctl UAF during netns teardown",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68165",
-      "title": "mm/damon/core: validate ranges in damon_set_regions()",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68182",
-      "title": "comedi: comedi_parport: deal with premature interrupt",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68199",
-      "title": "wifi: ath6kl: fix OOB access from firmware ADDBA window size",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68204",
-      "title": "media: vivid: check for vb2_is_busy() when toggling caps",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68284",
-      "title": "bpf, sockmap: Fix cork use-after-free in tcp_bpf_sendmsg()",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68286",
-      "title": "drop_monitor: perform u64_stats updates under IRQ-disabled section",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68294",
-      "title": "net: qrtr: restrict socket creation to the initial network namespace",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68306",
-      "title": "wifi: mt76: mt7996: fix possible NULL-pointer deref in mt7996_mcu_sta_bfer_eht()",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68348",
-      "title": "ASoC: tas2781: bound firmware description string parsing",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68350",
-      "title": "wifi: carl9170: fix OOB read from off-by-two in TX status handler",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68351",
-      "title": "wifi: carl9170: bound memcpy length in cmd callback to prevent OOB read",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68352",
-      "title": "wifi: ath6kl: fix OOB read from firmware IE lengths in connect event",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68353",
-      "title": "wifi: ath6kl: fix OOB read from firmware num_msg in TX complete handler",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68365",
-      "title": "USB: serial: io_edgeport: cap received transmit credits",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68368",
-      "title": "usb: gadget: f_ncm: validate datagram bounds in ncm_unwrap_ntb()",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68371",
-      "title": "usb: musb: omap2430: Do not put borrowed of_node in probe",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68397",
-      "title": "net/iucv: take a reference on the socket found in afiucv_hs_rcv()",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68414",
-      "title": "wifi: cfg80211: cancel sched scan results work on unregister",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-72568",
-      "title": "Redis - Heap Out-of-Bounds Read in Cluster Bus PING Message Handler",
-      "severity": "Moderate",
-      "cvss": 7.1,
-      "product_idx": 1391,
-      "product_idxs": [
-        1391
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-38695",
       "title": "scsi: lpfc: Check for hdwq null ptr when cleaning up lpfc_vport structure",
       "severity": "Moderate",
@@ -215582,20 +214255,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68329",
-      "title": "iommu/amd: Wait for completion instead of returning early in iommu_completion_wait()",
-      "severity": "Moderate",
-      "cvss": 7.0,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2023-53701",
       "title": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "severity": "Moderate",
@@ -215932,20 +214591,6 @@
         1235
       ],
       "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68093",
-      "title": "KVM: SVM: Bump asid_generation on CPU online to avoid ASID collision after hotplug",
-      "severity": "Moderate",
-      "cvss": 6.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -216413,20 +215058,6 @@
         1251
       ],
       "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68086",
-      "title": "mm/khugepaged: write all dirty file folios when collapsing",
-      "severity": "Moderate",
-      "cvss": 6.6,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -217718,20 +216349,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-64578",
-      "title": "ksmbd: validate compound request size before reading StructureSize2",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-6478",
       "title": "PostgreSQL discloses MD5-hashed passwords via covert timing channel",
       "severity": "Moderate",
@@ -217741,146 +216358,6 @@
         1107
       ],
       "date": "2026-05-16",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68098",
-      "title": "ksmbd: bound DACL dedup walk to copied ACEs",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68116",
-      "title": "vxlan: mdb: Fix source list corruption on a failed replace",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68125",
-      "title": "mac802154: llsec: reject frames shorter than the authentication tag",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68129",
-      "title": "gve: fix Rx queue stall on alloc failure",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68136",
-      "title": "net: gro: fix double aggregation of flush-marked skbs",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68158",
-      "title": "libceph: Fix multiplication overflow in decode_new_up_state_weight()",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68159",
-      "title": "libceph: bound pg_{temp,upmap,upmap_items} length to CEPH_PG_MAX_SIZE",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68411",
-      "title": "wifi: mac80211_hwsim: clamp virtio RX length before skb_put",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-70368",
-      "title": "Stunnel: stack-based out-of-bounds read/write in stunnel s_vlog via oversized log message",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 1390,
-      "product_idxs": [
-        1390
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-71225",
-      "title": "Libkcapi: iv reuse in libkcapi one-shot symmetric cipher chunking causes cipher state reset across chunk boundaries",
-      "severity": "Moderate",
-      "cvss": 6.5,
-      "product_idx": 1379,
-      "product_idxs": [
-        1379
-      ],
-      "date": "2026-08-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -218342,90 +216819,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-64573",
-      "title": "Bluetooth: qca: fix NVM tag length underflow in TLV parser",
-      "severity": "Moderate",
-      "cvss": 6.3,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68097",
-      "title": "ksmbd: validate ACE size against SID sub-authorities",
-      "severity": "Moderate",
-      "cvss": 6.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68196",
-      "title": "wifi: wilc1000: validate assoc response length before subtracting header",
-      "severity": "Moderate",
-      "cvss": 6.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68323",
-      "title": "tipc: serialize udp bearer replicast list updates",
-      "severity": "Moderate",
-      "cvss": 6.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68361",
-      "title": "hwmon: (corsair-psu) Stop device IO before calling hid_hw_stop",
-      "severity": "Moderate",
-      "cvss": 6.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-71557",
-      "title": "go-git: Malicious reference names may modify files outside the reference storage",
-      "severity": "Moderate",
-      "cvss": 6.3,
-      "product_idx": 1384,
-      "product_idxs": [
-        1384
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-12464",
       "title": "Qemu-kvm: stack buffer overflow in e1000 device via short frames in loopback mode",
       "severity": "Moderate",
@@ -218876,20 +217269,6 @@
         1088
       ],
       "date": "2026-05-13",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-72522",
-      "title": "libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.",
-      "severity": "Moderate",
-      "cvss": 6.2,
-      "product_idx": 1388,
-      "product_idxs": [
-        1388
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -219569,48 +217948,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68187",
-      "title": "exec: fix unsigned loop counter wrap in transfer_args_to_stack()",
-      "severity": "Moderate",
-      "cvss": 6.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68273",
-      "title": "drm/amdgpu: Fix context pstate override handling",
-      "severity": "Moderate",
-      "cvss": 6.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68326",
-      "title": "wifi: mwifiex: bound uAP association event IEs to the event buffer",
-      "severity": "Moderate",
-      "cvss": 6.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-6861",
       "title": "Emacs: emacs: memory corruption vulnerability when processing svg css",
       "severity": "Moderate",
@@ -219687,21 +218024,6 @@
         443
       ],
       "date": "2025-11-30",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68081",
-      "title": "KVM: nVMX: Put vmcs12 pages if nested VM-Enter fails due to invalid guest state",
-      "severity": "Moderate",
-      "cvss": 6.0,
-      "product_idx": 465,
-      "product_idxs": [
-        465,
-        791
-      ],
-      "date": "2026-08-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -220421,20 +218743,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68381",
-      "title": "ksmbd: pin conn during async oplock break notification",
-      "severity": "Moderate",
-      "cvss": 5.9,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-13281",
       "title": "Portworx Half-Blind SSRF in kube-controller-manager",
       "severity": "Moderate",
@@ -220575,20 +218883,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-15534",
-      "title": "Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch",
-      "severity": "Moderate",
-      "cvss": 5.7,
-      "product_idx": 1386,
-      "product_idxs": [
-        1386
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-21712",
       "title": "A flaw in Node.js URL processing causes an assertion failure in native code when `url.format()` is called with a malformed internationalized domain name (IDN) containing invalid characters, crashing the Node.js process.",
       "severity": "Moderate",
@@ -220598,35 +218892,6 @@
         788
       ],
       "date": "2026-03-31",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64676",
-      "title": "Kata Containers: Unauthorized mem-agent ttRPC methods let an untrusted host tamper with confidential-guest memory",
-      "severity": "Moderate",
-      "cvss": 5.7,
-      "product_idx": 1376,
-      "product_idxs": [
-        1376,
-        1377
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68123",
-      "title": "openvswitch: fix GSO userspace truncation underflow",
-      "severity": "Moderate",
-      "cvss": 5.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -230876,20 +229141,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-44605",
-      "title": "Rpm: heap buffer overflow in ndb slot table parsing",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 1380,
-      "product_idxs": [
-        1380
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-45834",
       "title": "Bluetooth: L2CAP: Fix null-ptr-deref in l2cap_sock_state_change_cb()",
       "severity": "Moderate",
@@ -235146,1282 +233397,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-64561",
-      "title": "KVM: x86: Check for invalid/obsolete root *after* making MMU pages available",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64563",
-      "title": "rhashtable: clear stale iter->p on table restart",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791,
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64569",
-      "title": "mpls: fix NULL deref in mpls_valid_fib_dump_req() on CONFIG_INET=n",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64585",
-      "title": "can: esd_usb: kill anchored URBs before freeing netdevs",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64586",
-      "title": "wifi: brcmfmac: drain bus_reset work on device removal",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 465,
-      "product_idxs": [
-        465,
-        791
-      ],
-      "date": "2026-08-10",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64598",
-      "title": "smb/client: Fix error code in smb2_aead_req_alloc()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64599",
-      "title": "crypto: amlogic - avoid double cleanup in meson_crypto_probe()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64602",
-      "title": "iio: adc: spear: Initialize completion before requesting IRQ",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68090",
-      "title": "debugobjects: Plug race against a concurrent OOM disable",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68091",
-      "title": "HID: wacom: stop hardware after post-start probe failures",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68096",
-      "title": "audit: fix recursive locking deadlock in audit_dupe_exe()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68102",
-      "title": "drm/amdgpu: fix aperture mapping leak",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68106",
-      "title": "drm/amdgpu: fix division by zero with invalid uvd dimensions",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68109",
-      "title": "drm/amdgpu/sdma7.1: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68110",
-      "title": "drm/amdgpu/sdma4.4.2: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68111",
-      "title": "drm/amdgpu/gfx9: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68112",
-      "title": "drm/amdgpu/gfx9.4.3: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68113",
-      "title": "drm/amdgpu/gfx12: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68114",
-      "title": "drm/amdgpu/gfx12.1: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68115",
-      "title": "drm/amdgpu/gfx10: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68137",
-      "title": "net/x25: fix use-after-free in x25_kill_by_neigh()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68141",
-      "title": "net/af_iucv: fix NULL deref in afiucv_hs_callback_syn()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68145",
-      "title": "iomap: fix out-of-bounds bitmap_set() with zero-length range",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68147",
-      "title": "fscrypt: Avoid dynamic allocation in fscrypt_get_devices()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68149",
-      "title": "fs: preserve ACL_DONT_CACHE state in forget_cached_acl()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68154",
-      "title": "libceph: reject zero bucket types in crush_decode",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68157",
-      "title": "libceph: guard missing CRUSH type name lookup",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68161",
-      "title": "sctp: close UDP tunnel sockets during netns teardown",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68164",
-      "title": "mm/damon/core: disallow overlapping input ranges for damon_set_regions()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68175",
-      "title": "tracing: Fix resource leak on mmiotrace trace_pipe close",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68183",
-      "title": "firmware: stratix10-svc: fix memory leaks and list corruption bugs",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68184",
-      "title": "cdrom: fix stack out-of-bounds read in CDROMVOLCTRL",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68194",
-      "title": "wifi: mt76: mt7921: drop TXRX_NOTIFY on non-mmio buses",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68195",
-      "title": "wifi: mt76: mt7615: drop TXRX_NOTIFY on non-mmio buses",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68197",
-      "title": "wifi: mwifiex: fix NULL dereference when the AP has HT-cap but no HT-oper",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68202",
-      "title": "ALSA: seq: close a re-opened queue timer in the destructor",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68203",
-      "title": "media: vivid: fix cleanup bugs in vivid_init()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68205",
-      "title": "media: v4l2-fwnode: Fix subdev owner overwritten in v4l2_async_register_subdev_sensor()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68206",
-      "title": "media: v4l2-ctrls: validate HEVC active reference counts",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68215",
-      "title": "media: radio-si476x: Unregister v4l2_device on probe failure",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68216",
-      "title": "media: pwc: Return queued buffers on start_streaming() failure",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68217",
-      "title": "media: pwc: Drain fill_buf on start_streaming() failure",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68219",
-      "title": "media: nxp: imx8-isi: Fix potential out-of-bounds issues",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68222",
-      "title": "media: msi2500: Return queued buffers on start_streaming() failure",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68223",
-      "title": "media: meson: vdec: Fix memory leak in error path of vdec_open",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68231",
-      "title": "media: airspy: Return queued buffers on start_streaming() failure",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68242",
-      "title": "drm/i915/gt: Fix NULL deref on sched_engine alloc failure",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68243",
-      "title": "drm/i915/gem: Fix NULL deref in I915_CONTEXT_PARAM_SSEU",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68246",
-      "title": "drm/amdgpu/gfx11: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68247",
-      "title": "drm/i915/bios: range check LFP Data Block panel_type2",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68249",
-      "title": "drm/amdgpu/sdma5.0: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68250",
-      "title": "drm/amdgpu/sdma5.2: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68251",
-      "title": "drm/amdgpu/sdma6.0: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68252",
-      "title": "drm/amdgpu/sdma7.0: replace BUG_ON() with WARN_ON()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68253",
-      "title": "drm/i915/hdcp: check streams[] bounds before overflow",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68254",
-      "title": "drm/i915/vrr: require valid min/max vfreq for VRR",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68255",
-      "title": "drm/virtio: bound EDID block reads to the response buffer",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68257",
-      "title": "drm/amdkfd: fix 32-bit overflow in CWSR total size calculation",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68258",
-      "title": "drm/amdkfd: Check bounds on CRIU restore queue type and mqd size",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68259",
-      "title": "drm/amdkfd: Check bounds in allocate_event_notification_slot",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68271",
-      "title": "drm/nouveau: fix reversed error cleanup order in ucopy functions",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68272",
-      "title": "drm/amdgpu: validate CP_GFX_SHADOW chunk size in CS pass1",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68289",
-      "title": "tipc: fix integer overflow in tipc_recvmsg() and tipc_recvstream()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68293",
-      "title": "net/mlx5: Fix MCIA register buffer overflow on 32 dword reads",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68297",
-      "title": "tipc: fix u16 MTU truncation in media and bearer MTU validation",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68300",
-      "title": "sctp: auth: verify auth requirement when auth_chunk is NULL",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68303",
-      "title": "drm/vc4: hvs/v3d: Fix null dereference in unbind",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68308",
-      "title": "wifi: mt76: mt7996: check pointer returned by mt76_connac_get_he_phy_cap()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68313",
-      "title": "tipc: fix infinite loop in __tipc_nl_compat_dumpit",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68322",
-      "title": "rds: Fix inet6_addr_lst NULL dereference when IPv6 is disabled",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68327",
-      "title": "wan: wanxl: Only reset hardware after BAR mapping",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68328",
-      "title": "nfp: Check resource mutex allocation",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68331",
-      "title": "dpaa2-eth: put MAC endpoint device on disconnect",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68333",
-      "title": "dpaa2-switch: put MAC endpoint device on disconnect",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68336",
-      "title": "bonding: fix devconf_all NULL dereference when IPv6 is disabled",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68338",
-      "title": "net/packet: avoid fanout hook re-registration after unregister",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68339",
-      "title": "Bluetooth: btusb: validate Realtek vendor event length",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68367",
-      "title": "usb: gadget: f_tcm: synchronize delayed set_alt with teardown",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68369",
-      "title": "usb: gadget: printer: fix infinite loop in printer_read()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68370",
-      "title": "usb: gadget: dummy_hcd: prevent fifo_req reuse during giveback",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68374",
-      "title": "usb: core: sysfs: add lock to bos_descriptors_read()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68386",
-      "title": "bpf, sockmap: Reject unhashed UDP sockets on sockmap update",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68389",
-      "title": "Bluetooth: hci_qca: Clear memdump state on invalid dump size",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68392",
-      "title": "Bluetooth: mgmt: fix locking in unpair_device/disconnect_sync",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68396",
-      "title": "scsi: core: wake eh reliably when using scsi_schedule_eh",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68401",
-      "title": "firmware: arm_ffa: Fix out-of-bound writes in ffa_setup_and_transmit()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68408",
-      "title": "wifi: cfg80211: convert pmsr_free_wk to wiphy_work to fix deadlock",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68410",
-      "title": "wifi: libertas: fix memory leak in helper_firmware_cb()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68412",
-      "title": "wifi: cfg80211: Fix an error handling path in cfg80211_wext_siwscan()",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68418",
-      "title": "RDMA/irdma: Prevent user-triggered null deref on QP create",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68427",
-      "title": "gpu: host1x: Fix use-after-free in host1x_bo_clear_cached_mappings",
-      "severity": "Moderate",
-      "cvss": 5.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-10158",
       "title": "Rsync: Out of bounds array access via negative index",
       "severity": "Moderate",
@@ -236612,20 +233587,6 @@
         1107
       ],
       "date": "2026-05-16",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-70367",
-      "title": "Stunnel: ssrf bypass in stunnel socks proxy via ipv4-mapped ipv6 loopback and unspecified addresses allows access to loopback-only services",
-      "severity": "Moderate",
-      "cvss": 5.4,
-      "product_idx": 1390,
-      "product_idxs": [
-        1390
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -237405,20 +234366,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-32327",
-      "title": "Apache Portable Runtime Utility: apr-util XML stack recursion crash",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 1375,
-      "product_idxs": [
-        1375
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-32792",
       "title": "Packet of death with DNSCrypt",
       "severity": "Moderate",
@@ -238004,76 +234951,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68118",
-      "title": "tcp: challenge ACK for non-exact RST in SYN-RECEIVED",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68156",
-      "title": "libceph: refresh auth->authorizer_buf{,_len} after authorizer update",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68315",
-      "title": "sctp: validate stream count in sctp_process_strreset_inreq()",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68343",
-      "title": "smb: client: validate DFS referral PathConsumed",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-69153",
-      "title": "PostCSS: incomplete fix of CVE-2026-45623 — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
-      "severity": "Moderate",
-      "cvss": 5.3,
-      "product_idx": 83,
-      "product_idxs": [
-        83
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-7168",
       "title": "cross-proxy Digest auth state leak",
       "severity": "Moderate",
@@ -238192,35 +235069,6 @@
         864
       ],
       "date": "2026-04-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64581",
-      "title": "xfrm: fix sk_dst_cache double-free in xfrm_user_policy()",
-      "severity": "Moderate",
-      "cvss": 5.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791,
-        465
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-71227",
-      "title": "Libkcapi: infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to unhandled io_getevents() timeout return",
-      "severity": "Moderate",
-      "cvss": 5.1,
-      "product_idx": 1379,
-      "product_idxs": [
-        1379
-      ],
-      "date": "2026-08-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -238359,20 +235207,6 @@
         1244
       ],
       "date": "2026-08-13",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68151",
-      "title": "binfmt_elf_fdpic: only honour the first PT_INTERP",
-      "severity": "Moderate",
-      "cvss": 5.0,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -239035,20 +235869,6 @@
         822
       ],
       "date": "2026-06-02",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68409",
-      "title": "wifi: mac80211: defer link RX stats percpu free to RCU",
-      "severity": "Moderate",
-      "cvss": 4.8,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -239766,160 +236586,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-64572",
-      "title": "ipv4: fib: free fib_alias with kfree_rcu() on insert error path",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68148",
-      "title": "fscrypt: Add missing superblock check in find_or_insert_direct_key()",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68169",
-      "title": "mptcp: pm: userspace: fix use-after-free in get_local_id",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68189",
-      "title": "Bluetooth: hci_sync: Protect UUID list traversal",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68233",
-      "title": "drm/vc4: Shut down BO cache timer before teardown",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68245",
-      "title": "drm/amdgpu: fix lifetime issue of amdgpu_vm_get_task_info_pasid()",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68362",
-      "title": "wifi: ath11k: fix NULL pointer dereference in ath11k_hal_srng_access_begin",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68404",
-      "title": "wifi: cfg80211: use wiphy work for socket owner autodisconnect",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68405",
-      "title": "wifi: mac80211: free AP_VLAN bc_buf SKBs outside IRQ lock",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68426",
-      "title": "xfrm: fix stale skb->prev after async crypto steals a GSO segment",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-71497",
-      "title": "jsoup: Cleaner may expose markup with custom raw-text elements",
-      "severity": "Moderate",
-      "cvss": 4.7,
-      "product_idx": 1382,
-      "product_idxs": [
-        1382
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-68783",
       "title": "ALSA: usb-mixer: us16x08: validate meter packet indices",
       "severity": "Moderate",
@@ -239930,34 +236596,6 @@
         9
       ],
       "date": "2026-01-20",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68241",
-      "title": "drm/i915/mst: limit DP MST ESI service loop",
-      "severity": "Moderate",
-      "cvss": 4.6,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68278",
-      "title": "drm/dp/mst: fix buffer overflows in sideband chunk accumulation",
-      "severity": "Moderate",
-      "cvss": 4.6,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -240085,34 +236723,6 @@
         445
       ],
       "date": "2026-08-12",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-18477",
-      "title": "Tar: tar: toctou in incremental dumpdir 'x' rename handling allows restore path escape",
-      "severity": "Moderate",
-      "cvss": 4.4,
-      "product_idx": 724,
-      "product_idxs": [
-        724
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-18508",
-      "title": "Tar: tar: --one-top-level hardlink targets not confined to top-level directory enabling arbitrary file overwrite",
-      "severity": "Moderate",
-      "cvss": 4.4,
-      "product_idx": 724,
-      "product_idxs": [
-        724
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -240306,62 +236916,6 @@
         619
       ],
       "date": "2026-06-05",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64567",
-      "title": "btrfs: reject free space cache with more entries than pages",
-      "severity": "Moderate",
-      "cvss": 4.4,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68103",
-      "title": "drm/amdgpu: reject mapping a reserved doorbell to a new queue",
-      "severity": "Moderate",
-      "cvss": 4.4,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68388",
-      "title": "smb/client: handle overlapping allocated ranges in fallocate",
-      "severity": "Moderate",
-      "cvss": 4.4,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68419",
-      "title": "RDMA/irdma: Prevent rereg_mr for non-mem regions",
-      "severity": "Moderate",
-      "cvss": 4.4,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -240748,76 +237302,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68099",
-      "title": "ksmbd: restore DACL size on check_add_overflow() to avoid malformed ACL",
-      "severity": "Moderate",
-      "cvss": 4.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68100",
-      "title": "ksmbd: validate num_subauth when copying ACE in set_ntacl_dacl",
-      "severity": "Moderate",
-      "cvss": 4.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68190",
-      "title": "staging: rtl8723bs: fix OOB reads in rtw_get_wps_ie()",
-      "severity": "Moderate",
-      "cvss": 4.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68235",
-      "title": "drm/amd/display: dce100: skip non-DP stream encoders for DP MST",
-      "severity": "Moderate",
-      "cvss": 4.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68425",
-      "title": "IB/mad: Drop unmatched RMPP responses before reassembly",
-      "severity": "Moderate",
-      "cvss": 4.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-40109",
       "title": "crypto: rng - Ensure set_ent is always present",
       "severity": "Moderate",
@@ -240957,118 +237441,6 @@
         859
       ],
       "date": "2026-04-08",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64574",
-      "title": "wifi: mac80211: tear down new links on vif update error path",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64576",
-      "title": "nexthop: initialize extack in nh_res_bucket_migrate()",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-09",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64579",
-      "title": "xfrm: policy: preallocate inexact bins before xfrm_hash_rebuild reinsert",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64580",
-      "title": "xfrm6: clear dst.dev on error to avoid double netdev_put in xfrm6_fill_dst()",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68105",
-      "title": "drm/amdgpu: Fix kernel panic during driver load failure",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68126",
-      "title": "mac802154: hold an interface reference across the scan worker",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68192",
-      "title": "wifi: brcmfmac: make release_scratchbuffers idempotent",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68317",
-      "title": "pds_core: fix auxiliary device add/del races",
-      "severity": "Moderate",
-      "cvss": 4.1,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -241621,62 +237993,6 @@
         754
       ],
       "date": "2026-04-15",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-19025",
-      "title": "HDF5 divide-by-zero (SIGFPE) via mismatched chunk-layout dimensionality and dataspace rank on dataset open",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1372,
-      "product_idxs": [
-        1372
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-19026",
-      "title": "Nbit filter NULL/short parameter-array dereference",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1372,
-      "product_idxs": [
-        1372
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-19027",
-      "title": "HDF5 out-of-bounds heap read in N-Bit filter decompression",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1372,
-      "product_idxs": [
-        1372
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-19028",
-      "title": "HDF5 integer underflow in Fletcher32 filter leads to massive out-of-bounds read",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1372,
-      "product_idxs": [
-        1372
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -242335,104 +238651,6 @@
         989
       ],
       "date": "2026-04-30",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64653",
-      "title": "GitHub CLI: Unescaped variable components in request URLs could allow path traversal",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1381,
-      "product_idxs": [
-        1381
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64654",
-      "title": "GitHub CLI: Terminal escape sequence injection in multiple `gh` commands",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1381,
-      "product_idxs": [
-        1381
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-66484",
-      "title": "Path Traversal in GNU cpio",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1387,
-      "product_idxs": [
-        1387
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-66485",
-      "title": "Uncontrolled Memory Allocation in GNU cpio",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1387,
-      "product_idxs": [
-        1387
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-66486",
-      "title": "Improper Output Encoding in GNU cpio",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 1387,
-      "product_idxs": [
-        1387
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-67319",
-      "title": "axios before 0.33.0 Prototype Pollution via nested option objects",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 83,
-      "product_idxs": [
-        83
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-69248",
-      "title": "python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
-      "severity": "Moderate",
-      "cvss": null,
-      "product_idx": 855,
-      "product_idxs": [
-        855
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -243598,20 +239816,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68376",
-      "title": "sctp: fix auth_hmacs array size in struct sctp_cookie",
-      "severity": "Low",
-      "cvss": 3.7,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2025-40026",
       "title": "KVM: x86: Don't (re)check L1 intercepts when completing userspace I/O",
       "severity": "Low",
@@ -243683,20 +239887,6 @@
         1150
       ],
       "date": "2026-05-17",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68117",
-      "title": "tipc: clear sock->sk on the failed-insert path in tipc_sk_create()",
-      "severity": "Low",
-      "cvss": 3.6,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -243958,216 +240148,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68209",
-      "title": "media: sun4i-csi: Return queued buffers on start_streaming() failure",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68220",
-      "title": "media: nxp: imx8-isi: Add missing v4l2_subdev_cleanup() in crossbar and pipe",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68229",
-      "title": "media: cedrus: skip invalid H.264 reference list entries",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68234",
-      "title": "drm/amdgpu: fix bo->pin leaking in amdgpu_bo_create_reserved",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68238",
-      "title": "drm/amdgpu: Release VFCT ACPI table reference",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68244",
-      "title": "drm/i915/gem: Do not leak siblings[] on proto context error",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68256",
-      "title": "drm/amd/display: detect_link_and_local_sink: DP alt mode timeout path leaks prev_sink reference",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68277",
-      "title": "drm/dp/mst: fix OOB reads on 2-byte fields in sideband reply parsers",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68280",
-      "title": "drm/bridge: cdns-dsi: Replace deprecated UNIVERSAL_DEV_PM_OPS()",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68288",
-      "title": "net: drop_monitor: fix info leak in NET_DM_ATTR_PAYLOAD",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68301",
-      "title": "net: hsr: fix memory leak on slave unregistration by removing synced VLANs",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68302",
-      "title": "amt: re-read skb header pointers after every pull",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68304",
-      "title": "wifi: brcmfmac: fix 802.1X-SHA256 call trace warning",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68312",
-      "title": "cifs: fix cifsFileInfo leak on kmalloc failure in deferred close drain paths",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68422",
-      "title": "btrfs: fix root leak if its reloc root is unexpected in merge_reloc_roots()",
-      "severity": "Low",
-      "cvss": 3.3,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-43969",
       "title": "Cookie Request Header Injection via Unvalidated Encoder in cow_cookie:cookie/1",
       "severity": "Low",
@@ -244194,20 +240174,6 @@
         1239
       ],
       "date": "2026-06-27",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64571",
-      "title": "wifi: p54: validate RX frame length in p54_rx_eeprom_readback()",
-      "severity": "Low",
-      "cvss": 3.2,
-      "product_idx": 465,
-      "product_idxs": [
-        465
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -244594,21 +240560,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-18739",
-      "title": "Popt-devel: popt-static: off-by-one in poptstuffargs",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 1373,
-      "product_idxs": [
-        1373,
-        1374
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-27139",
       "title": "FileInfo can escape from a Root in os",
       "severity": "Low",
@@ -244673,132 +240624,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-68107",
-      "title": "drm/amdgpu/vcn4: avoid rereading IB param length",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 791,
-      "product_idxs": [
-        791
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68226",
-      "title": "media: cx23885: add ioremap return check and cleanup",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68248",
-      "title": "drm/i915: Return NULL on error in active_instance",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68269",
-      "title": "drm/i915/gem: Add missing nospec on parallel submit slot",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68309",
-      "title": "wifi: mt76: connac: fix possible NULL-pointer deref in mt76_connac_mcu_uni_bss_he_tlv()",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68355",
-      "title": "wifi: ath11k: fix potential buffer underflow in ath11k_hal_rx_msdu_list_get()",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68403",
-      "title": "wifi: brcmfmac: initialize SDIO data work before cleanup",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68417",
-      "title": "RDMA/siw: publish QP after initialization",
-      "severity": "Low",
-      "cvss": 2.5,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68279",
-      "title": "drm/dp/mst: fix OOB reads in remote DPCD/I2C sideband reply parsers",
-      "severity": "Low",
-      "cvss": 2.4,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-0967",
       "title": "Libssh: libssh: denial of service via inefficient regular expression processing",
       "severity": "Low",
@@ -244816,21 +240641,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-18839",
-      "title": "Popt-devel: popt-static: size_t underflow in singleoptionhelp",
-      "severity": "Low",
-      "cvss": 2.2,
-      "product_idx": 1374,
-      "product_idxs": [
-        1374,
-        1373
-      ],
-      "date": "2026-08-07",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2026-28422",
       "title": "Vim has stack-buffer-overflow in build_stl_str_hl()",
       "severity": "Low",
@@ -244841,20 +240651,6 @@
         535
       ],
       "date": "2026-03-01",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68363",
-      "title": "wifi: ath9k: hif_usb: don't dereference hif_dev after re-arming firmware request",
-      "severity": "Low",
-      "cvss": 2.0,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -244909,20 +240705,6 @@
         465
       ],
       "date": "2026-06-28",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68171",
-      "title": "arm64: syscall: Ensure saved x0 is kept in-sync with tracer updates",
-      "severity": "Low",
-      "cvss": 1.9,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -245107,20 +240889,6 @@
         723
       ],
       "date": "2026-02-21",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-19023",
-      "title": "HDF5 h5dump Untrusted Pointer Dereference in Binary Output of Variable-Length String Datasets",
-      "severity": "Low",
-      "cvss": null,
-      "product_idx": 1372,
-      "product_idxs": [
-        1372
-      ],
-      "date": "2026-08-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -245755,34 +241523,6 @@
       "kb_count": 0
     },
     {
-      "cve_id": "CVE-2026-64652",
-      "title": "GitHub CLI: Partial token disclosure in `gh auth status` output",
-      "severity": "",
-      "cvss": 3.3,
-      "product_idx": 1381,
-      "product_idxs": [
-        1381
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-61477",
-      "title": "Libvirt: libvirt: newline injection in network xml dns txt/srv fields allows dnsmasq config directive injection",
-      "severity": "",
-      "cvss": 2.3,
-      "product_idx": 1383,
-      "product_idxs": [
-        1383
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
       "cve_id": "CVE-2024-21907",
       "title": "VulnCheck: CVE-2024-21907 Improper Handling of Exceptional Conditions in Newtonsoft.Json",
       "severity": "",
@@ -245854,21 +241594,6 @@
         }
       ],
       "kb_count": 6
-    },
-    {
-      "cve_id": "CVE-2024-31745",
-      "title": "",
-      "severity": "",
-      "cvss": null,
-      "product_idx": 1370,
-      "product_idxs": [
-        1370,
-        1371
-      ],
-      "date": "2025-04-01",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-10200",
@@ -270610,62 +266335,6 @@
         188
       ],
       "date": "2026-04-17",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-64655",
-      "title": "GitHub CLI: Attestation Verification Bypass via Unescaped Regex Metacharacters in SAN Matching",
-      "severity": "",
-      "cvss": null,
-      "product_idx": 1381,
-      "product_idxs": [
-        1381
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68398",
-      "title": "ppp: defer channel free to an RCU grace period to fix pppol2tp RX UAF",
-      "severity": "",
-      "cvss": null,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68413",
-      "title": "wifi: ipw2100: fix potential memory leak in ipw2100_pci_init_one()",
-      "severity": "",
-      "cvss": null,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-68428",
-      "title": "KVM: x86/mmu: Fix use-after-free on vendor module reload",
-      "severity": "",
-      "cvss": null,
-      "product_idx": 56,
-      "product_idxs": [
-        56
-      ],
-      "date": "2026-08-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
