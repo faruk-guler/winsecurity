@@ -7,7 +7,7 @@
     "low": 213,
     "exploited": 22,
     "patched": 1920,
-    "updated_at": "2026-08-20 16:33 UTC",
+    "updated_at": "2026-08-20 17:27 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -6968,6 +6968,149 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-54117",
+      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 690,
+      "product_idxs": [
+        690,
+        1316
+      ],
+      "date": "2026-07-14",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5101346",
+          "url": "https://support.microsoft.com/help/5101346",
+          "fixed_build": "17.0.4060.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1316
+          ]
+        },
+        {
+          "kb": "5102333",
+          "url": "https://support.microsoft.com/help/5102333",
+          "fixed_build": "17.0.1125.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            690
+          ]
+        }
+      ],
+      "kb_count": 2
+    },
+    {
+      "cve_id": "CVE-2026-54118",
+      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193,
+        191,
+        195,
+        194,
+        197
+      ],
+      "date": "2026-07-14",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5101346",
+          "url": "https://support.microsoft.com/help/5101346",
+          "fixed_build": "17.0.4060.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1316
+          ]
+        },
+        {
+          "kb": "5101347",
+          "url": "https://support.microsoft.com/help/5101347",
+          "fixed_build": "16.0.4262.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1315
+          ]
+        },
+        {
+          "kb": "5102333",
+          "url": "https://support.microsoft.com/help/5102333",
+          "fixed_build": "17.0.1125.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            690
+          ]
+        },
+        {
+          "kb": "5102334",
+          "url": "https://support.microsoft.com/help/5102334",
+          "fixed_build": "16.0.1190.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            195
+          ]
+        },
+        {
+          "kb": "5102335",
+          "url": "https://support.microsoft.com/help/5096773",
+          "fixed_build": "15.0.4480.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            197
+          ]
+        },
+        {
+          "kb": "5102336",
+          "url": "https://support.microsoft.com/help/5102336",
+          "fixed_build": "15.0.2180.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            191
+          ]
+        },
+        {
+          "kb": "5102337",
+          "url": "https://support.microsoft.com/help/5102337",
+          "fixed_build": "14.0.3540.1",
+          "subtype": "Security Update",
+          "product_idxs": [
+            194
+          ]
+        },
+        {
+          "kb": "5102338",
+          "url": "https://support.microsoft.com/help/5102338",
+          "fixed_build": "14.0.2120.1",
+          "subtype": "Security Update",
+          "product_idxs": [
+            190
+          ]
+        },
+        {
+          "kb": "5102339",
+          "url": "https://support.microsoft.com/help/5102339",
+          "fixed_build": "13.0.7095.1",
+          "subtype": "Security Update",
+          "product_idxs": [
+            193
+          ]
+        },
+        {
+          "kb": "5102340",
+          "url": "https://support.microsoft.com/help/5102340",
+          "fixed_build": "13.0.6500.1",
+          "subtype": "Security Update",
+          "product_idxs": [
+            192
+          ]
+        }
+      ],
+      "kb_count": 10
+    },
+    {
       "cve_id": "CVE-2026-54130",
       "title": "M365 Copilot Information Disclosure Vulnerability",
       "severity": "Critical",
@@ -10647,149 +10790,6 @@
         }
       ],
       "kb_count": 9
-    },
-    {
-      "cve_id": "CVE-2026-54117",
-      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 8.8,
-      "product_idx": 690,
-      "product_idxs": [
-        690,
-        1316
-      ],
-      "date": "2026-07-14",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5101346",
-          "url": "https://support.microsoft.com/help/5101346",
-          "fixed_build": "17.0.4060.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1316
-          ]
-        },
-        {
-          "kb": "5102333",
-          "url": "https://support.microsoft.com/help/5102333",
-          "fixed_build": "17.0.1125.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            690
-          ]
-        }
-      ],
-      "kb_count": 2
-    },
-    {
-      "cve_id": "CVE-2026-54118",
-      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 8.8,
-      "product_idx": 193,
-      "product_idxs": [
-        193,
-        191,
-        195,
-        194,
-        197
-      ],
-      "date": "2026-07-14",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5101346",
-          "url": "https://support.microsoft.com/help/5101346",
-          "fixed_build": "17.0.4060.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1316
-          ]
-        },
-        {
-          "kb": "5101347",
-          "url": "https://support.microsoft.com/help/5101347",
-          "fixed_build": "16.0.4262.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1315
-          ]
-        },
-        {
-          "kb": "5102333",
-          "url": "https://support.microsoft.com/help/5102333",
-          "fixed_build": "17.0.1125.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            690
-          ]
-        },
-        {
-          "kb": "5102334",
-          "url": "https://support.microsoft.com/help/5102334",
-          "fixed_build": "16.0.1190.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            195
-          ]
-        },
-        {
-          "kb": "5102335",
-          "url": "https://support.microsoft.com/help/5096773",
-          "fixed_build": "15.0.4480.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            197
-          ]
-        },
-        {
-          "kb": "5102336",
-          "url": "https://support.microsoft.com/help/5102336",
-          "fixed_build": "15.0.2180.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            191
-          ]
-        },
-        {
-          "kb": "5102337",
-          "url": "https://support.microsoft.com/help/5102337",
-          "fixed_build": "14.0.3540.1",
-          "subtype": "Security Update",
-          "product_idxs": [
-            194
-          ]
-        },
-        {
-          "kb": "5102338",
-          "url": "https://support.microsoft.com/help/5102338",
-          "fixed_build": "14.0.2120.1",
-          "subtype": "Security Update",
-          "product_idxs": [
-            190
-          ]
-        },
-        {
-          "kb": "5102339",
-          "url": "https://support.microsoft.com/help/5102339",
-          "fixed_build": "13.0.7095.1",
-          "subtype": "Security Update",
-          "product_idxs": [
-            193
-          ]
-        },
-        {
-          "kb": "5102340",
-          "url": "https://support.microsoft.com/help/5102340",
-          "fixed_build": "13.0.6500.1",
-          "subtype": "Security Update",
-          "product_idxs": [
-            192
-          ]
-        }
-      ],
-      "kb_count": 10
     },
     {
       "cve_id": "CVE-2026-54121",
