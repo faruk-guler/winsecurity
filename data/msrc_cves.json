@@ -7,7 +7,7 @@
     "low": 213,
     "exploited": 22,
     "patched": 1920,
-    "updated_at": "2026-08-20 14:34 UTC",
+    "updated_at": "2026-08-20 15:31 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -16133,6 +16133,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "5120228",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120228",
+          "fixed_build": "10.0.26100.33222",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            143,
+            146
+          ]
+        },
+        {
           "kb": "5120229",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120229",
           "fixed_build": "10.0.20348.5440",
@@ -16175,7 +16185,7 @@
           ]
         }
       ],
-      "kb_count": 4
+      "kb_count": 5
     },
     {
       "cve_id": "CVE-2026-32172",
@@ -102445,6 +102455,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "5120228",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120228",
+          "fixed_build": "10.0.26100.33222",
+          "subtype": "Security Hotpatch Update",
+          "product_idxs": [
+            143,
+            146
+          ]
+        },
+        {
           "kb": "5120229",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120229",
           "fixed_build": "10.0.20348.5440",
@@ -102567,7 +102587,7 @@
           ]
         }
       ],
-      "kb_count": 11
+      "kb_count": 12
     },
     {
       "cve_id": "CVE-2026-62755",
