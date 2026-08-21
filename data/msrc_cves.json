@@ -5,9 +5,9 @@
     "important": 2976,
     "moderate": 2357,
     "low": 246,
-    "exploited": 23,
+    "exploited": 22,
     "patched": 1921,
-    "updated_at": "2026-08-21 15:31 UTC",
+    "updated_at": "2026-08-21 16:32 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1478,20 +1478,6 @@
     "azl3 perl-DBI 1.651-1 on Azure Linux 3.0"
   ],
   "cves": [
-    {
-      "cve_id": "CVE-2026-69836",
-      "title": "Microsoft Entra ID Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 10.0,
-      "product_idx": 190,
-      "product_idxs": [
-        190
-      ],
-      "date": "2026-08-20",
-      "exploited": true,
-      "kb_articles": [],
-      "kb_count": 0
-    },
     {
       "cve_id": "CVE-2026-58644",
       "title": "Microsoft SharePoint Remote Code Execution Vulnerability",
@@ -4372,6 +4358,20 @@
       "product_idx": 705,
       "product_idxs": [
         705
+      ],
+      "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69836",
+      "title": "Microsoft Entra ID Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 190,
+      "product_idxs": [
+        190
       ],
       "date": "2026-08-20",
       "exploited": false,
