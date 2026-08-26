@@ -7,7 +7,7 @@
     "low": 282,
     "exploited": 22,
     "patched": 1921,
-    "updated_at": "2026-08-26 13:53 UTC",
+    "updated_at": "2026-08-26 14:42 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -266687,7 +266687,7 @@
     },
     {
       "cve_id": "CVE-2026-11700",
-      "title": "Chromium: CVE-2026-11699 Use after free in Bluetooth",
+      "title": "Chromium: CVE-2026-11700 Use after free in Tracing",
       "severity": "",
       "cvss": null,
       "product_idx": 179,
@@ -266701,7 +266701,7 @@
     },
     {
       "cve_id": "CVE-2026-11701",
-      "title": "Chromium: CVE-2026-11700 Use after free in Tracing",
+      "title": "Chromium: CVE-2026-11701 Insufficient validation of untrusted input in Guest View",
       "severity": "",
       "cvss": null,
       "product_idx": 179,
