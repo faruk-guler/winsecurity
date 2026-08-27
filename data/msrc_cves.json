@@ -7,7 +7,7 @@
     "low": 282,
     "exploited": 22,
     "patched": 1921,
-    "updated_at": "2026-08-27 04:15 UTC",
+    "updated_at": "2026-08-27 16:06 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -85387,7 +85387,7 @@
         121,
         122
       ],
-      "date": "2026-07-14",
+      "date": "2026-08-27",
       "exploited": false,
       "kb_articles": [
         {
@@ -87973,7 +87973,7 @@
         121,
         122
       ],
-      "date": "2026-07-14",
+      "date": "2026-08-27",
       "exploited": false,
       "kb_articles": [
         {
@@ -110442,7 +110442,7 @@
         162,
         163
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-27",
       "exploited": false,
       "kb_articles": [
         {
@@ -119297,7 +119297,7 @@
         125,
         126
       ],
-      "date": "2026-06-09",
+      "date": "2026-08-27",
       "exploited": false,
       "kb_articles": [
         {
@@ -164603,7 +164603,7 @@
         136,
         387
       ],
-      "date": "2026-08-11",
+      "date": "2026-08-27",
       "exploited": false,
       "kb_articles": [
         {
