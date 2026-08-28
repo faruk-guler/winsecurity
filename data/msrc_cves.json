@@ -6,8 +6,8 @@
     "moderate": 2583,
     "low": 282,
     "exploited": 22,
-    "patched": 1921,
-    "updated_at": "2026-08-28 01:16 UTC",
+    "patched": 1922,
+    "updated_at": "2026-08-28 13:48 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -33330,14 +33330,33 @@
       "title": "Microsoft High Performance Computing (HPC) Pack Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 385,
+      "product_idx": 174,
       "product_idxs": [
-        385
+        174
       ],
       "date": "2026-08-11",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "108779",
+          "url": "https://www.microsoft.com/en-us/download/details.aspx?id=108779",
+          "fixed_build": "6.3.8359",
+          "subtype": "Security Update",
+          "product_idxs": [
+            174
+          ]
+        },
+        {
+          "kb": "638359",
+          "url": "https://github.com/Azure/hpcpack/blob/master/CHANGELOG.md#hpc-pack-2019-update-3-qfe-kb5124659-638359---8102026",
+          "fixed_build": "",
+          "subtype": "Release Notes",
+          "product_idxs": [
+            174
+          ]
+        }
+      ],
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-62784",
