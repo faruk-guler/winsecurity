@@ -7,7 +7,7 @@
     "low": 282,
     "exploited": 22,
     "patched": 1921,
-    "updated_at": "2026-08-27 16:06 UTC",
+    "updated_at": "2026-08-28 01:16 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -34664,6 +34664,68 @@
     },
     {
       "cve_id": "CVE-2026-65658",
+      "title": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 164,
+      "product_idxs": [
+        164,
+        165,
+        166
+      ],
+      "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5002893",
+          "url": "https://support.microsoft.com/help/5002893",
+          "fixed_build": "16.0.19725.20522",
+          "subtype": "Security Update",
+          "product_idxs": [
+            166
+          ]
+        },
+        {
+          "kb": "5002894",
+          "url": "https://support.microsoft.com/help/5002894",
+          "fixed_build": "16.0.10417.20198",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165
+          ]
+        },
+        {
+          "kb": "5002896",
+          "url": "https://support.microsoft.com/help/5002896",
+          "fixed_build": "16.0.10417.20198",
+          "subtype": "Security Update",
+          "product_idxs": [
+            165
+          ]
+        },
+        {
+          "kb": "5002905",
+          "url": "https://support.microsoft.com/help/5002905",
+          "fixed_build": "16.0.5565.1001",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        },
+        {
+          "kb": "5002906",
+          "url": "https://support.microsoft.com/help/5002906",
+          "fixed_build": "16.0.5565.1001",
+          "subtype": "Security Update",
+          "product_idxs": [
+            164
+          ]
+        }
+      ],
+      "kb_count": 5
+    },
+    {
+      "cve_id": "CVE-2026-65660",
       "title": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
@@ -180564,68 +180626,6 @@
     },
     {
       "cve_id": "CVE-2026-63516",
-      "title": "Microsoft SharePoint Server Spoofing Vulnerability",
-      "severity": "Important",
-      "cvss": 6.5,
-      "product_idx": 164,
-      "product_idxs": [
-        164,
-        165,
-        166
-      ],
-      "date": "2026-08-11",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5002893",
-          "url": "https://support.microsoft.com/help/5002893",
-          "fixed_build": "16.0.19725.20522",
-          "subtype": "Security Update",
-          "product_idxs": [
-            166
-          ]
-        },
-        {
-          "kb": "5002894",
-          "url": "https://support.microsoft.com/help/5002894",
-          "fixed_build": "16.0.10417.20198",
-          "subtype": "Security Update",
-          "product_idxs": [
-            165
-          ]
-        },
-        {
-          "kb": "5002896",
-          "url": "https://support.microsoft.com/help/5002896",
-          "fixed_build": "16.0.10417.20198",
-          "subtype": "Security Update",
-          "product_idxs": [
-            165
-          ]
-        },
-        {
-          "kb": "5002905",
-          "url": "https://support.microsoft.com/help/5002905",
-          "fixed_build": "16.0.5565.1001",
-          "subtype": "Security Update",
-          "product_idxs": [
-            164
-          ]
-        },
-        {
-          "kb": "5002906",
-          "url": "https://support.microsoft.com/help/5002906",
-          "fixed_build": "16.0.5565.1001",
-          "subtype": "Security Update",
-          "product_idxs": [
-            164
-          ]
-        }
-      ],
-      "kb_count": 5
-    },
-    {
-      "cve_id": "CVE-2026-65660",
       "title": "Microsoft SharePoint Server Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
