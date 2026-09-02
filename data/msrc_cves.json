@@ -7,7 +7,7 @@
     "low": 293,
     "exploited": 22,
     "patched": 1842,
-    "updated_at": "2026-09-02 17:36 UTC",
+    "updated_at": "2026-09-02 20:32 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -7674,13 +7674,13 @@
       "title": "Windows DNS Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -7721,8 +7721,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -7763,8 +7761,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -7777,13 +7773,13 @@
       "title": "Windows Deployment Services TFTP Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -7824,8 +7820,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -7866,8 +7860,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -12190,13 +12182,13 @@
       "title": "Windows DNS Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -12237,20 +12229,8 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
-          ]
-        },
-        {
-          "kb": "5120240",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120240",
-          "fixed_build": "10.0.22631.7517",
-          "subtype": "Security Update",
-          "product_idxs": [
-            130,
-            131
           ]
         },
         {
@@ -12262,57 +12242,9 @@
             147,
             148
           ]
-        },
-        {
-          "kb": "5120249",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120249",
-          "fixed_build": "10.0.19044.7663",
-          "subtype": "Security Update",
-          "product_idxs": [
-            167,
-            168,
-            149,
-            150,
-            169,
-            170
-          ]
-        },
-        {
-          "kb": "5120994",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5120994",
-          "fixed_build": "10.0.26200.9106",
-          "subtype": "Security Hotpatch Update",
-          "product_idxs": [
-            123,
-            122,
-            125,
-            126
-          ]
-        },
-        {
-          "kb": "5121000",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5121000",
-          "fixed_build": "10.0.28000.2704",
-          "subtype": "Security Update",
-          "product_idxs": [
-            284,
-            394
-          ]
-        },
-        {
-          "kb": "5121003",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5121003",
-          "fixed_build": "10.0.26200.9168",
-          "subtype": "Security Update",
-          "product_idxs": [
-            123,
-            122,
-            125,
-            126
-          ]
         }
       ],
-      "kb_count": 10
+      "kb_count": 5
     },
     {
       "cve_id": "CVE-2026-62818",
@@ -12583,13 +12515,13 @@
       "title": "Windows DHCP Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-31",
       "exploited": false,
@@ -12630,8 +12562,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -12672,8 +12602,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -16041,13 +15969,13 @@
       "title": "Windows DNS Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.1,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -16088,8 +16016,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -16110,8 +16036,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -16388,13 +16312,13 @@
       "title": "Windows DNS Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.1,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -16435,8 +16359,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -16457,8 +16379,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -100128,13 +100048,13 @@
       "title": "Windows DHCP Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -100175,8 +100095,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -100217,8 +100135,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -100239,7 +100155,7 @@
         146,
         147
       ],
-      "date": "2026-08-11",
+      "date": "2026-09-02",
       "exploited": false,
       "kb_articles": [
         {
@@ -100708,15 +100624,15 @@
       "title": "Windows DHCP Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
-      "date": "2026-08-11",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
         {
@@ -100755,8 +100671,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -100797,8 +100711,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -101341,15 +101253,15 @@
       "title": "Windows DHCP Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
-      "date": "2026-08-11",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
         {
@@ -101388,8 +101300,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -101430,8 +101340,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -101444,15 +101352,15 @@
       "title": "Windows DHCP Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
-      "date": "2026-08-11",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
         {
@@ -101491,8 +101399,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -101533,8 +101439,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -101650,13 +101554,13 @@
       "title": "Windows DHCP Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -101697,8 +101601,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -101739,8 +101641,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -102236,7 +102136,7 @@
         146,
         147
       ],
-      "date": "2026-08-11",
+      "date": "2026-09-02",
       "exploited": false,
       "kb_articles": [
         {
@@ -122113,13 +122013,13 @@
       "title": "Windows DNS Server Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -122160,8 +122060,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -122202,8 +122100,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -162251,15 +162147,15 @@
       "title": "Windows DNS Server Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 6.6,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
-      "date": "2026-08-11",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
         {
@@ -162298,8 +162194,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -162330,24 +162224,12 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
-        },
-        {
-          "kb": "5121000",
-          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5121000",
-          "fixed_build": "10.0.28000.2704",
-          "subtype": "Security Update",
-          "product_idxs": [
-            284,
-            394
-          ]
         }
       ],
-      "kb_count": 8
+      "kb_count": 7
     },
     {
       "cve_id": "CVE-2023-2804",
@@ -169678,13 +169560,13 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -169725,8 +169607,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -169767,8 +169647,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -169781,13 +169659,13 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -169828,8 +169706,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -169860,8 +169736,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -169874,13 +169748,13 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -169921,8 +169795,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -169963,8 +169835,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -169977,13 +169847,13 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -170024,8 +169894,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -170066,8 +169934,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -170080,13 +169946,13 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -170127,8 +169993,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -170169,8 +170033,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -170183,13 +170045,13 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -170230,8 +170092,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -170272,8 +170132,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -170286,13 +170144,13 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -170333,8 +170191,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -170375,8 +170231,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
@@ -170691,15 +170545,15 @@
       "title": "Windows DHCP Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 166,
+      "product_idx": 145,
       "product_idxs": [
-        166,
-        144,
         145,
         146,
-        147
+        147,
+        148,
+        124
       ],
-      "date": "2026-08-11",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
         {
@@ -170738,8 +170592,6 @@
           "fixed_build": "10.0.17763.9121",
           "subtype": "Security Update",
           "product_idxs": [
-            166,
-            144,
             145,
             146
           ]
@@ -170780,8 +170632,6 @@
           "fixed_build": "10.0.14393.9418",
           "subtype": "Security Update",
           "product_idxs": [
-            172,
-            152,
             153,
             154
           ]
