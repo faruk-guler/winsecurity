@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 8667,
-    "critical": 552,
+    "total": 8699,
+    "critical": 561,
     "important": 2931,
     "moderate": 2467,
     "low": 294,
     "exploited": 22,
     "patched": 1841,
-    "updated_at": "2026-09-03 19:13 UTC",
+    "updated_at": "2026-09-03 22:18 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1475,6 +1475,9 @@
     "azl3 rsyslog 8.2308.0-5 on Azure Linux 3.0",
     "azl3 sos 4.6.1-2 on Azure Linux 3.0",
     "azl3 libsolv 0.7.28-5 on Azure Linux 3.0",
+    "Microsoft Discovery Studio",
+    "Microsoft Power Platform",
+    "Microsoft Azure Active Directory B2C",
     "azl3 libreswan 4.15-2 on Azure Linux 3.0",
     "azl3 rubygem-elasticsearch 8.9.0-1 on Azure Linux 3.0"
   ],
@@ -4367,6 +4370,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-70352",
+      "title": "Azure AI Language Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 631,
+      "product_idxs": [
+        631
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-83711",
+      "title": "Microsoft Azure Active Directory B2C Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 10.0,
+      "product_idx": 1466,
+      "product_idxs": [
+        1466
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-49708",
       "title": "Microsoft Graphics Component Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -4904,6 +4935,20 @@
         975
       ],
       "date": "2026-06-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-83941",
+      "title": "Entra ID Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.9,
+      "product_idx": 281,
+      "product_idxs": [
+        281
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9742,6 +9787,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-80098",
+      "title": "Copilot Studio Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.3,
+      "product_idx": 582,
+      "product_idxs": [
+        582
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-68206",
       "title": "netfilter: nft_ct: add seqadj extension for natted connections",
       "severity": "Critical",
@@ -9953,6 +10012,20 @@
         1265
       ],
       "date": "2026-07-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-62916",
+      "title": "Microsoft Entra ID Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.1,
+      "product_idx": 281,
+      "product_idxs": [
+        281
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -13100,6 +13173,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-65818",
+      "title": "Power Automate Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.5,
+      "product_idx": 1465,
+      "product_idxs": [
+        1465
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-69419",
       "title": "Azure Data Manager for Energy Remote Code Execution Vulnerability",
       "severity": "Critical",
@@ -13123,6 +13210,34 @@
         1399
       ],
       "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-69857",
+      "title": "Azure Cosmos DB Spoofing Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.5,
+      "product_idx": 516,
+      "product_idxs": [
+        516
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-70178",
+      "title": "Microsoft Fabric Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": 8.5,
+      "product_idx": 1391,
+      "product_idxs": [
+        1391
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -21459,6 +21574,20 @@
         }
       ],
       "kb_count": 4
+    },
+    {
+      "cve_id": "CVE-2026-62906",
+      "title": "Microsoft Discovery Studio Information Disclosure Vulnerability",
+      "severity": "Critical",
+      "cvss": 7.4,
+      "product_idx": 1464,
+      "product_idxs": [
+        1464
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-70452",
@@ -33413,9 +33542,9 @@
       "title": "Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1465,
+      "product_idx": 1468,
       "product_idxs": [
-        1465
+        1468
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -109573,9 +109702,9 @@
       "title": "FIPS mode assertion failure via malicious CERT payload",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1464,
+      "product_idx": 1467,
       "product_idxs": [
-        1464
+        1467
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -233130,9 +233259,9 @@
       "title": "Missing Authorization in Elasticsearch Leading to Information Disclosure",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1465,
+      "product_idx": 1468,
       "product_idxs": [
-        1465
+        1468
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -235786,9 +235915,9 @@
       "title": "Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service",
       "severity": "Moderate",
       "cvss": 4.9,
-      "product_idx": 1465,
+      "product_idx": 1468,
       "product_idxs": [
-        1465
+        1468
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -276980,6 +277109,328 @@
         192
       ],
       "date": "2026-05-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84323",
+      "title": "Chromium: CVE-2026-84323 Missing authorization in FileSystem",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84324",
+      "title": "Chromium: CVE-2026-84324 Use after free in Proxy",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84325",
+      "title": "Chromium: CVE-2026-84325 Improper input validation in DataTransfer",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84326",
+      "title": "Chromium: CVE-2026-84326 Uninitialized resource in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84327",
+      "title": "Chromium: CVE-2026-84327 Incorrect authorization in Autofill",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84328",
+      "title": "Chromium: CVE-2026-84328 Missing authorization in FileSystem",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84329",
+      "title": "Chromium: CVE-2026-84329 Confused deputy in CredentialProvider",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84331",
+      "title": "Chromium: CVE-2026-84331 Incorrect authorization in Actor",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84332",
+      "title": "Chromium: CVE-2026-84332 Incorrect authorization in SiteSettings",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84334",
+      "title": "Chromium: CVE-2026-84334 Incorrect authorization in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84335",
+      "title": "Chromium: CVE-2026-84335 Incorrect authorization in TabStrip",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84347",
+      "title": "Chromium: CVE-2026-84347 Use after free in WebRTC",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84348",
+      "title": "Chromium: CVE-2026-84348 Information leak in MediaCapture",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84349",
+      "title": "Chromium: CVE-2026-84349 Use after free in Browser",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84350",
+      "title": "Chromium: CVE-2026-84350 Use after free in TabStrip",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84351",
+      "title": "Chromium: CVE-2026-84351 Buffer overflow in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84353",
+      "title": "Chromium: CVE-2026-84353 Use after free in Shared Tab Groups",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84354",
+      "title": "Chromium: CVE-2026-84354 Incorrect authorization in FileSystem",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84355",
+      "title": "Chromium: CVE-2026-84355 Incorrect authorization in Navigation",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84356",
+      "title": "Chromium: CVE-2026-84356 UI misrepresentation in FullScreen",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84357",
+      "title": "Chromium: CVE-2026-84357 Improper input validation in Omnibox",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84358",
+      "title": "Chromium: CVE-2026-84358 Improper privilege management in Downloads",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84359",
+      "title": "Chromium: CVE-2026-84359 Information leak in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 192,
+      "product_idxs": [
+        192
+      ],
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
