@@ -7,7 +7,7 @@
     "low": 294,
     "exploited": 22,
     "patched": 1841,
-    "updated_at": "2026-09-04 00:47 UTC",
+    "updated_at": "2026-09-04 05:32 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -4948,7 +4948,7 @@
       "product_idxs": [
         281
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
