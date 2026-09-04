@@ -7,7 +7,7 @@
     "low": 294,
     "exploited": 22,
     "patched": 1841,
-    "updated_at": "2026-09-03 22:18 UTC",
+    "updated_at": "2026-09-04 00:47 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -4378,7 +4378,7 @@
       "product_idxs": [
         631
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -4392,7 +4392,7 @@
       "product_idxs": [
         1466
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9795,7 +9795,7 @@
       "product_idxs": [
         582
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -10025,7 +10025,7 @@
       "product_idxs": [
         281
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -13181,7 +13181,7 @@
       "product_idxs": [
         1465
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -13223,7 +13223,7 @@
       "product_idxs": [
         516
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -13237,7 +13237,7 @@
       "product_idxs": [
         1391
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -21584,7 +21584,7 @@
       "product_idxs": [
         1464
       ],
-      "date": "2026-09-30",
+      "date": "2026-09-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
