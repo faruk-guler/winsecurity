@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 8699,
-    "critical": 561,
-    "important": 2931,
-    "moderate": 2467,
-    "low": 294,
+    "total": 8728,
+    "critical": 566,
+    "important": 2935,
+    "moderate": 2486,
+    "low": 295,
     "exploited": 22,
     "patched": 1841,
-    "updated_at": "2026-09-06 05:31 UTC",
+    "updated_at": "2026-09-06 10:19 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1476,11 +1476,16 @@
     "Azure Virtual Machines",
     "Microsoft Copilot in Azure",
     "Microsoft Edge for iOS",
+    "azl3 libreswan 4.15-2 on Azure Linux 3.0",
+    "azl3 rubygem-elasticsearch 8.9.0-1 on Azure Linux 3.0",
+    "azl3 nvidia-container-toolkit 1.17.8-4 on Azure Linux 3.0",
+    "azl3 multus 4.0.2-10 on Azure Linux 3.0",
+    "azl3 colord 1.4.6-1 on Azure Linux 3.0",
+    "azl3 rubygem-rubyzip 2.3.2-1 on Azure Linux 3.0",
+    "azl3 freeipmi 1.6.18-1 on Azure Linux 3.0",
     "Microsoft Discovery Studio",
     "Microsoft Power Platform",
-    "Microsoft Azure Active Directory B2C",
-    "azl3 libreswan 4.15-2 on Azure Linux 3.0",
-    "azl3 rubygem-elasticsearch 8.9.0-1 on Azure Linux 3.0"
+    "Microsoft Azure Active Directory B2C"
   ],
   "cves": [
     {
@@ -4389,9 +4394,9 @@
       "title": "Microsoft Azure Active Directory B2C Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1467,
+      "product_idx": 1474,
       "product_idxs": [
-        1467
+        1474
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -9081,6 +9086,76 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-85504",
+      "title": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _ipmi_sel_oem_fujitsu_get_sel_entry_long_text in libfreeipmi/sel/ipmi-sel-string-fujitsu-irmc-common.c via malformed Fujitsu SEL long-text responses.",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1471,
+      "product_idxs": [
+        1471
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85506",
+      "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1471,
+      "product_idxs": [
+        1471
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85507",
+      "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1471,
+      "product_idxs": [
+        1471
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85508",
+      "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1471,
+      "product_idxs": [
+        1471
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85509",
+      "title": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1471,
+      "product_idxs": [
+        1471
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-59218",
       "title": "Azure Entra ID Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -13178,9 +13253,9 @@
       "title": "Power Automate Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.5,
-      "product_idx": 1466,
+      "product_idx": 1473,
       "product_idxs": [
-        1466
+        1473
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -21581,9 +21656,9 @@
       "title": "Microsoft Discovery Studio Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 7.4,
-      "product_idx": 1465,
+      "product_idx": 1472,
       "product_idxs": [
-        1465
+        1472
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -33543,9 +33618,9 @@
       "title": "Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1469,
+      "product_idx": 1466,
       "product_idxs": [
-        1469
+        1466
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -109704,9 +109779,9 @@
       "title": "FIPS mode assertion failure via malicious CERT payload",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1468,
+      "product_idx": 1465,
       "product_idxs": [
-        1468
+        1465
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -113351,6 +113426,21 @@
         745
       ],
       "date": "2026-04-02",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-33630",
+      "title": "c-ares : Use-after-free / double-free in c-ares query-completion handling, remotely triggerable via ares_getaddrinfo() over TCP",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1250,
+      "product_idxs": [
+        1250,
+        1313
+      ],
+      "date": "2026-09-05",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -123013,6 +123103,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-85396",
+      "title": "rubyzip before 3.4.0 Path Traversal in Zip::Entry#extract via Sibling-Directory Prefix",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1470,
+      "product_idxs": [
+        1470
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-8829",
       "title": "HTML::Entities versions before 3.84 for Perl read freed heap memory in _decode_entities",
       "severity": "Important",
@@ -124801,6 +124905,24 @@
         350
       ],
       "date": "2026-08-24",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85091",
+      "title": "zlib 1.3.1.2 through 1.3.2 Heap Buffer Overflow via gz_vacate",
+      "severity": "Important",
+      "cvss": 7.4,
+      "product_idx": 857,
+      "product_idxs": [
+        857,
+        1169,
+        1378,
+        1247,
+        1411
+      ],
+      "date": "2026-09-05",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205015,6 +205137,24 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-84304",
+      "title": "gRPC-Go: Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1384,
+      "product_idxs": [
+        1384,
+        1428,
+        976,
+        1468,
+        1391
+      ],
+      "date": "2026-09-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-8466",
       "title": "Unbounded buffer accumulation in multipart header parsing causes denial of service in cowboy",
       "severity": "Important",
@@ -205281,6 +205421,20 @@
         1201
       ],
       "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-76642",
+      "title": "util-linux libmount Privilege Escalation via Failed Mount Helper",
+      "severity": "Moderate",
+      "cvss": 7.8,
+      "product_idx": 1156,
+      "product_idxs": [
+        1156
+      ],
+      "date": "2026-09-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -206713,6 +206867,24 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-78662",
+      "title": "Prevent DoS on deadlocked undecided channel in golang.org/x/crypto/ssh",
+      "severity": "Moderate",
+      "cvss": 7.5,
+      "product_idx": 1371,
+      "product_idxs": [
+        1371,
+        1429,
+        1102,
+        1383,
+        1467
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-80573",
       "title": "Input: iforce - validate input packet lengths",
       "severity": "Moderate",
@@ -206752,6 +206924,20 @@
         1341
       ],
       "date": "2026-09-02",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85505",
+      "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer over-read in ipmi_oem_fujitsu_get_sel_entry_long_text in ipmi-oem/ipmi-oem-fujitsu.c when a BMC provides a short response, a different vulnerability than CVE-2026-50031 (which has different affected versions).",
+      "severity": "Moderate",
+      "cvss": 7.5,
+      "product_idx": 1471,
+      "product_idxs": [
+        1471
+      ],
+      "date": "2026-09-05",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -209248,6 +209434,34 @@
         350
       ],
       "date": "2026-08-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80732",
+      "title": "ata: pata_sl82c105: fix bridge revision use-after-free",
+      "severity": "Moderate",
+      "cvss": 7.1,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80737",
+      "title": "serial: amba-pl011: synchronize DMA teardown",
+      "severity": "Moderate",
+      "cvss": 7.1,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -213876,6 +214090,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-80757",
+      "title": "selinux: reject a class permission count below its inherited common",
+      "severity": "Moderate",
+      "cvss": 6.4,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-40043",
       "title": "net: nfc: nci: Add parameter validation for packet data",
       "severity": "Moderate",
@@ -215786,6 +216014,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-80755",
+      "title": "selinux: reject a permission value exceeding the class permission count",
+      "severity": "Moderate",
+      "cvss": 6.0,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-12818",
       "title": "PostgreSQL libpq undersizes allocations, via integer wraparound",
       "severity": "Moderate",
@@ -217307,6 +217549,20 @@
         350
       ],
       "date": "2026-08-24",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80731",
+      "title": "net: remove CAP_SYS_RAWIO zero-padding in dev_validate_header",
+      "severity": "Moderate",
+      "cvss": 5.7,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -232947,6 +233203,118 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-80728",
+      "title": "Revert \"drm/amdgpu: fix aperture mapping leak\"",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80730",
+      "title": "ring-buffer: Fix crash passing ERR_PTR to kthread_stop()",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80733",
+      "title": "net: remove WARN_ON_ONCE() from sk_mc_loop()",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80738",
+      "title": "bpf: Check sk_state before sk_protocol in bpf_tcp_*_syncookie",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80742",
+      "title": "af_packet: Don't send zero-byte data in tpacket_snd().",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80743",
+      "title": "ASoC: xilinx: formatter_pcm: pass aud_drv_data to irq handlers",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80747",
+      "title": "drm/amdkfd: Add bounds check for CRAT subtype length",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80752",
+      "title": "Input: psxpad-spi - set driver data before use",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-10158",
       "title": "Rsync: Out of bounds array access via negative index",
       "severity": "Moderate",
@@ -233261,9 +233629,9 @@
       "title": "Missing Authorization in Elasticsearch Leading to Information Disclosure",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1469,
+      "product_idx": 1466,
       "product_idxs": [
-        1469
+        1466
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -235917,9 +236285,9 @@
       "title": "Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service",
       "severity": "Moderate",
       "cvss": 4.9,
-      "product_idx": 1469,
+      "product_idx": 1466,
       "product_idxs": [
-        1469
+        1466
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -237543,6 +237911,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-80726",
+      "title": "KVM: x86/mmu: WARN and clear role.invalid when creating a child shadow page",
+      "severity": "Moderate",
+      "cvss": 4.7,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-81893",
       "title": "Gdk-pixbuf: gdk-pixbuf: invalid write in jpeg icc profile parser on error recovery",
       "severity": "Moderate",
@@ -238446,6 +238828,20 @@
         350
       ],
       "date": "2026-08-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80756",
+      "title": "selinux: do not cancel a policy conversion that never started",
+      "severity": "Moderate",
+      "cvss": 4.4,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -241901,6 +242297,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-85062",
+      "title": "Colord: Slow rejection of oversized malformed color strings",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1469,
+      "product_idxs": [
+        1469
+      ],
+      "date": "2026-09-05",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-8643",
       "title": "pip can extract console_scripts and gui_scripts outside installation directory",
       "severity": "Moderate",
@@ -244160,6 +244570,20 @@
         350
       ],
       "date": "2026-08-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-80744",
+      "title": "netfilter: nf_tables_offload: suppress WARN_ON_ONCE for ENOMEM in abort path",
+      "severity": "Low",
+      "cvss": 3.3,
+      "product_idx": 350,
+      "product_idxs": [
+        350
+      ],
+      "date": "2026-09-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
