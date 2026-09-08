@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 8842,
+    "total": 8865,
     "critical": 567,
-    "important": 2966,
-    "moderate": 2558,
-    "low": 305,
+    "important": 2972,
+    "moderate": 2572,
+    "low": 308,
     "exploited": 22,
     "patched": 1841,
-    "updated_at": "2026-09-08 05:37 UTC",
+    "updated_at": "2026-09-08 10:38 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1478,6 +1478,7 @@
     "Azure Virtual Machines",
     "Microsoft Copilot in Azure",
     "Microsoft Edge for iOS",
+    "azl3 libpcap 1.10.6-1 on Azure Linux 3.0",
     "azl3 libreswan 4.15-2 on Azure Linux 3.0",
     "azl3 nginx 1.28.3-8 on Azure Linux 3.0",
     "azl3 rubygem-elasticsearch 8.9.0-1 on Azure Linux 3.0",
@@ -1486,6 +1487,7 @@
     "azl3 colord 1.4.6-1 on Azure Linux 3.0",
     "azl3 rubygem-rubyzip 2.3.2-1 on Azure Linux 3.0",
     "azl3 freeipmi 1.6.18-1 on Azure Linux 3.0",
+    "azl3 pcre2 10.42-3 on Azure Linux 3.0",
     "Microsoft Discovery Studio",
     "Microsoft Power Platform",
     "Microsoft Azure Active Directory B2C"
@@ -4411,9 +4413,9 @@
       "title": "Microsoft Azure Active Directory B2C Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1477,
+      "product_idx": 1479,
       "product_idxs": [
-        1477
+        1479
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -9107,9 +9109,9 @@
       "title": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _ipmi_sel_oem_fujitsu_get_sel_entry_long_text in libfreeipmi/sel/ipmi-sel-string-fujitsu-irmc-common.c via malformed Fujitsu SEL long-text responses.",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1474,
+      "product_idx": 1475,
       "product_idxs": [
-        1474
+        1475
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -9121,11 +9123,11 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1474,
+      "product_idx": 1475,
       "product_idxs": [
-        1474
+        1475
       ],
-      "date": "2026-09-05",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9135,11 +9137,11 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1474,
+      "product_idx": 1475,
       "product_idxs": [
-        1474
+        1475
       ],
-      "date": "2026-09-05",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9149,11 +9151,11 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1474,
+      "product_idx": 1475,
       "product_idxs": [
-        1474
+        1475
       ],
-      "date": "2026-09-05",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -9163,9 +9165,9 @@
       "title": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1474,
+      "product_idx": 1475,
       "product_idxs": [
-        1474
+        1475
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -13270,9 +13272,9 @@
       "title": "Power Automate Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.5,
-      "product_idx": 1476,
+      "product_idx": 1478,
       "product_idxs": [
-        1476
+        1478
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -21673,9 +21675,9 @@
       "title": "Microsoft Discovery Studio Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 7.4,
-      "product_idx": 1475,
+      "product_idx": 1477,
       "product_idxs": [
-        1475
+        1477
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -33635,9 +33637,9 @@
       "title": "Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1469,
+      "product_idx": 1470,
       "product_idxs": [
-        1469
+        1470
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -33733,6 +33735,20 @@
         }
       ],
       "kb_count": 1
+    },
+    {
+      "cve_id": "CVE-2026-0799",
+      "title": "OOBR and OOBW in libpcap before 1.10.7",
+      "severity": "Important",
+      "cvss": 8.7,
+      "product_idx": 1467,
+      "product_idxs": [
+        1467
+      ],
+      "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-27928",
@@ -36198,6 +36214,20 @@
         351
       ],
       "date": "2026-08-24",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86145",
+      "title": "PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purpose, does have a size check). This outcome requires an attacker-controlled regular expression, or a recursive pattern in conjunction with a small heap limit (this can be set through the API).",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 1476,
+      "product_idxs": [
+        1476
+      ],
+      "date": "2026-09-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -39157,9 +39187,9 @@
       "title": "NGINX ngx_http_js_module vulnerablility",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1468,
+      "product_idx": 1469,
       "product_idxs": [
-        1468
+        1469
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -41404,6 +41434,20 @@
         1388
       ],
       "date": "2026-08-23",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86140",
+      "title": "In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.",
+      "severity": "Important",
+      "cvss": 8.0,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-06",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -110015,9 +110059,9 @@
       "title": "FIPS mode assertion failure via malicious CERT payload",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1467,
+      "product_idx": 1468,
       "product_idxs": [
-        1467
+        1468
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -123418,9 +123462,9 @@
       "title": "rubyzip before 3.4.0 Path Traversal in Zip::Entry#extract via Sibling-Directory Prefix",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1473,
+      "product_idx": 1474,
       "product_idxs": [
-        1473
+        1474
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -125230,6 +125274,20 @@
         351
       ],
       "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-82208",
+      "title": "wolfSSL CA-cache hit overrides callback",
+      "severity": "Important",
+      "cvss": 7.4,
+      "product_idx": 1261,
+      "product_idxs": [
+        1261
+      ],
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -132792,6 +132850,34 @@
         351
       ],
       "date": "2026-08-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86090",
+      "title": "ntopng before 6.7.260717 Missing Authorization on the Notification Endpoint and Recipient Delete Handlers",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 1292,
+      "product_idxs": [
+        1292
+      ],
+      "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86091",
+      "title": "ntopng before 6.7.260717 Missing Authorization on the Host Pool Bulk Delete Handler",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 1292,
+      "product_idxs": [
+        1292
+      ],
+      "date": "2026-09-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205056,7 +205142,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205214,7 +205300,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205228,7 +205314,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205284,7 +205370,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205382,7 +205468,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205396,7 +205482,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205428,7 +205514,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205442,7 +205528,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205456,7 +205542,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -205597,7 +205683,7 @@
         1385,
         1428,
         977,
-        1471,
+        1472,
         1392
       ],
       "date": "2026-09-06",
@@ -205836,9 +205922,9 @@
       "title": "NGINX ngx_http_js_module vulnerability",
       "severity": "Moderate",
       "cvss": 8.2,
-      "product_idx": 1468,
+      "product_idx": 1469,
       "product_idxs": [
-        1468
+        1469
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -207355,9 +207441,9 @@
       "title": "NGINX ngx_http_js_module vulnerability",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1468,
+      "product_idx": 1469,
       "product_idxs": [
-        1468
+        1469
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -207375,7 +207461,7 @@
         1429,
         1103,
         1384,
-        1470
+        1471
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -207431,9 +207517,9 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer over-read in ipmi_oem_fujitsu_get_sel_entry_long_text in ipmi-oem/ipmi-oem-fujitsu.c when a BMC provides a short response, a different vulnerability than CVE-2026-50031 (which has different affected versions).",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1474,
+      "product_idx": 1475,
       "product_idxs": [
-        1474
+        1475
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -211329,6 +211415,62 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-86138",
+      "title": "In libxml2 before 2.15.4, xmlDictAddQString in dict.c has an integer overflow and resultant heap-based buffer overflow.",
+      "severity": "Moderate",
+      "cvss": 6.9,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86139",
+      "title": "In libxml2 before 2.15.4, xmlURIEscapeStr in uri.c has an integer overflow.",
+      "severity": "Moderate",
+      "cvss": 6.9,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86142",
+      "title": "In libxml2 before 2.15.4, there is a heap-based buffer overflow in xmlXPtrEvalXPtrPart because of xmlXPtrEval xpointer length saturation.",
+      "severity": "Moderate",
+      "cvss": 6.9,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86143",
+      "title": "In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback and xmlBufUse causes negative lengths to reach write callbacks, aka a lack of a check for integer overflow before calling writecallback. This has security relevance for many types of uses of that length value within a callback.",
+      "severity": "Moderate",
+      "cvss": 6.9,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-10966",
       "title": "missing SFTP host verification with wolfSSH",
       "severity": "Moderate",
@@ -212582,6 +212724,24 @@
         682
       ],
       "date": "2026-03-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19931",
+      "title": "Negotiate ambient user conn reuse",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1261,
+      "product_idxs": [
+        1261,
+        1303,
+        1433,
+        1412,
+        1087
+      ],
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -216926,6 +217086,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-18924",
+      "title": "HTTP/2 server push UAF",
+      "severity": "Moderate",
+      "cvss": 5.9,
+      "product_idx": 1261,
+      "product_idxs": [
+        1261,
+        1433
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-21713",
       "title": "A flaw in Node.js HMAC verification uses a non-constant-time comparison when validating user-provided signatures, potentially leaking timing information proportional to the number of matching bytes. Under certain threat models where high-resolution timing measurements are possible, this behavior could be exploited as a timing oracle to infer HMAC values.\n\nNode.js already provides timing-safe comparison primitives used elsewhere in the codebase, indicating this is an oversight rather than an intentional design decision.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x**.",
       "severity": "Moderate",
@@ -218537,6 +218712,20 @@
         351
       ],
       "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86144",
+      "title": "In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess and xmlXIncludeProcessTree do not propagate parseFlags. This has security relevance for, for example, the XML_PARSE_NONET flag, if (without it) a custom resource loader accesses the internet and triggers XML external entity injection, SSRF, or a denial of service (e.g., for an attacker-controlled internet resource that is intentionally slow).",
+      "severity": "Moderate",
+      "cvss": 5.6,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -225619,6 +225808,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-31911",
+      "title": "abort() in libpcap before 1.10.7 on an invalid BPF opcode",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 1467,
+      "product_idxs": [
+        1467
+      ],
+      "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-31912",
+      "title": "OOBR in libpcap before 1.10.7",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 1467,
+      "product_idxs": [
+        1467
+      ],
+      "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-3196",
       "title": "Qemu-kvm: virtio-snd: integer overflow leading to unbounded memory allocation",
       "severity": "Moderate",
@@ -231113,6 +231330,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-6244",
+      "title": "division by zero in libpcap before 1.10.7",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 1467,
+      "product_idxs": [
+        1467
+      ],
+      "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-63623",
       "title": "Libvirt: information disclosure via world-readable storage volume images during clone/convert",
       "severity": "Moderate",
@@ -232244,6 +232475,20 @@
         350
       ],
       "date": "2026-08-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-6554",
+      "title": "infinte loop in libpcap before 1.10.7",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 1467,
+      "product_idxs": [
+        1467
+      ],
+      "date": "2026-09-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -234525,9 +234770,9 @@
       "title": "Missing Authorization in Elasticsearch Leading to Information Disclosure",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1469,
+      "product_idx": 1470,
       "product_idxs": [
-        1469
+        1470
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -236669,6 +236914,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-18238",
+      "title": "OOBR in rpcap client in libpcap before 1.10.7",
+      "severity": "Moderate",
+      "cvss": 5.0,
+      "product_idx": 1467,
+      "product_idxs": [
+        1467
+      ],
+      "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-34317",
       "title": "Vulnerability in the MySQL Shell product of Oracle MySQL (component: Shell: Core Client).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where MySQL Shell executes to compromise MySQL Shell.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Shell. CVSS 3.1 Base Score 5.0 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H).",
       "severity": "Moderate",
@@ -237197,9 +237456,9 @@
       "title": "Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service",
       "severity": "Moderate",
       "cvss": 4.9,
-      "product_idx": 1469,
+      "product_idx": 1470,
       "product_idxs": [
-        1469
+        1470
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -240067,6 +240326,20 @@
         1381
       ],
       "date": "2026-08-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-18313",
+      "title": "rpcapd memory leak in libpcap before 1.10.7",
+      "severity": "Moderate",
+      "cvss": 4.3,
+      "product_idx": 1467,
+      "product_idxs": [
+        1467
+      ],
+      "date": "2026-09-07",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -243376,7 +243649,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -243576,7 +243849,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -243590,7 +243863,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -243675,7 +243948,7 @@
       "product_idxs": [
         1296
       ],
-      "date": "2026-09-03",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -243769,13 +244042,27 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-84303",
+      "title": "gRPC-Go: xDS RBAC HTTP Filter bypass via mixed-case Header Matching and gRFC A41 validation evasion",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 738,
+      "product_idxs": [
+        738
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-85062",
       "title": "Colord: Slow rejection of oversized malformed color strings",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1472,
+      "product_idx": 1473,
       "product_idxs": [
-        1472
+        1473
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -244741,6 +245028,24 @@
         1149
       ],
       "date": "2026-06-28",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-13608",
+      "title": "OpenLDAP SASL authentication bypass",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1243,
+      "product_idxs": [
+        1243,
+        1261,
+        1433,
+        1412,
+        1087
+      ],
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -246519,6 +246824,34 @@
         1208
       ],
       "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86137",
+      "title": "In libxml2 before 2.15.4, xmlFAParsePosCharGroup has an out-of-bounds read, aka an out-of-bounds read in the NXT macro in xmlregexp.",
+      "severity": "Low",
+      "cvss": 2.9,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-86141",
+      "title": "xmlregexp in libxml2 before 2.15.4 has a NULL pointer dereference in xmlRegNewParserCtxt after a strdup failure, i.e., it does not calculate a string length after NULL checking.",
+      "severity": "Low",
+      "cvss": 2.9,
+      "product_idx": 1255,
+      "product_idxs": [
+        1255
+      ],
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
