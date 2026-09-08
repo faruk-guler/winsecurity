@@ -7,7 +7,7 @@
     "low": 308,
     "exploited": 24,
     "patched": 2758,
-    "updated_at": "2026-09-08 21:35 UTC",
+    "updated_at": "2026-09-08 23:50 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -47202,7 +47202,7 @@
       "kb_articles": [
         {
           "kb": "5126042",
-          "url": "https://support.microsoft.com/help/5126042",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126042",
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4145.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47213,7 +47213,7 @@
         },
         {
           "kb": "5126043",
-          "url": "https://support.microsoft.com/help/5126043",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126043",
           "fixed_build": "2.0.50727.9070 & 3.0.30729.9068 & 4.7.4145.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47225,7 +47225,7 @@
         },
         {
           "kb": "5126044",
-          "url": "https://support.microsoft.com/help/5126044",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126044",
           "fixed_build": "4.7.4145.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47234,7 +47234,7 @@
         },
         {
           "kb": "5126045",
-          "url": "https://support.microsoft.com/help/5126045",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126045",
           "fixed_build": "4.7.4145.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47243,7 +47243,7 @@
         },
         {
           "kb": "5126046",
-          "url": "https://support.microsoft.com/help/5126046",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126046",
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169 & 4.8.4806.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47257,7 +47257,7 @@
         },
         {
           "kb": "5126047",
-          "url": "https://support.microsoft.com/help/5126047",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126047",
           "fixed_build": "4.8.4806.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47268,7 +47268,7 @@
         },
         {
           "kb": "5126048",
-          "url": "https://support.microsoft.com/help/5126048",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126048",
           "fixed_build": "2.0.50727.9070 & 3.0.30729.9068 & 4.8.4806.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47277,7 +47277,7 @@
         },
         {
           "kb": "5126049",
-          "url": "https://support.microsoft.com/help/5126049",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126049",
           "fixed_build": "4.8.4806.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47286,7 +47286,7 @@
         },
         {
           "kb": "5126050",
-          "url": "https://support.microsoft.com/help/5126050",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126050",
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169 & 4.8.4806.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47295,7 +47295,7 @@
         },
         {
           "kb": "5126051",
-          "url": "https://support.microsoft.com/help/5126051",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126051",
           "fixed_build": "4.8.4806.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47304,7 +47304,7 @@
         },
         {
           "kb": "5126052",
-          "url": "https://support.microsoft.com/help/5126052",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126052",
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169 & 4.8.9347.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47317,7 +47317,7 @@
         },
         {
           "kb": "5126053",
-          "url": "https://support.microsoft.com/help/5126053",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126053",
           "fixed_build": "4.8.9347.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47354,7 +47354,7 @@
         },
         {
           "kb": "5126421",
-          "url": "https://support.microsoft.com/help/5126421",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126421",
           "fixed_build": "2.0.50727.9070 & 3.0.30729.9068 & 4.8.4806.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47370,7 +47370,7 @@
         },
         {
           "kb": "5126422",
-          "url": "https://support.microsoft.com/help/5126422",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126422",
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169 & 4.8.9347.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -47379,7 +47379,7 @@
         },
         {
           "kb": "5126424",
-          "url": "https://support.microsoft.com/help/5126424",
+          "url": "https://www.catalog.update.microsoft.com/Search.aspx?q=KB5126424",
           "fixed_build": "2.0.50727.9183 & 3.0.30729.9169 & 4.8.9347.0",
           "subtype": "Security Update",
           "product_idxs": [
@@ -250398,7 +250398,7 @@
         137,
         138
       ],
-      "date": "2026-07-14",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
         {
@@ -268290,7 +268290,7 @@
         137,
         138
       ],
-      "date": "2026-07-14",
+      "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
         {
