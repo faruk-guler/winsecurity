@@ -7,7 +7,7 @@
     "low": 312,
     "exploited": 24,
     "patched": 2758,
-    "updated_at": "2026-09-09 20:28 UTC",
+    "updated_at": "2026-09-09 22:56 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -45911,7 +45911,7 @@
         137,
         138
       ],
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "exploited": false,
       "kb_articles": [
         {
@@ -217238,7 +217238,7 @@
         137,
         138
       ],
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "exploited": false,
       "kb_articles": [
         {
