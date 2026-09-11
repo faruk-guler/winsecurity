@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 9891,
+    "total": 9893,
     "critical": 671,
     "important": 3848,
     "moderate": 2587,
     "low": 316,
     "exploited": 24,
     "patched": 2758,
-    "updated_at": "2026-09-11 20:30 UTC",
+    "updated_at": "2026-09-11 22:59 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -369401,6 +369401,32 @@
         193
       ],
       "date": "2026-05-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85892",
+      "title": "Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "severity": "",
+      "cvss": null,
+      "product_idx": null,
+      "product_idxs": [],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87491",
+      "title": "Chromium CVE-2026-87491:  Out of bounds write in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
