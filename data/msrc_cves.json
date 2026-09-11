@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 9871,
+    "total": 9891,
     "critical": 671,
     "important": 3848,
-    "moderate": 2586,
+    "moderate": 2587,
     "low": 316,
     "exploited": 24,
     "patched": 2758,
-    "updated_at": "2026-09-11 17:32 UTC",
+    "updated_at": "2026-09-11 20:30 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -149651,17 +149651,39 @@
       "title": "Windows Work Folders Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 158,
+      "product_idx": 157,
       "product_idxs": [
-        158,
-        159,
-        140,
-        141,
-        160
+        157,
+        135,
+        136,
+        137,
+        138
       ],
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "5122871",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5122871",
+          "fixed_build": "10.0.26100.33438",
+          "subtype": "Security Update",
+          "product_idxs": [
+            115,
+            118
+          ]
+        },
+        {
+          "kb": "5122876",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5122876",
+          "fixed_build": "10.0.17763.9245",
+          "subtype": "Security Update",
+          "product_idxs": [
+            157,
+            135,
+            136,
+            137
+          ]
+        },
         {
           "kb": "5122878",
           "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5122878",
@@ -149674,6 +149696,48 @@
             141,
             160,
             161
+          ]
+        },
+        {
+          "kb": "5122880",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5122880",
+          "fixed_build": "10.0.22631.7582",
+          "subtype": "Security Update",
+          "product_idxs": [
+            121,
+            122
+          ]
+        },
+        {
+          "kb": "5122882",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5122882",
+          "fixed_build": "10.0.20348.5622",
+          "subtype": "Security Update",
+          "product_idxs": [
+            138,
+            139
+          ]
+        },
+        {
+          "kb": "5123066",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5123066",
+          "fixed_build": "6.3.9600.23397",
+          "subtype": "Monthly Rollup",
+          "product_idxs": [
+            152,
+            153
+          ]
+        },
+        {
+          "kb": "5123099",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5123099",
+          "fixed_build": "10.0.14393.9512",
+          "subtype": "Security Update",
+          "product_idxs": [
+            163,
+            143,
+            144,
+            145
           ]
         },
         {
@@ -149699,7 +149763,7 @@
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 9
     },
     {
       "cve_id": "CVE-2026-80552",
@@ -304388,6 +304452,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-77490",
+      "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+      "severity": "Moderate",
+      "cvss": 6.1,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-80576",
       "title": "drm/amdgpu: reject oversized IBs with per-ring packet limits",
       "severity": "Moderate",
@@ -361488,6 +361566,90 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-76017",
+      "title": "Chromium CVE-2026-76017:  Use after free in Chromoting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-76018",
+      "title": "Chromium CVE-2026-76018:  Privilege elevation in Import",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-76019",
+      "title": "Chromium CVE-2026-76019:  Incorrect authorization in Workers",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-76021",
+      "title": "Chromium CVE-2026-76021:  Use after free in DOM",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-76022",
+      "title": "Chromium CVE-2026-76022:  Buffer overflow in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-76023",
+      "title": "Chromium CVE-2026-76023:  Improper resource control in Linux Toolkit Theming",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-76033",
       "title": "Chromium: CVE-2026-76033 Inappropriate implementation in CORS",
       "severity": "",
@@ -361530,6 +361692,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-76036",
+      "title": "Chromium CVE-2026-76036:  Buffer overflow in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-76037",
       "title": "Chromium: CVE-2026-76037 Link following in CredentialProvider",
       "severity": "",
@@ -361553,6 +361729,20 @@
         193
       ],
       "date": "2026-08-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-76039",
+      "title": "Chromium CVE-2026-76039:  Incorrect reference resolution in Core",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -367718,6 +367908,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-84330",
+      "title": "Chromium: CVE-2026-84330 UI misrepresentation in FullScreen",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-84331",
       "title": "Chromium: CVE-2026-84331 Incorrect authorization in Actor",
       "severity": "",
@@ -367741,6 +367945,20 @@
         193
       ],
       "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84333",
+      "title": "Chromium: CVE-2026-84333 Use after free in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -367844,6 +368062,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-84352",
+      "title": "Chromium: CVE-2026-84352 Use after free in WebGL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-84353",
       "title": "Chromium: CVE-2026-84353 Use after free in Shared Tab Groups",
       "severity": "",
@@ -367942,6 +368174,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-85042",
+      "title": "Chromium CVE-2026-85042:  Use after free in DevTools",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85043",
+      "title": "Chromium CVE-2026-85043:  Incomplete cleanup in Network",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85045",
+      "title": "Chromium CVE-2026-85045:  Race condition in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-85046",
       "title": "Chromium: CVE-2026-85046 Type confusion in V8",
       "severity": "",
@@ -367951,6 +368225,76 @@
         193
       ],
       "date": "2026-09-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85048",
+      "title": "Chromium CVE-2026-85048:  Use after free in Compositing",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85049",
+      "title": "Chromium CVE-2026-85049:  Use after free in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85051",
+      "title": "Chromium CVE-2026-85051:  Type confusion in Compositing",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85052",
+      "title": "Chromium CVE-2026-85052:  Out of bounds read in CrashReporting",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-85053",
+      "title": "Chromium CVE-2026-85053:  Improper resource exposure in CacheStorage",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
