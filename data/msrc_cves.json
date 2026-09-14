@@ -7,7 +7,7 @@
     "low": 318,
     "exploited": 24,
     "patched": 2758,
-    "updated_at": "2026-09-14 05:49 UTC",
+    "updated_at": "2026-09-14 11:53 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -83479,7 +83479,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-20",
       "exploited": false,
@@ -180105,7 +180106,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -193918,7 +193920,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-20",
       "exploited": false,
@@ -299485,6 +299488,7 @@
       "product_idx": 0,
       "product_idxs": [
         0,
+        490,
         1
       ],
       "date": "2026-03-20",
@@ -300485,7 +300489,7 @@
       "product_idxs": [
         720
       ],
-      "date": "2026-07-17",
+      "date": "2026-09-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -303570,8 +303574,9 @@
       "title": "GNU Binutils thru 2.46 readelf contains a vulnerability that leads to an abort (SIGABRT) when processing a crafted ELF binary with malformed DWARF abbrev or debug information. Due to incomplete state cleanup in process_debug_info(), an invalid debug_info_p state may propagate into DWARF attribute parsing routines. When certain malformed attributes result in an unexpected data length of zero, byte_get_little_endian() triggers a fatal abort. No evidence of memory corruption or code execution was observed; the impact is limited to denial of service.",
       "severity": "Moderate",
       "cvss": 6.2,
-      "product_idx": 18,
+      "product_idx": 667,
       "product_idxs": [
+        667,
         18,
         28,
         665
@@ -310593,7 +310598,8 @@
       "product_idxs": [
         0,
         1,
-        4
+        4,
+        490
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -311036,6 +311042,7 @@
       "product_idxs": [
         0,
         1,
+        490,
         2
       ],
       "date": "2026-02-28",
@@ -311094,10 +311101,11 @@
       "product_idx": 0,
       "product_idxs": [
         0,
+        490,
         2,
         1
       ],
-      "date": "2026-02-26",
+      "date": "2026-09-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -311171,7 +311179,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-20",
       "exploited": false,
@@ -311186,7 +311195,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -311201,7 +311211,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -311216,7 +311227,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -311231,7 +311243,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-20",
       "exploited": false,
@@ -311246,7 +311259,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-20",
       "exploited": false,
@@ -326150,6 +326164,7 @@
       "product_idx": 0,
       "product_idxs": [
         0,
+        490,
         1
       ],
       "date": "2026-03-27",
@@ -326180,7 +326195,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-20",
       "exploited": false,
@@ -326195,7 +326211,8 @@
       "product_idx": 0,
       "product_idxs": [
         0,
-        1
+        1,
+        490
       ],
       "date": "2026-03-20",
       "exploited": false,
