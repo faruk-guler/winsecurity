@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 10210,
+    "total": 10212,
     "critical": 678,
-    "important": 3871,
+    "important": 3873,
     "moderate": 2646,
     "low": 338,
     "exploited": 24,
     "patched": 2759,
-    "updated_at": "2026-09-15 20:01 UTC",
+    "updated_at": "2026-09-15 23:24 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -46972,6 +46972,20 @@
       "kb_count": 8
     },
     {
+      "cve_id": "CVE-2026-69486",
+      "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-69494",
       "title": "Windows Event Logging Service Remote Code Execution Vulnerability",
       "severity": "Important",
@@ -51438,6 +51452,20 @@
         }
       ],
       "kb_count": 1
+    },
+    {
+      "cve_id": "CVE-2026-85893",
+      "title": "Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-87766",
