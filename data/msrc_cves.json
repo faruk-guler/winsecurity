@@ -6,8 +6,8 @@
     "moderate": 2728,
     "low": 339,
     "exploited": 24,
-    "patched": 2759,
-    "updated_at": "2026-09-17 16:18 UTC",
+    "patched": 2767,
+    "updated_at": "2026-09-17 20:00 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -10990,6 +10990,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -11000,7 +11010,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78510",
@@ -11019,6 +11029,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -11029,7 +11049,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80607",
@@ -16140,8 +16160,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-69649",
@@ -16307,6 +16338,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002920",
           "url": "https://support.microsoft.com/help/5002920",
           "fixed_build": "16.0.5569.1000",
@@ -16317,7 +16358,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69712",
@@ -16466,6 +16507,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002920",
           "url": "https://support.microsoft.com/help/5002920",
           "fixed_build": "16.0.5569.1000",
@@ -16476,7 +16527,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69784",
@@ -16560,6 +16611,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002920",
           "url": "https://support.microsoft.com/help/5002920",
           "fixed_build": "16.0.5569.1000",
@@ -16570,7 +16631,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69860",
@@ -18246,9 +18307,19 @@
           "product_idxs": [
             180
           ]
+        },
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78505",
@@ -18267,6 +18338,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -18277,7 +18358,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78519",
@@ -18325,6 +18406,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -18335,7 +18426,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80083",
@@ -18443,6 +18534,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1003",
@@ -18453,7 +18554,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-81955",
@@ -18471,6 +18572,16 @@
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
         {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
@@ -18592,7 +18703,7 @@
           ]
         }
       ],
-      "kb_count": 11
+      "kb_count": 12
     },
     {
       "cve_id": "CVE-2025-59271",
@@ -27835,6 +27946,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -27855,7 +27976,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81949",
@@ -27874,6 +27995,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -27894,7 +28025,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81950",
@@ -27913,6 +28044,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -27933,7 +28074,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81951",
@@ -27952,6 +28093,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -27972,7 +28123,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81953",
@@ -27991,6 +28142,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -28011,7 +28172,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81959",
@@ -28030,6 +28191,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -28050,7 +28221,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-83498",
@@ -29758,8 +29929,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-81355",
@@ -30713,6 +30895,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -30723,7 +30915,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-83501",
@@ -48537,6 +48729,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1002",
@@ -48547,7 +48749,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69686",
@@ -48566,6 +48768,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -48576,7 +48788,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69716",
@@ -48619,6 +48831,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -48629,7 +48851,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69724",
@@ -48752,6 +48974,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -48762,7 +48994,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69764",
@@ -49611,6 +49843,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -49621,7 +49863,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-72973",
@@ -49640,6 +49882,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -49650,7 +49902,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-72984",
@@ -50595,6 +50847,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -50605,7 +50867,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-77906",
@@ -50792,6 +51054,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -50802,7 +51074,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78507",
@@ -50819,8 +51091,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-78511",
@@ -50839,6 +51122,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -50849,7 +51142,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78512",
@@ -50867,6 +51160,16 @@
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
         {
           "kb": "4011160",
           "url": "https://support.microsoft.com/help/4011160",
@@ -50888,7 +51191,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-78514",
@@ -50907,6 +51210,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -50917,7 +51230,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78517",
@@ -50936,6 +51249,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -50946,7 +51269,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78518",
@@ -50964,6 +51287,16 @@
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
         {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
@@ -50985,7 +51318,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-78521",
@@ -51004,6 +51337,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -51014,7 +51357,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78524",
@@ -51033,6 +51376,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -51043,7 +51396,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78526",
@@ -51062,6 +51415,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002898",
           "url": "https://support.microsoft.com/help/5002898",
           "fixed_build": "16.0.5569.1002",
@@ -51072,7 +51435,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80074",
@@ -51119,6 +51482,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -51129,7 +51502,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80081",
@@ -51163,6 +51536,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -51173,7 +51556,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80096",
@@ -150562,6 +150945,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150582,7 +150975,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81388",
@@ -150601,6 +150994,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150621,7 +151024,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81396",
@@ -150640,6 +151043,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150660,7 +151073,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81397",
@@ -150679,6 +151092,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150699,7 +151122,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81398",
@@ -150718,6 +151141,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150738,7 +151171,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81947",
@@ -150757,6 +151190,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150786,7 +151229,7 @@
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 4
     },
     {
       "cve_id": "CVE-2026-81954",
@@ -150805,6 +151248,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150825,7 +151278,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81956",
@@ -150843,6 +151296,16 @@
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
         {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
@@ -150873,7 +151336,7 @@
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 4
     },
     {
       "cve_id": "CVE-2026-81957",
@@ -150892,6 +151355,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150912,7 +151385,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81960",
@@ -150931,6 +151404,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -150951,7 +151434,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-82474",
@@ -227636,6 +228119,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -227656,7 +228149,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-83940",
@@ -246698,6 +247191,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -246708,7 +247211,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69636",
@@ -246819,6 +247322,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -246829,7 +247342,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69734",
@@ -246848,6 +247361,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -246860,7 +247383,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69739",
@@ -246873,11 +247396,21 @@
         175,
         176,
         177,
-        183
+        170
       ],
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
         {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
@@ -246889,7 +247422,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-69781",
@@ -247236,8 +247769,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-72939",
@@ -247522,6 +248066,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -247532,7 +248086,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-72975",
@@ -247551,6 +248105,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002920",
           "url": "https://support.microsoft.com/help/5002920",
           "fixed_build": "16.0.5569.1000",
@@ -247561,7 +248125,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-72977",
@@ -247580,6 +248144,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002920",
           "url": "https://support.microsoft.com/help/5002920",
           "fixed_build": "16.0.5569.1000",
@@ -247590,7 +248164,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-73029",
@@ -248003,6 +248577,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -248013,7 +248597,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78503",
@@ -248032,6 +248616,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -248042,7 +248636,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78515",
@@ -248061,6 +248655,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -248071,7 +248675,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78522",
@@ -248146,8 +248750,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-80078",
@@ -248164,8 +248779,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-80079",
@@ -248211,8 +248837,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-80084",
@@ -248258,8 +248895,19 @@
       ],
       "date": "2026-09-08",
       "exploited": false,
-      "kb_articles": [],
-      "kb_count": 0
+      "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        }
+      ],
+      "kb_count": 1
     },
     {
       "cve_id": "CVE-2026-80087",
@@ -248278,6 +248926,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -248288,7 +248946,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80088",
@@ -248307,6 +248965,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -248317,7 +248985,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80089",
@@ -248336,6 +249004,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -248346,7 +249024,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80090",
@@ -248365,6 +249043,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -248375,7 +249063,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-80091",
@@ -248394,6 +249082,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002916",
           "url": "https://support.microsoft.com/help/5002916",
           "fixed_build": "16.0.5569.1000",
@@ -248404,7 +249102,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-81377",
@@ -282478,6 +283176,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -282488,7 +283196,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-78513",
@@ -282507,6 +283215,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002920",
           "url": "https://support.microsoft.com/help/5002920",
           "fixed_build": "16.0.5569.1002",
@@ -282517,7 +283235,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-81387",
@@ -282536,6 +283254,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282556,7 +283284,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81390",
@@ -282575,6 +283303,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282604,7 +283342,7 @@
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 4
     },
     {
       "cve_id": "CVE-2026-81391",
@@ -282623,6 +283361,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282643,7 +283391,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81392",
@@ -282662,6 +283410,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282682,7 +283440,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81393",
@@ -282701,6 +283459,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282721,7 +283489,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81394",
@@ -282740,6 +283508,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282760,7 +283538,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81395",
@@ -282779,6 +283557,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282799,7 +283587,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81399",
@@ -282818,6 +283606,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282838,7 +283636,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81400",
@@ -282857,6 +283655,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -282877,7 +283685,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-81401",
@@ -282895,6 +283703,16 @@
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
         {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
@@ -282925,7 +283743,7 @@
           ]
         }
       ],
-      "kb_count": 3
+      "kb_count": 4
     },
     {
       "cve_id": "CVE-2026-81958",
@@ -282943,6 +283761,16 @@
       "date": "2026-09-08",
       "exploited": false,
       "kb_articles": [
+        {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
         {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
@@ -282964,7 +283792,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-83949",
@@ -283138,6 +283966,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002904",
           "url": "https://support.microsoft.com/help/5002904",
           "fixed_build": "16.0.5569.1003",
@@ -283158,7 +283996,7 @@
           ]
         }
       ],
-      "kb_count": 2
+      "kb_count": 3
     },
     {
       "cve_id": "CVE-2026-20958",
@@ -286202,6 +287040,16 @@
       "exploited": false,
       "kb_articles": [
         {
+          "kb": "831049",
+          "url": "https://go.microsoft.com/fwlink/p/?linkid=831049",
+          "fixed_build": "16.113.26091433",
+          "subtype": "Security Update",
+          "product_idxs": [
+            170,
+            171
+          ]
+        },
+        {
           "kb": "5002923",
           "url": "https://support.microsoft.com/help/5002923",
           "fixed_build": "16.0.5569.1000",
@@ -286212,7 +287060,7 @@
           ]
         }
       ],
-      "kb_count": 1
+      "kb_count": 2
     },
     {
       "cve_id": "CVE-2026-68785",
