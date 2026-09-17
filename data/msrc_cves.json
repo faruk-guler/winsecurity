@@ -7,7 +7,7 @@
     "low": 338,
     "exploited": 24,
     "patched": 2759,
-    "updated_at": "2026-09-17 00:07 UTC",
+    "updated_at": "2026-09-17 05:46 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -8644,6 +8644,151 @@
       "kb_count": 3
     },
     {
+      "cve_id": "CVE-2026-67631",
+      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1514,
+      "product_idxs": [
+        1514,
+        1515,
+        410,
+        411,
+        414
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5122768",
+          "url": "https://support.microsoft.com/help/5122768",
+          "fixed_build": "16.0.4275.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1515
+          ]
+        },
+        {
+          "kb": "5122769",
+          "url": "https://support.microsoft.com/help/5122769",
+          "fixed_build": "17.0.4085.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1514
+          ]
+        },
+        {
+          "kb": "5122770",
+          "url": "https://support.microsoft.com/help/5122770",
+          "fixed_build": "17.0.1135.8",
+          "subtype": "Security Update",
+          "product_idxs": [
+            577
+          ]
+        },
+        {
+          "kb": "5122771",
+          "url": "https://support.microsoft.com/help/5122771",
+          "fixed_build": "16.0.1200.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            415
+          ]
+        },
+        {
+          "kb": "5122772",
+          "url": "https://support.microsoft.com/help/5122772",
+          "fixed_build": "15.0.4490.9",
+          "subtype": "Security Update",
+          "product_idxs": [
+            416
+          ]
+        },
+        {
+          "kb": "5122773",
+          "url": "https://support.microsoft.com/help/5122773",
+          "fixed_build": "15.0.2190.7",
+          "subtype": "Security Update",
+          "product_idxs": [
+            411
+          ]
+        },
+        {
+          "kb": "5122774",
+          "url": "https://support.microsoft.com/help/5122774",
+          "fixed_build": "14.0.3550.4",
+          "subtype": "Security Update",
+          "product_idxs": [
+            414
+          ]
+        },
+        {
+          "kb": "5122775",
+          "url": "https://support.microsoft.com/help/5122775",
+          "fixed_build": "14.0.2130.4",
+          "subtype": "Security Update",
+          "product_idxs": [
+            410
+          ]
+        }
+      ],
+      "kb_count": 8
+    },
+    {
+      "cve_id": "CVE-2026-67643",
+      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 415,
+      "product_idxs": [
+        415,
+        577,
+        1515,
+        1514
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5122768",
+          "url": "https://support.microsoft.com/help/5122768",
+          "fixed_build": "16.0.4275.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1515
+          ]
+        },
+        {
+          "kb": "5122769",
+          "url": "https://support.microsoft.com/help/5122769",
+          "fixed_build": "17.0.4085.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1514
+          ]
+        },
+        {
+          "kb": "5122770",
+          "url": "https://support.microsoft.com/help/5122770",
+          "fixed_build": "17.0.1135.8",
+          "subtype": "Security Update",
+          "product_idxs": [
+            577
+          ]
+        },
+        {
+          "kb": "5122771",
+          "url": "https://support.microsoft.com/help/5122771",
+          "fixed_build": "16.0.1200.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            415
+          ]
+        }
+      ],
+      "kb_count": 4
+    },
+    {
       "cve_id": "CVE-2026-68121",
       "title": "pppoe: reload header pointer after dev_hard_header()",
       "severity": "Critical",
@@ -12255,6 +12400,152 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-67378",
+      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.0,
+      "product_idx": 411,
+      "product_idxs": [
+        411,
+        415,
+        577,
+        416,
+        1514
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5122768",
+          "url": "https://support.microsoft.com/help/5122768",
+          "fixed_build": "16.0.4275.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1515
+          ]
+        },
+        {
+          "kb": "5122769",
+          "url": "https://support.microsoft.com/help/5122769",
+          "fixed_build": "17.0.4085.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1514
+          ]
+        },
+        {
+          "kb": "5122770",
+          "url": "https://support.microsoft.com/help/5122770",
+          "fixed_build": "17.0.1135.8",
+          "subtype": "Security Update",
+          "product_idxs": [
+            577
+          ]
+        },
+        {
+          "kb": "5122771",
+          "url": "https://support.microsoft.com/help/5122771",
+          "fixed_build": "16.0.1200.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            415
+          ]
+        },
+        {
+          "kb": "5122772",
+          "url": "https://support.microsoft.com/help/5122772",
+          "fixed_build": "15.0.4490.9",
+          "subtype": "Security Update",
+          "product_idxs": [
+            416
+          ]
+        },
+        {
+          "kb": "5122773",
+          "url": "https://support.microsoft.com/help/5122773",
+          "fixed_build": "15.0.2190.7",
+          "subtype": "Security Update",
+          "product_idxs": [
+            411
+          ]
+        }
+      ],
+      "kb_count": 6
+    },
+    {
+      "cve_id": "CVE-2026-67636",
+      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": 9.0,
+      "product_idx": 411,
+      "product_idxs": [
+        411,
+        415,
+        577,
+        416,
+        1515
+      ],
+      "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5122768",
+          "url": "https://support.microsoft.com/help/5122768",
+          "fixed_build": "16.0.4275.2",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1515
+          ]
+        },
+        {
+          "kb": "5122769",
+          "url": "https://support.microsoft.com/help/5122769",
+          "fixed_build": "17.0.4085.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            1514
+          ]
+        },
+        {
+          "kb": "5122770",
+          "url": "https://support.microsoft.com/help/5122770",
+          "fixed_build": "17.0.1135.8",
+          "subtype": "Security Update",
+          "product_idxs": [
+            577
+          ]
+        },
+        {
+          "kb": "5122771",
+          "url": "https://support.microsoft.com/help/5122771",
+          "fixed_build": "16.0.1200.5",
+          "subtype": "Security Update",
+          "product_idxs": [
+            415
+          ]
+        },
+        {
+          "kb": "5122772",
+          "url": "https://support.microsoft.com/help/5122772",
+          "fixed_build": "15.0.4490.9",
+          "subtype": "Security Update",
+          "product_idxs": [
+            416
+          ]
+        },
+        {
+          "kb": "5122773",
+          "url": "https://support.microsoft.com/help/5122773",
+          "fixed_build": "15.0.2190.7",
+          "subtype": "Security Update",
+          "product_idxs": [
+            411
+          ]
+        }
+      ],
+      "kb_count": 6
+    },
+    {
       "cve_id": "CVE-2026-69854",
       "title": "Spring Cloud Azure Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -15138,151 +15429,6 @@
         }
       ],
       "kb_count": 1
-    },
-    {
-      "cve_id": "CVE-2026-67631",
-      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 8.8,
-      "product_idx": 1514,
-      "product_idxs": [
-        1514,
-        1515,
-        410,
-        411,
-        414
-      ],
-      "date": "2026-09-08",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5122768",
-          "url": "https://support.microsoft.com/help/5122768",
-          "fixed_build": "16.0.4275.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1515
-          ]
-        },
-        {
-          "kb": "5122769",
-          "url": "https://support.microsoft.com/help/5122769",
-          "fixed_build": "17.0.4085.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1514
-          ]
-        },
-        {
-          "kb": "5122770",
-          "url": "https://support.microsoft.com/help/5122770",
-          "fixed_build": "17.0.1135.8",
-          "subtype": "Security Update",
-          "product_idxs": [
-            577
-          ]
-        },
-        {
-          "kb": "5122771",
-          "url": "https://support.microsoft.com/help/5122771",
-          "fixed_build": "16.0.1200.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            415
-          ]
-        },
-        {
-          "kb": "5122772",
-          "url": "https://support.microsoft.com/help/5122772",
-          "fixed_build": "15.0.4490.9",
-          "subtype": "Security Update",
-          "product_idxs": [
-            416
-          ]
-        },
-        {
-          "kb": "5122773",
-          "url": "https://support.microsoft.com/help/5122773",
-          "fixed_build": "15.0.2190.7",
-          "subtype": "Security Update",
-          "product_idxs": [
-            411
-          ]
-        },
-        {
-          "kb": "5122774",
-          "url": "https://support.microsoft.com/help/5122774",
-          "fixed_build": "14.0.3550.4",
-          "subtype": "Security Update",
-          "product_idxs": [
-            414
-          ]
-        },
-        {
-          "kb": "5122775",
-          "url": "https://support.microsoft.com/help/5122775",
-          "fixed_build": "14.0.2130.4",
-          "subtype": "Security Update",
-          "product_idxs": [
-            410
-          ]
-        }
-      ],
-      "kb_count": 8
-    },
-    {
-      "cve_id": "CVE-2026-67643",
-      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 8.8,
-      "product_idx": 415,
-      "product_idxs": [
-        415,
-        577,
-        1515,
-        1514
-      ],
-      "date": "2026-09-08",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5122768",
-          "url": "https://support.microsoft.com/help/5122768",
-          "fixed_build": "16.0.4275.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1515
-          ]
-        },
-        {
-          "kb": "5122769",
-          "url": "https://support.microsoft.com/help/5122769",
-          "fixed_build": "17.0.4085.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1514
-          ]
-        },
-        {
-          "kb": "5122770",
-          "url": "https://support.microsoft.com/help/5122770",
-          "fixed_build": "17.0.1135.8",
-          "subtype": "Security Update",
-          "product_idxs": [
-            577
-          ]
-        },
-        {
-          "kb": "5122771",
-          "url": "https://support.microsoft.com/help/5122771",
-          "fixed_build": "16.0.1200.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            415
-          ]
-        }
-      ],
-      "kb_count": 4
     },
     {
       "cve_id": "CVE-2026-69285",
@@ -18526,152 +18672,6 @@
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
-    },
-    {
-      "cve_id": "CVE-2026-67378",
-      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 8.5,
-      "product_idx": 411,
-      "product_idxs": [
-        411,
-        415,
-        577,
-        416,
-        1514
-      ],
-      "date": "2026-09-08",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5122768",
-          "url": "https://support.microsoft.com/help/5122768",
-          "fixed_build": "16.0.4275.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1515
-          ]
-        },
-        {
-          "kb": "5122769",
-          "url": "https://support.microsoft.com/help/5122769",
-          "fixed_build": "17.0.4085.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1514
-          ]
-        },
-        {
-          "kb": "5122770",
-          "url": "https://support.microsoft.com/help/5122770",
-          "fixed_build": "17.0.1135.8",
-          "subtype": "Security Update",
-          "product_idxs": [
-            577
-          ]
-        },
-        {
-          "kb": "5122771",
-          "url": "https://support.microsoft.com/help/5122771",
-          "fixed_build": "16.0.1200.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            415
-          ]
-        },
-        {
-          "kb": "5122772",
-          "url": "https://support.microsoft.com/help/5122772",
-          "fixed_build": "15.0.4490.9",
-          "subtype": "Security Update",
-          "product_idxs": [
-            416
-          ]
-        },
-        {
-          "kb": "5122773",
-          "url": "https://support.microsoft.com/help/5122773",
-          "fixed_build": "15.0.2190.7",
-          "subtype": "Security Update",
-          "product_idxs": [
-            411
-          ]
-        }
-      ],
-      "kb_count": 6
-    },
-    {
-      "cve_id": "CVE-2026-67636",
-      "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
-      "severity": "Critical",
-      "cvss": 8.5,
-      "product_idx": 411,
-      "product_idxs": [
-        411,
-        415,
-        577,
-        416,
-        1515
-      ],
-      "date": "2026-09-08",
-      "exploited": false,
-      "kb_articles": [
-        {
-          "kb": "5122768",
-          "url": "https://support.microsoft.com/help/5122768",
-          "fixed_build": "16.0.4275.2",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1515
-          ]
-        },
-        {
-          "kb": "5122769",
-          "url": "https://support.microsoft.com/help/5122769",
-          "fixed_build": "17.0.4085.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            1514
-          ]
-        },
-        {
-          "kb": "5122770",
-          "url": "https://support.microsoft.com/help/5122770",
-          "fixed_build": "17.0.1135.8",
-          "subtype": "Security Update",
-          "product_idxs": [
-            577
-          ]
-        },
-        {
-          "kb": "5122771",
-          "url": "https://support.microsoft.com/help/5122771",
-          "fixed_build": "16.0.1200.5",
-          "subtype": "Security Update",
-          "product_idxs": [
-            415
-          ]
-        },
-        {
-          "kb": "5122772",
-          "url": "https://support.microsoft.com/help/5122772",
-          "fixed_build": "15.0.4490.9",
-          "subtype": "Security Update",
-          "product_idxs": [
-            416
-          ]
-        },
-        {
-          "kb": "5122773",
-          "url": "https://support.microsoft.com/help/5122773",
-          "fixed_build": "15.0.2190.7",
-          "subtype": "Security Update",
-          "product_idxs": [
-            411
-          ]
-        }
-      ],
-      "kb_count": 6
     },
     {
       "cve_id": "CVE-2026-69419",
