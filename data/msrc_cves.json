@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 10398,
-    "critical": 707,
-    "important": 3945,
-    "moderate": 2732,
-    "low": 338,
+    "total": 10440,
+    "critical": 710,
+    "important": 3974,
+    "moderate": 2741,
+    "low": 339,
     "exploited": 24,
     "patched": 2767,
-    "updated_at": "2026-09-18 20:26 UTC",
+    "updated_at": "2026-09-18 23:01 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -11985,6 +11985,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-91749",
+      "title": "Chromium CVE-2026-91749: Use after free",
+      "severity": "Critical",
+      "cvss": 9.6,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-64656",
       "title": "Azure Application Gateway Elevation of Privilege Vulnerability",
       "severity": "Critical",
@@ -18875,6 +18889,20 @@
         }
       ],
       "kb_count": 12
+    },
+    {
+      "cve_id": "CVE-2026-91721",
+      "title": "Chromium CVE-2026-91721: Use after free",
+      "severity": "Critical",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-59271",
@@ -31300,6 +31328,20 @@
       "kb_count": 2
     },
     {
+      "cve_id": "CVE-2026-91726",
+      "title": "Chromium CVE-2026-91726: Out of bounds read",
+      "severity": "Critical",
+      "cvss": 4.7,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-72980",
       "title": "Windows Hello Security Feature Bypass Vulnerability",
       "severity": "Critical",
@@ -34815,6 +34857,76 @@
         419
       ],
       "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91710",
+      "title": "Chromium CVE-2026-91710: Use after free",
+      "severity": "Important",
+      "cvss": 9.6,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91716",
+      "title": "Chromium CVE-2026-91716: Use after free",
+      "severity": "Important",
+      "cvss": 9.6,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91718",
+      "title": "Chromium CVE-2026-91718: Use after free",
+      "severity": "Important",
+      "cvss": 9.6,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91728",
+      "title": "Chromium CVE-2026-91728: Integer overflow",
+      "severity": "Important",
+      "cvss": 9.6,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91729",
+      "title": "Chromium CVE-2026-91729: Use after free",
+      "severity": "Important",
+      "cvss": 9.6,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -52589,6 +52701,118 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-91709",
+      "title": "Chromium CVE-2026-91709: Type confusion",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91711",
+      "title": "Chromium CVE-2026-91711: Out of bounds write",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91715",
+      "title": "Chromium CVE-2026-91715: Type confusion",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91731",
+      "title": "Chromium CVE-2026-91731: Type confusion",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91736",
+      "title": "Chromium CVE-2026-91736: Use after free",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91737",
+      "title": "Chromium CVE-2026-91737: Use after free",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91741",
+      "title": "Chromium CVE-2026-91741: Type confusion",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91745",
+      "title": "Chromium CVE-2026-91745: Use after free",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-9698",
       "title": "DBI versions before 1.648 for Perl saved errors in a limited-sized buffer",
       "severity": "Important",
@@ -55164,6 +55388,90 @@
         351
       ],
       "date": "2026-08-24",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91712",
+      "title": "Chromium CVE-2026-91712: Race condition",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91724",
+      "title": "Chromium CVE-2026-91724: Use after free",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91733",
+      "title": "Chromium CVE-2026-91733: Improper state validation",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91735",
+      "title": "Chromium CVE-2026-91735: Incorrect authorization",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91743",
+      "title": "Chromium CVE-2026-91743: Race condition",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91748",
+      "title": "Chromium CVE-2026-91748: Race condition",
+      "severity": "Important",
+      "cvss": 8.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -60698,6 +61006,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-88097",
+      "title": "Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-18",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-89861",
       "title": "scsi: qla2xxx: Hold vport reference in qla24xx_report_id_acquisition()",
       "severity": "Important",
@@ -60733,6 +61055,20 @@
       "product_idx": 351,
       "product_idxs": [
         351
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91727",
+      "title": "Chromium CVE-2026-91727: Incorrect reference resolution",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 193,
+      "product_idxs": [
+        193
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -177776,6 +178112,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-91734",
+      "title": "Chromium CVE-2026-91734: Incorrect authorization",
+      "severity": "Important",
+      "cvss": 7.4,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-9697",
       "title": "undici vulnerable to TLS certificate validation bypass via dropped requestTls in SOCKS5 ProxyAgent",
       "severity": "Important",
@@ -286761,6 +287111,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-91744",
+      "title": "Chromium CVE-2026-91744: Race condition",
+      "severity": "Important",
+      "cvss": 5.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-55679",
       "title": "Windows Kernel Information Disclosure Vulnerability",
       "severity": "Important",
@@ -286909,6 +287273,20 @@
         }
       ],
       "kb_count": 4
+    },
+    {
+      "cve_id": "CVE-2026-91717",
+      "title": "Chromium CVE-2026-91717: Missing authorization",
+      "severity": "Important",
+      "cvss": 5.1,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-59198",
@@ -289359,6 +289737,20 @@
         }
       ],
       "kb_count": 10
+    },
+    {
+      "cve_id": "CVE-2026-91720",
+      "title": "Chromium CVE-2026-91720: Uninitialized resource",
+      "severity": "Important",
+      "cvss": 4.7,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-20828",
@@ -293360,6 +293752,34 @@
       "kb_count": 10
     },
     {
+      "cve_id": "CVE-2026-91740",
+      "title": "Chromium CVE-2026-91740: Uninitialized resource",
+      "severity": "Important",
+      "cvss": 4.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91746",
+      "title": "Chromium CVE-2026-91746: Integer overflow",
+      "severity": "Important",
+      "cvss": 4.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-50302",
       "title": "Windows Cryptographic Services Security Feature Bypass Vulnerability",
       "severity": "Important",
@@ -294347,6 +294767,34 @@
         }
       ],
       "kb_count": 14
+    },
+    {
+      "cve_id": "CVE-2026-91708",
+      "title": "Chromium CVE-2026-91708: Race condition",
+      "severity": "Important",
+      "cvss": 3.1,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91747",
+      "title": "Chromium CVE-2026-91747: Use after free",
+      "severity": "Important",
+      "cvss": 3.1,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2025-59294",
@@ -296276,6 +296724,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-91738",
+      "title": "Chromium CVE-2026-91738: Improper input validation",
+      "severity": "Moderate",
+      "cvss": 9.6,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-58023",
       "title": "Apache Thrift: c_glib heap out-of-bounds read in transport leftover-bytes path",
       "severity": "Moderate",
@@ -296313,6 +296775,20 @@
         1211
       ],
       "date": "2026-08-13",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91722",
+      "title": "Chromium CVE-2026-91722: Use after free",
+      "severity": "Moderate",
+      "cvss": 8.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -329002,6 +329478,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-91714",
+      "title": "Chromium CVE-2026-91714: Observable discrepancy",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91725",
+      "title": "Chromium CVE-2026-91725: Observable discrepancy",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-64478",
       "title": "ALSA: usb-audio: avoid kobject path lookup in DualSense match",
       "severity": "Moderate",
@@ -330300,6 +330804,20 @@
         351
       ],
       "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91742",
+      "title": "Chromium CVE-2026-91742: Confused deputy",
+      "severity": "Moderate",
+      "cvss": 4.8,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -333878,6 +334396,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-91713",
+      "title": "Chromium CVE-2026-91713: Missing authorization",
+      "severity": "Moderate",
+      "cvss": 4.2,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91723",
+      "title": "Chromium CVE-2026-91723: Race condition",
+      "severity": "Moderate",
+      "cvss": 4.2,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91739",
+      "title": "Chromium CVE-2026-91739: Missing authorization",
+      "severity": "Moderate",
+      "cvss": 4.2,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-40110",
       "title": "drm/vmwgfx: Fix a null-ptr access in the cursor snooper",
       "severity": "Moderate",
@@ -335173,6 +335733,20 @@
         782
       ],
       "date": "2026-04-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91730",
+      "title": "Chromium CVE-2026-91730: Incomplete cleanup",
+      "severity": "Moderate",
+      "cvss": 3.1,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -337390,6 +337964,20 @@
         1258
       ],
       "date": "2026-07-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-91719",
+      "title": "Chromium CVE-2026-91719: Code injection",
+      "severity": "Low",
+      "cvss": 4.3,
+      "product_idx": 193,
+      "product_idxs": [
+        193
+      ],
+      "date": "2026-09-17",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
