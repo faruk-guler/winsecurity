@@ -7,7 +7,7 @@
     "low": 359,
     "exploited": 24,
     "patched": 2767,
-    "updated_at": "2026-09-25 11:13 UTC",
+    "updated_at": "2026-09-25 16:37 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1461,6 +1461,38 @@
     "Windows Terminal App",
     "Azure Key Vault",
     "Azure Portal",
+    "Copilot Web",
+    "Azure Monitor Agent Linux Extension",
+    "Application Insights Profiler",
+    "Azure Service Bus",
+    "Python extension for Visual Studio Code",
+    "Azure SQL Database",
+    "Azure Storage Explorer",
+    "Microsoft Edge for MAC",
+    "Microsoft Edge for iOS",
+    "Microsoft Edge for Linux",
+    "SkiaSharp 4.151.2",
+    "Copilot Cowork",
+    "Azure SRE Agent",
+    "Azure SQL Managed Instance",
+    "Microsoft Visual Studio 2026 version 18.8",
+    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for x64-based Systems",
+    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016",
+    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016 (Server Core installation)",
+    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for 32-bit Systems",
+    "Microsoft 365 Admin Center",
+    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2019",
+    "Microsoft Edge for Windows",
+    "Microsoft Fabric",
+    "Microsoft Entra Connect",
+    "OneDrive for MacOS",
+    "Microsoft Teams for iOS",
+    "Azure CycleCloud 8.9.2",
+    "App Installer",
+    "Azure Confidential Ledger",
+    "Azure Data Manager for Energy",
+    "Azure Virtual Machines",
+    "Microsoft Copilot in Azure",
     "azl3 ceph 18.2.2-12 on Azure Linux 3.0",
     "azl3 ceph 18.2.2-13 on Azure Linux 3.0",
     "azl3 apr-util 1.6.3-2 on Azure Linux 3.0",
@@ -1557,38 +1589,48 @@
     "azl3 rust 1.96.1-2 on Azure Linux 3.0",
     "azl3 libsolv 0.7.28-5 on Azure Linux 3.0",
     "azl3 sudo 1.9.17-2 on Azure Linux 3.0",
-    "Copilot Web",
-    "Azure Monitor Agent Linux Extension",
-    "Application Insights Profiler",
-    "Azure Service Bus",
-    "Python extension for Visual Studio Code",
-    "Azure SQL Database",
-    "Azure Storage Explorer",
-    "Microsoft Edge for MAC",
-    "Microsoft Edge for iOS",
-    "Microsoft Edge for Linux",
-    "SkiaSharp 4.151.2",
-    "Copilot Cowork",
-    "Azure SRE Agent",
-    "Azure SQL Managed Instance",
-    "Microsoft Visual Studio 2026 version 18.8",
-    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for x64-based Systems",
-    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016",
-    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2016 (Server Core installation)",
-    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows 10 Version 1607 for 32-bit Systems",
-    "Microsoft 365 Admin Center",
-    "Microsoft .NET Framework 3.5 AND 4.6.2/4.7/4.7.1/4.7.2 on Windows Server 2019",
-    "Microsoft Edge for Windows",
-    "Microsoft Fabric",
-    "Microsoft Entra Connect",
-    "OneDrive for MacOS",
-    "Microsoft Teams for iOS",
-    "Azure CycleCloud 8.9.2",
-    "App Installer",
-    "Azure Confidential Ledger",
-    "Azure Data Manager for Energy",
-    "Azure Virtual Machines",
-    "Microsoft Copilot in Azure",
+    "Microsoft Visual Studio 2026 version 18.9",
+    "Microsoft SQL Server 2025 for x64-based Systems (CU8)",
+    "Microsoft SQL Server 2022 for x64-based Systems (CU 26)",
+    "HEVC Video Extensions",
+    "HEVC Video Extensions for Licensed Applications",
+    "HEVC Video Extensions from Device Manufacturer on Windows 10 Version 1809 for 32-bit Systems",
+    "HEVC Video Extensions from Device Manufacturer on Windows 10 Version 1809 for x64-based Systems",
+    "HEVC Video Extensions from Device Manufacturer on Windows Server 2019",
+    ".NET 11.0 installed on Linux",
+    ".NET 11.0 installed on Mac OS",
+    "Azure Billing",
+    "Azure Arc SQL Server Extension",
+    "Microsoft Discovery Studio",
+    "Skype for Business Server 2015 CU13",
+    "Skype for Business Server Subscription Edition CU1",
+    "Skype for Business Server 2019 CU8",
+    "SQL Server Management Studio 22",
+    "Microsoft Power Platform",
+    "ASP.NET Core 11.0",
+    "Raw Image Extension on Windows 10 Version 21H2 for 32-bit Systems",
+    "Raw Image Extension on Windows 10 Version 21H2 for ARM64-based Systems",
+    "Raw Image Extension on Windows 10 Version 21H2 for x64-based Systems",
+    "Raw Image Extension on Windows 10 Version 22H2 for x64-based Systems",
+    "Raw Image Extension on Windows 10 Version 22H2 for ARM64-based Systems",
+    "Microsoft Publisher 2016 (32-bit edition)",
+    "Microsoft Publisher 2016 (64-bit edition)",
+    "Microsoft.Diagnostics.Runtime",
+    "Spring Cloud Azure",
+    "Azure Container Registry",
+    "WebP Image Extension",
+    "Power Automate agent for virtual desktops",
+    "Microsoft Dataverse",
+    "Microsoft Dynamics 365 Customer Engagement V9.1",
+    "Web Media Extensions on Windows 10 Version 21H2 for 32-bit Systems",
+    "Web Media Extensions on Windows 10 Version 21H2 for ARM64-based Systems",
+    "Web Media Extensions on Windows 10 Version 21H2 for x64-based Systems",
+    "Web Media Extensions on Windows 10 Version 22H2 for x64-based Systems",
+    "Web Media Extensions on Windows 10 Version 22H2 for ARM64-based Systems",
+    "HEIF Image Extension",
+    "Microsoft Azure Active Directory B2C",
+    "Microsoft Azure CLI",
+    "Microsoft Authentication Library (MSAL) for Node.js",
     "azl3 libpcap 1.10.6-1 on Azure Linux 3.0",
     "azl3 libreswan 4.15-2 on Azure Linux 3.0",
     "azl3 nginx 1.28.3-8 on Azure Linux 3.0",
@@ -1633,48 +1675,6 @@
     "azl3 kata-containers-cc 3.15.0.aks0-21 on Azure Linux 3.0",
     "azl3 expat 2.8.3-2 on Azure Linux 3.0",
     "azl3 libslirp 4.9.3-1 on Azure Linux 3.0",
-    "Microsoft Visual Studio 2026 version 18.9",
-    "Microsoft SQL Server 2025 for x64-based Systems (CU8)",
-    "Microsoft SQL Server 2022 for x64-based Systems (CU 26)",
-    "HEVC Video Extensions",
-    "HEVC Video Extensions for Licensed Applications",
-    "HEVC Video Extensions from Device Manufacturer on Windows 10 Version 1809 for 32-bit Systems",
-    "HEVC Video Extensions from Device Manufacturer on Windows 10 Version 1809 for x64-based Systems",
-    "HEVC Video Extensions from Device Manufacturer on Windows Server 2019",
-    ".NET 11.0 installed on Linux",
-    ".NET 11.0 installed on Mac OS",
-    "Azure Billing",
-    "Azure Arc SQL Server Extension",
-    "Microsoft Discovery Studio",
-    "Skype for Business Server 2015 CU13",
-    "Skype for Business Server Subscription Edition CU1",
-    "Skype for Business Server 2019 CU8",
-    "SQL Server Management Studio 22",
-    "Microsoft Power Platform",
-    "ASP.NET Core 11.0",
-    "Raw Image Extension on Windows 10 Version 21H2 for 32-bit Systems",
-    "Raw Image Extension on Windows 10 Version 21H2 for ARM64-based Systems",
-    "Raw Image Extension on Windows 10 Version 21H2 for x64-based Systems",
-    "Raw Image Extension on Windows 10 Version 22H2 for x64-based Systems",
-    "Raw Image Extension on Windows 10 Version 22H2 for ARM64-based Systems",
-    "Microsoft Publisher 2016 (32-bit edition)",
-    "Microsoft Publisher 2016 (64-bit edition)",
-    "Microsoft.Diagnostics.Runtime",
-    "Spring Cloud Azure",
-    "Azure Container Registry",
-    "WebP Image Extension",
-    "Power Automate agent for virtual desktops",
-    "Microsoft Dataverse",
-    "Microsoft Dynamics 365 Customer Engagement V9.1",
-    "Web Media Extensions on Windows 10 Version 21H2 for 32-bit Systems",
-    "Web Media Extensions on Windows 10 Version 21H2 for ARM64-based Systems",
-    "Web Media Extensions on Windows 10 Version 21H2 for x64-based Systems",
-    "Web Media Extensions on Windows 10 Version 22H2 for x64-based Systems",
-    "Web Media Extensions on Windows 10 Version 22H2 for ARM64-based Systems",
-    "HEIF Image Extension",
-    "Microsoft Azure Active Directory B2C",
-    "Microsoft Azure CLI",
-    "Microsoft Authentication Library (MSAL) for Node.js",
     "azl3 rubygem-elasticsearch 8.9.0-1 on Azure Linux 3.0",
     "azl3 colord 1.4.6-1 on Azure Linux 3.0",
     "azl3 rubygem-rubyzip 2.3.2-1 on Azure Linux 3.0"
@@ -4510,9 +4510,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1551,
+      "product_idx": 1455,
       "product_idxs": [
-        1551
+        1455
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -4608,9 +4608,9 @@
       "title": "Azure Billing Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1632,
+      "product_idx": 1588,
       "product_idxs": [
-        1632
+        1588
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -4720,9 +4720,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1551,
+      "product_idx": 1455,
       "product_idxs": [
-        1551
+        1455
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -4762,9 +4762,9 @@
       "title": "Microsoft Fabric Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1568,
+      "product_idx": 1472,
       "product_idxs": [
-        1568
+        1472
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -4776,9 +4776,9 @@
       "title": "Microsoft Container Registry Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1650,
+      "product_idx": 1606,
       "product_idxs": [
-        1650
+        1606
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -4818,9 +4818,9 @@
       "title": "Microsoft Azure Active Directory B2C Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 10.0,
-      "product_idx": 1661,
+      "product_idx": 1617,
       "product_idxs": [
-        1661
+        1617
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -5129,9 +5129,9 @@
       "title": "Azure Service Bus Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1549,
+      "product_idx": 1453,
       "product_idxs": [
-        1549
+        1453
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -5317,9 +5317,9 @@
       "title": "Azure SRE Agent Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1558,
+      "product_idx": 1462,
       "product_idxs": [
-        1558
+        1462
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -5331,9 +5331,9 @@
       "title": "Microsoft Fabric Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1568,
+      "product_idx": 1472,
       "product_idxs": [
-        1568
+        1472
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -5345,9 +5345,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1551,
+      "product_idx": 1455,
       "product_idxs": [
-        1551
+        1455
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -5359,9 +5359,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1551,
+      "product_idx": 1455,
       "product_idxs": [
-        1551
+        1455
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -7201,9 +7201,9 @@
       "title": "An issue in libtiff 85f2ac8e0b01cb7db2bbecf4a3b891bdbef67938 allows an attacker to execute arbitrary code via the process_command_opts() function in tools/tiffcrop.c",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1493,
+      "product_idx": 1525,
       "product_idxs": [
-        1493
+        1525
       ],
       "date": "2026-08-27",
       "exploited": false,
@@ -8219,9 +8219,9 @@
       "title": "Microsoft 365 Admin Center Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1565,
+      "product_idx": 1469,
       "product_idxs": [
-        1565
+        1469
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -8851,11 +8851,11 @@
       "title": "Skype for Business Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1637,
+      "product_idx": 1593,
       "product_idxs": [
-        1637,
-        1636,
-        1635
+        1593,
+        1592,
+        1591
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -8866,7 +8866,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -8875,7 +8875,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -8884,7 +8884,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -8895,10 +8895,10 @@
       "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1623,
+      "product_idx": 1579,
       "product_idxs": [
-        1623,
-        1624,
+        1579,
+        1580,
         411,
         412,
         415
@@ -8912,7 +8912,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -8921,7 +8921,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -8990,8 +8990,8 @@
       "product_idxs": [
         416,
         575,
-        1624,
-        1623
+        1580,
+        1579
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -9002,7 +9002,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -9011,7 +9011,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -11150,9 +11150,9 @@
       "title": "DBI versions before 1.653 for Perl load arbitrary modules via unvalidated dbm_type and dbm_mldbm attributes in DBD::DBM",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1597,
+      "product_idx": 1639,
       "product_idxs": [
-        1597
+        1639
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -11521,9 +11521,9 @@
       "title": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _ipmi_sel_oem_fujitsu_get_sel_entry_long_text in libfreeipmi/sel/ipmi-sel-string-fujitsu-irmc-common.c via malformed Fujitsu SEL long-text responses.",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1609,
+      "product_idx": 1651,
       "product_idxs": [
-        1609
+        1651
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -11535,9 +11535,9 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1609,
+      "product_idx": 1651,
       "product_idxs": [
-        1609
+        1651
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -11549,9 +11549,9 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1609,
+      "product_idx": 1651,
       "product_idxs": [
-        1609
+        1651
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -11563,9 +11563,9 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1609,
+      "product_idx": 1651,
       "product_idxs": [
-        1609
+        1651
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -11577,9 +11577,9 @@
       "title": "FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1609,
+      "product_idx": 1651,
       "product_idxs": [
-        1609
+        1651
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -12008,9 +12008,9 @@
       "title": "Kata Containers: Config Path Annotation Arbitrary File Loading",
       "severity": "Critical",
       "cvss": 9.6,
-      "product_idx": 1455,
+      "product_idx": 1487,
       "product_idxs": [
-        1455,
+        1487,
         1369
       ],
       "date": "2026-08-10",
@@ -12105,9 +12105,9 @@
       "title": "Microsoft SQL Server Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.6,
-      "product_idx": 1638,
+      "product_idx": 1594,
       "product_idxs": [
-        1638
+        1594
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -12513,9 +12513,9 @@
       "title": "Copilot Cowork Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.3,
-      "product_idx": 1557,
+      "product_idx": 1461,
       "product_idxs": [
-        1557
+        1461
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -12730,9 +12730,9 @@
       "title": "rsync < 3.5.0 Daemon IP Spoofing via PROXY Protocol Header",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -12816,9 +12816,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1551,
+      "product_idx": 1455,
       "product_idxs": [
-        1551
+        1455
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -12844,9 +12844,9 @@
       "title": "Azure Confidential Ledger Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.1,
-      "product_idx": 1574,
+      "product_idx": 1478,
       "product_idxs": [
-        1574
+        1478
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -12939,7 +12939,7 @@
         416,
         575,
         417,
-        1623
+        1579
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -12950,7 +12950,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -12959,7 +12959,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -13012,7 +13012,7 @@
         416,
         575,
         417,
-        1624
+        1580
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -13023,7 +13023,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -13032,7 +13032,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -13079,9 +13079,9 @@
       "title": "Spring Cloud Azure Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.0,
-      "product_idx": 1649,
+      "product_idx": 1605,
       "product_idxs": [
-        1649
+        1605
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -13093,9 +13093,9 @@
       "title": "Microsoft Dataverse Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.0,
-      "product_idx": 1653,
+      "product_idx": 1609,
       "product_idxs": [
-        1653
+        1609
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -13135,9 +13135,9 @@
       "title": "Microsoft Copilot Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1546,
+      "product_idx": 1450,
       "product_idxs": [
-        1546
+        1450
       ],
       "date": "2026-08-18",
       "exploited": false,
@@ -13989,9 +13989,9 @@
       "title": "Application Insights Profiler Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1548,
+      "product_idx": 1452,
       "product_idxs": [
-        1548
+        1452
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -16542,13 +16542,13 @@
       "title": "Raw Image Extension Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1641,
+      "product_idx": 1597,
       "product_idxs": [
-        1641,
-        1642,
-        1643,
-        1644,
-        1645
+        1597,
+        1598,
+        1599,
+        1600,
+        1601
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -17259,9 +17259,9 @@
       "title": "Microsoft WebP Image Extension Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1651,
+      "product_idx": 1607,
       "product_idxs": [
-        1651
+        1607
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -18867,13 +18867,13 @@
       "title": "Web Media Extensions Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1655,
+      "product_idx": 1611,
       "product_idxs": [
-        1655,
-        1656,
-        1657,
-        1658,
-        1659
+        1611,
+        1612,
+        1613,
+        1614,
+        1615
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -19102,9 +19102,9 @@
       "title": "Azure SQL Managed Instance Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.7,
-      "product_idx": 1559,
+      "product_idx": 1463,
       "product_idxs": [
-        1559
+        1463
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -19326,9 +19326,9 @@
       "title": "Power Automate Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.5,
-      "product_idx": 1639,
+      "product_idx": 1595,
       "product_idxs": [
-        1639
+        1595
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -19340,9 +19340,9 @@
       "title": "Azure Data Manager for Energy Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.5,
-      "product_idx": 1575,
+      "product_idx": 1479,
       "product_idxs": [
-        1575
+        1479
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -19354,9 +19354,9 @@
       "title": "Azure Virtual Machines Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.5,
-      "product_idx": 1576,
+      "product_idx": 1480,
       "product_idxs": [
-        1576
+        1480
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -19382,9 +19382,9 @@
       "title": "Microsoft Fabric Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 8.5,
-      "product_idx": 1568,
+      "product_idx": 1472,
       "product_idxs": [
-        1568
+        1472
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -23893,9 +23893,9 @@
       "title": "rsync 2.3.3 < 3.5.0 Path Traversal via --partial-dir/--backup-dir Symlink",
       "severity": "Critical",
       "cvss": 8.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -27009,13 +27009,13 @@
       "title": "HEVC Video Extensions Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 1625,
+      "product_idx": 1581,
       "product_idxs": [
-        1625,
-        1626,
-        1627,
-        1628,
-        1629
+        1581,
+        1582,
+        1583,
+        1584,
+        1585
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -27334,9 +27334,9 @@
       "title": "Azure SQL Database Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 7.8,
-      "product_idx": 1551,
+      "product_idx": 1455,
       "product_idxs": [
-        1551
+        1455
       ],
       "date": "2026-08-06",
       "exploited": false,
@@ -28764,9 +28764,9 @@
       "title": "Microsoft Copilot in Azure Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 7.7,
-      "product_idx": 1577,
+      "product_idx": 1481,
       "product_idxs": [
-        1577
+        1481
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -30598,9 +30598,9 @@
       "title": "Microsoft Discovery Studio Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 7.4,
-      "product_idx": 1634,
+      "product_idx": 1590,
       "product_idxs": [
-        1634
+        1590
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -30612,9 +30612,9 @@
       "title": "rsync 3.1.0 < 3.5.0 Access Control Bypass via DNS Resolution Failure",
       "severity": "Critical",
       "cvss": 7.4,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -31877,9 +31877,9 @@
       "title": "Kata guest escape: runtime-rs guest-root to host-root escape via virtiofs",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1491,
+      "product_idx": 1523,
       "product_idxs": [
-        1491
+        1523
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -31948,13 +31948,13 @@
       "title": "Libevent: HTTP header handling bugs create risk of access control bypass.",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1504,
+      "product_idx": 1536,
       "product_idxs": [
-        1504,
-        1505,
+        1536,
+        1537,
         1315,
-        1506,
-        1507
+        1538,
+        1539
       ],
       "date": "2026-08-22",
       "exploited": false,
@@ -31980,12 +31980,12 @@
       "title": "RabbitMQ amqp091-go: Missing Explicit TLS Minimum Version Configuration In URI Parser",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1496,
+      "product_idx": 1528,
       "product_idxs": [
-        1496,
-        1594,
-        1495,
-        1595
+        1528,
+        1636,
+        1527,
+        1637
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -31997,9 +31997,9 @@
       "title": "TLS 1.3 client skips server authentication when ServerHello carries an unsolicited pre_shared_key extension",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588
+        1630
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -35177,9 +35177,9 @@
       "title": "An issue in libtiff 85f2ac8e0b01cb7db2bbecf4a3b891bdbef67938 allows an attacker to execute arbitrary code via the libtiff/tools/thumbnail.c: main() component",
       "severity": "Important",
       "cvss": 9.4,
-      "product_idx": 1493,
+      "product_idx": 1525,
       "product_idxs": [
-        1493
+        1525
       ],
       "date": "2026-08-29",
       "exploited": false,
@@ -35903,9 +35903,9 @@
       "title": "DBI versions before 1.652 for Perl allow a heap out-of-bounds write via an unvalidated numeric placeholder that sets the binder counter in preparse",
       "severity": "Important",
       "cvss": 9.1,
-      "product_idx": 1528,
+      "product_idx": 1560,
       "product_idxs": [
-        1528
+        1560
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -36006,9 +36006,9 @@
       "title": "fs_read_glyphs() heap buffer overflow via cumulative glyph data overflow in libXfont2",
       "severity": "Important",
       "cvss": 9.0,
-      "product_idx": 1582,
+      "product_idx": 1624,
       "product_idxs": [
-        1582
+        1624
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -36034,9 +36034,9 @@
       "title": "fs_read_glyphs() heap OOB read/write via encoding array index mismatch in libXfont2",
       "severity": "Important",
       "cvss": 9.0,
-      "product_idx": 1582,
+      "product_idx": 1624,
       "product_idxs": [
-        1582
+        1624
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -36048,10 +36048,10 @@
       "title": "Ceph: AES-CBC misuse in CephX and RADOSGW enables authentication bypass and credential forgery",
       "severity": "Important",
       "cvss": 8.9,
-      "product_idx": 1450,
+      "product_idx": 1482,
       "product_idxs": [
-        1450,
-        1451
+        1482,
+        1483
       ],
       "date": "2026-08-29",
       "exploited": false,
@@ -37607,9 +37607,9 @@
       "title": "PostgreSQL tsvector and tsquery undersize allocations, via integer wraparound",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -37621,9 +37621,9 @@
       "title": "PostgreSQL regexp heap buffer overflow executes arbitrary code",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -37635,9 +37635,9 @@
       "title": "PostgreSQL plperl tied object heap buffer overflow executes arbitrary code",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -37649,9 +37649,9 @@
       "title": "PostgreSQL refint plan cache type confusion executes arbitrary code",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -37663,9 +37663,9 @@
       "title": "PostgreSQL 32-bit pltcl and plperl undersize allocations, via integer wraparound",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -37677,10 +37677,10 @@
       "title": "PostgreSQL type confusion via \"internal\" arguments",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457,
-        1458
+        1489,
+        1490
       ],
       "date": "2026-09-15",
       "exploited": false,
@@ -37692,9 +37692,9 @@
       "title": "PostgreSQL expression deparse allows SQL injection via EXTRACT argument",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -37706,9 +37706,9 @@
       "title": "PostgreSQL fuzzystrmatch writes effectively-arbitrary addresses, via integer wraparound",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -37720,9 +37720,9 @@
       "title": "PostgreSQL type confusion in pg_restore_attribute_stats() executes arbitrary code",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-21",
       "exploited": false,
@@ -37734,9 +37734,9 @@
       "title": "PostgreSQL type confusion in cursor CLOSE + DECLARE executes arbitrary code",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -37748,9 +37748,9 @@
       "title": "PostgreSQL psql \\unrestrict lets superuser of pg_dump origin server execute arbitrary code in psql client",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -37762,9 +37762,9 @@
       "title": "PostgreSQL pg_dump heap buffer overflow executes arbitrary code",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -42249,9 +42249,9 @@
       "title": "Conda: Entry-point path traversal in noarch:python install (arbitrary file write) — canonical Python implementation",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1587,
+      "product_idx": 1629,
       "product_idxs": [
-        1587
+        1629
       ],
       "date": "2026-09-23",
       "exploited": false,
@@ -42904,9 +42904,9 @@
       "title": "Azure Storage Explorer Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1552,
+      "product_idx": 1456,
       "product_idxs": [
-        1552
+        1456
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -44376,10 +44376,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1561,
-            1562,
-            1563,
-            1564
+            1465,
+            1466,
+            1467,
+            1468
           ]
         },
         {
@@ -44586,9 +44586,9 @@
       "title": "Azure Arc SQL Server Extension Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1633,
+      "product_idx": 1589,
       "product_idxs": [
-        1633
+        1589
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -45341,7 +45341,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -45350,7 +45350,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45432,7 +45432,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -45441,7 +45441,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45523,7 +45523,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -45532,7 +45532,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45614,7 +45614,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -45623,7 +45623,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45705,7 +45705,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -45714,7 +45714,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45779,10 +45779,10 @@
       "title": "Microsoft SQL Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1624,
+      "product_idx": 1580,
       "product_idxs": [
-        1624,
-        1623,
+        1580,
+        1579,
         411,
         412,
         415
@@ -45796,7 +45796,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -45805,7 +45805,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45873,7 +45873,7 @@
       "product_idx": 575,
       "product_idxs": [
         575,
-        1623
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -45884,7 +45884,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45921,7 +45921,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -45930,7 +45930,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -45995,10 +45995,10 @@
       "title": "Microsoft SQL Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1624,
+      "product_idx": 1580,
       "product_idxs": [
-        1624,
-        1623,
+        1580,
+        1579,
         411,
         412,
         415
@@ -46012,7 +46012,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -46021,7 +46021,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46103,7 +46103,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -46112,7 +46112,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46194,7 +46194,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -46203,7 +46203,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46268,9 +46268,9 @@
       "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1623,
+      "product_idx": 1579,
       "product_idxs": [
-        1623,
+        1579,
         411,
         412,
         415,
@@ -46285,7 +46285,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -46294,7 +46294,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46362,7 +46362,7 @@
       "product_idx": 575,
       "product_idxs": [
         575,
-        1623
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -46373,7 +46373,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46410,7 +46410,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -46419,7 +46419,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46484,9 +46484,9 @@
       "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1623,
+      "product_idx": 1579,
       "product_idxs": [
-        1623,
+        1579,
         575
       ],
       "date": "2026-09-08",
@@ -46498,7 +46498,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46564,7 +46564,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -46573,7 +46573,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -46655,7 +46655,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -46664,7 +46664,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -47714,7 +47714,7 @@
         200,
         202,
         191,
-        1622
+        1578
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -48487,9 +48487,9 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4145.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1564,
-            1561,
-            1562
+            1468,
+            1465,
+            1466
           ]
         },
         {
@@ -48501,7 +48501,7 @@
             228,
             227,
             1047,
-            1566
+            1470
           ]
         },
         {
@@ -49580,8 +49580,8 @@
           "fixed_build": "16.0.5569.1000",
           "subtype": "Security Update",
           "product_idxs": [
-            1646,
-            1647
+            1602,
+            1603
           ]
         }
       ],
@@ -50017,9 +50017,9 @@
       "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1622,
+      "product_idx": 1578,
       "product_idxs": [
-        1622,
+        1578,
         634,
         200,
         202,
@@ -50560,10 +50560,10 @@
       "product_idx": 193,
       "product_idxs": [
         193,
-        1553,
-        1567,
+        1457,
+        1471,
         521,
-        1554
+        1458
       ],
       "date": "2026-08-28",
       "exploited": false,
@@ -50833,10 +50833,10 @@
       "title": "SQL Server Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1623,
+      "product_idx": 1579,
       "product_idxs": [
-        1623,
-        1624,
+        1579,
+        1580,
         411,
         412,
         415
@@ -50850,7 +50850,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -50859,7 +50859,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -50955,7 +50955,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -50964,7 +50964,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -51046,7 +51046,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -51055,7 +51055,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -51191,7 +51191,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -51200,7 +51200,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -51271,7 +51271,7 @@
         416,
         575,
         417,
-        1623
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -51282,7 +51282,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -51291,7 +51291,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -51409,7 +51409,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -51418,7 +51418,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -51522,9 +51522,9 @@
       "title": "Visual Studio Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1622,
+      "product_idx": 1578,
       "product_idxs": [
-        1622
+        1578
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -51536,9 +51536,9 @@
       "title": "Visual Studio Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1622,
+      "product_idx": 1578,
       "product_idxs": [
-        1622
+        1578
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -51550,9 +51550,9 @@
       "title": "Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1654,
+      "product_idx": 1610,
       "product_idxs": [
-        1654
+        1610
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -51563,7 +51563,7 @@
           "fixed_build": "9.1.0048.0004",
           "subtype": "Security Update",
           "product_idxs": [
-            1654
+            1610
           ]
         }
       ],
@@ -51628,9 +51628,9 @@
       "title": "SQL Server Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1624,
+      "product_idx": 1580,
       "product_idxs": [
-        1624,
+        1580,
         416
       ],
       "date": "2026-09-08",
@@ -51642,7 +51642,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -52347,8 +52347,8 @@
           "fixed_build": "16.0.5569.1002",
           "subtype": "Security Update",
           "product_idxs": [
-            1646,
-            1647
+            1602,
+            1603
           ]
         }
       ],
@@ -52820,42 +52820,45 @@
     },
     {
       "cve_id": "CVE-2026-87587",
-      "title": "Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "title": "Chromium CVE-2026-87587: Use after free in V8",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1351,
+      "product_idx": 193,
       "product_idxs": [
-        1351
+        193,
+        1352
       ],
-      "date": "2026-09-11",
+      "date": "2026-09-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-87612",
-      "title": "Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "title": "Chromium CVE-2026-87612: Type confusion in V8",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1351,
+      "product_idx": 193,
       "product_idxs": [
-        1351
+        193,
+        1352
       ],
-      "date": "2026-09-11",
+      "date": "2026-09-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-87625",
-      "title": "Use after free in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker leveraging social engineering to execute arbitrary code inside the sandbox via a crafted Chrome extension. (Chromium security severity: Medium)",
+      "title": "Chromium CVE-2026-87625: Use after free in V8",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1351,
+      "product_idx": 193,
       "product_idxs": [
-        1351
+        193,
+        1352
       ],
-      "date": "2026-09-11",
+      "date": "2026-09-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -52865,9 +52868,9 @@
       "title": "Bubblewrap: bubblewrap: symlink traversal via /oldroot allows writing files outside sandbox during setup",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1614,
+      "product_idx": 1656,
       "product_idxs": [
-        1614
+        1656
       ],
       "date": "2026-09-13",
       "exploited": false,
@@ -53268,9 +53271,9 @@
       "title": "OOBR and OOBW in libpcap before 1.10.7",
       "severity": "Important",
       "cvss": 8.7,
-      "product_idx": 1578,
+      "product_idx": 1620,
       "product_idxs": [
-        1578,
+        1620,
         1274
       ],
       "date": "2026-09-07",
@@ -53808,10 +53811,10 @@
       "title": "Microsoft SQL Server Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.5,
-      "product_idx": 1623,
+      "product_idx": 1579,
       "product_idxs": [
-        1623,
-        1624,
+        1579,
+        1580,
         412,
         416,
         575
@@ -53825,7 +53828,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -53834,7 +53837,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -53881,12 +53884,12 @@
       "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.5,
-      "product_idx": 1554,
+      "product_idx": 1458,
       "product_idxs": [
-        1554,
+        1458,
         521,
-        1553,
-        1555,
+        1457,
+        1459,
         193
       ],
       "date": "2026-08-28",
@@ -54938,12 +54941,12 @@
       "title": "Fix transparency log tile verification bypass in golang.org/x/mod/sumdb/tlog",
       "severity": "Important",
       "cvss": 8.4,
-      "product_idx": 1483,
+      "product_idx": 1515,
       "product_idxs": [
-        1483,
+        1515,
         1233,
         68,
-        1502
+        1534
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -54955,13 +54958,13 @@
       "title": "Libevent: Heap out-of-bounds write in bufferevent_socket_set_conn_address_ reachable via AF_UNIX accept",
       "severity": "Important",
       "cvss": 8.4,
-      "product_idx": 1504,
+      "product_idx": 1536,
       "product_idxs": [
-        1504,
+        1536,
         1315,
-        1505,
-        1506,
-        1507
+        1537,
+        1538,
+        1539
       ],
       "date": "2026-08-22",
       "exploited": false,
@@ -55732,11 +55735,11 @@
       "title": "Skype for Business Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 8.3,
-      "product_idx": 1637,
+      "product_idx": 1593,
       "product_idxs": [
-        1637,
-        1636,
-        1635
+        1593,
+        1592,
+        1591
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -55747,7 +55750,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -55756,7 +55759,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -55765,7 +55768,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -56439,9 +56442,9 @@
       "title": "rsync 3.0.1 < 3.5.0 Heap Out-of-Bounds Write via read_args()",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -56453,9 +56456,9 @@
       "title": "rsync 3.0.0 < 3.5.0 Out-of-Bounds Write via FLAG_HLINKED Handling",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -56467,9 +56470,9 @@
       "title": "rsync 3.2.5 < 3.5.0 Heap Out-of-Bounds Write via files-from Entry",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -56556,7 +56559,7 @@
       "product_idx": 1324,
       "product_idxs": [
         1324,
-        1536
+        1568
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -56568,9 +56571,9 @@
       "title": "PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purpose, does have a size check). This outcome requires an attacker-controlled regular expression, or a recursive pattern in conjunction with a small heap limit (this can be set through the API).",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1613,
+      "product_idx": 1655,
       "product_idxs": [
-        1613
+        1655
       ],
       "date": "2026-09-06",
       "exploited": false,
@@ -56664,9 +56667,9 @@
       "title": "PostgreSQL ctid type confusion in selectivity estimator discloses derivative of arbitrary read",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -57813,7 +57816,7 @@
         416,
         575,
         417,
-        1623
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -57824,7 +57827,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -57833,7 +57836,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -58634,9 +58637,9 @@
       "title": "rsync < 3.5.0 TOCTOU Race Condition Directory Escape via rrsync",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -58648,9 +58651,9 @@
       "title": "rsync < 3.5.0 Command Injection via Multiple Code Paths",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -58662,9 +58665,9 @@
       "title": "rsync < 3.5.0 Arbitrary File Write via --temp-dir/--link-dest",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -58676,9 +58679,9 @@
       "title": "Ceph RGW SigV4 handler accepts unsigned x-amz-* headers on presigned requests, allowing privilege escalation",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1450,
+      "product_idx": 1482,
       "product_idxs": [
-        1450
+        1482
       ],
       "date": "2026-09-02",
       "exploited": false,
@@ -58993,9 +58996,9 @@
       "title": "Rsyslog: mmpstrucdata stack buffer overflow with oversized RFC5424 structured data",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1479,
+      "product_idx": 1511,
       "product_idxs": [
-        1479
+        1511
       ],
       "date": "2026-09-20",
       "exploited": false,
@@ -59508,9 +59511,9 @@
       "title": "PostgreSQL psql COPY FROM STDIN early failure processes data lines as psql commands",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -61217,10 +61220,10 @@
       "title": "Kata-containers: insufficient validation of createcontainer mount and storage rules in genpolicy",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1455,
+      "product_idx": 1487,
       "product_idxs": [
-        1455,
-        1537
+        1487,
+        1569
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -61232,9 +61235,9 @@
       "title": "NGINX ngx_http_js_module vulnerablility",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1580,
+      "product_idx": 1622,
       "product_idxs": [
-        1580
+        1622
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -68394,9 +68397,9 @@
       "title": "rsync < 3.5.0 TLS Certificate Validation Bypass via SSL/OpenSSL Mode",
       "severity": "Important",
       "cvss": 8.0,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -68408,9 +68411,9 @@
       "title": "Microsoft Azure CLI Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.0,
-      "product_idx": 1662,
+      "product_idx": 1618,
       "product_idxs": [
-        1662
+        1618
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -80292,7 +80295,7 @@
       "product_idx": 1338,
       "product_idxs": [
         1338,
-        1454,
+        1486,
         1339
       ],
       "date": "2026-09-09",
@@ -115221,9 +115224,9 @@
       "title": "rsync < 3.5.0 Symlink Following Arbitrary File Overwrite",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -115821,9 +115824,9 @@
       "title": "Visual Studio Code Python Extension Security Feature Bypass Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1550,
+      "product_idx": 1454,
       "product_idxs": [
-        1550
+        1454
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -120329,13 +120332,13 @@
       "title": "HEVC Video Extensions Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1625,
+      "product_idx": 1581,
       "product_idxs": [
-        1625,
-        1626,
-        1627,
-        1628,
-        1629
+        1581,
+        1582,
+        1583,
+        1584,
+        1585
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -121231,9 +121234,9 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1556,
+      "product_idx": 1460,
       "product_idxs": [
-        1556
+        1460
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -129752,7 +129755,7 @@
       "product_idxs": [
         200,
         202,
-        1560,
+        1464,
         191
       ],
       "date": "2026-08-13",
@@ -130500,9 +130503,9 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4145.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1562,
-            1564,
-            1561
+            1466,
+            1468,
+            1465
           ]
         },
         {
@@ -130511,7 +130514,7 @@
           "fixed_build": "2.0.50727.9070 & 3.0.30729.9068 & 4.7.4145.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1566,
+            1470,
             227,
             1047,
             228
@@ -130925,7 +130928,7 @@
         635,
         128,
         129,
-        1560,
+        1464,
         633
       ],
       "date": "2026-08-11",
@@ -131977,9 +131980,9 @@
       "title": "Microsoft Entra Connect Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1569,
+      "product_idx": 1473,
       "product_idxs": [
-        1569
+        1473
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -132902,10 +132905,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1564,
-            1561,
-            1562,
-            1563
+            1468,
+            1465,
+            1466,
+            1467
           ]
         },
         {
@@ -133490,7 +133493,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -133499,7 +133502,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -146785,9 +146788,9 @@
       "title": ".NET Core Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1564,
+      "product_idx": 1468,
       "product_idxs": [
-        1564,
+        1468,
         215,
         216,
         1421,
@@ -146802,10 +146805,10 @@
           "fixed_build": "2.0.50727.8984 & 3.0.30729.8980 & 4.7.4144.0",
           "subtype": "Security Update",
           "product_idxs": [
-            1564,
-            1561,
-            1562,
-            1563
+            1468,
+            1465,
+            1466,
+            1467
           ]
         },
         {
@@ -148278,9 +148281,9 @@
       "title": "Kbd: local privilege escalation in openvt via incorrect process owner verification allowing passwordless root login",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1519,
+      "product_idx": 1551,
       "product_idxs": [
-        1519
+        1551
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -151801,9 +151804,9 @@
       "title": "Sos: sos: path traversal in sos clean tar extraction via unvalidated symlink/hardlink targets leads to arbitrary file write",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1541,
+      "product_idx": 1573,
       "product_idxs": [
-        1541
+        1573
       ],
       "date": "2026-08-29",
       "exploited": false,
@@ -152022,9 +152025,9 @@
       "title": "HEIF Image Extensions Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1660,
+      "product_idx": 1616,
       "product_idxs": [
-        1660
+        1616
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -152544,9 +152547,9 @@
       "title": "Sudo through 1.9.17p2 Intercept Policy Bypass via execveat",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1545,
+      "product_idx": 1577,
       "product_idxs": [
-        1545
+        1577
       ],
       "date": "2026-08-31",
       "exploited": false,
@@ -155542,10 +155545,10 @@
       "title": "Rpm: command injection in rpmuncompress via unescaped filenames passed to popen()",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1489,
+      "product_idx": 1521,
       "product_idxs": [
-        1489,
-        1490
+        1521,
+        1522
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -157445,9 +157448,9 @@
       "title": "Azure CycleCloud Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 7.7,
-      "product_idx": 1572,
+      "product_idx": 1476,
       "product_idxs": [
-        1572
+        1476
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -157672,9 +157675,9 @@
       "title": "Apache Portable Runtime Utility: apr_password_validate() vulnerable to timing attack",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1452,
+      "product_idx": 1484,
       "product_idxs": [
-        1452
+        1484
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -158619,7 +158622,7 @@
       "product_idx": 853,
       "product_idxs": [
         853,
-        1622,
+        1578,
         191,
         198,
         197
@@ -158939,11 +158942,11 @@
       "title": "RPK Server Signature Algorithm Selection Can Dereference a Missing Certificate",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1455,
+      "product_idx": 1487,
       "product_idxs": [
-        1455,
+        1487,
         1375,
-        1456,
+        1488,
         1143
       ],
       "date": "2026-09-07",
@@ -158956,9 +158959,9 @@
       "title": "FIPS mode assertion failure via malicious CERT payload",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1579,
+      "product_idx": 1621,
       "product_idxs": [
-        1579
+        1621
       ],
       "date": "2026-09-03",
       "exploited": false,
@@ -159059,9 +159062,9 @@
       "title": "NULL pointer dereference in SCRAM client-final-message parsing in PgBouncer",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1581,
+      "product_idx": 1623,
       "product_idxs": [
-        1581
+        1623
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -159157,9 +159160,9 @@
       "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1482,
+      "product_idx": 1514,
       "product_idxs": [
-        1482
+        1514
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -159171,9 +159174,9 @@
       "title": "ClamAV ZIP File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1482,
+      "product_idx": 1514,
       "product_idxs": [
-        1482
+        1514
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -159185,9 +159188,9 @@
       "title": "ClamAV PESpin File Format Processing Integer Overflow Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1482,
+      "product_idx": 1514,
       "product_idxs": [
-        1482
+        1514
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -159199,9 +159202,9 @@
       "title": "ClamAV GPT File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1482,
+      "product_idx": 1514,
       "product_idxs": [
-        1482
+        1514
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -159213,9 +159216,9 @@
       "title": "ClamAV PDF File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1482,
+      "product_idx": 1514,
       "product_idxs": [
-        1482
+        1514
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -159227,9 +159230,9 @@
       "title": "ClamAV Mach-O File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1482,
+      "product_idx": 1514,
       "product_idxs": [
-        1482
+        1514
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -159241,9 +159244,9 @@
       "title": "ClamAV XAR File Format Processing Memory Corruption Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1482,
+      "product_idx": 1514,
       "product_idxs": [
-        1482
+        1514
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -162795,9 +162798,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR redis client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1452,
+      "product_idx": 1484,
       "product_idxs": [
-        1452
+        1484
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -162809,9 +162812,9 @@
       "title": "Apache Portable Runtime Utility: Heap buffer overflow in APR memcached client",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1452,
+      "product_idx": 1484,
       "product_idxs": [
-        1452
+        1484
       ],
       "date": "2026-08-10",
       "exploited": false,
@@ -164980,9 +164983,9 @@
       "title": "In strongSwan before 6.0.7, identity parsing/cloning is mishandled. Parsed EAP-Identities that result in an empty but non-NULL encoding are not correctly cloned and trigger a double-free once the duplicates are destroyed.",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1492,
+      "product_idx": 1524,
       "product_idxs": [
-        1492
+        1524
       ],
       "date": "2026-08-24",
       "exploited": false,
@@ -170163,7 +170166,7 @@
       "product_idx": 1102,
       "product_idxs": [
         1102,
-        1483,
+        1515,
         1233,
         399,
         1306
@@ -170183,7 +170186,7 @@
         399,
         1306,
         1102,
-        1483,
+        1515,
         1233
       ],
       "date": "2026-08-20",
@@ -172008,7 +172011,7 @@
       "product_idxs": [
         634,
         191,
-        1560,
+        1464,
         202,
         200
       ],
@@ -172050,9 +172053,9 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1560,
+      "product_idx": 1464,
       "product_idxs": [
-        1560,
+        1464,
         633,
         635,
         200,
@@ -172101,12 +172104,12 @@
       "title": "Heap Buffer Overflow in CMS Key Unwrapping",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1456,
+      "product_idx": 1488,
       "product_idxs": [
-        1456,
+        1488,
         1236,
-        1455,
-        1503,
+        1487,
+        1535,
         1319
       ],
       "date": "2026-09-06",
@@ -172123,9 +172126,9 @@
       "product_idxs": [
         1143,
         1375,
-        1456,
-        1455,
-        1503
+        1488,
+        1487,
+        1535
       ],
       "date": "2026-08-27",
       "exploited": false,
@@ -172137,13 +172140,13 @@
       "title": "Invalid Pointer Dereference in CMP Server via Crafted protectionAlg",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1499,
+      "product_idx": 1531,
       "product_idxs": [
-        1499,
-        1456,
+        1531,
+        1488,
         1236,
-        1455,
-        1503
+        1487,
+        1535
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -172384,9 +172387,9 @@
       "title": "Expat Denial of Service via storeAtts() Quadratic Complexity",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1510,
+      "product_idx": 1542,
       "product_idxs": [
-        1510
+        1542
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -172398,11 +172401,11 @@
       "title": "Skype for Business Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1637,
+      "product_idx": 1593,
       "product_idxs": [
-        1637,
-        1636,
-        1635
+        1593,
+        1592,
+        1591
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -172413,7 +172416,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -172422,7 +172425,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -172431,7 +172434,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -172442,11 +172445,11 @@
       "title": "Skype for Business and Lync Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1635,
+      "product_idx": 1591,
       "product_idxs": [
-        1635,
-        1636,
-        1637
+        1591,
+        1592,
+        1593
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -172457,7 +172460,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -172466,7 +172469,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -172475,7 +172478,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -172530,9 +172533,9 @@
       "title": "Integer overflow causes an infinite loop in packet buffer growth in PgBouncer",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1581,
+      "product_idx": 1623,
       "product_idxs": [
-        1581
+        1623
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -172576,7 +172579,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -172585,7 +172588,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -172807,10 +172810,10 @@
       "title": "c-ares: CPU-exhaustion denial of service via unbounded DNS name compression pointer chains",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1592,
+      "product_idx": 1634,
       "product_idxs": [
-        1592,
-        1525
+        1634,
+        1557
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -174395,8 +174398,8 @@
       "product_idx": 191,
       "product_idxs": [
         191,
-        1622,
-        1648
+        1578,
+        1604
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -174659,9 +174662,9 @@
       "title": "rsync < 3.5.0 Algorithmic Complexity DoS via hash_search()",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -174673,9 +174676,9 @@
       "title": "rsync 3.4.2 < 3.5.0 DoS via --zt Zstandard Compression Thread Exhaustion",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -174687,9 +174690,9 @@
       "title": "rsync 2.0.0 < 3.5.0 Connection Slot Exhaustion DoS via Handshake Stall",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -175024,9 +175027,9 @@
       "title": "Iperf3: iperf3 server accepts unbounded peer-controlled json parameters enabling remote denial of service via resource exhaustion",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1516,
+      "product_idx": 1548,
       "product_idxs": [
-        1516
+        1548
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -176540,9 +176543,9 @@
       "title": "strongSwan 4.2.0 through 6.0.7 has a NULL pointer dereference in the x509 plugin's attribute certificate parser.",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -176554,9 +176557,9 @@
       "title": "strongSwan 5.1.3 through 6.0.7 has an infinite loop in the x509 plugin's attribute certificate parser for ietfAttrSyntax.",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -176654,9 +176657,9 @@
       "title": "Possible heap buffer overflow during DNSSEC canonicalization",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -176717,9 +176720,9 @@
       "product_idxs": [
         1143,
         1375,
-        1542,
+        1574,
         1144,
-        1543
+        1575
       ],
       "date": "2026-09-02",
       "exploited": false,
@@ -177045,9 +177048,9 @@
       "title": "libX11 XkbGetMap Reply Heap-based Buffer Overflow",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1616,
+      "product_idx": 1658,
       "product_idxs": [
-        1616
+        1658
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -177259,12 +177262,12 @@
       "title": "rustls-webpki before 0.103.13 Panic via empty BIT STRING",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1619,
+      "product_idx": 1661,
       "product_idxs": [
-        1619,
-        1542,
+        1661,
+        1574,
         609,
-        1543
+        1575
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -177318,9 +177321,9 @@
       "title": "Expat through 2.8.4 Malformed UTF-16 Acceptance via Unchecked Surrogate",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1620,
+      "product_idx": 1662,
       "product_idxs": [
-        1620
+        1662
       ],
       "date": "2026-09-21",
       "exploited": false,
@@ -178885,9 +178888,9 @@
       "title": "rsync < 3.5.0 Path Confinement Bypass via /./ Boundary Marker in Chroot Mode",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -179203,9 +179206,9 @@
       "title": "Apache Ant: Path traversal in ftp and scp tasks allows arbitrary file write",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1600,
+      "product_idx": 1642,
       "product_idxs": [
-        1600
+        1642
       ],
       "date": "2026-09-11",
       "exploited": false,
@@ -179290,9 +179293,9 @@
       "title": "Microsoft Authentication Library (MSAL) for Node.js Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1663,
+      "product_idx": 1619,
       "product_idxs": [
-        1663
+        1619
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -179304,13 +179307,13 @@
       "title": "zlib 1.3.1.2 through 1.3.2 Heap Buffer Overflow via gz_vacate",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1515,
+      "product_idx": 1547,
       "product_idxs": [
-        1515,
+        1547,
         879,
         1301,
-        1455,
-        1537
+        1487,
+        1569
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -179337,9 +179340,9 @@
       "title": "In PCRE2 before 10.48, pcre2_jit_match mishandles a previously copied subject being passed in as a context. An incorrect free operation can occur.",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1542,
+      "product_idx": 1574,
       "product_idxs": [
-        1542,
+        1574,
         1331,
         1340,
         1144
@@ -181949,9 +181952,9 @@
       "title": "Windows Package Manager Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1573,
+      "product_idx": 1477,
       "product_idxs": [
-        1573
+        1477
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -182083,9 +182086,9 @@
       "title": "Libkcapi: memory corruption via uncanceled aio requests on error in libkcapi's one-shot aio path",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1517,
+      "product_idx": 1549,
       "product_idxs": [
-        1517
+        1549
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -182141,9 +182144,9 @@
       "title": "Azure Monitor Agent Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.2,
-      "product_idx": 1547,
+      "product_idx": 1451,
       "product_idxs": [
-        1547
+        1451
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -183856,9 +183859,9 @@
       "title": "Packer vulnerable to arbitrary file write via crafted plugin archive during installation",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1477,
+      "product_idx": 1509,
       "product_idxs": [
-        1477
+        1509
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -183870,9 +183873,9 @@
       "title": "BlueZ A2DP Stack-based Buffer Overflow Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1533,
+      "product_idx": 1565,
       "product_idxs": [
-        1533
+        1565
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -185922,9 +185925,9 @@
       "title": "rsync < 3.5.0 Path Traversal via Symlink Module Root",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -185936,9 +185939,9 @@
       "title": "rsync < 3.5.0 Path Traversal Write Escape via --relative Mode",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -185950,9 +185953,9 @@
       "title": "rsync < 3.5.0 Arbitrary File Read via Symlink Following",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -186962,11 +186965,11 @@
       "title": "Skype for Business Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1635,
+      "product_idx": 1591,
       "product_idxs": [
-        1635,
-        1637,
-        1636
+        1591,
+        1593,
+        1592
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -186977,7 +186980,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -186986,7 +186989,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -186995,7 +186998,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -190617,9 +190620,9 @@
       "title": "go-git: Worktree operations may follow symlinks",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1477,
+      "product_idx": 1509,
       "product_idxs": [
-        1477
+        1509
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -190661,9 +190664,9 @@
       "title": "strongSwan 4.5.0 through 6.0.7 has Incorrect Access Control in the eap-ttls and eap-peap plugins because there can be a missing or mismatched inner EAP identity.",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -190675,9 +190678,9 @@
       "title": "An issue in wpa_supplicant all versions before v.2.12 allows a local attacker to bypass proper network context and AKMP matching for PMKSA caching via missing validation in the driver based PMKSA selection path in wpa.c",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1602,
+      "product_idx": 1644,
       "product_idxs": [
-        1602
+        1644
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -225528,13 +225531,13 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1622,
+      "product_idx": 1578,
       "product_idxs": [
-        1622,
+        1578,
         191,
         129,
         635,
-        1630
+        1586
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -227774,9 +227777,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack out-of-bounds write via unchecked di_height in gfs2_edit",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1593,
+      "product_idx": 1635,
       "product_idxs": [
-        1593
+        1635
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -227788,9 +227791,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack out-of-bounds write via unchecked height in savemeta",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1593,
+      "product_idx": 1635,
       "product_idxs": [
-        1593
+        1635
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -229403,7 +229406,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -229412,7 +229415,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -229609,7 +229612,7 @@
       "product_idx": 1167,
       "product_idxs": [
         1167,
-        1652
+        1608
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -229629,7 +229632,7 @@
           "fixed_build": "2.71.115.26224",
           "subtype": "Security Update",
           "product_idxs": [
-            1652
+            1608
           ]
         }
       ],
@@ -234752,9 +234755,9 @@
       "title": "Microsoft OneDrive for MacOS Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 6.7,
-      "product_idx": 1570,
+      "product_idx": 1474,
       "product_idxs": [
-        1570
+        1474
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -243412,8 +243415,8 @@
       "product_idx": 191,
       "product_idxs": [
         191,
-        1630,
-        1631,
+        1586,
+        1587,
         200,
         199
       ],
@@ -245737,7 +245740,7 @@
         200,
         202,
         191,
-        1560
+        1464
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -246000,11 +246003,11 @@
       "title": "Skype for Business Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1635,
+      "product_idx": 1591,
       "product_idxs": [
-        1635,
-        1636,
-        1637
+        1591,
+        1592,
+        1593
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246015,7 +246018,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -246024,7 +246027,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -246033,7 +246036,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -246073,9 +246076,9 @@
       "title": "Microsoft Teams iOS Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1571,
+      "product_idx": 1475,
       "product_idxs": [
-        1571
+        1475
       ],
       "date": "2026-08-16",
       "exploited": false,
@@ -246321,9 +246324,9 @@
       "title": "Azure CycleCloud Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1572,
+      "product_idx": 1476,
       "product_idxs": [
-        1572
+        1476
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -246413,11 +246416,11 @@
       "title": "Skype for Business and Lync Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1635,
+      "product_idx": 1591,
       "product_idxs": [
-        1635,
-        1637,
-        1636
+        1591,
+        1593,
+        1592
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246428,7 +246431,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -246437,7 +246440,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -246446,7 +246449,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -246457,11 +246460,11 @@
       "title": "Skype for Business Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1637,
+      "product_idx": 1593,
       "product_idxs": [
-        1637,
-        1636,
-        1635
+        1593,
+        1592,
+        1591
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246472,7 +246475,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -246481,7 +246484,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -246490,7 +246493,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -246501,11 +246504,11 @@
       "title": "Skype for Business and Lync Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1635,
+      "product_idx": 1591,
       "product_idxs": [
-        1635,
-        1636,
-        1637
+        1591,
+        1592,
+        1593
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246516,7 +246519,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -246525,7 +246528,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -246534,7 +246537,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -246573,13 +246576,13 @@
       "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1554,
+      "product_idx": 1458,
       "product_idxs": [
-        1554,
-        1553,
+        1458,
+        1457,
         521,
-        1555,
-        1567
+        1459,
+        1471
       ],
       "date": "2026-08-28",
       "exploited": false,
@@ -246609,8 +246612,8 @@
       "product_idxs": [
         416,
         575,
-        1623,
-        1624
+        1579,
+        1580
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246621,7 +246624,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -246630,7 +246633,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -246662,7 +246665,7 @@
       "product_idx": 575,
       "product_idxs": [
         575,
-        1623
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246673,7 +246676,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -246696,7 +246699,7 @@
       "product_idx": 575,
       "product_idxs": [
         575,
-        1623
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246707,7 +246710,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -246727,10 +246730,10 @@
       "title": "Microsoft SQL Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1624,
+      "product_idx": 1580,
       "product_idxs": [
-        1624,
-        1623,
+        1580,
+        1579,
         411,
         412,
         415
@@ -246744,7 +246747,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -246753,7 +246756,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -246822,8 +246825,8 @@
       "product_idxs": [
         416,
         575,
-        1624,
-        1623
+        1580,
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -246834,7 +246837,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -246843,7 +246846,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -246889,7 +246892,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -246898,7 +246901,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -246980,7 +246983,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -246989,7 +246992,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247060,7 +247063,7 @@
         416,
         575,
         417,
-        1624
+        1580
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -247071,7 +247074,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247080,7 +247083,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247144,7 +247147,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247153,7 +247156,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247235,7 +247238,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247244,7 +247247,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247326,7 +247329,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247335,7 +247338,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247404,8 +247407,8 @@
       "product_idxs": [
         416,
         575,
-        1623,
-        1624
+        1579,
+        1580
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -247416,7 +247419,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247425,7 +247428,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247471,7 +247474,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247480,7 +247483,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247562,7 +247565,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247571,7 +247574,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247653,7 +247656,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247662,7 +247665,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247744,7 +247747,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247753,7 +247756,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247835,7 +247838,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247844,7 +247847,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -247926,7 +247929,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -247935,7 +247938,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -248017,7 +248020,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -248026,7 +248029,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -248108,7 +248111,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -248117,7 +248120,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -248199,7 +248202,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -248208,7 +248211,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -249169,7 +249172,7 @@
       "product_idxs": [
         168
       ],
-      "date": "2026-09-08",
+      "date": "2026-09-24",
       "exploited": false,
       "kb_articles": [
         {
@@ -249189,11 +249192,11 @@
       "title": "Skype for Business Spoofing Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1635,
+      "product_idx": 1591,
       "product_idxs": [
-        1635,
-        1637,
-        1636
+        1591,
+        1593,
+        1592
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -249204,7 +249207,7 @@
           "fixed_build": "7.0.2046.879",
           "subtype": "Security Update",
           "product_idxs": [
-            1636
+            1592
           ]
         },
         {
@@ -249213,7 +249216,7 @@
           "fixed_build": "7.0.2046.569",
           "subtype": "Security Update",
           "product_idxs": [
-            1637
+            1593
           ]
         },
         {
@@ -249222,7 +249225,7 @@
           "fixed_build": "6.0.9319.885",
           "subtype": "Security Update",
           "product_idxs": [
-            1635
+            1591
           ]
         }
       ],
@@ -250124,7 +250127,7 @@
         416,
         575,
         417,
-        1623
+        1579
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -250135,7 +250138,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -250144,7 +250147,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -256425,9 +256428,9 @@
       "title": ".NET Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1560,
+      "product_idx": 1464,
       "product_idxs": [
-        1560,
+        1464,
         633,
         635,
         200,
@@ -256728,13 +256731,13 @@
       "title": "ASP.NET Core Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1640,
+      "product_idx": 1596,
       "product_idxs": [
-        1640,
+        1596,
         634,
         202,
         200,
-        1622
+        1578
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -284685,10 +284688,10 @@
       "title": "Microsoft SQL Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.5,
-      "product_idx": 1623,
+      "product_idx": 1579,
       "product_idxs": [
-        1623,
-        1624,
+        1579,
+        1580,
         411,
         412,
         415
@@ -284702,7 +284705,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -284711,7 +284714,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -286761,13 +286764,13 @@
       "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 5.4,
-      "product_idx": 1555,
+      "product_idx": 1459,
       "product_idxs": [
-        1555,
+        1459,
         521,
-        1554,
-        1553,
-        1567
+        1458,
+        1457,
+        1471
       ],
       "date": "2026-08-28",
       "exploited": false,
@@ -289071,7 +289074,7 @@
           "fixed_build": "16.0.4275.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1624
+            1580
           ]
         },
         {
@@ -289080,7 +289083,7 @@
           "fixed_build": "17.0.4085.5",
           "subtype": "Security Update",
           "product_idxs": [
-            1623
+            1579
           ]
         },
         {
@@ -294392,13 +294395,13 @@
       "title": "gRPC-Go: Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation",
       "severity": "Important",
       "cvss": 4.4,
-      "product_idx": 1466,
+      "product_idx": 1498,
       "product_idxs": [
-        1466,
-        1529,
+        1498,
+        1561,
         1028,
-        1606,
-        1477
+        1648,
+        1509
       ],
       "date": "2026-09-06",
       "exploited": false,
@@ -294728,13 +294731,13 @@
       "title": "Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 4.3,
-      "product_idx": 1554,
+      "product_idx": 1458,
       "product_idxs": [
-        1554,
-        1553,
-        1555,
+        1458,
+        1457,
+        1459,
         521,
-        1567
+        1471
       ],
       "date": "2026-08-28",
       "exploited": false,
@@ -296655,12 +296658,12 @@
       "title": "Tar extraction in moby/go-archive can write outside the destination directory via link following",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1465,
+      "product_idx": 1497,
       "product_idxs": [
-        1465,
-        1466,
-        1467,
-        1468
+        1497,
+        1498,
+        1499,
+        1500
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -297410,9 +297413,9 @@
       "title": "httpc memory exhaustion via unbounded response header accumulation",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588,
+        1630,
         1367
       ],
       "date": "2026-09-08",
@@ -297537,10 +297540,10 @@
       "product_idx": 1315,
       "product_idxs": [
         1315,
-        1506,
-        1504,
-        1505,
-        1507
+        1538,
+        1536,
+        1537,
+        1539
       ],
       "date": "2026-08-22",
       "exploited": false,
@@ -297570,9 +297573,9 @@
       "title": "Superlinear CPU denial of service in Erlang/OTP ASN.1 OBJECT IDENTIFIER decoder",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588
+        1630
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -297584,9 +297587,9 @@
       "title": "inets,httpd:HTTP Request Smuggling via obs-fold Header Continuation",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588,
+        1630,
         1367
       ],
       "date": "2026-09-08",
@@ -297602,7 +297605,7 @@
       "product_idx": 1367,
       "product_idxs": [
         1367,
-        1588
+        1630
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -297628,9 +297631,9 @@
       "title": "SSH daemon allocates unbounded idle session channels, bypassing max_channels",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588
+        1630
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -297656,9 +297659,9 @@
       "title": "httpd parks a request worker indefinitely on a malformed chunk size sent after the headers",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588,
+        1630,
         1367
       ],
       "date": "2026-09-03",
@@ -297671,9 +297674,9 @@
       "title": "httpd applies no timeout while receiving a request body, parking a worker on a stalled client",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588,
+        1630,
         1367
       ],
       "date": "2026-09-08",
@@ -297686,9 +297689,9 @@
       "title": "Vim: Heap Buffer Overflow when Loading a Spell File",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -297700,9 +297703,9 @@
       "title": "Vim: Arbitrary Ex Command Execution in C Omni-Completion",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -297714,9 +297717,9 @@
       "title": "Vim: Heap Buffer Overflow in Text Property Handling",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -297728,9 +297731,9 @@
       "title": "Vim: Arbitrary Command Execution via Malicious `.VimballRecord` Entry Replay in `vimball.vim`",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -297742,9 +297745,9 @@
       "title": "Vim: Arbitrary Code Execution via Shell Keyword Lookup",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -297756,9 +297759,9 @@
       "title": "Vim: Arbitrary Code Execution via Netrw Menu Construction",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -297773,7 +297776,7 @@
       "product_idx": 1367,
       "product_idxs": [
         1367,
-        1588
+        1630
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -297785,9 +297788,9 @@
       "title": "inets, httpd: HTTP Request Smuggling via Whitespace-Before-Colon Header Dropping i",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588,
+        1630,
         1367
       ],
       "date": "2026-09-08",
@@ -297800,12 +297803,12 @@
       "title": "etcd: `tlsListener.acceptLoop` spawns unbounded handshake goroutines with no deadline",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1529,
+      "product_idx": 1561,
       "product_idxs": [
-        1529,
-        1494,
-        1531,
-        1530,
+        1561,
+        1526,
+        1563,
+        1562,
         1406
       ],
       "date": "2026-08-23",
@@ -297821,7 +297824,7 @@
       "product_idx": 1367,
       "product_idxs": [
         1367,
-        1588
+        1630
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -297836,7 +297839,7 @@
       "product_idx": 1367,
       "product_idxs": [
         1367,
-        1588
+        1630
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -297851,7 +297854,7 @@
       "product_idx": 1367,
       "product_idxs": [
         1367,
-        1588
+        1630
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -297863,10 +297866,10 @@
       "title": "BuildKit: Malicious client can bypass destination directory validation on local sources upload",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1465,
+      "product_idx": 1497,
       "product_idxs": [
-        1465,
-        1468
+        1497,
+        1500
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -297878,12 +297881,12 @@
       "title": "RabbitMQ amqp091-go: Consumer Message Flooding via Signed-to-Unsigned Integer Casting in Qos Configuration",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1496,
+      "product_idx": 1528,
       "product_idxs": [
-        1496,
-        1595,
-        1594,
-        1495
+        1528,
+        1637,
+        1636,
+        1527
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -297895,9 +297898,9 @@
       "title": "Heap buffer overflow and possible Remote Code Execution when digesting DNSKEY",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-18",
       "exploited": false,
@@ -297909,9 +297912,9 @@
       "title": "CNAME synthesis could lead to heap corruption",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -298035,13 +298038,13 @@
       "title": "gRPC-Go: Denial of Service (DoS) via crash due to missing `:authority` and `Host` headers in the xDS servers",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1607,
+      "product_idx": 1649,
       "product_idxs": [
-        1607,
-        1603,
-        1601,
-        1485,
-        1608
+        1649,
+        1645,
+        1643,
+        1517,
+        1650
       ],
       "date": "2026-09-16",
       "exploited": false,
@@ -298097,9 +298100,9 @@
       "title": "GNU Emacs 28.1 through 31.1 allows arbitrary code execution upon opening a file, because an untrusted value of read-symbol-shorthands affects the intern and unintern functions. This affects the default configuration; no particular user settings are required to trigger it.",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1538,
+      "product_idx": 1570,
       "product_idxs": [
-        1538
+        1570
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -298336,9 +298339,9 @@
       "title": "NGINX ngx_http_js_module vulnerability",
       "severity": "Moderate",
       "cvss": 8.2,
-      "product_idx": 1580,
+      "product_idx": 1622,
       "product_idxs": [
-        1580
+        1622
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -298930,9 +298933,9 @@
       "title": "Rsyslog: a configuration-dependent issue in rsyslog's optional imptcp input module can allow an unauthenticated remote peer to crash rsyslogd",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1479,
+      "product_idx": 1511,
       "product_idxs": [
-        1479
+        1511
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -299058,11 +299061,11 @@
       "title": "Enforce maximum recursion depth in encoding/asn1",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1483,
+      "product_idx": 1515,
       "product_idxs": [
-        1483,
+        1515,
         1233,
-        1484
+        1516
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -299605,10 +299608,10 @@
       "product_idx": 1236,
       "product_idxs": [
         1236,
-        1455,
+        1487,
         1319,
-        1499,
-        1456
+        1531,
+        1488
       ],
       "date": "2026-08-27",
       "exploited": false,
@@ -299652,9 +299655,9 @@
       "title": "Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check in net/http",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1483,
+      "product_idx": 1515,
       "product_idxs": [
-        1483,
+        1515,
         1233,
         399,
         1306,
@@ -299673,10 +299676,10 @@
       "product_idx": 1028,
       "product_idxs": [
         1028,
-        1477,
-        1589,
-        1590,
-        1591
+        1509,
+        1631,
+        1632,
+        1633
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -299688,12 +299691,12 @@
       "title": "Ignore unrelated, unauthenticated hashes in Lookup in golang.org/x/mod/sumdb",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1483,
+      "product_idx": 1515,
       "product_idxs": [
-        1483,
+        1515,
         1233,
         1306,
-        1502,
+        1534,
         68
       ],
       "date": "2026-09-07",
@@ -299848,9 +299851,9 @@
       "title": "In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation of getentropy's return code leads to insufficient entropy, which results in being vulnerable to hash flooding attacks, causing a denial of service via crafted XML content.",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1510,
+      "product_idx": 1542,
       "product_idxs": [
-        1510
+        1542
       ],
       "date": "2026-08-21",
       "exploited": false,
@@ -299862,11 +299865,11 @@
       "title": "Rsyslog: rsyslog: denial of service via heap buffer overflow in rainerscript replace() function",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1539,
+      "product_idx": 1571,
       "product_idxs": [
-        1539,
-        1540,
-        1479
+        1571,
+        1572,
+        1511
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -299878,10 +299881,10 @@
       "title": "libcharon in strongSwan 6.0.0 through 6.0.7 has a use-after-free in IKEv2 rekeying collision handling.",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598,
-        1599
+        1640,
+        1641
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -299893,9 +299896,9 @@
       "title": "NGINX ngx_http_js_module vulnerability",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1580,
+      "product_idx": 1622,
       "product_idxs": [
-        1580
+        1622
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -299910,10 +299913,10 @@
       "product_idx": 1406,
       "product_idxs": [
         1406,
-        1530,
-        1465,
-        1601,
-        1591
+        1562,
+        1497,
+        1643,
+        1633
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -299955,9 +299958,9 @@
       "title": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer over-read in ipmi_oem_fujitsu_get_sel_entry_long_text in ipmi-oem/ipmi-oem-fujitsu.c when a BMC provides a short response, a different vulnerability than CVE-2026-50031 (which has different affected versions).",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1609,
+      "product_idx": 1651,
       "product_idxs": [
-        1609
+        1651
       ],
       "date": "2026-09-05",
       "exploited": false,
@@ -299980,14 +299983,15 @@
     },
     {
       "cve_id": "CVE-2026-87601",
-      "title": "Race condition in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+      "title": "Chromium CVE-2026-87601: Race condition in V8",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1351,
+      "product_idx": 193,
       "product_idxs": [
-        1351
+        193,
+        1352
       ],
-      "date": "2026-09-11",
+      "date": "2026-09-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -300070,13 +300074,13 @@
       "title": "Untrusted Sender DN Used as Format String in CMP Response Validation",
       "severity": "Moderate",
       "cvss": 7.4,
-      "product_idx": 1455,
+      "product_idx": 1487,
       "product_idxs": [
-        1455,
+        1487,
         1143,
-        1499,
-        1456,
-        1503
+        1531,
+        1488,
+        1535
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -300366,10 +300370,10 @@
       "title": "PostgreSQL logical decoding can dlopen arbitrary file",
       "severity": "Moderate",
       "cvss": 7.2,
-      "product_idx": 1458,
+      "product_idx": 1490,
       "product_idxs": [
-        1458,
-        1457
+        1490,
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -301995,10 +301999,10 @@
       "title": "In NTFS-3G through 2026.2.25, an out-of-bounds read exists in ntfs_ir_nill() in libntfs-3g/index.c that allows an attacker to read possibly confidential information in an ntfs-3g process by crafting a malicious NTFS image. This read operation is triggered by creation of a file with a crafted name.",
       "severity": "Moderate",
       "cvss": 7.1,
-      "product_idx": 1501,
+      "product_idx": 1533,
       "product_idxs": [
-        1501,
-        1500
+        1533,
+        1532
       ],
       "date": "2026-09-13",
       "exploited": false,
@@ -302457,7 +302461,7 @@
       "product_idx": 1043,
       "product_idxs": [
         1043,
-        1538
+        1570
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -305150,10 +305154,10 @@
       "product_idx": 1315,
       "product_idxs": [
         1315,
-        1504,
-        1505,
-        1506,
-        1507
+        1536,
+        1537,
+        1538,
+        1539
       ],
       "date": "2026-08-25",
       "exploited": false,
@@ -305179,10 +305183,10 @@
       "title": "Rpm: command execution via macro expansion in `rpmuncompress -x` for crafted `.gem` filenames",
       "severity": "Moderate",
       "cvss": 7.0,
-      "product_idx": 1489,
+      "product_idx": 1521,
       "product_idxs": [
-        1489,
-        1490
+        1521,
+        1522
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -305210,9 +305214,9 @@
       "title": "Libslirp: libslirp: heap buffer overflow in dhcpv6/tftp response builders on small interface mtu",
       "severity": "Moderate",
       "cvss": 7.0,
-      "product_idx": 1621,
+      "product_idx": 1663,
       "product_idxs": [
-        1621
+        1663
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -305365,7 +305369,7 @@
       "product_idx": 1318,
       "product_idxs": [
         1318,
-        1612
+        1654
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -305394,7 +305398,7 @@
       "product_idx": 1318,
       "product_idxs": [
         1318,
-        1612
+        1654
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -305438,9 +305442,9 @@
       "title": "gix-sec safe.directory protections absent for elevated administrators",
       "severity": "Moderate",
       "cvss": 6.8,
-      "product_idx": 1542,
+      "product_idx": 1574,
       "product_idxs": [
-        1542,
+        1574,
         1144
       ],
       "date": "2026-09-15",
@@ -305911,10 +305915,10 @@
       "title": "Libvirt: integer overflow in nodegetfreepages rpc handler leading to heap buffer overflow",
       "severity": "Moderate",
       "cvss": 6.6,
-      "product_idx": 1473,
+      "product_idx": 1505,
       "product_idxs": [
-        1473,
-        1474
+        1505,
+        1506
       ],
       "date": "2026-09-13",
       "exploited": false,
@@ -306642,9 +306646,9 @@
       "title": "PostgreSQL pgcrypto, for OpenSSL-disabled ciphers, silently encrypts to and decrypts from cleartext",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -306699,9 +306703,9 @@
       "title": "Open-iscsi: open-iscsi: denial of service in iscsiuio router advertisement parsing",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1469,
+      "product_idx": 1501,
       "product_idxs": [
-        1469
+        1501
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -306713,9 +306717,9 @@
       "title": "Open-iscsi: open-iscsi: integer underflow in iscsiuio dhcpv6 parsing",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1469,
+      "product_idx": 1501,
       "product_idxs": [
-        1469
+        1501
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -306727,9 +306731,9 @@
       "title": "Open-iscsi: open-iscsi: integer underflow in iscsiuio ipv4 dhcp parsing",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1469,
+      "product_idx": 1501,
       "product_idxs": [
-        1469
+        1501
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -306771,10 +306775,10 @@
       "title": "URI versions before 5.36 for Perl encode non-NFC host names to non-standard punycode labels via missing normalization in nameprep",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1480,
+      "product_idx": 1512,
       "product_idxs": [
-        1480,
-        1481
+        1512,
+        1513
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -307563,7 +307567,7 @@
       "product_idx": 1375,
       "product_idxs": [
         1375,
-        1497,
+        1529,
         1143
       ],
       "date": "2026-08-22",
@@ -307576,9 +307580,9 @@
       "title": "rsync < 3.5.0 Filter Rule Bypass via --filter Merge Directive",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -307590,9 +307594,9 @@
       "title": "rsync < 3.5.0 Newline Injection via name-converter uid/gid mapping",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -307604,9 +307608,9 @@
       "title": "rsync < 3.5.0 Arbitrary File Deletion via Malicious File List",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -307618,9 +307622,9 @@
       "title": "rsync < 3.5.0 Out-of-Bounds Read via Zero-Length Checksum Block",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -307721,10 +307725,10 @@
       "title": "In NTFS-3G through 2026.2.25, a heap-based buffer overflow exists in the function build_inherited_id() in libntfs-3g/security.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by creating a file in a crafted directory.",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1500,
+      "product_idx": 1532,
       "product_idxs": [
-        1500,
-        1501
+        1532,
+        1533
       ],
       "date": "2026-08-27",
       "exploited": false,
@@ -308196,9 +308200,9 @@
       "title": "Stunnel: stack-based out-of-bounds read/write in stunnel s_vlog via oversized log message",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1513,
+      "product_idx": 1545,
       "product_idxs": [
-        1513
+        1545
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -308210,9 +308214,9 @@
       "title": "rsync 3.2.3 < 3.5.0 Out-of-Bounds Write via parse_size_arg()",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -308224,9 +308228,9 @@
       "title": "rsync 3.1.0 < 3.5.0 Signed Integer Overflow via MSG_IO_TIMEOUT",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -308238,12 +308242,12 @@
       "title": "tar-rs 0.4.11 - 0.4.46 Symlink Escape via append_dir_all()",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1455,
+      "product_idx": 1487,
       "product_idxs": [
-        1455,
+        1487,
+        1546,
+        1547,
         1514,
-        1515,
-        1482,
         1369
       ],
       "date": "2026-08-14",
@@ -308256,9 +308260,9 @@
       "title": "Libkcapi: iv reuse in libkcapi one-shot symmetric cipher chunking causes cipher state reset across chunk boundaries",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1517,
+      "product_idx": 1549,
       "product_idxs": [
-        1517
+        1549
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -308274,8 +308278,8 @@
       "product_idxs": [
         1382,
         1368,
-        1521,
-        1522
+        1553,
+        1554
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -308291,7 +308295,7 @@
       "product_idxs": [
         1382,
         1368,
-        1522
+        1554
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -308361,9 +308365,9 @@
       "title": "Use-after-free in DoQ stream output buffer on reset re-transmission",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -308437,7 +308441,7 @@
       "product_idx": 591,
       "product_idxs": [
         591,
-        1610
+        1652
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -308449,9 +308453,9 @@
       "title": "PCRE2 before 10.48, on 32-bit platforms, has a pcre2_compile_32 integer overflow and resultant out-of-bounds write.",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1613,
+      "product_idx": 1655,
       "product_idxs": [
-        1613
+        1655
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -309484,9 +309488,9 @@
       "title": "rsync < 3.5.0 TOCTOU Race Condition via Destination Directory Handling",
       "severity": "Moderate",
       "cvss": 6.3,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -309498,9 +309502,9 @@
       "title": "rsync < 3.5.0 Symlink Race Condition via ACL/xattr Application",
       "severity": "Moderate",
       "cvss": 6.3,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -309643,9 +309647,9 @@
       "title": "go-git: Malicious reference names may modify files outside the reference storage",
       "severity": "Moderate",
       "cvss": 6.3,
-      "product_idx": 1477,
+      "product_idx": 1509,
       "product_idxs": [
-        1477
+        1509
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -309789,10 +309793,10 @@
       "title": "Bluez: bluez: out-of-bounds read in avrcp parse_media_element and parse_media_folder",
       "severity": "Moderate",
       "cvss": 6.3,
-      "product_idx": 1532,
+      "product_idx": 1564,
       "product_idxs": [
-        1532,
-        1533
+        1564,
+        1565
       ],
       "date": "2026-08-21",
       "exploited": false,
@@ -310340,9 +310344,9 @@
       "title": "libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.",
       "severity": "Moderate",
       "cvss": 6.2,
-      "product_idx": 1510,
+      "product_idx": 1542,
       "product_idxs": [
-        1510
+        1542
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -310354,9 +310358,9 @@
       "title": "Device-mapper-multipath: local denial of service via blocking ipc send operations",
       "severity": "Moderate",
       "cvss": 6.2,
-      "product_idx": 1618,
+      "product_idx": 1660,
       "product_idxs": [
-        1618
+        1660
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -310971,9 +310975,9 @@
       "title": "WebOb: Open redirect in Location header normalization via leading C0 control / space characters",
       "severity": "Moderate",
       "cvss": 6.1,
-      "product_idx": 1498,
+      "product_idx": 1530,
       "product_idxs": [
-        1498
+        1530
       ],
       "date": "2026-08-25",
       "exploited": false,
@@ -310988,8 +310992,8 @@
       "product_idx": 68,
       "product_idxs": [
         68,
-        1502,
-        1483,
+        1534,
+        1515,
         1233
       ],
       "date": "2026-08-20",
@@ -311177,10 +311181,10 @@
       "title": "Swtpm: swtpm: out-of-bounds read in swtpm_nvram_checkheader due to sizeof(pointer) vs sizeof(struct) mismatch",
       "severity": "Moderate",
       "cvss": 6.1,
-      "product_idx": 1534,
+      "product_idx": 1566,
       "product_idxs": [
-        1534,
-        1535
+        1566,
+        1567
       ],
       "date": "2026-08-21",
       "exploited": false,
@@ -312274,11 +312278,11 @@
       "title": "KEDA: PostgreSQL connection string parameter injection via incomplete whitespace escaping",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1494,
+      "product_idx": 1526,
       "product_idxs": [
-        1494,
-        1495,
-        1496
+        1526,
+        1527,
+        1528
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -312290,9 +312294,9 @@
       "title": "rsync < 3.5.0 Symlink Race Condition Directory Traversal",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -312377,7 +312381,7 @@
       "product_idx": 1102,
       "product_idxs": [
         1102,
-        1483,
+        1515,
         1233,
         399,
         1306
@@ -312451,13 +312455,13 @@
       "title": "CMP Indefinite Cache Growth of ExtraCerts",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1456,
+      "product_idx": 1488,
       "product_idxs": [
-        1456,
+        1488,
         1236,
-        1455,
-        1499,
-        1503
+        1487,
+        1531,
+        1535
       ],
       "date": "2026-08-27",
       "exploited": false,
@@ -312779,9 +312783,9 @@
       "title": "strongSwan 4.6.2 through 6.0.7 has an infinite loop in PKCS#5 decryption.",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -312937,9 +312941,9 @@
       "title": "Use-after-free in DoH stream cleanup code path",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -312969,7 +312973,7 @@
       "product_idx": 1403,
       "product_idxs": [
         1403,
-        1611
+        1653
       ],
       "date": "2026-09-23",
       "exploited": false,
@@ -313210,10 +313214,10 @@
       "title": "Perl versions through 5.45.1 have out-of-bounds heap reads and writes during regular expression matching via an undersized superlinear cache in S_regmatch",
       "severity": "Moderate",
       "cvss": 5.7,
-      "product_idx": 1463,
+      "product_idx": 1495,
       "product_idxs": [
-        1463,
-        1464
+        1495,
+        1496
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -313505,10 +313509,10 @@
       "title": "PCRE2 before 10.48, on 32-bit platforms, has a pcre2_pattern_convert out-of-bounds write when an attacker can provide a large pattern.",
       "severity": "Moderate",
       "cvss": 5.7,
-      "product_idx": 1613,
+      "product_idx": 1655,
       "product_idxs": [
-        1613,
-        1520
+        1655,
+        1552
       ],
       "date": "2026-09-16",
       "exploited": false,
@@ -313718,9 +313722,9 @@
       "title": "libcharon in strongSwan 5.9.7 through 6.0.7 mishandles behavioral workflow in the IKEv2 state machine. Because CREATE_CHILD_SA requests are mishandled, there can be an authentication bypass.",
       "severity": "Moderate",
       "cvss": 5.6,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-18",
       "exploited": false,
@@ -317949,12 +317953,12 @@
       "title": "systemd-oomd: unprivileged users can terminate arbitrary processes",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1459,
+      "product_idx": 1491,
       "product_idxs": [
-        1459,
+        1491,
         758,
-        1460,
-        1461
+        1492,
+        1493
       ],
       "date": "2026-09-13",
       "exploited": false,
@@ -317980,9 +317984,9 @@
       "title": "Libdm: lvm2: libdm: denial of service via uncontrolled recursion in config parser",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1478,
+      "product_idx": 1510,
       "product_idxs": [
-        1478
+        1510
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -320930,9 +320934,9 @@
       "title": "abort() in libpcap before 1.10.7 on an invalid BPF opcode",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1578,
+      "product_idx": 1620,
       "product_idxs": [
-        1578,
+        1620,
         1274
       ],
       "date": "2026-09-07",
@@ -320945,9 +320949,9 @@
       "title": "OOBR in libpcap before 1.10.7",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1578,
+      "product_idx": 1620,
       "product_idxs": [
-        1578,
+        1620,
         1274
       ],
       "date": "2026-09-07",
@@ -321938,10 +321942,10 @@
       "title": "Rpm: heap buffer overflow in ndb slot table parsing",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1489,
+      "product_idx": 1521,
       "product_idxs": [
-        1489,
-        1490
+        1521,
+        1522
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -326492,9 +326496,9 @@
       "title": "division by zero in libpcap before 1.10.7",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1578,
+      "product_idx": 1620,
       "product_idxs": [
-        1578,
+        1620,
         1274
       ],
       "date": "2026-09-07",
@@ -326507,9 +326511,9 @@
       "title": "Libvirt: information disclosure via world-readable storage volume images during clone/convert",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1473,
+      "product_idx": 1505,
       "product_idxs": [
-        1473
+        1505
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -327661,9 +327665,9 @@
       "title": "infinte loop in libpcap before 1.10.7",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1578,
+      "product_idx": 1620,
       "product_idxs": [
-        1578,
+        1620,
         1274
       ],
       "date": "2026-09-07",
@@ -329201,9 +329205,9 @@
       "title": "Libvirt: unsafe chown in qemutpmemulatorpreparehost() allows arbitrary file ownership change via symlink",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1474,
+      "product_idx": 1506,
       "product_idxs": [
-        1474
+        1506
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -329755,9 +329759,9 @@
       "title": "Pod::Text versions before 6.1.1 for Perl allow CPU and memory exhaustion formatting a POD document whose =over nesting drives the margin to the output width",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1464,
+      "product_idx": 1496,
       "product_idxs": [
-        1464
+        1496
       ],
       "date": "2026-09-21",
       "exploited": false,
@@ -331902,10 +331906,10 @@
       "product_idx": 521,
       "product_idxs": [
         521,
-        1553,
-        1555,
-        1554,
-        1567
+        1457,
+        1459,
+        1458,
+        1471
       ],
       "date": "2026-08-28",
       "exploited": false,
@@ -331979,7 +331983,7 @@
       "product_idx": 193,
       "product_idxs": [
         193,
-        1554
+        1458
       ],
       "date": "2026-08-28",
       "exploited": false,
@@ -331991,9 +331995,9 @@
       "title": "Stunnel: ssrf bypass in stunnel socks proxy via ipv4-mapped ipv6 loopback and unspecified addresses allows access to loopback-only services",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1513,
+      "product_idx": 1545,
       "product_idxs": [
-        1513
+        1545
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -332418,9 +332422,9 @@
       "title": "PostgreSQL observable response discrepancy with non-default scram_iterations provides user existence oracle",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -332462,10 +332466,10 @@
       "title": "Perl versions from 5.9.4 before 5.41.9 produce incorrect regular expression match results when a stale failure flag ends the Aho-Corasick prescan early in S_find_byclass",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1463,
+      "product_idx": 1495,
       "product_idxs": [
-        1463,
-        1464
+        1495,
+        1496
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -332745,9 +332749,9 @@
       "title": "Apache Portable Runtime Utility: apr-util XML stack recursion crash",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1452,
+      "product_idx": 1484,
       "product_idxs": [
-        1452
+        1484
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -332911,10 +332915,10 @@
       "product_idx": 1406,
       "product_idxs": [
         1406,
-        1485,
-        1486,
-        1487,
-        1488
+        1517,
+        1518,
+        1519,
+        1520
       ],
       "date": "2026-09-02",
       "exploited": false,
@@ -333291,9 +333295,9 @@
       "title": "An integer overflow in the libtiff rgb2ycbcr utility's cvtRaster() function when computing strip buffer sizes can result in an undersized heap allocation and subsequent heap-based buffer overflow during YCbCr conversion of a crafted TIFF image",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1493,
+      "product_idx": 1525,
       "product_idxs": [
-        1493
+        1525
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -333305,9 +333309,9 @@
       "title": "rsync < 3.5.0 Denial of Service via --max-alloc=0 Logic Error",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -333319,9 +333323,9 @@
       "title": "rsync < 3.5.0 Privilege Confusion via name-converter uid/gid mapping",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -333514,7 +333518,7 @@
       "product_idx": 1371,
       "product_idxs": [
         1371,
-        1509
+        1541
       ],
       "date": "2026-09-06",
       "exploited": false,
@@ -333597,10 +333601,10 @@
       "title": "c-ares: Memory-amplification denial of service via unvalidated DNS header record counts",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1525,
+      "product_idx": 1557,
       "product_idxs": [
-        1525,
-        1592
+        1557,
+        1634
       ],
       "date": "2026-09-20",
       "exploited": false,
@@ -333627,9 +333631,9 @@
       "title": "rsync 3.0.0 < 3.5.0 Daemon Crash via Malformed File List Entry",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -333641,9 +333645,9 @@
       "title": "Iperf3: unbounded peer-controlled allocation in iperf3 json_read() allows unauthenticated remote memory exhaustion",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1516,
+      "product_idx": 1548,
       "product_idxs": [
-        1516
+        1548
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -333655,9 +333659,9 @@
       "title": "Gfs2-utils: gfs2-utils: heap out-of-bounds read via unchecked ea_num_ptrs in extended attribute processing",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1593,
+      "product_idx": 1635,
       "product_idxs": [
-        1593
+        1635
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -333687,9 +333691,9 @@
       "product_idx": 1315,
       "product_idxs": [
         1315,
-        1523,
-        1524,
-        1525
+        1555,
+        1556,
+        1557
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -333817,9 +333821,9 @@
       "title": "Possible degradation of service from continuous queries on the same TCP/DoT connection",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -333903,9 +333907,9 @@
       "title": "Retrap: Novel Vulnerabilities to launch Algorithmic Complexity Attacks on DNSSEC",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-17",
       "exploited": false,
@@ -334288,9 +334292,9 @@
       "title": "Libkcapi: infinite loop denial of service in libkcapi _kcapi_aio_read_all() due to unhandled io_getevents() timeout return",
       "severity": "Moderate",
       "cvss": 5.1,
-      "product_idx": 1517,
+      "product_idx": 1549,
       "product_idxs": [
-        1517
+        1549
       ],
       "date": "2026-08-09",
       "exploited": false,
@@ -334425,9 +334429,9 @@
       "title": "OOBR in rpcap client in libpcap before 1.10.7",
       "severity": "Moderate",
       "cvss": 5.0,
-      "product_idx": 1578,
+      "product_idx": 1620,
       "product_idxs": [
-        1578,
+        1620,
         1274
       ],
       "date": "2026-09-07",
@@ -335020,10 +335024,10 @@
       "title": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur. NOTE: this is similar to CVE-2026-50219, CVE-2026-56131 and CVE-2026-56412.",
       "severity": "Moderate",
       "cvss": 4.9,
-      "product_idx": 1510,
+      "product_idx": 1542,
       "product_idxs": [
-        1510,
-        1536,
+        1542,
+        1568,
         810
       ],
       "date": "2026-08-21",
@@ -336017,9 +336021,9 @@
       "title": "rsync < 3.5.0 Symlink Race Condition Information Disclosure",
       "severity": "Moderate",
       "cvss": 4.7,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -336031,9 +336035,9 @@
       "title": "rsync < 3.5.0 Symlink Race Condition via --remove-source-files",
       "severity": "Moderate",
       "cvss": 4.7,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471
+        1503
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -336307,9 +336311,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack overflow via alloca(1<<di_depth) in hash table traversal",
       "severity": "Moderate",
       "cvss": 4.7,
-      "product_idx": 1593,
+      "product_idx": 1635,
       "product_idxs": [
-        1593
+        1635
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -336321,9 +336325,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack overflow via alloca(i_height) in metadata walk",
       "severity": "Moderate",
       "cvss": 4.7,
-      "product_idx": 1593,
+      "product_idx": 1635,
       "product_idxs": [
-        1593
+        1635
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -336335,9 +336339,9 @@
       "title": "jsoup: Cleaner may expose markup with custom raw-text elements",
       "severity": "Moderate",
       "cvss": 4.7,
-      "product_idx": 1518,
+      "product_idx": 1550,
       "product_idxs": [
-        1518
+        1550
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -337214,9 +337218,9 @@
       "title": "Dnsmasq: infinite loop dos in dnssec nsec/nsec3 type bitmap parsing",
       "severity": "Moderate",
       "cvss": 4.4,
-      "product_idx": 1453,
+      "product_idx": 1485,
       "product_idxs": [
-        1453
+        1485
       ],
       "date": "2026-08-20",
       "exploited": false,
@@ -337441,9 +337445,9 @@
       "product_idxs": [
         193,
         521,
-        1553,
-        1554,
-        1555
+        1457,
+        1458,
+        1459
       ],
       "date": "2026-08-28",
       "exploited": false,
@@ -338146,11 +338150,11 @@
       "title": "rustls-webpki before 0.103.10 CRL Revocation Check Bypass",
       "severity": "Moderate",
       "cvss": 4.4,
-      "product_idx": 1619,
+      "product_idx": 1661,
       "product_idxs": [
-        1619,
-        1542,
-        1543,
+        1661,
+        1574,
+        1575,
         609
       ],
       "date": "2026-09-25",
@@ -338210,9 +338214,9 @@
       "title": "PostgreSQL pg_trgm picksplit reads past end of buffer",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -338224,9 +338228,9 @@
       "title": "PostgreSQL ascii() function reads past end of buffer",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -338238,9 +338242,9 @@
       "title": "rpcapd memory leak in libpcap before 1.10.7",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1578,
+      "product_idx": 1620,
       "product_idxs": [
-        1578
+        1620
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -338495,9 +338499,9 @@
       "title": "libgit2: Submodule path traversal",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1497,
+      "product_idx": 1529,
       "product_idxs": [
-        1497,
+        1529,
         1143,
         1375
       ],
@@ -338586,9 +338590,9 @@
       "title": "PostgreSQL fails to check type USAGE privilege",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -338866,14 +338870,15 @@
     },
     {
       "cve_id": "CVE-2026-87564",
-      "title": "Type confusion in V8 in Google Chrome prior to 153.0.8010.36 allowed a remote attacker to read memory inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "title": "Chromium CVE-2026-87564: Type confusion in V8",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1351,
+      "product_idx": 193,
       "product_idxs": [
-        1351
+        193,
+        1352
       ],
-      "date": "2026-09-11",
+      "date": "2026-09-14",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -338883,9 +338888,9 @@
       "title": "Cups: openprinting cups: heap out-of-bounds read in cupsutf32toutf8() via missing source-length bound",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1615,
+      "product_idx": 1657,
       "product_idxs": [
-        1615
+        1657
       ],
       "date": "2026-09-14",
       "exploited": false,
@@ -340862,7 +340867,7 @@
         1306,
         810,
         1145,
-        1462
+        1494
       ],
       "date": "2026-08-21",
       "exploited": false,
@@ -340892,7 +340897,7 @@
       "product_idx": 1306,
       "product_idxs": [
         1306,
-        1462,
+        1494,
         810,
         1145
       ],
@@ -340965,7 +340970,7 @@
       "product_idx": 810,
       "product_idxs": [
         810,
-        1462,
+        1494,
         1145
       ],
       "date": "2026-08-23",
@@ -341777,12 +341782,12 @@
       "title": "containerd CRI ExecSync Goroutine Leak Leading to Node-Level Denial of Service",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1583,
+      "product_idx": 1625,
       "product_idxs": [
-        1583,
-        1584,
-        1585,
-        1586
+        1625,
+        1626,
+        1627,
+        1628
       ],
       "date": "2026-09-16",
       "exploited": false,
@@ -341941,9 +341946,9 @@
       "title": "uri_string does not bound the port component of a URI before integer conversion",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588,
+        1630,
         1367
       ],
       "date": "2026-09-08",
@@ -341956,12 +341961,12 @@
       "title": "BuildKit: Custom frontend could bypass Seccomp/AppArmor",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1487,
+      "product_idx": 1519,
       "product_idxs": [
-        1487,
-        1488,
-        1465,
-        1468
+        1519,
+        1520,
+        1497,
+        1500
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -341973,13 +341978,13 @@
       "title": "Libevent: HTTP Header smuggling",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1504,
+      "product_idx": 1536,
       "product_idxs": [
-        1504,
+        1536,
         1315,
-        1505,
-        1506,
-        1507
+        1537,
+        1538,
+        1539
       ],
       "date": "2026-08-22",
       "exploited": false,
@@ -341991,13 +341996,13 @@
       "title": "Libevent: Dangling Pointer in `evbuffer_add_buffer_reference`",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1504,
+      "product_idx": 1536,
       "product_idxs": [
-        1504,
+        1536,
         1315,
-        1507,
-        1505,
-        1506
+        1539,
+        1537,
+        1538
       ],
       "date": "2026-08-22",
       "exploited": false,
@@ -342009,13 +342014,13 @@
       "title": "Libevent: `evtag_unmarshal_header()` decodes a wire `uint32` length into a signed `int` return value.",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1506,
+      "product_idx": 1538,
       "product_idxs": [
-        1506,
-        1508,
-        1504,
+        1538,
+        1540,
+        1536,
         1315,
-        1505
+        1537
       ],
       "date": "2026-08-22",
       "exploited": false,
@@ -342088,10 +342093,10 @@
       "title": "Path Traversal in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1511,
+      "product_idx": 1543,
       "product_idxs": [
-        1511,
-        1512
+        1543,
+        1544
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -342103,10 +342108,10 @@
       "title": "Uncontrolled Memory Allocation in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1511,
+      "product_idx": 1543,
       "product_idxs": [
-        1511,
-        1512
+        1543,
+        1544
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -342118,10 +342123,10 @@
       "title": "Improper Output Encoding in GNU cpio",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1511,
+      "product_idx": 1543,
       "product_idxs": [
-        1511,
-        1512
+        1543,
+        1544
       ],
       "date": "2026-08-11",
       "exploited": false,
@@ -342148,9 +342153,9 @@
       "title": "eldap does not bound the port component of a referral URL before integer conversion",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1588,
+      "product_idx": 1630,
       "product_idxs": [
-        1588,
+        1630,
         1367
       ],
       "date": "2026-09-08",
@@ -342166,7 +342171,7 @@
       "product_idx": 1367,
       "product_idxs": [
         1367,
-        1588
+        1630
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -342206,9 +342211,9 @@
       "title": "Vim: Stack Buffer Overflow in the Vim Socket Server",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -342220,9 +342225,9 @@
       "title": "Vim: Out-of-bounds Access in Popup Opacity Handling",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -342234,10 +342239,10 @@
       "title": "etcd: Watch API authorization bypass via open-ended range requests",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1529,
+      "product_idx": 1561,
       "product_idxs": [
-        1529,
-        1530
+        1561,
+        1562
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -342252,7 +342257,7 @@
       "product_idx": 1367,
       "product_idxs": [
         1367,
-        1588
+        1630
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -342278,12 +342283,12 @@
       "title": "RabbitMQ amqp091-go: Silent Data Truncation and State Corruption via Shortstr Integer Overflow",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1496,
+      "product_idx": 1528,
       "product_idxs": [
-        1496,
-        1594,
-        1495,
-        1595
+        1528,
+        1636,
+        1527,
+        1637
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -342295,12 +342300,12 @@
       "title": "RabbitMQ amqp091-go: Denial of Service via Synchronous Event Channel Blocking",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1495,
+      "product_idx": 1527,
       "product_idxs": [
-        1495,
-        1595,
-        1496,
-        1594
+        1527,
+        1637,
+        1528,
+        1636
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -342342,10 +342347,10 @@
       "title": "OpenTelemetry-Go: Log gRPC exporter ignores env TLS certs, bypassing mTLS/pinning",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1605,
+      "product_idx": 1647,
       "product_idxs": [
-        1605,
-        1603
+        1647,
+        1645
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -342360,7 +342365,7 @@
       "product_idx": 1145,
       "product_idxs": [
         1145,
-        1462
+        1494
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -342463,7 +342468,7 @@
       "product_idx": 1145,
       "product_idxs": [
         1145,
-        1462
+        1494
       ],
       "date": "2026-09-21",
       "exploited": false,
@@ -342475,9 +342480,9 @@
       "title": "libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1617,
+      "product_idx": 1659,
       "product_idxs": [
-        1617
+        1659
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -342653,7 +342658,7 @@
       "product_idx": 1274,
       "product_idxs": [
         1274,
-        1520
+        1552
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -342697,11 +342702,11 @@
       "title": "gitoxide gix-transport before 0.59.2 CR/LF/NUL Injection",
       "severity": "Low",
       "cvss": 5.4,
-      "product_idx": 1542,
+      "product_idx": 1574,
       "product_idxs": [
-        1542,
+        1574,
         1144,
-        1543
+        1575
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -342973,9 +342978,9 @@
       "title": "PostgreSQL row security caching disregards role modifications",
       "severity": "Low",
       "cvss": 4.2,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -343220,10 +343225,10 @@
       "title": "Shim/dp.c library: null-pointer dereference in is_removable_media_path() when devicepathtostr() returns null",
       "severity": "Low",
       "cvss": 3.9,
-      "product_idx": 1475,
+      "product_idx": 1507,
       "product_idxs": [
-        1475,
-        1476
+        1507,
+        1508
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -343367,9 +343372,9 @@
       "title": "PostgreSQL amcheck does not clear untrusted search path",
       "severity": "Low",
       "cvss": 3.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -343427,9 +343432,9 @@
       "title": "PostgreSQL ALTER TABLE ALTER TYPE resets extended statistics ownership",
       "severity": "Low",
       "cvss": 3.8,
-      "product_idx": 1457,
+      "product_idx": 1489,
       "product_idxs": [
-        1457
+        1489
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -343865,9 +343870,9 @@
       "title": "strongSwan 5.0.2 through 6.0.7 allows PKCS#7 certificate enumeration in the openssl plugin that leads to a lack of release of memory after its effective lifetime.",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -343879,9 +343884,9 @@
       "title": "libcharon in strongSwan 4.1.2 through 6.0.7 has a missing release of memory after its effective lifetime in the IKE message parser.",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -343893,9 +343898,9 @@
       "title": "strongSwan 4.2.0 through 6.0.7 has a missing release of memory after its effective lifetime in the x509 plugin's attribute certificate parser.",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 1598,
+      "product_idx": 1640,
       "product_idxs": [
-        1598
+        1640
       ],
       "date": "2026-09-15",
       "exploited": false,
@@ -343921,9 +343926,9 @@
       "title": "native CA store conn reuse",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 1536,
+      "product_idx": 1568,
       "product_idxs": [
-        1536,
+        1568,
         1324
       ],
       "date": "2026-09-08",
@@ -343965,10 +343970,10 @@
       "title": "PCRE2 before 10.48 has a pcre2_match out-of-bounds read during the PCRE2_MATCH_INVALID_UTF matching of an invalid UTF subject.",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 1613,
+      "product_idx": 1655,
       "product_idxs": [
-        1613,
-        1520
+        1655,
+        1552
       ],
       "date": "2026-09-12",
       "exploited": false,
@@ -344834,9 +344839,9 @@
       "title": "Vim: Use-after-free in JSON Decoding",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1527,
+      "product_idx": 1559,
       "product_idxs": [
-        1527
+        1559
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -345174,9 +345179,9 @@
       "title": "Libsolv: libsolv: out-of-bounds write in repo_write() via unvalidated directory id from vertical/paged .solv filelist data",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 1544,
+      "product_idx": 1576,
       "product_idxs": [
-        1544
+        1576
       ],
       "date": "2026-09-02",
       "exploited": false,
@@ -345478,9 +345483,9 @@
       "title": "Cups: openprinting cups: remaining case-insensitive username matching in scheduler side paths (cve-2026-27447 follow-up)",
       "severity": "Low",
       "cvss": 3.0,
-      "product_idx": 1615,
+      "product_idx": 1657,
       "product_idxs": [
-        1615
+        1657
       ],
       "date": "2026-09-15",
       "exploited": false,
@@ -345705,7 +345710,7 @@
       "product_idx": 1318,
       "product_idxs": [
         1318,
-        1612
+        1654
       ],
       "date": "2026-09-06",
       "exploited": false,
@@ -345731,10 +345736,10 @@
       "title": "PCRE2 before 10.48 has a pcre2_match out-of-bounds read after a JIT fallback when an attacker can provide invalid UTF data.",
       "severity": "Low",
       "cvss": 2.9,
-      "product_idx": 1613,
+      "product_idx": 1655,
       "product_idxs": [
-        1613,
-        1520
+        1655,
+        1552
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -345820,9 +345825,9 @@
       "title": "Popt-devel: popt-static: off-by-one in poptstuffargs",
       "severity": "Low",
       "cvss": 2.5,
-      "product_idx": 1470,
+      "product_idx": 1502,
       "product_idxs": [
-        1470
+        1502
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -345834,11 +345839,11 @@
       "title": "Popt-devel: popt-static: short realloc in poptconfigfiletostring",
       "severity": "Low",
       "cvss": 2.5,
-      "product_idx": 1470,
+      "product_idx": 1502,
       "product_idxs": [
-        1470,
-        1471,
-        1472
+        1502,
+        1503,
+        1504
       ],
       "date": "2026-09-02",
       "exploited": false,
@@ -346308,9 +346313,9 @@
       "title": "Libvirt: libvirt: newline injection in network xml dns txt/srv fields allows dnsmasq config directive injection",
       "severity": "Low",
       "cvss": 2.3,
-      "product_idx": 1473,
+      "product_idx": 1505,
       "product_idxs": [
-        1473
+        1505
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -346427,11 +346432,11 @@
       "title": "Popt-devel: popt-static: size_t underflow in singleoptionhelp",
       "severity": "Low",
       "cvss": 2.2,
-      "product_idx": 1471,
+      "product_idx": 1503,
       "product_idxs": [
-        1471,
-        1472,
-        1470
+        1503,
+        1504,
+        1502
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -346472,11 +346477,11 @@
       "title": "rustls webpki Name Constraints URI Validation Bypass",
       "severity": "Low",
       "cvss": 2.2,
-      "product_idx": 1619,
+      "product_idx": 1661,
       "product_idxs": [
-        1619,
-        1542,
-        1543,
+        1661,
+        1574,
+        1575,
         609
       ],
       "date": "2026-09-25",
@@ -346489,12 +346494,12 @@
       "title": "rustls webpki 0.101.0 before 0.103.12 Name Constraint Bypass",
       "severity": "Low",
       "cvss": 2.2,
-      "product_idx": 1619,
+      "product_idx": 1661,
       "product_idxs": [
-        1619,
-        1542,
+        1661,
+        1574,
         609,
-        1543
+        1575
       ],
       "date": "2026-09-25",
       "exploited": false,
@@ -347144,7 +347149,7 @@
       "product_idxs": [
         1145,
         810,
-        1462
+        1494
       ],
       "date": "2026-08-29",
       "exploited": false,
@@ -347723,10 +347728,10 @@
       "title": "BuildKit: Possible runtime DoS via unbounded group parsing",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1465,
+      "product_idx": 1497,
       "product_idxs": [
-        1465,
-        1468
+        1497,
+        1500
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -347831,7 +347836,7 @@
       "product_idx": 1382,
       "product_idxs": [
         1382,
-        1526
+        1558
       ],
       "date": "2026-08-29",
       "exploited": false,
@@ -347843,13 +347848,13 @@
       "title": "OpenTelemetry-Go: Exporter config logging may leak endpoint URLs in info logs",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1603,
+      "product_idx": 1645,
       "product_idxs": [
-        1603,
-        1601,
-        1584,
-        1487,
-        1604
+        1645,
+        1643,
+        1626,
+        1519,
+        1646
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -347861,10 +347866,10 @@
       "title": "OpenTelemetry-Go: BatchProcessor can busy-spin when export buffer is full",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1603,
+      "product_idx": 1645,
       "product_idxs": [
-        1603,
-        1605
+        1645,
+        1647
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -347968,9 +347973,9 @@
       "title": "'serve-expired' can bypass Unbound 'wait-limit'",
       "severity": "",
       "cvss": 3.7,
-      "product_idx": 1596,
+      "product_idx": 1638,
       "product_idxs": [
-        1596
+        1638
       ],
       "date": "2026-09-17",
       "exploited": false,
