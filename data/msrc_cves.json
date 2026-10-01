@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 10861,
+    "total": 10898,
     "critical": 677,
     "important": 3891,
     "moderate": 3153,
     "low": 390,
     "exploited": 21,
     "patched": 2609,
-    "updated_at": "2026-10-01 00:21 UTC",
+    "updated_at": "2026-10-01 06:51 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -365521,6 +365521,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-85047",
+      "title": "Chromium CVE-2026-85047: Improper input validation in Transactions Platform",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-85048",
       "title": "Chromium CVE-2026-85048:  Use after free in Compositing",
       "severity": "",
@@ -366823,6 +366837,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87438",
+      "title": "Chromium CVE-2026-87438: Out of bounds write in WebGL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87439",
       "title": "Chromium CVE-2026-87439: Information leak in ServiceWorker",
       "severity": "",
@@ -367173,6 +367201,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87464",
+      "title": "Chromium CVE-2026-87464: Use after free in WebGL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87465",
       "title": "Chromium CVE-2026-87465: Incorrect authorization in Downloads",
       "severity": "",
@@ -367397,6 +367439,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87481",
+      "title": "Chromium CVE-2026-87481: Incorrect authorization in WebView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87482",
+      "title": "Chromium CVE-2026-87482: Cleartext transmission of sensitive data in HttpsUpgrades",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87483",
+      "title": "Chromium CVE-2026-87483: Incorrect authorization in Browser",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87484",
       "title": "Chromium CVE-2026-87484: UI misrepresentation in Geometry",
       "severity": "",
@@ -367425,6 +367509,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87486",
+      "title": "Chromium CVE-2026-87486: Clickjacking in TrustedWebActivities",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87487",
       "title": "Chromium CVE-2026-87487: Missing authorization in FileSystem",
       "severity": "",
@@ -367434,6 +367532,20 @@
         180
       ],
       "date": "2026-09-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87488",
+      "title": "Chromium CVE-2026-87488: Use after free in WebGL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -367621,6 +367733,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87503",
+      "title": "Chromium CVE-2026-87503: Inappropriate implementation in Downloads",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87504",
       "title": "Chromium CVE-2026-87504: Use after free in Core",
       "severity": "",
@@ -367803,6 +367929,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87517",
+      "title": "Chromium CVE-2026-87517: Race condition in Mobile",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87518",
+      "title": "Chromium CVE-2026-87518: Observable discrepancy in Safebrowsing",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87519",
       "title": "Chromium CVE-2026-87519: Incorrect authorization in Safebrowsing",
       "severity": "",
@@ -367817,6 +367971,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87520",
+      "title": "Chromium CVE-2026-87520: Use after free in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87521",
       "title": "Chromium CVE-2026-87521: Information leak in WebMCP",
       "severity": "",
@@ -367826,6 +367994,20 @@
         180
       ],
       "date": "2026-09-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87522",
+      "title": "Chromium CVE-2026-87522: Missing authorization in WebView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -367985,6 +368167,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87534",
+      "title": "Chromium CVE-2026-87534: Missing authorization in WebView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87535",
       "title": "Chromium CVE-2026-87535: Information loss or omission in Safebrowsing",
       "severity": "",
@@ -368111,6 +368307,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87545",
+      "title": "Chromium CVE-2026-87545: Information leak in Mobile",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87546",
       "title": "Chromium CVE-2026-87546: Incorrect type conversion or cast in Safebrowsing",
       "severity": "",
@@ -368195,6 +368405,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87552",
+      "title": "Chromium CVE-2026-87552: Missing authorization in TrustedWebActivities",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87553",
       "title": "Chromium CVE-2026-87553: Improper input validation in SiteIsolation",
       "severity": "",
@@ -368218,6 +368442,20 @@
         180
       ],
       "date": "2026-09-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87555",
+      "title": "Chromium CVE-2026-87555: Uninitialized resource in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -368489,6 +368727,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87576",
+      "title": "Chromium CVE-2026-87576: Uninitialized resource in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87577",
       "title": "Chromium CVE-2026-87577: Incorrect authorization in Isolated",
       "severity": "",
@@ -368727,6 +368979,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87595",
+      "title": "Chromium CVE-2026-87595: Server-side request forgery in Mobile",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87596",
       "title": "Chromium CVE-2026-87596: Out of bounds read in ANGLE",
       "severity": "",
@@ -368736,6 +369002,20 @@
         180
       ],
       "date": "2026-09-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87597",
+      "title": "Chromium CVE-2026-87597: UI misrepresentation in CustomTabs",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -369273,6 +369553,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-87640",
+      "title": "Chromium CVE-2026-87640: Out of bounds read in WebView",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-87641",
       "title": "Chromium CVE-2026-87641: Race condition in Browser",
       "severity": "",
@@ -369296,6 +369590,20 @@
         180
       ],
       "date": "2026-09-14",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-87643",
+      "title": "Chromium CVE-2026-87643: Integer overflow in GPU",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -369730,6 +370038,216 @@
         180
       ],
       "date": "2026-05-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93372",
+      "title": "Chromium CVE-2026-93372: Buffer overflow in WebGL",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93373",
+      "title": "Chromium CVE-2026-93373: Use after free in Extensions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93374",
+      "title": "Chromium CVE-2026-93374: Use after free in Dawn",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93375",
+      "title": "Chromium CVE-2026-93375: Incorrect reference resolution in Tracing",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93376",
+      "title": "Chromium CVE-2026-93376: Out of bounds read in DataTransfer",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93377",
+      "title": "Chromium CVE-2026-93377: Type confusion in V8",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93378",
+      "title": "Chromium CVE-2026-93378: Missing authorization in Storage",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93379",
+      "title": "Chromium CVE-2026-93379: Incorrect authorization in ORB",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93380",
+      "title": "Chromium CVE-2026-93380: Race condition in FileSystem",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93381",
+      "title": "Chromium CVE-2026-93381: Buffer overflow in PDFium",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93382",
+      "title": "Chromium CVE-2026-93382: Use after free in PDFium",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93383",
+      "title": "Chromium CVE-2026-93383: Information leak in Permissions",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93385",
+      "title": "Chromium CVE-2026-93385: Information leak in Paint",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93386",
+      "title": "Chromium CVE-2026-93386: UI misrepresentation in WebAppInstalls",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93387",
+      "title": "Chromium CVE-2026-93387: Improper state validation in Skia",
+      "severity": "",
+      "cvss": null,
+      "product_idx": 180,
+      "product_idxs": [
+        180
+      ],
+      "date": "2026-09-30",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
