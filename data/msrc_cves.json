@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 10957,
+    "total": 10958,
     "critical": 678,
-    "important": 3910,
+    "important": 3911,
     "moderate": 3187,
     "low": 395,
     "exploited": 21,
-    "patched": 2609,
-    "updated_at": "2026-10-02 18:59 UTC",
+    "patched": 2610,
+    "updated_at": "2026-10-02 22:54 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -50867,6 +50867,60 @@
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-96940",
+      "title": "Microsoft Exchange Server Elevation of Privilege Vulnerability",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 320,
+      "product_idxs": [
+        320,
+        318,
+        317,
+        319
+      ],
+      "date": "2026-10-02",
+      "exploited": false,
+      "kb_articles": [
+        {
+          "kb": "5129955",
+          "url": "https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5129955",
+          "fixed_build": "15.02.2562.053",
+          "subtype": "Security Update",
+          "product_idxs": [
+            317
+          ]
+        },
+        {
+          "kb": "5129956",
+          "url": "https://support.microsoft.com/help/5129956",
+          "fixed_build": "15.02.1748.053",
+          "subtype": "Security Update",
+          "product_idxs": [
+            319
+          ]
+        },
+        {
+          "kb": "5129957",
+          "url": "https://support.microsoft.com/help/5129957",
+          "fixed_build": "15.02.1544.048",
+          "subtype": "Security Update",
+          "product_idxs": [
+            320
+          ]
+        },
+        {
+          "kb": "5129958",
+          "url": "https://support.microsoft.com/help/5129958",
+          "fixed_build": "15.01.2507.075",
+          "subtype": "Security Update",
+          "product_idxs": [
+            318
+          ]
+        }
+      ],
+      "kb_count": 4
     },
     {
       "cve_id": "CVE-2026-9698",
