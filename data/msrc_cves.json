@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 10958,
-    "critical": 678,
-    "important": 3911,
-    "moderate": 3187,
-    "low": 395,
+    "total": 11005,
+    "critical": 682,
+    "important": 3938,
+    "moderate": 3198,
+    "low": 400,
     "exploited": 21,
     "patched": 2610,
-    "updated_at": "2026-10-03 01:44 UTC",
+    "updated_at": "2026-10-03 07:37 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1459,10 +1459,10 @@
     "azl3 cf-cli 8.7.11-9 on Azure Linux 3.0",
     "azl3 docker-buildx 0.14.0-17 on Azure Linux 3.0",
     "azl3 docker-compose 2.27.0-14 on Azure Linux 3.0",
+    "azl3 telegraf 1.31.0-33 on Azure Linux 3.0",
     "azl3 c-ares 1.30.0-2 on Azure Linux 3.0",
     "azl3 gfs2-utils 3.5.1-1 on Azure Linux 3.0",
     "azl3 telegraf 1.31.0-31 on Azure Linux 3.0",
-    "azl3 telegraf 1.31.0-33 on Azure Linux 3.0",
     "azl3 unbound 1.26.0-1 on Azure Linux 3.0",
     "azl3 perl-DBI 1.652-1 on Azure Linux 3.0",
     "azl3 strongswan 5.9.14-10 on Azure Linux 3.0",
@@ -30261,6 +30261,62 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-101276",
+      "title": "iperf3 3.21 (esnet/iperf) contains a remote, unauthenticated heap use-after-free: the server's per-test watchdog server_timer_proc() frees streams without cancelling/joining their worker threads, so a blocked worker dereferences a freed iperf_stream; fixed in 3.22.",
+      "severity": "Critical",
+      "cvss": null,
+      "product_idx": 1431,
+      "product_idxs": [
+        1431
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102992",
+      "title": "piscina: Prototype-pollution gadget in ThreadPool.options allows RCE via execArgv / loadBalancer / env",
+      "severity": "Critical",
+      "cvss": null,
+      "product_idx": 149,
+      "product_idxs": [
+        149
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-15390",
+      "title": "Out-of-bounds write in Das U-Boot",
+      "severity": "Critical",
+      "cvss": null,
+      "product_idx": 445,
+      "product_idxs": [
+        445
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19445",
+      "title": "Use-after-free of a server-side SSLContext when sni_callback switches contexts",
+      "severity": "Critical",
+      "cvss": null,
+      "product_idx": 1310,
+      "product_idxs": [
+        1310
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-24821",
       "title": "A heap-based buffer over-read that might affect a system that compiles untrusted Lua code in turanszkij/WickedEngine.",
       "severity": "Critical",
@@ -30430,9 +30486,9 @@
       "product_idx": 1345,
       "product_idxs": [
         1345,
-        1450,
+        1451,
         1344,
-        1451
+        1448
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -51289,6 +51345,76 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-102556",
+      "title": "Libsoup: libsoup: heap buffer overflow from websocket pong signal type confusion",
+      "severity": "Important",
+      "cvss": 8.6,
+      "product_idx": 556,
+      "product_idxs": [
+        556
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102557",
+      "title": "Libsoup: libsoup: heap buffer overflow during websocket message reassembly",
+      "severity": "Important",
+      "cvss": 8.6,
+      "product_idx": 556,
+      "product_idxs": [
+        556
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102558",
+      "title": "Libsoup: libsoup: heap buffer overflow during websocket receive-buffer growth",
+      "severity": "Important",
+      "cvss": 8.6,
+      "product_idx": 556,
+      "product_idxs": [
+        556
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102559",
+      "title": "Libsoup: libsoup: heap buffer overflow during websocket client-frame masking",
+      "severity": "Important",
+      "cvss": 8.6,
+      "product_idx": 556,
+      "product_idxs": [
+        556
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102560",
+      "title": "Libsoup: libsoup: heap buffer overflow during outgoing permessage-deflate buffer growth",
+      "severity": "Important",
+      "cvss": 8.6,
+      "product_idx": 556,
+      "product_idxs": [
+        556
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-10879",
       "title": "DBI versions before 1.648 for Perl have a heap overflow when preparsing SQL statements with more than 9 binders",
       "severity": "Important",
@@ -53614,6 +53740,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-102555",
+      "title": "Libsoup: libsoup: heap buffer overflow via uninitialized length in data-uri base64 decoding",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 556,
+      "product_idxs": [
+        556
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-27654",
       "title": "NGINX ngx_http_dav_module vulnerability",
       "severity": "Important",
@@ -54169,6 +54309,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-71971",
+      "title": "U-Boot before 2026.10-rc3 Out-of-Bounds Write in IP Fragment Reassembly",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 445,
+      "product_idxs": [
+        445
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-74220",
+      "title": "U-Boot before 2026.10-rc5 Buffer Overflow via NFS READ Reply",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 445,
+      "product_idxs": [
+        445
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-74221",
+      "title": "U-Boot before 2026.10-rc5 Buffer Overflow via NFS READLINK",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 445,
+      "product_idxs": [
+        445
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-74611",
       "title": "tls: rx: restore msg_iter before TLS 1.3 optimistic retry",
       "severity": "Important",
@@ -54265,6 +54447,24 @@
         1387
       ],
       "date": "2026-09-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-84782",
+      "title": "DTLS Retransmits Handshake Messages From a Stale Buffer Offset",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1070,
+        1366,
+        1348,
+        1140
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -73876,6 +74076,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-102925",
+      "title": "virtualenv bash and fish activation scripts execute commands embedded in paths",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 1215,
+      "product_idxs": [
+        1215
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-11332",
       "title": "Ansible-core: argument injection in ansible-galaxy role install leads to arbitrary code execution",
       "severity": "Important",
@@ -79289,7 +79503,8 @@
       "product_idxs": [
         253,
         254,
-        61
+        61,
+        291
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -151442,7 +151657,10 @@
       "cvss": 7.6,
       "product_idx": 1431,
       "product_idxs": [
-        1431
+        1431,
+        1218,
+        1394,
+        1395
       ],
       "date": "2026-10-01",
       "exploited": false,
@@ -163217,6 +163435,24 @@
       "kb_count": 9
     },
     {
+      "cve_id": "CVE-2026-54873",
+      "title": "QUIC STREAM Fragment Metadata DoS",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1366,
+      "product_idxs": [
+        1366,
+        1348,
+        1140,
+        1394,
+        1395
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-54876",
       "title": "Client-Side Memory Leak in OCSP Response Checking",
       "severity": "Important",
@@ -165629,6 +165865,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-63209",
+      "title": "Integer Overflow or Wraparound and Out-of-bounds Write in compress",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1344,
+      "product_idxs": [
+        1344,
+        1448
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-63793",
       "title": "ntfs: serialize volume label accesses",
       "severity": "Important",
@@ -166286,9 +166537,9 @@
       "title": "c-ares: CPU-exhaustion denial of service via unbounded DNS name compression pointer chains",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1448,
+      "product_idx": 1449,
       "product_idxs": [
-        1448,
+        1449,
         1376
       ],
       "date": "2026-09-24",
@@ -168658,6 +168909,24 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-72897",
+      "title": "Out-of-Bounds Access After SSL_set_SSL_CTX() During a Handshake",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        1348,
+        1140,
+        1394
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-72928",
       "title": "Windows DNS Server Remote Code Execution Vulnerability",
       "severity": "Important",
@@ -170464,6 +170733,24 @@
       "kb_count": 10
     },
     {
+      "cve_id": "CVE-2026-84784",
+      "title": "QUIC: Unbounded RETIRE_CONNECTION_ID Backlog",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        1348,
+        1140,
+        1394
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-85393",
       "title": "node-forge through 1.4.0 RSA PKCS#1 v1.5 Signature Forgery via Nested DigestAlgorithm Padding",
       "severity": "Important",
@@ -170844,6 +171131,20 @@
         1432
       ],
       "date": "2026-10-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-94640",
+      "title": "Rpcbind: unbounded memory allocation in rpcbind statistics tracking allows unauthenticated remote denial of service",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1431,
+      "product_idxs": [
+        1431
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -176055,6 +176356,20 @@
         60
       ],
       "date": "2026-02-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-103242",
+      "title": "Rpm: heap-based buffer overflow write in hex2binv() via a mistyped rpmtag_filesignatures header tag",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 1338,
+      "product_idxs": [
+        1338
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -183031,6 +183346,20 @@
         1431
       ],
       "date": "2026-09-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-95520",
+      "title": "Rpm: rpm: integer overflow in iterreadarchivenext() leads to heap-based buffer overflow when parsing untrusted rpm packages",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 1338,
+      "product_idxs": [
+        1338
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -216509,9 +216838,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack out-of-bounds write via unchecked di_height in gfs2_edit",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1449,
+      "product_idx": 1450,
       "product_idxs": [
-        1449
+        1450
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -216523,9 +216852,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack out-of-bounds write via unchecked height in savemeta",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1449,
+      "product_idx": 1450,
       "product_idxs": [
-        1449
+        1450
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -280455,6 +280784,35 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-102930",
+      "title": "virtualenv: Downloaded seed wheels (pip/setuptools) are not integrity-checked before use",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1215,
+      "product_idxs": [
+        1215
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102937",
+      "title": "virtualenv: Command injection via --prompt in activate.bat (batch activator)",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1214,
+      "product_idxs": [
+        1214,
+        1215
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-10846",
       "title": "Insufficient verification that responses belong to a query",
       "severity": "Important",
@@ -280525,6 +280883,21 @@
         1246
       ],
       "date": "2026-08-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-19553",
+      "title": "SSLContext.wrap_bio() missing validation of server_hostname parameter",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1310,
+      "product_idxs": [
+        1310,
+        1144
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -281433,6 +281806,48 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-66070",
+      "title": "RabbitMQ: CORS * reflects Origin with Allow-Credentials",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 955,
+      "product_idxs": [
+        955
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-66077",
+      "title": "RabbitMQ: Stored XSS via TLS peer-certificate DN in management UI",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 955,
+      "product_idxs": [
+        955
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-66079",
+      "title": "RabbitMQ: Pre-auth AMQP 1.0 array32 zero-width element DoS",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 955,
+      "product_idxs": [
+        955
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-66357",
       "title": "inets,httpd:HTTP Request Smuggling via obs-fold Header Continuation",
       "severity": "Important",
@@ -281472,6 +281887,20 @@
         955
       ],
       "date": "2026-10-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-67232",
+      "title": "RabbitMQ: Web-MQTT decompression bomb",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 955,
+      "product_idxs": [
+        955
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -281776,8 +282205,8 @@
       "product_idx": 1345,
       "product_idxs": [
         1345,
+        1448,
         1451,
-        1450,
         1344
       ],
       "date": "2026-09-24",
@@ -282011,6 +282440,39 @@
         1390
       ],
       "date": "2026-09-24",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-97687",
+      "title": "urllib3: HTTPS proxy TLS configuration may be ignored or overridden",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1214,
+      "product_idxs": [
+        1214,
+        1431,
+        1215,
+        1310,
+        1144
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-97689",
+      "title": "urllib3: HTTPResponse.stream()/read_chunked() buffers an unbounded chunk-size line into memory",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1431,
+      "product_idxs": [
+        1431,
+        1144
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -297302,6 +297764,20 @@
         69
       ],
       "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-71972",
+      "title": "U-Boot through 2026.10-rc5 Out-of-Bounds Write in BMP RLE8 Decoder",
+      "severity": "Moderate",
+      "cvss": 5.9,
+      "product_idx": 445,
+      "product_idxs": [
+        445
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -318045,6 +318521,24 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-35189",
+      "title": "Excessive Memory Allocation in Relative CRLDP Processing",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        445,
+        1394,
+        1395
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-3592",
       "title": "Amplification vulnerabilities via self-pointed glue records",
       "severity": "Moderate",
@@ -318268,6 +318762,24 @@
         1068
       ],
       "date": "2026-08-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42772",
+      "title": "Potential CPU DoS via O(n^2) Fragment Reassembly in QUIC",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        1348,
+        1140,
+        1394
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -318770,7 +319282,7 @@
       "product_idx": 1376,
       "product_idxs": [
         1376,
-        1448
+        1449
       ],
       "date": "2026-09-20",
       "exploited": false,
@@ -318825,9 +319337,9 @@
       "title": "Gfs2-utils: gfs2-utils: heap out-of-bounds read via unchecked ea_num_ptrs in extended attribute processing",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1449,
+      "product_idx": 1450,
       "product_idxs": [
-        1449
+        1450
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -318963,6 +319475,59 @@
         70
       ],
       "date": "2026-10-02",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-75804",
+      "title": "QUIC Connection-Level Flow Control is Not Enforced for Streams",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        1348,
+        1140,
+        1395
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-75805",
+      "title": "NULL Pointer Dereference in CMP Client Revocation Response Handling",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        445,
+        1395
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-75806",
+      "title": "Unauthenticated and Undersized DTLS 1.2 AEAD Record Causes DoS",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        445,
+        1394,
+        1395
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -319324,6 +319889,20 @@
         66
       ],
       "date": "2026-07-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-71973",
+      "title": "U-Boot before 2026.10-rc4 Integer Overflow in SquashFS Directory Table Allocation",
+      "severity": "Moderate",
+      "cvss": 5.2,
+      "product_idx": 445,
+      "product_idxs": [
+        445
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -321770,9 +322349,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack overflow via alloca(1<<di_depth) in hash table traversal",
       "severity": "Moderate",
       "cvss": 4.7,
-      "product_idx": 1449,
+      "product_idx": 1450,
       "product_idxs": [
-        1449
+        1450
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -321784,9 +322363,9 @@
       "title": "Gfs2-utils: gfs2-utils: stack overflow via alloca(i_height) in metadata walk",
       "severity": "Moderate",
       "cvss": 4.7,
-      "product_idx": 1449,
+      "product_idx": 1450,
       "product_idxs": [
-        1449
+        1450
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -327623,6 +328202,21 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-102598",
+      "title": "Werkzeug safe_join() allows Windows special device names",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 149,
+      "product_idxs": [
+        149,
+        1144
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-12003",
       "title": "CPython >3.11 Insecure Input Validation resulting in privilege escalation",
       "severity": "Moderate",
@@ -327634,6 +328228,20 @@
         484
       ],
       "date": "2026-06-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-12345",
+      "title": "Race condition in tempfile.TemporaryDirectory cleanup allows deleting files outside the temporary directory",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1144,
+      "product_idxs": [
+        1144
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -329065,6 +329673,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-67235",
+      "title": "RabbitMQ: AMQP 0-9-1 body assembly never validates accumulated size",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 955,
+      "product_idxs": [
+        955
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-67239",
+      "title": "RabbitMQ: Stored XSS via TLS peer-certificate DN in stream-management UI",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 955,
+      "product_idxs": [
+        955
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-67407",
       "title": "RabbitMQ: Incomplete fix for CVE-2026-44838: `escape_regex_char/1` does not escape `-`, leaving room for an MQTT topic permission bypass",
       "severity": "Moderate",
@@ -329273,9 +329909,9 @@
       "product_idx": 1345,
       "product_idxs": [
         1345,
-        1450,
+        1451,
         1344,
-        1451
+        1448
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -329290,9 +329926,9 @@
       "product_idx": 1344,
       "product_idxs": [
         1344,
-        1451,
+        1448,
         1345,
-        1450
+        1451
       ],
       "date": "2026-09-19",
       "exploited": false,
@@ -330613,6 +331249,22 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-35191",
+      "title": "QUIC Unvalidated Amplification Credit may be Over Accounted",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        1395
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-3832",
       "title": "Gnutls: gnutls: security bypass allows acceptance of revoked server certificates via crafted ocsp response",
       "severity": "Low",
@@ -330770,6 +331422,40 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-54872",
+      "title": "Timing Side-Channel in Scalar Multiplication for Non-NIST EC Curves",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        445,
+        1394,
+        1395
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-54875",
+      "title": "Non-Constant-Time SM2 Scalar Multiplication on ARM64 and RISC-V",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        1395
+      ],
+      "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-60000",
       "title": "sshd in OpenSSH before 10.4 allows remote attackers to cause a denial of service (resource consumption from excessive authentication attempts) because MaxAuthTries was mishandled for GSSAPIAuthentication.",
       "severity": "Low",
@@ -330893,6 +331579,24 @@
         70
       ],
       "date": "2026-10-02",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-77696",
+      "title": "Timing Side-Channel in SM2 Signature Generation",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1139,
+      "product_idxs": [
+        1139,
+        1366,
+        445,
+        1394,
+        1395
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -332933,6 +333637,20 @@
         1104
       ],
       "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-73064",
+      "title": "In Mbed TLS 3.2.0 though 3.6.6 and 4.0.0 through 4.1.0, an attacker who can cause an entropy source to fail can remove or inject bytes into the start of the TLS stream. This only affects TLS 1.3 servers.",
+      "severity": "Low",
+      "cvss": 2.9,
+      "product_idx": 445,
+      "product_idxs": [
+        445
+      ],
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
