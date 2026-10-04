@@ -7,7 +7,7 @@
     "low": 400,
     "exploited": 21,
     "patched": 2610,
-    "updated_at": "2026-10-04 04:29 UTC",
+    "updated_at": "2026-10-04 10:54 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -5034,7 +5034,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-27",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -10653,7 +10653,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -50905,7 +50905,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -74070,7 +74070,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-27",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -79489,7 +79489,7 @@
         254,
         291
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -150549,7 +150549,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -150563,7 +150563,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -151025,7 +151025,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-27",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -163439,13 +163439,13 @@
       "title": "QUIC STREAM Fragment Metadata DoS",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1366,
+      "product_idx": 1139,
       "product_idxs": [
+        1139,
         1366,
         1348,
         1140,
-        1394,
-        1395
+        1394
       ],
       "date": "2026-10-03",
       "exploited": false,
@@ -176427,7 +176427,7 @@
         254,
         291
       ],
-      "date": "2026-03-21",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -186850,7 +186850,7 @@
         254,
         291
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284833,7 +284833,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -290491,7 +290491,7 @@
         291,
         254
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -291458,7 +291458,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-27",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -295372,7 +295372,7 @@
         495,
         496
       ],
-      "date": "2026-04-14",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -300597,11 +300597,12 @@
       "title": "x86/CPU/AMD: Add RDSEED fix for Zen5",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 58,
+      "product_idx": 292,
       "product_idxs": [
+        292,
         58
       ],
-      "date": "2025-12-18",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -301561,7 +301562,7 @@
         495,
         499
       ],
-      "date": "2026-04-14",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -301579,7 +301580,7 @@
         497,
         499
       ],
-      "date": "2026-08-09",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -301597,7 +301598,7 @@
         496,
         497
       ],
-      "date": "2026-08-07",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302130,7 +302131,7 @@
         255,
         291
       ],
-      "date": "2026-03-19",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302397,7 +302398,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302743,7 +302744,7 @@
         254,
         291
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302759,7 +302760,7 @@
         254,
         291
       ],
-      "date": "2026-03-19",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302775,7 +302776,7 @@
         254,
         291
       ],
-      "date": "2026-03-19",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302791,7 +302792,7 @@
         254,
         291
       ],
-      "date": "2026-03-19",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302807,7 +302808,7 @@
         254,
         291
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -302823,7 +302824,7 @@
         254,
         291
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -313948,7 +313949,7 @@
         70,
         72
       ],
-      "date": "2026-09-04",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -321476,7 +321477,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -321763,7 +321764,7 @@
         254,
         291
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -321779,7 +321780,7 @@
         254,
         291
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -321811,7 +321812,7 @@
         62,
         67
       ],
-      "date": "2026-03-20",
+      "date": "2026-10-04",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323061,7 +323062,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323103,7 +323104,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323117,7 +323118,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -326148,7 +326149,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -327350,7 +327351,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -327378,7 +327379,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -327392,7 +327393,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -327434,7 +327435,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -327476,7 +327477,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -333345,7 +333346,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -333359,7 +333360,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -333723,7 +333724,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -334210,7 +334211,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -334224,7 +334225,7 @@
       "product_idxs": [
         70
       ],
-      "date": "2026-09-28",
+      "date": "2026-10-03",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
