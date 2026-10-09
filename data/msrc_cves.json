@@ -7,7 +7,7 @@
     "low": 436,
     "exploited": 21,
     "patched": 2610,
-    "updated_at": "2026-10-09 02:50 UTC",
+    "updated_at": "2026-10-09 10:05 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -528,6 +528,7 @@
     "azl3 curl 8.11.1-5 on Azure Linux 3.0",
     "cbl2 curl 8.8.0-8 on CBL Mariner 2.0",
     "azl3 curl 8.11.1-6 on Azure Linux 3.0",
+    "cbl2 curl 8.8.0-8 on CBL-Mariner 2.0",
     "cbl2 p11-kit 0.24.1-1 on CBL Mariner 2.0",
     "cbl2 nodejs18 18.20.3-12",
     "azl3 nodejs24 24.13.0-3 on Azure Linux 3.0",
@@ -620,7 +621,6 @@
     "azl3 libpng 1.6.57-1 on Azure Linux 3.0",
     "azl3 libpng 1.6.58-1 on Azure Linux 3.0",
     "cbl2 libssh 0.10.6-5 on CBL-Mariner 2.0",
-    "cbl2 curl 8.8.0-8 on CBL-Mariner 2.0",
     "cbl2 glibc 2.35-10 on CBL Mariner 2.0",
     "azl3 glibc 2.38-19 on Azure Linux 3.0",
     "cbl2 glibc 2.35-10",
@@ -5202,9 +5202,9 @@
       "product_idxs": [
         711,
         268,
-        536,
+        537,
         271,
-        540
+        541
       ],
       "date": "2026-06-03",
       "exploited": false,
@@ -5219,9 +5219,9 @@
       "product_idx": 268,
       "product_idxs": [
         268,
-        536,
+        537,
         271,
-        540,
+        541,
         272
       ],
       "date": "2026-06-09",
@@ -5318,13 +5318,13 @@
       "title": "Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 588,
+      "product_idx": 589,
       "product_idxs": [
-        588,
-        436,
         589,
+        436,
+        590,
         418,
-        590
+        591
       ],
       "date": "2026-03-07",
       "exploited": false,
@@ -5695,7 +5695,7 @@
       "product_idxs": [
         616,
         5,
-        588,
+        589,
         436,
         498
       ],
@@ -12986,7 +12986,7 @@
       "product_idx": 203,
       "product_idxs": [
         203,
-        520,
+        521,
         960,
         1119,
         718
@@ -31944,9 +31944,9 @@
       "title": "Heap Buffer Over-Write Vulenrabilty in timeplus-io/proton",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 588,
+      "product_idx": 589,
       "product_idxs": [
-        588
+        589
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -35552,11 +35552,11 @@
       "title": "Vim before 9.2.0272 allows code execution that happens immediately upon opening a crafted file in the default configuration, because %{expr} injection occurs with tabpanel lacking P_MLE.",
       "severity": "Important",
       "cvss": 9.2,
-      "product_idx": 598,
+      "product_idx": 599,
       "product_idxs": [
-        598,
         599,
-        600
+        600,
+        601
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -53098,9 +53098,9 @@
       "title": "Libsoup: libsoup: heap buffer overflow from websocket pong signal type confusion",
       "severity": "Important",
       "cvss": 8.6,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556
+        557
       ],
       "date": "2026-10-03",
       "exploited": false,
@@ -53112,9 +53112,9 @@
       "title": "Libsoup: libsoup: heap buffer overflow during websocket message reassembly",
       "severity": "Important",
       "cvss": 8.6,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556
+        557
       ],
       "date": "2026-10-03",
       "exploited": false,
@@ -53126,9 +53126,9 @@
       "title": "Libsoup: libsoup: heap buffer overflow during websocket receive-buffer growth",
       "severity": "Important",
       "cvss": 8.6,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556
+        557
       ],
       "date": "2026-10-03",
       "exploited": false,
@@ -53140,9 +53140,9 @@
       "title": "Libsoup: libsoup: heap buffer overflow during websocket client-frame masking",
       "severity": "Important",
       "cvss": 8.6,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556
+        557
       ],
       "date": "2026-10-03",
       "exploited": false,
@@ -53154,9 +53154,9 @@
       "title": "Libsoup: libsoup: heap buffer overflow during outgoing permessage-deflate buffer growth",
       "severity": "Important",
       "cvss": 8.6,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556
+        557
       ],
       "date": "2026-10-03",
       "exploited": false,
@@ -53224,11 +53224,11 @@
       "title": "NATS has MQTT plaintext password disclosure",
       "severity": "Important",
       "cvss": 8.6,
-      "product_idx": 552,
+      "product_idx": 553,
       "product_idxs": [
-        552,
         553,
-        554
+        554,
+        555
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -55582,9 +55582,9 @@
       "title": "Libsoup: libsoup: heap buffer overflow via uninitialized length in data-uri base64 decoding",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556
+        557
       ],
       "date": "2026-10-03",
       "exploited": false,
@@ -55596,10 +55596,10 @@
       "title": "NGINX ngx_http_dav_module vulnerability",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 545,
+      "product_idx": 546,
       "product_idxs": [
-        545,
-        546
+        546,
+        547
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -55684,11 +55684,11 @@
       "title": "Vim modeline bypass via various options affects Vim < 9.2.0276",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 598,
+      "product_idx": 599,
       "product_idxs": [
-        598,
         599,
-        600
+        600,
+        601
       ],
       "date": "2026-04-08",
       "exploited": false,
@@ -58722,7 +58722,7 @@
       "product_idx": 482,
       "product_idxs": [
         482,
-        603,
+        604,
         483,
         484
       ],
@@ -86550,10 +86550,10 @@
       "title": "NGINX ngx_http_mp4_module vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 545,
+      "product_idx": 546,
       "product_idxs": [
-        545,
-        546
+        546,
+        547
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -90857,10 +90857,10 @@
       "title": "NGINX ngx_http_mp4_module vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 545,
+      "product_idx": 546,
       "product_idxs": [
-        545,
-        546
+        546,
+        547
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -153395,9 +153395,9 @@
       "title": "CoreDNS ACL Bypass",
       "severity": "Important",
       "cvss": 7.7,
-      "product_idx": 537,
+      "product_idx": 538,
       "product_idxs": [
-        537,
+        538,
         358
       ],
       "date": "2026-03-09",
@@ -153414,9 +153414,9 @@
       "product_idxs": [
         712,
         268,
-        536,
+        537,
         271,
-        540
+        541
       ],
       "date": "2026-04-15",
       "exploited": false,
@@ -153726,10 +153726,10 @@
       "title": "LIBPNG has ARM NEON Palette Expansion Out-of-Bounds Read on AArch64",
       "severity": "Important",
       "cvss": 7.6,
-      "product_idx": 580,
+      "product_idx": 581,
       "product_idxs": [
-        580,
-        581
+        581,
+        582
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -153755,10 +153755,10 @@
       "title": "Libsoup: libsoup: heap use-after-free in libsoup http/2 client on_data_read() via goaway during body upload",
       "severity": "Important",
       "cvss": 7.6,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -154374,7 +154374,7 @@
         690,
         1478,
         203,
-        520,
+        521,
         960
       ],
       "date": "2026-09-08",
@@ -154768,7 +154768,7 @@
       "product_idx": 484,
       "product_idxs": [
         484,
-        603
+        604
       ],
       "date": "2026-07-12",
       "exploited": false,
@@ -154780,10 +154780,10 @@
       "title": "Soupwebsocketextensiondeflate: libsoup: libsoup: websocket permessage-deflate unbounded decompression remote denial of service",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-07-17",
       "exploited": false,
@@ -154795,10 +154795,10 @@
       "title": "Libsoup: soupwebsocketconnection: libsoup: websocket remote denial of service via oversized control frame protocol violation",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-07-17",
       "exploited": false,
@@ -156725,13 +156725,13 @@
       "title": "A flaw in Node.js HTTP request handling causes an uncaught `TypeError` when a request is received with a header named `__proto__` and the application accesses `req.headersDistinct`.\n\nWhen this occurs, `dest[\"__proto__\"]` resolves to `Object.prototype` rather than `undefined`, causing `.push()` to be called on a non-array. This exception is thrown synchronously inside a property getter and cannot be intercepted by `error` event listeners, meaning it cannot be handled without wrapping every `req.headersDistinct` access in a `try/catch`.\n\n* This vulnerability affects all Node.js HTTP servers on **20.x, 22.x, 24.x, and v25.x**",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 518,
+      "product_idx": 519,
       "product_idxs": [
-        518,
+        519,
         42,
         43,
-        519,
-        520
+        520,
+        521
       ],
       "date": "2026-04-08",
       "exploited": false,
@@ -157222,9 +157222,9 @@
       "title": "Incorrect parsing of IPv6 host literals in net/url",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 536,
+      "product_idx": 537,
       "product_idxs": [
-        536,
+        537,
         270
       ],
       "date": "2026-03-12",
@@ -157237,9 +157237,9 @@
       "title": "CoreDNS Loop Detection Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 537,
+      "product_idx": 538,
       "product_idxs": [
-        537,
+        538,
         358
       ],
       "date": "2026-03-09",
@@ -157529,9 +157529,9 @@
       "product_idx": 271,
       "product_idxs": [
         271,
-        540,
-        272,
         541,
+        272,
+        542,
         270
       ],
       "date": "2026-03-17",
@@ -157576,10 +157576,10 @@
       "title": "NGINX ngx_mail_auth_http_module vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 545,
+      "product_idx": 546,
       "product_idxs": [
-        545,
-        546
+        546,
+        547
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -157605,11 +157605,11 @@
       "title": "NATS Server panic via malicious compression on leafnode port",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 552,
+      "product_idx": 553,
       "product_idxs": [
-        552,
         553,
-        554
+        554,
+        555
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -157656,7 +157656,7 @@
       "product_idxs": [
         404,
         405,
-        555
+        556
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -157991,12 +157991,12 @@
       "title": "Flannel vulnerable to cross-node remote code execution via extension backend BackendData injection",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 559,
+      "product_idx": 560,
       "product_idxs": [
-        559,
         560,
         561,
-        562
+        562,
+        563
       ],
       "date": "2026-03-29",
       "exploited": false,
@@ -158012,9 +158012,9 @@
       "product_idxs": [
         712,
         268,
-        536,
+        537,
         271,
-        540
+        541
       ],
       "date": "2026-04-15",
       "exploited": false,
@@ -158026,11 +158026,11 @@
       "title": "Infinite loop in github.com/antchfx/xpath",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 552,
+      "product_idx": 553,
       "product_idxs": [
-        552,
-        565,
-        553
+        553,
+        566,
+        554
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -158042,9 +158042,9 @@
       "title": "PyJWT accepts unknown `crit` header extensions (RFC 7515 §4.1.11 MUST violation)",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 566,
+      "product_idx": 567,
       "product_idxs": [
-        566
+        567
       ],
       "date": "2026-07-24",
       "exploited": false,
@@ -158056,9 +158056,9 @@
       "title": "Squid has Denial of Service in ICP Response handling",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 567,
+      "product_idx": 568,
       "product_idxs": [
-        567
+        568
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -158379,9 +158379,9 @@
       "title": "PKCS7_verify Certificate Chain Validation Bypass in AWS-LC",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 579,
+      "product_idx": 580,
       "product_idxs": [
-        579
+        580
       ],
       "date": "2026-03-06",
       "exploited": false,
@@ -158393,9 +158393,9 @@
       "title": "PKCS7_verify Signature Validation Bypass in AWS-LC",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 579,
+      "product_idx": 580,
       "product_idxs": [
-        579
+        580
       ],
       "date": "2026-03-05",
       "exploited": false,
@@ -158407,10 +158407,10 @@
       "title": "LIBPNG has use-after-free via pointer aliasing in `png_set_tRNS` and `png_set_PLTE`",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 580,
+      "product_idx": 581,
       "product_idxs": [
-        580,
-        581
+        581,
+        582
       ],
       "date": "2026-03-29",
       "exploited": false,
@@ -158422,9 +158422,9 @@
       "title": "Squid vulnerable to Denial of Service in ICP Request handling",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 567,
+      "product_idx": 568,
       "product_idxs": [
-        567
+        568
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -158436,11 +158436,11 @@
       "title": "ipmi-oem in FreeIPMI before 1.16.17 has exploitable buffer overflows on response messages. The Intelligent Platform Management Interface (IPMI) specification defines a set of interfaces for platform management. It is implemented by a large number of hardware manufacturers to support system management. It is most commonly used for sensor reading (e.g., CPU temperatures through the ipmi-sensors command within FreeIPMI) and remote power control (the ipmipower command). The ipmi-oem client command implements a set of a IPMI OEM commands for specific hardware vendors. If a user has supported hardware, they may wish to use the ipmi-oem command to send a request to a server to retrieve specific information. Three subcommands were found to have exploitable buffer overflows on response messages. They are: \"ipmi-oem dell get-last-post-code - get the last POST code and string describing the error on some Dell servers,\" \"ipmi-oem supermicro extra-firmware-info - get extra firmware info on Supermic",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 584,
+      "product_idx": 585,
       "product_idxs": [
-        584,
         585,
-        586
+        586,
+        587
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -158466,9 +158466,9 @@
       "title": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 519,
+      "product_idx": 520,
       "product_idxs": [
-        519,
+        520,
         343
       ],
       "date": "2026-03-30",
@@ -158481,9 +158481,9 @@
       "title": "Crash when handling long CNAME response in net",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -158497,9 +158497,9 @@
       "title": "Infinite loop in HTTP/2 transport when given bad SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in golang.org/x/net",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         975,
         982,
@@ -158866,7 +158866,7 @@
       "product_idx": 478,
       "product_idxs": [
         478,
-        538,
+        539,
         283,
         701
       ],
@@ -158908,9 +158908,9 @@
       "title": "Quadratic string concatentation in consumeComment in net/mail",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -158942,9 +158942,9 @@
       "title": "Panic in Dial and LookupPort when handling NUL byte on Windows in net",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         989,
         351
@@ -159481,9 +159481,9 @@
       "title": "Quadratic string concatenation in consumePhrase in net/mail",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -159497,9 +159497,9 @@
       "title": "Malicious module proxy can bypass checksum database in cmd/go",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -160343,12 +160343,12 @@
       "title": "Github.com/antchfx/xpath: xpath: denial of service via crafted boolean xpath expressions",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 583,
+      "product_idx": 584,
       "product_idxs": [
-        583,
+        584,
         620,
-        582,
-        553
+        583,
+        554
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -167010,9 +167010,9 @@
       "title": "pyasn1 BER/CER/DER decoder denial of service via unbounded long-form tag IDs",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 555,
+      "product_idx": 556,
       "product_idxs": [
-        555
+        556
       ],
       "date": "2026-07-17",
       "exploited": false,
@@ -167024,9 +167024,9 @@
       "title": "pyasn1: Quadratic complexity in OBJECT IDENTIFIER and RELATIVE-OID processing allows denial of service",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 555,
+      "product_idx": 556,
       "product_idxs": [
-        555
+        556
       ],
       "date": "2026-07-17",
       "exploited": false,
@@ -167038,9 +167038,9 @@
       "title": "pyasn1: Uncontrolled resource consumption when converting decoded REAL values",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 555,
+      "product_idx": 556,
       "product_idxs": [
-        555
+        556
       ],
       "date": "2026-07-17",
       "exploited": false,
@@ -174039,11 +174039,11 @@
       "title": "libexif through 0.6.25 has a flaw in decoding MakerNotes. If the exif_mnote_data_get_value function gets passed in a 0 size, the passed in-buffer would be overwritten due to an integer underflow.",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 571,
+      "product_idx": 572,
       "product_idxs": [
-        571,
         572,
-        573
+        573,
+        574
       ],
       "date": "2026-03-17",
       "exploited": false,
@@ -174536,9 +174536,9 @@
       "title": "PyJWT: Public-key JWK accepted as HMAC secret enables forged HS256 tokens when mixed families are allowed",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 566,
+      "product_idx": 567,
       "product_idxs": [
-        566
+        567
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -189549,10 +189549,10 @@
       "title": "Giflib contains a double-free vulnerability that is the result of a shallow copy in GifMakeSavedImage and incorrect error handling. The conditions needed to trigger this vulnerability are difficult but may be possible.",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 528,
+      "product_idx": 529,
       "product_idxs": [
-        528,
-        529
+        529,
+        530
       ],
       "date": "2026-03-13",
       "exploited": false,
@@ -283029,7 +283029,7 @@
       "product_idx": 484,
       "product_idxs": [
         484,
-        603,
+        604,
         483
       ],
       "date": "2026-06-28",
@@ -283120,7 +283120,7 @@
       "product_idx": 418,
       "product_idxs": [
         418,
-        530
+        531
       ],
       "date": "2026-03-17",
       "exploited": false,
@@ -283175,10 +283175,10 @@
       "title": "pyOpenSSL DTLS cookie callback buffer overflow",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 542,
+      "product_idx": 543,
       "product_idxs": [
-        542,
-        543
+        543,
+        544
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -283309,10 +283309,10 @@
       "title": "etcd: Authorization bypasses in multiple APIs",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 577,
+      "product_idx": 578,
       "product_idxs": [
-        577,
-        578
+        578,
+        579
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -283486,10 +283486,10 @@
       "title": "rust-openssl: Deriver::derive and PkeyCtxRef::derive can overflow short buffers on OpenSSL 1.1.1",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 574,
+      "product_idx": 575,
       "product_idxs": [
-        574,
-        576,
+        575,
+        577,
         844,
         845,
         846
@@ -283730,7 +283730,7 @@
         482,
         483,
         484,
-        603
+        604
       ],
       "date": "2026-04-22",
       "exploited": false,
@@ -283742,9 +283742,9 @@
       "title": "Unbounded request body accumulation causes memory exhaustion in elixir-grpc/grpc",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 579,
+      "product_idx": 580,
       "product_idxs": [
-        579
+        580
       ],
       "date": "2026-06-18",
       "exploited": false,
@@ -284260,9 +284260,9 @@
       "title": "python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 594,
+      "product_idx": 595,
       "product_idxs": [
-        594
+        595
       ],
       "date": "2026-08-23",
       "exploited": false,
@@ -285979,9 +285979,9 @@
       "title": "HackerOne: CVE-2026-21637 TLS PSK/ALPN Callback Exceptions Bypass Error Handlers",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 520,
+      "product_idx": 521,
       "product_idxs": [
-        520,
+        521,
         885,
         203
       ],
@@ -286016,7 +286016,7 @@
         721,
         725,
         726,
-        519,
+        520,
         727
       ],
       "date": "2026-04-29",
@@ -286065,9 +286065,9 @@
       "product_idxs": [
         712,
         268,
-        536,
+        537,
         271,
-        540
+        541
       ],
       "date": "2026-04-15",
       "exploited": false,
@@ -286201,8 +286201,8 @@
         485,
         226,
         482,
-        522,
-        603
+        523,
+        604
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -293822,9 +293822,9 @@
       "product_idxs": [
         614,
         615,
-        547,
         548,
-        549
+        549,
+        550
       ],
       "date": "2026-03-17",
       "exploited": false,
@@ -294269,11 +294269,11 @@
       "title": "Vim: Command injection via backtick expansion in tag filenames",
       "severity": "Moderate",
       "cvss": 6.6,
-      "product_idx": 599,
+      "product_idx": 600,
       "product_idxs": [
-        599,
         600,
-        598
+        601,
+        599
       ],
       "date": "2026-04-27",
       "exploited": false,
@@ -294899,10 +294899,10 @@
       "title": "Libsoup: soupmultipartinputstream: libsoup: out-of-bounds read in soup_multipart_input_stream_read_headers via an oversized multipart boundary string",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-09-13",
       "exploited": false,
@@ -295002,7 +295002,8 @@
       "product_idxs": [
         514,
         515,
-        516
+        516,
+        517
       ],
       "date": "2026-03-13",
       "exploited": false,
@@ -295173,7 +295174,7 @@
         250,
         251,
         363,
-        523
+        524
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -295202,7 +295203,7 @@
       "product_idx": 363,
       "product_idxs": [
         363,
-        531
+        532
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -295380,9 +295381,9 @@
       "title": "brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 587,
+      "product_idx": 588,
       "product_idxs": [
-        587,
+        588,
         311,
         42,
         437
@@ -295524,7 +295525,7 @@
         514,
         515,
         516,
-        609
+        517
       ],
       "date": "2026-03-12",
       "exploited": false,
@@ -296309,10 +296310,10 @@
       "title": "Libsoup: libsoup: heap buffer over-read via integer underflow in soup_filter_input_stream_read_until()",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-09-24",
       "exploited": false,
@@ -296324,10 +296325,10 @@
       "title": "Libsoup: libsoup: proxy credentials leak to destination server via proxy-authorization header in connect tunnels",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -299299,9 +299300,9 @@
       "product_idxs": [
         712,
         268,
-        536,
+        537,
         271,
-        540
+        541
       ],
       "date": "2026-06-23",
       "exploited": false,
@@ -299327,9 +299328,9 @@
       "title": "Bypass of meta content URL escaping causes XSS in html/template",
       "severity": "Moderate",
       "cvss": 6.1,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -299343,9 +299344,9 @@
       "title": "Escaper bypass leads to XSS in html/template",
       "severity": "Moderate",
       "cvss": 6.1,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -299619,10 +299620,10 @@
       "product_idx": 856,
       "product_idxs": [
         856,
-        553,
+        554,
         733,
         734,
-        554
+        555
       ],
       "date": "2026-04-19",
       "exploited": false,
@@ -300447,10 +300448,10 @@
       "title": "Soupclientmessageiohttp2: libsoup3: libsoup: http/2 goaway frame parsing heap buffer over-read via invalid nul-termination assumption",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-07-17",
       "exploited": false,
@@ -300462,10 +300463,10 @@
       "title": "Libsoup: soupcache: libsoup: http/2 frame window exhaustion remote denial of service via memory leak",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -300537,7 +300538,7 @@
       "product_idx": 43,
       "product_idxs": [
         43,
-        519
+        520
       ],
       "date": "2026-04-08",
       "exploited": false,
@@ -300553,8 +300554,8 @@
       "product_idxs": [
         42,
         43,
+        520,
         519,
-        518,
         387
       ],
       "date": "2026-09-28",
@@ -300663,7 +300664,7 @@
         728,
         721,
         726,
-        519,
+        520,
         727
       ],
       "date": "2026-04-14",
@@ -300694,9 +300695,9 @@
       "product_idxs": [
         712,
         268,
-        536,
+        537,
         271,
-        540
+        541
       ],
       "date": "2026-04-15",
       "exploited": false,
@@ -300711,7 +300712,7 @@
       "product_idx": 271,
       "product_idxs": [
         271,
-        540
+        541
       ],
       "date": "2026-04-11",
       "exploited": false,
@@ -300737,9 +300738,9 @@
       "title": "fontconfig before 2.17.1 has an off-by-one error in allocation during sfnt capability handling, leading to a one-byte out-of-bounds write, and potentially a crash or code execution. This is in FcFontCapabilities in fcfreetype.c.",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 595,
+      "product_idx": 596,
       "product_idxs": [
-        595
+        596
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -300755,8 +300756,8 @@
       "product_idxs": [
         443,
         444,
-        596,
-        597
+        597,
+        598
       ],
       "date": "2026-04-01",
       "exploited": false,
@@ -300799,9 +300800,9 @@
       "title": "Invoking \"go tool pack\" does not sanitize output paths in cmd/go",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -300969,13 +300970,13 @@
       "title": "Libsoup: libsoup: information disclosure via cleartext transmission of cookies during https tunnel establishment",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 523,
+      "product_idx": 524,
       "product_idxs": [
-        523,
+        524,
         363,
-        556,
+        557,
         421,
-        531
+        532
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -301749,10 +301750,10 @@
       "title": "Libsoup: libsoup: http/2 client crash in on_data_source_read_callback when settings initial_window_size shrinks during deferred body read",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-09-09",
       "exploited": false,
@@ -301946,9 +301947,9 @@
       "product_idxs": [
         251,
         363,
-        556,
         557,
-        558
+        558,
+        559
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -302091,9 +302092,9 @@
       "title": "A flaw in Node.js URL processing causes an assertion failure in native code when `url.format()` is called with a malformed internationalized domain name (IDN) containing invalid characters, crashing the Node.js process.",
       "severity": "Moderate",
       "cvss": 5.7,
-      "product_idx": 519,
+      "product_idx": 520,
       "product_idxs": [
-        519
+        520
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -302582,10 +302583,10 @@
       "title": "Vim affected by Command injection via newline in glob()",
       "severity": "Moderate",
       "cvss": 5.6,
-      "product_idx": 564,
+      "product_idx": 565,
       "product_idxs": [
-        564,
-        563
+        565,
+        564
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -306004,7 +306005,7 @@
       "product_idx": 1391,
       "product_idxs": [
         1391,
-        550,
+        551,
         1392,
         1393
       ],
@@ -307377,13 +307378,13 @@
       "title": "systemd: Local unprivileged user can trigger an assert",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 547,
+      "product_idx": 548,
       "product_idxs": [
-        547,
         548,
         549,
         550,
-        551
+        551,
+        552
       ],
       "date": "2026-03-26",
       "exploited": false,
@@ -321496,10 +321497,10 @@
       "title": "NGINX ngx_stream_ssl_module vulnerability",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 545,
+      "product_idx": 546,
       "product_idxs": [
-        545,
-        546
+        546,
+        547
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -321525,10 +321526,10 @@
       "title": "etcd: Nested etcd transactions bypass RBAC authorization checks",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 577,
+      "product_idx": 578,
       "product_idxs": [
-        577,
-        578
+        578,
+        579
       ],
       "date": "2026-03-28",
       "exploited": false,
@@ -321554,9 +321555,9 @@
       "title": "LIBPNG: Chunk smuggling in push-mode APNG parser via unconsumed chunk body",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 607,
+      "product_idx": 608,
       "product_idxs": [
-        607,
+        608,
         1085,
         1198
       ],
@@ -321693,10 +321694,10 @@
       "title": "Libsoup: libsoup: http request smuggling via permissive chunk-size parsing in soup_body_input_stream_read_chunked()",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-08-07",
       "exploited": false,
@@ -322326,9 +322327,9 @@
       "title": "Libsoup: soupserver: http/1 request smuggling via undrained expect: 100-continue body",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556
+        557
       ],
       "date": "2026-10-05",
       "exploited": false,
@@ -322475,9 +322476,9 @@
       "title": "P11-kit: p11-kit: null dereference via c_derivekey with specific null parameters",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 517,
+      "product_idx": 518,
       "product_idxs": [
-        517
+        518
       ],
       "date": "2026-04-02",
       "exploited": false,
@@ -322489,10 +322490,10 @@
       "title": "A flaw in Node.js Permission Model network enforcement leaves Unix Domain Socket (UDS) server operations without the required permission checks, while all comparable network paths correctly enforce them.\n\nAs a result, code running under `--permission` without `--allow-net` can create and expose local IPC endpoints, allowing communication with other processes on the same host outside of the intended network restriction boundary.\n\nThis vulnerability affects Node.js **25.x** processes using the Permission Model where `--allow-net` is intentionally omitted to restrict network access. Note that `--allow-net` is currently an experimental feature.",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 521,
+      "product_idx": 522,
       "product_idxs": [
-        521,
-        519,
+        522,
+        520,
         343
       ],
       "date": "2026-06-01",
@@ -322505,9 +322506,9 @@
       "title": "A memory leak occurs in Node.js HTTP/2 servers when a client sends WINDOW_UPDATE frames on stream 0 (connection-level) that cause the flow control window to exceed the maximum value of 2³¹-1. The server correctly sends a GOAWAY frame, but the Http2Session object is never cleaned up.\n\nThis vulnerability affects HTTP2 users on Node.js 20, 22, 24 and 25.",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 519,
+      "product_idx": 520,
       "product_idxs": [
-        519,
+        520,
         43
       ],
       "date": "2026-04-08",
@@ -322597,12 +322598,12 @@
       "title": "An integer overflow in the tt_var_load_item_variation_store function of the Freetype library in versions 2.13.2 and 2.13.3 may allow for an out of bounds read operation when parsing HVAR/VVAR/MVAR tables in OpenType variable fonts. This issue is fixed in version 2.14.2.",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 524,
+      "product_idx": 525,
       "product_idxs": [
-        524,
         525,
         526,
-        527
+        527,
+        528
       ],
       "date": "2026-03-04",
       "exploited": false,
@@ -322632,11 +322633,11 @@
       "title": "OpenSSL TLS 1.3 server may choose unexpected key agreement group",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 519,
+      "product_idx": 520,
       "product_idxs": [
-        519,
+        520,
         283,
-        538
+        539
       ],
       "date": "2026-03-17",
       "exploited": false,
@@ -322678,10 +322679,10 @@
       "title": "NFA regex engine NULL pointer dereference affects Vim < 9.2.0137",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 563,
+      "product_idx": 564,
       "product_idxs": [
-        563,
-        564
+        564,
+        565
       ],
       "date": "2026-03-15",
       "exploited": false,
@@ -322693,12 +322694,12 @@
       "title": "TOCTOU permits root escape on Linux via Root.Chmod in os in internal/syscall/unix",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         712,
         268,
-        536,
+        537,
         271
       ],
       "date": "2026-06-03",
@@ -322753,9 +322754,9 @@
       "title": "Squid has issues in ICP message handling",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 567,
+      "product_idx": 568,
       "product_idxs": [
-        567
+        568
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -322767,9 +322768,9 @@
       "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 519,
+      "product_idx": 520,
       "product_idxs": [
-        519,
+        520,
         343
       ],
       "date": "2026-03-30",
@@ -322796,11 +322797,11 @@
       "title": "python-ecdsa: Denial of Service via improper DER length validation in crafted private keys",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 591,
+      "product_idx": 592,
       "product_idxs": [
-        591,
         592,
-        593
+        593,
+        594
       ],
       "date": "2026-04-08",
       "exploited": false,
@@ -322874,13 +322875,13 @@
       "title": "pnggroup libpng pnm2png pnm2png.c do_pnm2png heap-based overflow",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 580,
+      "product_idx": 581,
       "product_idxs": [
-        580,
-        604,
+        581,
         605,
         606,
-        607
+        607,
+        608
       ],
       "date": "2026-03-09",
       "exploited": false,
@@ -322913,7 +322914,7 @@
       "product_idx": 508,
       "product_idxs": [
         508,
-        608,
+        609,
         507,
         506
       ],
@@ -322932,7 +322933,7 @@
         514,
         515,
         516,
-        609
+        517
       ],
       "date": "2026-03-12",
       "exploited": false,
@@ -322944,9 +322945,9 @@
       "title": "Invoking \"go bug\" follows symlinks in predictable temporary filenames in cmd/go",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -322960,9 +322961,9 @@
       "title": "ReverseProxy forwards queries with more than urlmaxqueryparams parameters in net/http/httputil",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 541,
+      "product_idx": 542,
       "product_idxs": [
-        541,
+        542,
         711,
         351
       ],
@@ -323207,9 +323208,9 @@
       "title": "PyJWT: Unauthenticated DoS via unbounded Base64URL decoding of unused payload segment in b64=false detached JWS",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 566,
+      "product_idx": 567,
       "product_idxs": [
-        566
+        567
       ],
       "date": "2026-07-24",
       "exploited": false,
@@ -323872,10 +323873,10 @@
       "title": "Libsoup: libsoup: integer truncation in sort_ranges() comparator causes silent omission of http range responses",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 556,
+      "product_idx": 557,
       "product_idxs": [
-        556,
-        558
+        557,
+        559
       ],
       "date": "2026-09-07",
       "exploited": false,
@@ -324591,10 +324592,10 @@
       "title": "LIBPNG has a yse-after-free in png_set_PLTE, png_set_tRNS and png_set_hIST leading to corrupted chunk data and potential heap information disclosure",
       "severity": "Moderate",
       "cvss": 5.1,
-      "product_idx": 604,
+      "product_idx": 605,
       "product_idxs": [
-        604,
         605,
+        606,
         770
       ],
       "date": "2026-05-03",
@@ -324973,11 +324974,11 @@
       "title": "Vim Ex command injection in Vims NetBeans integration",
       "severity": "Moderate",
       "cvss": 5.0,
-      "product_idx": 600,
+      "product_idx": 601,
       "product_idxs": [
+        601,
         600,
-        599,
-        598
+        599
       ],
       "date": "2026-04-10",
       "exploited": false,
@@ -325452,7 +325453,7 @@
       "product_idxs": [
         1442,
         1468,
-        603
+        604
       ],
       "date": "2026-08-21",
       "exploited": false,
@@ -325787,10 +325788,10 @@
       "title": "Libsoup: libsoup: http request smuggling via unsigned to signed conversion error",
       "severity": "Moderate",
       "cvss": 4.8,
-      "product_idx": 531,
+      "product_idx": 532,
       "product_idxs": [
-        531,
-        556
+        532,
+        557
       ],
       "date": "2026-06-02",
       "exploited": false,
@@ -326359,7 +326360,7 @@
       "product_idx": 721,
       "product_idxs": [
         721,
-        519,
+        520,
         727,
         741,
         343
@@ -328196,12 +328197,12 @@
       "title": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
       "severity": "Moderate",
       "cvss": 4.4,
-      "product_idx": 532,
+      "product_idx": 533,
       "product_idxs": [
-        532,
         533,
         534,
-        535
+        535,
+        536
       ],
       "date": "2026-03-29",
       "exploited": false,
@@ -329704,7 +329705,7 @@
       "product_idx": 505,
       "product_idxs": [
         505,
-        602
+        603
       ],
       "date": "2026-03-07",
       "exploited": false,
@@ -330454,9 +330455,9 @@
       "title": "PyJWKClient: missing scheme allowlist enables SSRF + token forgery via file://, ftp://, data: schemes",
       "severity": "Moderate",
       "cvss": 4.2,
-      "product_idx": 566,
+      "product_idx": 567,
       "product_idxs": [
-        566
+        567
       ],
       "date": "2026-07-24",
       "exploited": false,
@@ -330796,11 +330797,11 @@
       "title": "Path traversal issue with zip.vim in Vim",
       "severity": "Moderate",
       "cvss": 4.1,
-      "product_idx": 600,
+      "product_idx": 601,
       "product_idxs": [
-        600,
-        598,
-        599
+        601,
+        599,
+        600
       ],
       "date": "2026-04-08",
       "exploited": false,
@@ -332331,7 +332332,7 @@
       "product_idx": 808,
       "product_idxs": [
         808,
-        573,
+        574,
         809,
         810
       ],
@@ -332349,7 +332350,7 @@
       "product_idxs": [
         808,
         809,
-        573,
+        574,
         810
       ],
       "date": "2026-04-14",
@@ -332510,10 +332511,10 @@
       "title": "NGINX ngx_mail_proxy_module vulnerability",
       "severity": "Moderate",
       "cvss": 3.7,
-      "product_idx": 545,
+      "product_idx": 546,
       "product_idxs": [
-        545,
-        546
+        546,
+        547
       ],
       "date": "2026-03-27",
       "exploited": false,
@@ -332738,7 +332739,7 @@
       "product_idx": 483,
       "product_idxs": [
         483,
-        603,
+        604,
         484
       ],
       "date": "2026-07-03",
@@ -332795,9 +332796,9 @@
       "title": "CPython >3.11 Insecure Input Validation resulting in privilege escalation",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 603,
+      "product_idx": 604,
       "product_idxs": [
-        603,
+        604,
         483,
         484
       ],
@@ -332876,7 +332877,7 @@
       "product_idx": 1198,
       "product_idxs": [
         1198,
-        603,
+        604,
         1032,
         1394
       ],
@@ -332909,7 +332910,7 @@
       "product_idxs": [
         1198,
         1394,
-        603,
+        604,
         1032
       ],
       "date": "2026-08-21",
@@ -332992,9 +332993,9 @@
       "title": "tarfile extraction filter bypass allows creation of directories outside the destination",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 603,
+      "product_idx": 604,
       "product_idxs": [
-        603,
+        604,
         1394,
         1032
       ],
@@ -333013,7 +333014,7 @@
         226,
         485,
         482,
-        522,
+        523,
         483
       ],
       "date": "2026-03-07",
@@ -333044,7 +333045,7 @@
       "product_idx": 418,
       "product_idxs": [
         418,
-        530
+        531
       ],
       "date": "2026-03-17",
       "exploited": false,
@@ -333056,9 +333057,9 @@
       "title": "Pre-auth SSH DoS via unbounded zlib inflate",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 530,
+      "product_idx": 531,
       "product_idxs": [
-        530,
+        531,
         418
       ],
       "date": "2026-03-17",
@@ -333177,7 +333178,7 @@
       "product_idx": 484,
       "product_idxs": [
         484,
-        603,
+        604,
         482,
         226,
         483
@@ -333230,7 +333231,7 @@
       "product_idxs": [
         484,
         483,
-        603
+        604
       ],
       "date": "2026-06-07",
       "exploited": false,
@@ -333246,9 +333247,9 @@
       "product_idxs": [
         422,
         423,
-        568,
-        574,
-        538
+        569,
+        575,
+        539
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -333260,13 +333261,13 @@
       "title": "tar-rs: unpack_in can chmod arbitrary directories by following symlinks",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 568,
+      "product_idx": 569,
       "product_idxs": [
-        568,
-        575,
-        283,
         569,
-        576
+        576,
+        283,
+        570,
+        577
       ],
       "date": "2026-04-14",
       "exploited": false,
@@ -333278,11 +333279,11 @@
       "title": "Incus does not verify combined fingerprint when downloading images from simplestreams servers",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 582,
+      "product_idx": 583,
       "product_idxs": [
-        582,
         583,
-        553
+        584,
+        554
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -333619,7 +333620,7 @@
       "product_idxs": [
         1082,
         1083,
-        594,
+        595,
         1084,
         991
       ],
@@ -334888,9 +334889,9 @@
       "title": "gRPC-Go: xDS RBAC HTTP Filter bypass via mixed-case Header Matching and gRFC A41 validation evasion",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 579,
+      "product_idx": 580,
       "product_idxs": [
-        579
+        580
       ],
       "date": "2026-09-08",
       "exploited": false,
@@ -335206,7 +335207,7 @@
       "product_idxs": [
         483,
         484,
-        603
+        604
       ],
       "date": "2026-06-19",
       "exploited": false,
@@ -336288,8 +336289,8 @@
         251,
         250,
         363,
-        523,
-        556
+        524,
+        557
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -336305,8 +336306,8 @@
       "product_idxs": [
         251,
         250,
-        523,
-        556,
+        524,
+        557,
         363
       ],
       "date": "2026-03-21",
@@ -336323,8 +336324,8 @@
       "product_idxs": [
         250,
         363,
-        523,
-        558,
+        524,
+        559,
         251
       ],
       "date": "2026-03-21",
@@ -336608,11 +336609,11 @@
       "title": "Libsoup: libsoup: http request smuggling via duplicate content-length headers",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 523,
+      "product_idx": 524,
       "product_idxs": [
-        523,
-        531,
-        556,
+        524,
+        532,
+        557,
         421
       ],
       "date": "2026-06-23",
@@ -336775,9 +336776,9 @@
       "title": "PyJWT: PyJWKClient unbounded JWKS endpoint requests via attacker-controlled kid values (DoS)",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 566,
+      "product_idx": 567,
       "product_idxs": [
-        566
+        567
       ],
       "date": "2026-07-24",
       "exploited": false,
@@ -337367,10 +337368,10 @@
       "title": "Libsoup: information disclosure in libsoup via soupauthmanager proxy credential leak on proxy switch",
       "severity": "Low",
       "cvss": 3.4,
-      "product_idx": 558,
+      "product_idx": 559,
       "product_idxs": [
-        558,
-        556
+        559,
+        557
       ],
       "date": "2026-07-27",
       "exploited": false,
@@ -337563,7 +337564,7 @@
       "product_idx": 43,
       "product_idxs": [
         43,
-        519
+        520
       ],
       "date": "2026-04-08",
       "exploited": false,
@@ -337575,9 +337576,9 @@
       "title": "An incomplete fix for CVE-2024-36137 leaves `FileHandle.chmod()` and `FileHandle.chown()` in the promises API without the required permission checks, while their callback-based equivalents (`fs.fchmod()`, `fs.fchown()`) were correctly patched.\n\nAs a result, code running under `--permission` with restricted `--allow-fs-write` can still use promise-based `FileHandle` methods to modify file permissions and ownership on already-open file descriptors, bypassing the intended write restrictions.\n\nThis vulnerability affects **20.x, 22.x, 24.x, and 25.x** processes using the Permission Model where `--allow-fs-write` is intentionally restricted.",
       "severity": "Low",
       "cvss": 3.3,
-      "product_idx": 519,
+      "product_idx": 520,
       "product_idxs": [
-        519,
+        520,
         43
       ],
       "date": "2026-04-08",
@@ -339250,10 +339251,10 @@
       "title": "FileInfo can escape from a Root in os",
       "severity": "Low",
       "cvss": 2.5,
-      "product_idx": 539,
+      "product_idx": 540,
       "product_idxs": [
-        539,
-        536,
+        540,
+        537,
         270
       ],
       "date": "2026-03-31",
@@ -340774,7 +340775,7 @@
       "product_idx": 1032,
       "product_idxs": [
         1032,
-        603,
+        604,
         1394
       ],
       "date": "2026-08-29",
@@ -340816,9 +340817,9 @@
       "title": "Super-linear CPU usage for unbounded input to csv.Sniffer.sniff()",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 603,
+      "product_idx": 604,
       "product_idxs": [
-        603
+        604
       ],
       "date": "2026-08-14",
       "exploited": false,
@@ -340876,11 +340877,11 @@
       "title": "pyOpenSSL allows TLS connection bypass via unhandled callback exception in set_tlsext_servername_callback",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 542,
+      "product_idx": 543,
       "product_idxs": [
-        542,
         543,
-        544
+        544,
+        545
       ],
       "date": "2026-03-19",
       "exploited": false,
@@ -340950,11 +340951,11 @@
       "title": "astral-tokio-tar insufficiently validates PAX extensions during extraction",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 568,
+      "product_idx": 569,
       "product_idxs": [
-        568,
         569,
-        570
+        570,
+        571
       ],
       "date": "2026-03-21",
       "exploited": false,
@@ -340982,9 +340983,9 @@
       "title": "cryptography has incomplete DNS name constraint enforcement on peer names",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 594,
+      "product_idx": 595,
       "product_idxs": [
-        594
+        595
       ],
       "date": "2026-04-03",
       "exploited": false,
@@ -341001,7 +341002,7 @@
         485,
         226,
         482,
-        601
+        602
       ],
       "date": "2026-03-31",
       "exploited": false,
@@ -341137,7 +341138,7 @@
       "product_idx": 1003,
       "product_idxs": [
         1003,
-        570,
+        571,
         1004,
         1005,
         1006
@@ -341152,9 +341153,9 @@
       "title": "Tarfile.extract() doesn't fully respect filter parameter",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 603,
+      "product_idx": 604,
       "product_idxs": [
-        603,
+        604,
         484
       ],
       "date": "2026-07-03",
@@ -341356,7 +341357,7 @@
         482,
         483,
         484,
-        603
+        604
       ],
       "date": "2026-06-28",
       "exploited": false,
@@ -341482,9 +341483,9 @@
       "title": "Quadratic Behavior in xml.etree.ElementPath Index Predicates",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 603,
+      "product_idx": 604,
       "product_idxs": [
-        603,
+        604,
         484
       ],
       "date": "2026-08-07",
@@ -341502,7 +341503,7 @@
         482,
         483,
         484,
-        603,
+        604,
         1032
       ],
       "date": "2026-05-15",
