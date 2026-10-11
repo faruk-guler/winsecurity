@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 11275,
-    "critical": 790,
-    "important": 4017,
-    "moderate": 3351,
-    "low": 440,
+    "total": 11347,
+    "critical": 792,
+    "important": 4038,
+    "moderate": 3385,
+    "low": 455,
     "exploited": 21,
     "patched": 2610,
-    "updated_at": "2026-10-11 04:11 UTC",
+    "updated_at": "2026-10-11 11:13 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1584,10 +1584,10 @@
     "azl3 rubygem-elasticsearch 8.9.0-1 on Azure Linux 3.0",
     "azl3 colord 1.4.6-1 on Azure Linux 3.0",
     "azl3 rubygem-rubyzip 2.3.2-1 on Azure Linux 3.0",
-    "Azure API Center",
-    "Azure Event Grid System",
     "azl3 clamav 1.5.4-2 on Azure Linux 3.0",
-    "azl3 thrift 0.24.0-1 on Azure Linux 3.0"
+    "azl3 httpd 2.4.68-1 on Azure Linux 3.0",
+    "Azure API Center",
+    "Azure Event Grid System"
   ],
   "cves": [
     {
@@ -4765,9 +4765,9 @@
       "title": "Microsoft Bookings Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1573,
+      "product_idx": 1575,
       "product_idxs": [
-        1573
+        1575
       ],
       "date": "2026-10-08",
       "exploited": false,
@@ -6862,6 +6862,20 @@
       "kb_count": 1
     },
     {
+      "cve_id": "CVE-2026-56154",
+      "title": "Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-56159",
       "title": "DHCP Server Service Remote Code Execution Vulnerability",
       "severity": "Critical",
@@ -7094,11 +7108,25 @@
       "title": "Apache HTTP Server: mod_http2 use-after-free / wild write via shared session->bbtmp re-entrancy",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-59797",
+      "title": "Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function",
+      "severity": "Critical",
+      "cvss": 9.8,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -19412,9 +19440,9 @@
       "title": "Azure API Center Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 8.7,
-      "product_idx": 1573,
+      "product_idx": 1575,
       "product_idxs": [
-        1573
+        1575
       ],
       "date": "2026-10-08",
       "exploited": false,
@@ -28947,9 +28975,9 @@
       "title": "Azure Event Grid Spoofing Vulnerability",
       "severity": "Critical",
       "cvss": 7.7,
-      "product_idx": 1574,
+      "product_idx": 1576,
       "product_idxs": [
-        1574
+        1576
       ],
       "date": "2026-10-08",
       "exploited": false,
@@ -32041,7 +32069,7 @@
         1395,
         1496
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -32051,11 +32079,11 @@
       "title": "Apache Thrift: C++ THttpTransport grows its line buffer without bound",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -35283,6 +35311,20 @@
         1393
       ],
       "date": "2026-08-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-56153",
+      "title": "Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char",
+      "severity": "Important",
+      "cvss": 9.4,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -39627,7 +39669,7 @@
         1126,
         1119
       ],
-      "date": "2026-06-23",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -52546,6 +52588,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-93546",
+      "title": "Apache HTTP Server: mod_dav_fs namespace overflow",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-93834",
       "title": "Qemu-kvm: 9pfs: use-after-free race in tlcreate/twalk allows vm guest escape",
       "severity": "Important",
@@ -53100,7 +53156,7 @@
       "product_idxs": [
         558
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -53114,7 +53170,7 @@
       "product_idxs": [
         558
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -53128,7 +53184,7 @@
       "product_idxs": [
         558
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -53156,7 +53212,7 @@
       "product_idxs": [
         558
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -55598,7 +55654,7 @@
       "product_idxs": [
         558
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -56039,9 +56095,9 @@
       "title": "Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -56235,6 +56291,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-77214",
+      "title": "libexpat Heap Buffer Over-read in xmlparse.c via XML_ParseBuffer",
+      "severity": "Important",
+      "cvss": 8.2,
+      "product_idx": 1480,
+      "product_idxs": [
+        1480
+      ],
+      "date": "2026-10-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-81356",
       "title": "Visual Studio Code Security Feature Bypass Vulnerability",
       "severity": "Important",
@@ -56332,7 +56402,7 @@
         1399,
         1194
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -57553,6 +57623,20 @@
         69
       ],
       "date": "2026-06-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-46570",
+      "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_index_walk_down() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file metadata.",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -60939,6 +61023,20 @@
       "kb_count": 5
     },
     {
+      "cve_id": "CVE-2026-73636",
+      "title": "Apache HTTP Server: mod_auth_digest one-time-nonce replay attack",
+      "severity": "Important",
+      "cvss": 8.1,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-7383",
       "title": "Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion",
       "severity": "Important",
@@ -60948,7 +61046,7 @@
         1119,
         718
       ],
-      "date": "2026-06-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -76016,7 +76114,7 @@
       "product_idxs": [
         1269
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -96574,6 +96672,20 @@
         205
       ],
       "date": "2026-05-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42616",
+      "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in cat() in ntfscat.c that allows an attacker to corrupt heap memory in the ntfscat binary by crafting a malicious NTFS image. The overflow is triggered by reading a file.",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -152559,7 +152671,7 @@
       "product_idxs": [
         1438
       ],
-      "date": "2026-09-27",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -153097,6 +153209,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-98378",
+      "title": "bpf: Skip unsettled links in link iterator",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-98381",
+      "title": "veth: manage XDP program pointers during channel resize",
+      "severity": "Important",
+      "cvss": 7.8,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-13601",
       "title": "Glib: integer overflow in in g_escape_uri_string()",
       "severity": "Important",
@@ -153551,6 +153691,20 @@
         293
       ],
       "date": "2026-05-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-46569",
+      "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ib_copy_tail(), in libntfs-3g/index.c, that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.",
+      "severity": "Important",
+      "cvss": 7.7,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -154607,6 +154761,34 @@
         149
       ],
       "date": "2026-10-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107300",
+      "title": "msgpack5: Many buffered values can exhaust the streaming decoder stack",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1424,
+      "product_idxs": [
+        1424
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107302",
+      "title": "msgpack5: Truncated map32 headers throw an unexpected error",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1424,
+      "product_idxs": [
+        1424
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -158576,7 +158758,7 @@
         1119,
         718
       ],
-      "date": "2026-06-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -160092,7 +160274,7 @@
         1125,
         1119
       ],
-      "date": "2026-06-15",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -160395,6 +160577,20 @@
         1194
       ],
       "date": "2026-09-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-46729",
+      "title": "Apache HTTP Server: mod_heartmonitor denial of service",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -160765,6 +160961,20 @@
         }
       ],
       "kb_count": 22
+    },
+    {
+      "cve_id": "CVE-2026-47360",
+      "title": "Apache HTTP Server: mod_session: Session cookie not removed during internal redirect",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
     },
     {
       "cve_id": "CVE-2026-47895",
@@ -167906,6 +168116,20 @@
       "kb_count": 3
     },
     {
+      "cve_id": "CVE-2026-63045",
+      "title": "Apache HTTP Server: mod_proxy_ftp PASV address handling",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-63072",
       "title": "Heap Buffer Overflow in CMS Key Unwrapping",
       "severity": "Important",
@@ -167970,6 +168194,20 @@
         1496
       ],
       "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-63686",
+      "title": "Apache HTTP Server: mod_xml2enc crash on charset conversion failure",
+      "severity": "Important",
+      "cvss": 7.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -168636,7 +168874,7 @@
         1497,
         1425
       ],
-      "date": "2026-09-24",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -171015,7 +171253,7 @@
         1194,
         1442
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -172968,7 +173206,7 @@
         1194,
         1442
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -173251,7 +173489,7 @@
         1119,
         718
       ],
-      "date": "2026-06-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -174553,6 +174791,20 @@
         1080
       ],
       "date": "2026-05-12",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-46572",
+      "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ib_cut_tail() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by creating a file in a specially crafted directory.",
+      "severity": "Important",
+      "cvss": 7.4,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -179769,6 +180021,34 @@
         793
       ],
       "date": "2026-06-01",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42617",
+      "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ir_to_ib() in index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42618",
+      "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_decompress() in compress.c that allows an attacker to corrupt one byte of heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file.",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -185664,6 +185944,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-98383",
+      "title": "bpf: Disallow bpf_skb_pull_data() for LWT_SEG6LOCAL",
+      "severity": "Important",
+      "cvss": 7.1,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-13699",
       "title": "MariaDB mariadb-dump Utility Directory Traversal Remote Code Execution Vulnerability",
       "severity": "Important",
@@ -187505,9 +187799,9 @@
       "title": "Canimaan Software ClamXAV local privilege escalation",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1575,
+      "product_idx": 1573,
       "product_idxs": [
-        1575
+        1573
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -282999,7 +283293,7 @@
       "product_idxs": [
         1269
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -283015,6 +283309,20 @@
         1269
       ],
       "date": "2026-10-03",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106547",
+      "title": "HDF5 heap buffer overflow in H5VM_array_fill via crafted fill-value metadata",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1300,
+      "product_idxs": [
+        1300
+      ],
+      "date": "2026-10-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -283962,9 +284270,9 @@
       "title": "Apache Thrift: Java TSaslNonblockingServer pre-auth unbounded SASL frame allocation",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -283976,9 +284284,9 @@
       "title": "Apache Thrift: Java TSaslTransport post-auth data-frame missing size limit",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284027,7 +284335,7 @@
         1415,
         1485,
         1496,
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284076,9 +284384,9 @@
         1415,
         1485,
         1496,
-        1576
+        1574
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284160,9 +284468,9 @@
       "title": "Apache Thrift: PHP accelerator sizes a stack buffer from a wire-controlled string length",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284174,9 +284482,9 @@
       "title": "Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: skip() does not apply the recursion limit (Python accelerator, PHP, Perl, Lua, Smalltalk, OCaml)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-05",
       "exploited": false,
@@ -284188,9 +284496,9 @@
       "title": "Apache Thrift: c_glib multiplexed processor crashes on a message it cannot route",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284529,7 +284837,7 @@
         1499,
         1395
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284679,9 +284987,9 @@
       "title": "Apache Thrift, Apache Thrift: WebSocket frame decoders allocate the payload buffer from the declared length, not the bytes received (Node.js, D)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-05",
       "exploited": false,
@@ -284726,9 +285034,9 @@
       "title": "Apache Thrift, Apache Thrift: TProtocolUtil.skip follows peer-chosen nesting to any depth the stack allows (Dart, Java ME)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284740,11 +285048,11 @@
       "title": "Apache Thrift: A JSON member name can stall the Node server's event loop indefinitely",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284754,9 +285062,9 @@
       "title": "Apache Thrift: A truncated HTTP request stops the D library's server, allowing an unauthenticated remote attacker to deny service",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284768,9 +285076,9 @@
       "title": "Apache Thrift: PHP `thrift_protocol` accelerator dereferences a missing container-element spec",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284810,9 +285118,9 @@
       "title": "Apache Thrift: An exception escaping a libevent callback stops the D library's non-blocking server, allowing an unauthenticated remote attacker to deny service",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284839,11 +285147,11 @@
       "title": "Apache Thrift: C++ `THeaderTransport::transform()` heap buffer overflow (write direction)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284853,11 +285161,25 @@
       "title": "Apache Thrift: PHP `thrift_protocol` accelerator: zero-byte container elements",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93318",
+      "title": "Cache poisoning via unvalidated image layer DiffIDs",
+      "severity": "Important",
+      "cvss": null,
+      "product_idx": 1368,
+      "product_idxs": [
+        1368
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284867,9 +285189,9 @@
       "title": "Apache Thrift: Dart `TBinaryProtocol.readMessageBegin` allocates from the pre-versioned name length",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284881,9 +285203,9 @@
       "title": "Apache Thrift: Lua `TBinaryProtocol:readMessageBegin` bypasses `checkStringSize` on the pre-versioned name",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284895,9 +285217,9 @@
       "title": "Apache Thrift: Java `TSaslNonblockingServer`: residual of CVE-2026-61373 (thread-death black hole + no cross-connection budget)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284909,9 +285231,9 @@
       "title": "Apache Thrift: PHP `TSimpleServer` exits the whole process on any non-transport exception",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284923,9 +285245,9 @@
       "title": "Apache Thrift: PHP `TJSONProtocol` string/number readers have no size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284937,11 +285259,11 @@
       "title": "Apache Thrift: Node.js `TJSONProtocol` uses a peer-declared container size as an unbounded loop bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284951,11 +285273,11 @@
       "title": "Apache Thrift: Node.js `server.js` ends the process on any per-connection error (+ two triggers)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -284965,9 +285287,9 @@
       "title": "Apache Thrift: dart `TJsonProtocol`/`TJSONProtocol` has no string size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284979,9 +285301,9 @@
       "title": "Apache Thrift: c_glib generated struct readers have no recursion-depth guard (native stack exhaustion)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -284993,9 +285315,9 @@
       "title": "Apache Thrift: Java `TSaslNonblockingServer` `Computation.run` orphans a connection on a pre-auth parse error",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285007,9 +285329,9 @@
       "title": "Apache Thrift: PHP framed/memory/HTTP transports re-slice the buffer on every read (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285021,11 +285343,11 @@
       "title": "Apache Thrift: Python `TNonblockingServer` busy-loops and stops selecting all fds after an 8192-byte-boundary frame",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -285035,9 +285357,9 @@
       "title": "Apache Thrift: Lua `TJsonProtocol` string/number readers have no size bound and are quadratic",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285049,11 +285371,11 @@
       "title": "Apache Thrift: rb `TJsonProtocol`/`TJSONProtocol` has no string size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -285063,9 +285385,9 @@
       "title": "Apache Thrift: javame `TJsonProtocol`/`TJSONProtocol` has no string size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285077,9 +285399,9 @@
       "title": "Apache Thrift: Lua `TFramedTransport`/`THttpTransport` re-slice the buffer on every read (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285095,7 +285417,7 @@
       "product_idxs": [
         1438
       ],
-      "date": "2026-09-24",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -285105,11 +285427,11 @@
       "title": "Apache Thrift: Ruby `SimpleServer` ends `serve()` on any non-Transport/Protocol exception",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -285119,11 +285441,11 @@
       "title": "Apache Thrift: Perl servers end `serve()` when serving one connection fails",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -285133,11 +285455,11 @@
       "title": "Apache Thrift: Perl `FramedTransport` reads and TLS socket writes re-slice the remaining buffer on every call (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -285147,9 +285469,9 @@
       "title": "Apache Thrift: Erlang generated struct reads have no recursion-depth guard (unbounded memory)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285161,9 +285483,9 @@
       "title": "Apache Thrift: php `--gen php:inlined` struct readers (and `TProtocol::skipBinary`) have no recursion-depth guard",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285175,9 +285497,9 @@
       "title": "Apache Thrift: Lua `THttpTransport:_parseHeaders` matches each header line with a backtracking pattern (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285189,11 +285511,11 @@
       "title": "Apache Thrift: nodejs web server: no `error` listener on an upgraded WebSocket connection",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -285203,9 +285525,9 @@
       "title": "Apache Thrift: Erlang thrift_json_protocol reads a whole message with no size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -285240,7 +285562,7 @@
         1479,
         1198
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -286045,7 +286367,7 @@
         520,
         727
       ],
-      "date": "2026-04-29",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -286168,7 +286490,7 @@
       "product_idxs": [
         718
       ],
-      "date": "2026-06-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -286536,6 +286858,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-48005",
+      "title": "Apache HTTP Server: mod_auth_digest reauthentication attack",
+      "severity": "Moderate",
+      "cvss": 7.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-48145",
       "title": "Apache Thrift: C++ TSSLSocket matchName() RFC 6125 Wildcard Bypass",
       "severity": "Moderate",
@@ -286709,6 +287045,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-56449",
+      "title": "Apache HTTP Server: mod_proxy_html: crash in dump_content",
+      "severity": "Moderate",
+      "cvss": 7.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-56853",
       "title": "Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check in net/http",
       "severity": "Moderate",
@@ -286825,9 +287175,9 @@
       "title": "Apache HTTP Server: mod_vhost_alias stack overflow",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -287569,6 +287919,20 @@
         292
       ],
       "date": "2026-08-11",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-73637",
+      "title": "Apache HTTP Server: mod_auth_digest DoS attack",
+      "severity": "Moderate",
+      "cvss": 7.3,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -292091,6 +292455,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-98374",
+      "title": "tcp: fix use-after-free of retransmit_skb_hint in tcp_send_synack()",
+      "severity": "Moderate",
+      "cvss": 7.1,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-40273",
       "title": "NFSD: free copynotify stateid in nfs4_free_ol_stateid()",
       "severity": "Moderate",
@@ -294831,6 +295209,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-102404",
+      "title": "Uncontrolled Resource Consumption in Elasticsearch Leading to Denial of Service",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1570,
+      "product_idxs": [
+        1570
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102411",
+      "title": "Allocation of Resources Without Limits or Throttling in Elasticsearch Leading to Denial of Service",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1570,
+      "product_idxs": [
+        1570
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-102623",
       "title": "Kubevirt: kubevirt: virt-controller nil-pointer dereference via malformed ephemeral volume",
       "severity": "Moderate",
@@ -294868,6 +295274,62 @@
         1479
       ],
       "date": "2026-10-06",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-103006",
+      "title": "Uncontrolled Recursion in Elasticsearch Leading to Denial of Service",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1570,
+      "product_idxs": [
+        1570
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106585",
+      "title": "In sshd and ssh in OpenSSH before 10.6, there is no check for whether the maximum packet length is exceeded during decompression of highly compressed data.",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107301",
+      "title": "msgpack5: Partial options disable prototype protection",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1424,
+      "product_idxs": [
+        1424
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107778",
+      "title": "MIT krb5 through 1.22.2 NULL Pointer Dereference via krb5_rd_cred()",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -299265,6 +299727,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-107718",
+      "title": "AdonisJS: Unencoded route parameters can produce open redirects",
+      "severity": "Moderate",
+      "cvss": 6.1,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-18090",
       "title": "Gdk-pixbuf: gdk-pixbuf: heap out-of-bounds read in uncompress() via crafted icns rle block",
       "severity": "Moderate",
@@ -300483,6 +300959,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-107297",
+      "title": "msgpack5: Quadratic parsing in the streaming decoder",
+      "severity": "Moderate",
+      "cvss": 5.9,
+      "product_idx": 1424,
+      "product_idxs": [
+        1424
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107299",
+      "title": "msgpack5: Reserved byte can cause unbounded stream buffering",
+      "severity": "Moderate",
+      "cvss": 5.9,
+      "product_idx": 1424,
+      "product_idxs": [
+        1424
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-12725",
       "title": "Dnsmasq: dnsmasq: heap buffer overflow in log_query() when logging unsupported ds/dnskey replies",
       "severity": "Moderate",
@@ -300716,7 +301220,7 @@
         722,
         724
       ],
-      "date": "2026-04-09",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -300734,7 +301238,7 @@
         520,
         727
       ],
-      "date": "2026-04-14",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -300922,7 +301426,7 @@
         1119,
         718
       ],
-      "date": "2026-06-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -300937,7 +301441,7 @@
         1119,
         718
       ],
-      "date": "2026-06-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -305385,7 +305889,7 @@
         64,
         255
       ],
-      "date": "2026-01-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -312442,6 +312946,20 @@
         68
       ],
       "date": "2026-05-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-46571",
+      "title": "In NTFS-3G before 2026.7.7, a out-of-bounds read exists in ntfs_fix_file_name() in libntfs-3g/reparse.c that allows an attacker to read possibly confidential information in ntfs-3g process memory by crafting a malicious NTFS image. The out-of-bounds read is triggered by a readlink on a corrupted file.",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -321542,6 +322060,62 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-98377",
+      "title": "vlan: require the MAC header to be present in __vlan_insert_inner_tag()",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-98379",
+      "title": "netfilter: ip6t_rpfilter: reject routes without inet6_dev",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-98380",
+      "title": "net/sched: reject IDR error pointers when deleting actions",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-98382",
+      "title": "bpf: Reject dev-bound-only programs on other devices",
+      "severity": "Moderate",
+      "cvss": 5.5,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2025-10158",
       "title": "Rsync: Out of bounds array access via negative index",
       "severity": "Moderate",
@@ -321569,6 +322143,20 @@
         257
       ],
       "date": "2025-12-20",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-102407",
+      "title": "Incorrect Authorization in Elasticsearch Leading to Unauthorized Data Stream Modification",
+      "severity": "Moderate",
+      "cvss": 5.4,
+      "product_idx": 1570,
+      "product_idxs": [
+        1570
+      ],
+      "date": "2026-10-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -322432,6 +323020,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-107298",
+      "title": "msgpack5: Deeply nested input can exhaust the decoder stack",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1424,
+      "product_idxs": [
+        1424
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-11856",
       "title": "cross-origin Digest auth state leak",
       "severity": "Moderate",
@@ -322720,7 +323322,7 @@
         283,
         540
       ],
-      "date": "2026-03-17",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -322932,7 +323534,7 @@
         1399,
         1194
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323163,7 +323765,7 @@
       "product_idxs": [
         1126
       ],
-      "date": "2026-08-07",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323181,7 +323783,7 @@
         1194,
         1442
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323484,6 +324086,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-58415",
+      "title": "Apache HTTP Server: mod_dav_fs property database read access",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-5950",
       "title": "Unbounded resend loop in BIND 9 resolver",
       "severity": "Moderate",
@@ -323686,7 +324302,7 @@
         1425,
         1497
       ],
-      "date": "2026-09-20",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323908,7 +324524,7 @@
         1194,
         1442
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323926,7 +324542,7 @@
         1399,
         1194
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323944,7 +324560,7 @@
         1399,
         1194
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -323960,6 +324576,20 @@
         560
       ],
       "date": "2026-09-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-79768",
+      "title": "Apache HTTP Server: mod_userdir information disclosure",
+      "severity": "Moderate",
+      "cvss": 5.3,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -324640,6 +325270,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-107888",
+      "title": "OpenPrinting CUPS before 2.4.20 contains a NULL pointer dereference in cupsdCheckJobs() when a job marked job-held-on-create refers to a temporary printer that has been automatically deleted. Temporary-printer cleanup can remove the destination without canceling its held jobs, and the scheduler dereferences the NULL result of cupsdFindDest() while checking holding_new_jobs. This terminates cupsd and interrupts all queues managed by that process. In some plausible scenarios, an unprivileged submission can trigger this.",
+      "severity": "Moderate",
+      "cvss": 5.1,
+      "product_idx": 1518,
+      "product_idxs": [
+        1518
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-2243",
       "title": "Qemu-kvm: heap buffer out-of-bounds read in vmdk compressed grain parsing",
       "severity": "Moderate",
@@ -325247,6 +325891,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-107708",
+      "title": "MIT krb5 through 1.22.2 KDC NULL Pointer Dereference via S4U2Proxy PAC",
+      "severity": "Moderate",
+      "cvss": 4.9,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-21998",
       "title": "Vulnerability in the MySQL Server product of Oracle MySQL (component: Server: Optimizer).  Supported versions that are affected are 8.0.0-8.0.45, 8.4.0-8.4.8 and  9.0.0-9.6.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).",
       "severity": "Moderate",
@@ -325785,7 +326443,7 @@
       "product_idxs": [
         718
       ],
-      "date": "2026-06-20",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -326446,7 +327104,7 @@
         741,
         343
       ],
-      "date": "2026-04-15",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -329570,6 +330228,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106454",
+      "title": "Twisted: IMAP wildcardToRegexp() ReDoS",
+      "severity": "Moderate",
+      "cvss": 4.3,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-14678",
       "title": "PostgreSQL pg_trgm picksplit reads past end of buffer",
       "severity": "Moderate",
@@ -329819,6 +330491,20 @@
         82
       ],
       "date": "2026-04-27",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-42528",
+      "title": "Apache HTTP Server: mod_dav shared lock overflow",
+      "severity": "Moderate",
+      "cvss": 4.3,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -330463,6 +331149,20 @@
         60
       ],
       "date": "2026-02-21",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106552",
+      "title": "In sftp in OpenSSH before 10.6, a server can trigger directory traversal (causing files to be written to unintended locations) during a recursive copy operation.",
+      "severity": "Moderate",
+      "cvss": 4.2,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -333069,6 +333769,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-19029",
+      "title": "HDF5 scale-offset filter heap buffer over-read via crafted chunk",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1300,
+      "product_idxs": [
+        1300
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-19672",
       "title": "tarfile extraction filter bypass allows creation of directories outside the destination",
       "severity": "Moderate",
@@ -334214,11 +334928,11 @@
       "title": "Apache Thrift: C++ THeaderTransport does not enforce configured maxFrameSize",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -334312,9 +335026,9 @@
       "title": "Apache Thrift: c_glib read_message_begin leaves output parameters unset for non-versioned messages",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -334326,9 +335040,9 @@
       "title": "Apache Thrift: Buffered transport reads are not accounted against MaxMessageSize",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -334789,7 +335503,7 @@
         1395,
         1496
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -334806,7 +335520,7 @@
         1396,
         1499
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -334882,9 +335596,9 @@
         1415,
         1485,
         1496,
-        1576
+        1574
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -334894,11 +335608,11 @@
       "title": "Apache Thrift: Integer underflow in C++ THeaderTransport allows an unauthenticated remote peer to terminate a 32-bit process",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -334957,7 +335671,7 @@
         1415,
         1485,
         1496,
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -334997,11 +335711,11 @@
       "title": "Apache Thrift: Perl TLS client disables certificate verification by default",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335011,11 +335725,11 @@
       "title": "Apache Thrift: Python ≥3.12 host-name check silently becomes a no-op",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335025,9 +335739,9 @@
       "title": "Apache Thrift, Apache Thrift: The C++ and D clients fall back to the certificate Common Name when subjectAltName entries are present but do not match",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -335039,9 +335753,9 @@
       "title": "Apache Thrift: c_glib `read_all` spins when the underlying read returns 0",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -335053,9 +335767,9 @@
       "title": "Apache Thrift: c_glib TZlibTransport reports a full read after a premature stream end",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -335067,11 +335781,11 @@
       "title": "Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: Framed transport and binary protocol size read buffers from a peer-declared length without a limit (multi-language)",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335097,11 +335811,11 @@
       "title": "Apache Thrift, Apache Thrift, Apache Thrift: A map key from the wire can replace a decoded object's prototype in generated JavaScript",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335168,11 +335882,11 @@
       "title": "Apache Thrift: C++ WebSocket server transport does not read a full request length",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335192,15 +335906,100 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-93319",
+      "title": "A malicious frontend can cause a daemon panic",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1368,
+      "product_idxs": [
+        1368
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93320",
+      "title": "BuildKit improperly handles special files in build snapshots",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1368,
+      "product_idxs": [
+        1368
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93321",
+      "title": "Malformed LLB file operation can crash buildkitd",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1368,
+      "product_idxs": [
+        1368
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93322",
+      "title": "Malformed MergeOp can crash the BuildKit daemon",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1368,
+      "product_idxs": [
+        1368
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93323",
+      "title": "Oversized Dockerfile or .dockerignore can exhaust buildkitd memory",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1494,
+      "product_idxs": [
+        1494,
+        1368
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-93326",
+      "title": "Crafted Git build source can bypass certain policy validation",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 1368,
+      "product_idxs": [
+        1368
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-93925",
       "title": "Apache Thrift: C++ `THeaderTransport::writeVarint32()` stack buffer overflow on a negative protocol id",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335210,11 +336009,11 @@
       "title": "Apache Thrift: C++ `THeaderTransport::untransform()` leaks the zlib stream on the error path",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335224,11 +336023,11 @@
       "title": "Apache Thrift: Python `TJSONProtocol` has a string length limit that is off by default",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335238,11 +336037,11 @@
       "title": "Apache Thrift: Python `TZlibTransport` stops enforcing its decompressed-size limit once the limit is exactly used up",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -335257,7 +336056,7 @@
         1415,
         1485,
         1496,
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -335269,9 +336068,9 @@
       "title": "Apache Thrift: PHP `thrift_protocol` C extension ignores the configured `maxStringSize`",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -336532,7 +337331,7 @@
         721,
         722
       ],
-      "date": "2026-04-09",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -336622,6 +337421,34 @@
         370
       ],
       "date": "2026-01-19",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106582",
+      "title": "In sshd and ssh in OpenSSH before 10.6, an LZ77 dictionary coder can be used even though this is contraindicated by the arXiv 2609.07709 \"Crossing the Streams\" findings.",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107296",
+      "title": "msgpack5: Decoding negative int64 values mutates the input buffer",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1424,
+      "product_idxs": [
+        1424
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -336766,6 +337593,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-42356",
+      "title": "Apache HTTP Server: limited RCE for some internal redirects to non-CGI files in CGI directories",
+      "severity": "Low",
+      "cvss": 3.7,
+      "product_idx": 1574,
+      "product_idxs": [
+        1574
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-42768",
       "title": "Multi-RecipientInfo Bleichenbacher Oracle in CMS_decrypt() and PKCS7_decrypt()",
       "severity": "Low",
@@ -336774,7 +337615,7 @@
       "product_idxs": [
         1125
       ],
-      "date": "2026-06-15",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -336790,7 +337631,7 @@
         1127,
         1128
       ],
-      "date": "2026-07-21",
+      "date": "2026-10-11",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -337070,7 +337911,7 @@
         1399,
         1194
       ],
-      "date": "2026-10-05",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -337229,6 +338070,20 @@
         1160
       ],
       "date": "2026-10-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106587",
+      "title": "In sshd in OpenSSH before 10.6, the value \"none\" for a configuration option is sometimes interpreted as a filename but was intended to mean that a feature is disabled.",
+      "severity": "Low",
+      "cvss": 3.6,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -337632,6 +338487,34 @@
         866
       ],
       "date": "2026-06-07",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107885",
+      "title": "OpenPrinting CUPS through 2.4.20 contains a resource-exhaustion vulnerability in the submission-timeout handling of cupsdCheckJobs(). The scheduler suppresses timeout processing for all pending jobs whenever any client connection has an in-flight Send-Document operation, without matching that connection to the job being examined. A client allowed to reach the IPP service can hold an incomplete HTTP request containing parsed Send-Document headers before operation authorization, preventing unrelated incomplete jobs from expiring. Where Create-Job submission is allowed, incomplete jobs can accumulate until MaxJobs is exhausted and further legitimate print submissions are rejected. The suppression ends when the held connection closes.",
+      "severity": "Low",
+      "cvss": 3.3,
+      "product_idx": 1518,
+      "product_idxs": [
+        1518
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-107890",
+      "title": "OpenPrinting CUPS before 2.4.20 contains a NULL pointer dereference caused by repeated IPP group tags in job-creation requests. IPP parsing creates unnamed separator attributes with IPP_TAG_ZERO, but add_job() converts these separators to IPP_TAG_JOB. During job startup, get_options()/ipp_length() subsequently calls strlen() on a NULL attribute name, terminating cupsd and disrupting all queues. A single crafted Print-Job request can trigger the crash when the client can reach the scheduler and submit jobs to an accepting, enabled queue supporting the submitted document format. Anonymous submission is possible when permitted by listener and access-control configuration.",
+      "severity": "Low",
+      "cvss": 3.3,
+      "product_idx": 1518,
+      "product_idxs": [
+        1518
+      ],
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -338585,6 +339468,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-98384",
+      "title": "bpf: Fix out-of-bounds read of sk_protocol in bpf_sock_destroy()",
+      "severity": "Low",
+      "cvss": 3.3,
+      "product_idx": 292,
+      "product_idxs": [
+        292
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-43969",
       "title": "Cookie Request Header Injection via Unvalidated Encoder in cow_cookie:cookie/1",
       "severity": "Low",
@@ -339043,6 +339940,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106589",
+      "title": "In sshd in OpenSSH through 10.6, in certain environments such as QNX 6 and SCO OpenServer 5, sshd-session can unexpectedly have root privileges. This is related to the GatewayPorts and StreamLocalForwarding configuration options, and lack of support for file-descriptor passing and unprivileged allocation of PTY devices.",
+      "severity": "Low",
+      "cvss": 2.9,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-16517",
       "title": "Libarchive: libarchive: signed integer overflow in archive_write_zip_header",
       "severity": "Low",
@@ -339292,6 +340203,62 @@
         1161
       ],
       "date": "2026-06-29",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-105326",
+      "title": "Cups: cups: argument injection in mailto notifier via notify-recipient-uri",
+      "severity": "Low",
+      "cvss": 2.5,
+      "product_idx": 1518,
+      "product_idxs": [
+        1518
+      ],
+      "date": "2026-10-09",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106583",
+      "title": "In ssh in OpenSSH before 10.6, a $ or \\ character can occur in a command-line username, leading to injection.",
+      "severity": "Low",
+      "cvss": 2.5,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106584",
+      "title": "In ssh-keygen in OpenSSH before 10.6, certificates could have incorrect expiration times because of Daylight Saving mishandling. There can be a slightly more severe effect on users in certain Antarctic locations.",
+      "severity": "Low",
+      "cvss": 2.5,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106586",
+      "title": "In sshd in OpenSSH before 10.6, the restrict keyword (in authorized_keys) was supposed to be applicable to tunnel forwarding but was not, a different vulnerability than CVE-2026-73283.",
+      "severity": "Low",
+      "cvss": 2.5,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -339925,6 +340892,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-107886",
+      "title": "OpenPrinting CUPS before 2.4.20 contains a double-free in printer-class management. When CUPS-Add-Modify-Class replaces an existing class member list, add_class() frees pclass->printers without clearing the pointer. If subsequent validation fails, the class retains the dangling pointer; CUPS-Delete-Class subsequently frees the same allocation in cupsdDeletePrinter(). A client authorized to modify and delete classes can cause scheduler-wide denial of service. The default policy requires @SYSTEM privileges.",
+      "severity": "Low",
+      "cvss": 2.3,
+      "product_idx": 1518,
+      "product_idxs": [
+        1518
+      ],
+      "date": "2026-10-10",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-61477",
       "title": "Libvirt: libvirt: newline injection in network xml dns txt/srv fields allows dnsmasq config directive injection",
       "severity": "Low",
@@ -340053,6 +341034,34 @@
         509
       ],
       "date": "2026-03-31",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106553",
+      "title": "In sshd in OpenSSH before 10.6, credentials can incorrectly persist after failure of a GSSAPIAuthentication authentication attempt.",
+      "severity": "Low",
+      "cvss": 2.2,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106555",
+      "title": "In sshd in OpenSSH before 10.6, GSSAPIAuthentication authentication state can incorrectly be persisted across authentication attempts.",
+      "severity": "Low",
+      "cvss": 2.2,
+      "product_idx": 1154,
+      "product_idxs": [
+        1154
+      ],
+      "date": "2026-10-08",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -341667,9 +342676,9 @@
       "title": "Heap Buffer Overflow in GNU Aspell's prezip utility",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -341681,9 +342690,9 @@
       "title": "Out-of-bounds Read in GNU Aspell",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -341695,9 +342704,9 @@
       "title": "Integer Truncation Leading to Heap Corruption in GNU Aspell",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -341798,11 +342807,11 @@
       "title": "Apache Thrift: C++ `TEvhttpServer` leaks its `RequestContext` when the processor throws before calling back",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1576,
+      "product_idx": 1574,
       "product_idxs": [
-        1576
+        1574
       ],
-      "date": "2026-10-03",
+      "date": "2026-10-10",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
