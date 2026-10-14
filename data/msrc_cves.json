@@ -7,7 +7,7 @@
     "low": 457,
     "exploited": 21,
     "patched": 3824,
-    "updated_at": "2026-10-13 21:44 UTC",
+    "updated_at": "2026-10-14 00:52 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -5457,18 +5457,18 @@
         },
         {
           "kb": "5130034",
-          "url": "https://support.microsoft.com/kb/5130034",
-          "fixed_build": "",
-          "subtype": "Release Notes",
+          "url": "https://support.microsoft.com/help/5130034",
+          "fixed_build": "8.0.32",
+          "subtype": "Security Update",
           "product_idxs": [
             426
           ]
         },
         {
           "kb": "5130035",
-          "url": "https://support.microsoft.com/kb/5130035",
-          "fixed_build": "",
-          "subtype": "Release Notes",
+          "url": "https://support.microsoft.com/help/5130035",
+          "fixed_build": "9.0.21",
+          "subtype": "Security Update",
           "product_idxs": [
             430
           ]
@@ -11791,7 +11791,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -11833,7 +11833,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -11847,7 +11847,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -11945,7 +11945,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -11973,7 +11973,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12071,7 +12071,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12141,7 +12141,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12155,7 +12155,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12169,7 +12169,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12197,7 +12197,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12211,7 +12211,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12225,7 +12225,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12323,7 +12323,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12505,7 +12505,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12519,7 +12519,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12533,7 +12533,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12631,7 +12631,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12659,7 +12659,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12855,7 +12855,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12869,7 +12869,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12897,7 +12897,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12911,7 +12911,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12925,7 +12925,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12939,7 +12939,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12967,7 +12967,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -12981,7 +12981,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -13023,7 +13023,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -77582,7 +77582,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -84684,7 +84684,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -84698,7 +84698,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -212158,7 +212158,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -212200,7 +212200,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -212214,7 +212214,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -212228,7 +212228,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -212256,7 +212256,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419321,7 +419321,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419335,7 +419335,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419349,7 +419349,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419363,7 +419363,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419377,7 +419377,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419391,7 +419391,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419405,7 +419405,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419419,7 +419419,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419433,7 +419433,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419447,7 +419447,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419475,7 +419475,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419489,7 +419489,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419503,7 +419503,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419531,7 +419531,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419587,7 +419587,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419615,7 +419615,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -419629,7 +419629,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-09",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -424942,7 +424942,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -427774,7 +427774,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449030,7 +449030,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449072,7 +449072,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449100,7 +449100,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449114,7 +449114,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449128,7 +449128,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449156,7 +449156,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449268,7 +449268,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449296,7 +449296,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449352,7 +449352,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449380,7 +449380,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449422,7 +449422,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -449436,7 +449436,7 @@
       "product_idxs": [
         234
       ],
-      "date": "2026-10-07",
+      "date": "2026-10-13",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
