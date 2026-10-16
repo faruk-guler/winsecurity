@@ -1,13 +1,13 @@
 {
   "meta": {
-    "total": 13098,
+    "total": 13144,
     "critical": 889,
-    "important": 5492,
-    "moderate": 3513,
-    "low": 516,
+    "important": 5504,
+    "moderate": 3532,
+    "low": 531,
     "exploited": 22,
     "patched": 3870,
-    "updated_at": "2026-10-16 19:19 UTC",
+    "updated_at": "2026-10-16 22:33 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -45008,6 +45008,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106239",
+      "title": "Chromium CVE-2026-106239: Integer overflow",
+      "severity": "Important",
+      "cvss": 9.6,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106281",
+      "title": "Chromium CVE-2026-106281: Use after free",
+      "severity": "Important",
+      "cvss": 9.6,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106329",
       "title": "Chromium CVE-2026-106329: Incorrect authorization",
       "severity": "Important",
@@ -48614,6 +48642,90 @@
     {
       "cve_id": "CVE-2026-106235",
       "title": "Chromium CVE-2026-106235: Use after free",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106240",
+      "title": "Chromium CVE-2026-106240: Type confusion",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106248",
+      "title": "Chromium CVE-2026-106248: Use after free",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106255",
+      "title": "Chromium CVE-2026-106255: Race condition",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106257",
+      "title": "Chromium CVE-2026-106257: Use after free",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106268",
+      "title": "Chromium CVE-2026-106268: Use after free",
+      "severity": "Important",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106278",
+      "title": "Chromium CVE-2026-106278: Use after free",
       "severity": "Important",
       "cvss": 8.8,
       "product_idx": 0,
@@ -404252,6 +404364,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106243",
+      "title": "Chromium CVE-2026-106243: Incomplete cleanup",
+      "severity": "Important",
+      "cvss": 5.3,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106364",
       "title": "Chromium CVE-2026-106364: Incorrect authorization",
       "severity": "Important",
@@ -407223,6 +407349,34 @@
     {
       "cve_id": "CVE-2026-106231",
       "title": "Chromium CVE-2026-106231: Uninitialized resource",
+      "severity": "Important",
+      "cvss": 4.7,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106258",
+      "title": "Chromium CVE-2026-106258: Uninitialized resource",
+      "severity": "Important",
+      "cvss": 4.7,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106273",
+      "title": "Chromium CVE-2026-106273: Uninitialized resource",
       "severity": "Important",
       "cvss": 4.7,
       "product_idx": 0,
@@ -415196,6 +415350,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106245",
+      "title": "Chromium CVE-2026-106245: Uninitialized resource",
+      "severity": "Important",
+      "cvss": 4.3,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106332",
       "title": "Chromium CVE-2026-106332: Integer overflow",
       "severity": "Important",
@@ -419667,6 +419835,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106241",
+      "title": "Chromium CVE-2026-106241: Incorrect authorization",
+      "severity": "Moderate",
+      "cvss": 9.6,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106375",
       "title": "Chromium CVE-2026-106375: Incomplete cleanup",
       "severity": "Moderate",
@@ -419837,6 +420019,34 @@
     {
       "cve_id": "CVE-2026-106225",
       "title": "Chromium CVE-2026-106225: Missing authorization",
+      "severity": "Moderate",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106274",
+      "title": "Chromium CVE-2026-106274: Incorrect reference resolution",
+      "severity": "Moderate",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106283",
+      "title": "Chromium CVE-2026-106283: Use after free",
       "severity": "Moderate",
       "cvss": 8.8,
       "product_idx": 0,
@@ -420081,7 +420291,7 @@
       "product_idxs": [
         0
       ],
-      "date": "2026-10-08",
+      "date": "2026-10-16",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -420353,6 +420563,20 @@
     {
       "cve_id": "CVE-2026-106205",
       "title": "Chromium CVE-2026-106205: Missing authorization",
+      "severity": "Moderate",
+      "cvss": 8.1,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106271",
+      "title": "Chromium CVE-2026-106271: Missing authorization",
       "severity": "Moderate",
       "cvss": 8.1,
       "product_idx": 0,
@@ -422062,6 +422286,20 @@
         293
       ],
       "date": "2026-10-15",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106279",
+      "title": "Chromium CVE-2026-106279: Incorrect reference resolution",
+      "severity": "Moderate",
+      "cvss": 7.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
@@ -429801,6 +430039,62 @@
     {
       "cve_id": "CVE-2026-106185",
       "title": "Chromium CVE-2026-106185: Improper input validation",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106242",
+      "title": "Chromium CVE-2026-106242: Information leak",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106244",
+      "title": "Chromium CVE-2026-106244: Incorrect authorization",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106263",
+      "title": "Chromium CVE-2026-106263: Improper input validation",
+      "severity": "Moderate",
+      "cvss": 6.5,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106280",
+      "title": "Chromium CVE-2026-106280: Incorrect authorization",
       "severity": "Moderate",
       "cvss": 6.5,
       "product_idx": 0,
@@ -457308,6 +457602,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106246",
+      "title": "Chromium CVE-2026-106246: Incorrect authorization",
+      "severity": "Moderate",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106265",
+      "title": "Chromium CVE-2026-106265: UI misrepresentation",
+      "severity": "Moderate",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106302",
       "title": "Chromium CVE-2026-106302: UI misrepresentation",
       "severity": "Moderate",
@@ -462279,6 +462601,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106284",
+      "title": "Chromium CVE-2026-106284: Out of bounds read",
+      "severity": "Moderate",
+      "cvss": 4.7,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106300",
       "title": "Chromium CVE-2026-106300: Race condition",
       "severity": "Moderate",
@@ -465740,6 +466076,34 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106253",
+      "title": "Chromium CVE-2026-106253: Incorrect authorization",
+      "severity": "Moderate",
+      "cvss": 4.3,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106277",
+      "title": "Chromium CVE-2026-106277: Information leak",
+      "severity": "Moderate",
+      "cvss": 4.3,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106321",
       "title": "Chromium CVE-2026-106321: Information leak",
       "severity": "Moderate",
@@ -466781,6 +467145,20 @@
     {
       "cve_id": "CVE-2026-106226",
       "title": "Chromium CVE-2026-106226: Improper input validation",
+      "severity": "Moderate",
+      "cvss": 4.2,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106262",
+      "title": "Chromium CVE-2026-106262: Incomplete cleanup",
       "severity": "Moderate",
       "cvss": 4.2,
       "product_idx": 0,
@@ -469368,6 +469746,62 @@
     {
       "cve_id": "CVE-2026-106216",
       "title": "Chromium CVE-2026-106216: Cross-site request forgery",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106261",
+      "title": "Chromium CVE-2026-106261: Uninitialized resource",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106266",
+      "title": "Chromium CVE-2026-106266: Confused deputy",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106267",
+      "title": "Chromium CVE-2026-106267: Missing authorization",
+      "severity": "Moderate",
+      "cvss": null,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106286",
+      "title": "Chromium CVE-2026-106286: Confused deputy",
       "severity": "Moderate",
       "cvss": null,
       "product_idx": 0,
@@ -472097,6 +472531,62 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106249",
+      "title": "Chromium CVE-2026-106249: Incorrect authorization",
+      "severity": "Low",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106252",
+      "title": "Chromium CVE-2026-106252: Incorrect comparison",
+      "severity": "Low",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106256",
+      "title": "Chromium CVE-2026-106256: Information leak",
+      "severity": "Low",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106269",
+      "title": "Chromium CVE-2026-106269: Use after free",
+      "severity": "Low",
+      "cvss": 8.8,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106309",
       "title": "Chromium CVE-2026-106309: Incorrect authorization",
       "severity": "Low",
@@ -472239,6 +472729,20 @@
     {
       "cve_id": "CVE-2026-106191",
       "title": "Chromium CVE-2026-106191: Missing authorization",
+      "severity": "Low",
+      "cvss": 8.3,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106247",
+      "title": "Chromium CVE-2026-106247: Buffer overflow",
       "severity": "Low",
       "cvss": 8.3,
       "product_idx": 0,
@@ -472526,6 +473030,118 @@
     {
       "cve_id": "CVE-2026-106236",
       "title": "Chromium CVE-2026-106236: UI misrepresentation",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106250",
+      "title": "Chromium CVE-2026-106250: Missing authorization",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106251",
+      "title": "Chromium CVE-2026-106251: UI misrepresentation",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106259",
+      "title": "Chromium CVE-2026-106259: Incorrect authorization",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106264",
+      "title": "Chromium CVE-2026-106264: Missing authorization",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106270",
+      "title": "Chromium CVE-2026-106270: Incorrect authorization",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106272",
+      "title": "Chromium CVE-2026-106272: UI misrepresentation",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106276",
+      "title": "Chromium CVE-2026-106276: UI misrepresentation",
+      "severity": "Low",
+      "cvss": 5.4,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106285",
+      "title": "Chromium CVE-2026-106285: UI misrepresentation",
       "severity": "Low",
       "cvss": 5.4,
       "product_idx": 0,
@@ -472979,6 +473595,20 @@
       "kb_count": 0
     },
     {
+      "cve_id": "CVE-2026-106275",
+      "title": "Chromium CVE-2026-106275: Uninitialized resource",
+      "severity": "Low",
+      "cvss": 4.7,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
       "cve_id": "CVE-2026-106340",
       "title": "Chromium CVE-2026-106340: Missing authorization",
       "severity": "Low",
@@ -473032,6 +473662,20 @@
         0
       ],
       "date": "2025-12-04",
+      "exploited": false,
+      "kb_articles": [],
+      "kb_count": 0
+    },
+    {
+      "cve_id": "CVE-2026-106260",
+      "title": "Chromium CVE-2026-106260: Incorrect authorization",
+      "severity": "Low",
+      "cvss": 4.3,
+      "product_idx": 0,
+      "product_idxs": [
+        0
+      ],
+      "date": "2026-10-16",
       "exploited": false,
       "kb_articles": [],
       "kb_count": 0
