@@ -7,7 +7,7 @@
     "low": 531,
     "exploited": 22,
     "patched": 3870,
-    "updated_at": "2026-10-16 22:33 UTC",
+    "updated_at": "2026-10-17 01:05 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -1617,6 +1617,7 @@
     "HEVC Video Extensions from Device Manufacturer on Windows Server 2025",
     "HEVC Video Extensions from Device Manufacturer on Windows 11 Version 23H2 for ARM64-based Systems",
     "HEVC Video Extensions from Device Manufacturer on Windows 11 Version 24H2 for x64-based Systems",
+    "Microsoft Identity Client for NodeJS on Windows 10 Version 22H2 for x64-based Systems",
     "System.Formats.Cbor on .NET 10.0 installed on Windows",
     "System.Formats.Cbor on .NET 10.0 installed on Linux",
     "System.Formats.Cbor on .NET 10.0 installed on Mac OS",
@@ -4991,9 +4992,9 @@
       "title": "Microsoft Bookings Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": 9.9,
-      "product_idx": 1651,
+      "product_idx": 1652,
       "product_idxs": [
-        1651
+        1652
       ],
       "date": "2026-10-08",
       "exploited": false,
@@ -5675,12 +5676,12 @@
       "title": "Raw Image Extension Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1611,
+      "product_idx": 1612,
       "product_idxs": [
-        1611,
         1612,
         1613,
         1614,
+        1615,
         1509
       ],
       "date": "2026-10-13",
@@ -7420,9 +7421,9 @@
       "title": "Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -7651,7 +7652,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -7677,9 +7678,9 @@
       "title": "Apache HTTP Server: mod_http2 use-after-free / wild write via shared session->bbtmp re-entrancy",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -7691,9 +7692,9 @@
       "title": "Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function",
       "severity": "Critical",
       "cvss": 9.8,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -21769,12 +21770,12 @@
       "title": "Windows Raw Image Extension Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1611,
+      "product_idx": 1612,
       "product_idxs": [
-        1611,
         1612,
         1613,
         1614,
+        1615,
         1509
       ],
       "date": "2026-10-16",
@@ -21997,12 +21998,12 @@
       "title": "Windows Raw Image Extension Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": 8.8,
-      "product_idx": 1611,
+      "product_idx": 1612,
       "product_idxs": [
-        1611,
         1612,
         1613,
         1614,
+        1615,
         1509
       ],
       "date": "2026-10-13",
@@ -22517,9 +22518,9 @@
       "title": "Azure API Center Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": 8.7,
-      "product_idx": 1637,
+      "product_idx": 1638,
       "product_idxs": [
-        1637
+        1638
       ],
       "date": "2026-10-08",
       "exploited": false,
@@ -33293,9 +33294,9 @@
       "title": "Azure Event Grid Spoofing Vulnerability",
       "severity": "Critical",
       "cvss": 7.7,
-      "product_idx": 1638,
+      "product_idx": 1639,
       "product_idxs": [
-        1638
+        1639
       ],
       "date": "2026-10-08",
       "exploited": false,
@@ -35451,15 +35452,15 @@
       "title": "Active Directory Federation Services (AD FS) Spoofing Vulnerability",
       "severity": "Critical",
       "cvss": 7.4,
-      "product_idx": 1652,
+      "product_idx": 1653,
       "product_idxs": [
-        1652,
         1653,
         1654,
+        1655,
         28,
         29
       ],
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "exploited": false,
       "kb_articles": [
         {
@@ -35684,7 +35685,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         }
       ],
@@ -37077,7 +37078,7 @@
       "product_idxs": [
         994,
         1443,
-        1664,
+        1665,
         210,
         1202
       ],
@@ -37249,9 +37250,9 @@
       "title": "Linux Kernel Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1616,
+      "product_idx": 1617,
       "product_idxs": [
-        1616
+        1617
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -37312,9 +37313,9 @@
       "title": "Apache Thrift: C++ THttpTransport grows its line buffer without bound",
       "severity": "Critical",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -45381,9 +45382,9 @@
       "title": "Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char",
       "severity": "Important",
       "cvss": 9.4,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -57360,7 +57361,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -62935,7 +62936,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -62977,7 +62978,7 @@
       "product_idxs": [
         1594,
         83,
-        1618,
+        1619,
         452,
         455
       ],
@@ -63160,7 +63161,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -63878,7 +63879,7 @@
       "product_idx": 1594,
       "product_idxs": [
         1594,
-        1618,
+        1619,
         83,
         452,
         455
@@ -64062,7 +64063,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -65197,9 +65198,9 @@
       "title": "Microsoft MPEG-2 Video Extension Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1635,
+      "product_idx": 1636,
       "product_idxs": [
-        1635
+        1636
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -68046,7 +68047,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -71119,7 +71120,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -71977,9 +71978,9 @@
       "title": ".NET Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1618,
+      "product_idx": 1619,
       "product_idxs": [
-        1618,
+        1619,
         452,
         455,
         459,
@@ -73866,9 +73867,9 @@
       "title": "Apache HTTP Server: mod_dav_fs namespace overflow",
       "severity": "Important",
       "cvss": 8.8,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -73947,7 +73948,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -74153,7 +74154,7 @@
       "product_idxs": [
         1594,
         83,
-        1618,
+        1619,
         452,
         455
       ],
@@ -74336,7 +74337,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -74379,8 +74380,8 @@
         1595,
         1596,
         1597,
-        1655,
-        1656
+        1656,
+        1657
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -74611,7 +74612,7 @@
       "product_idxs": [
         452,
         451,
-        1618,
+        1619,
         1495,
         1496
       ],
@@ -76265,7 +76266,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -76356,7 +76357,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -76465,7 +76466,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -79210,9 +79211,9 @@
       "title": "Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -79238,9 +79239,9 @@
       "title": "Apache HTTP Server: mod_proxy_uwsgi Transfer-Encoding response smuggling",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -79625,12 +79626,12 @@
       "title": "Azure Key Vault Client SDK Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 8.2,
-      "product_idx": 1644,
+      "product_idx": 1645,
       "product_idxs": [
-        1644,
         1645,
-        1643,
-        1646
+        1646,
+        1644,
+        1647
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -81009,9 +81010,9 @@
       "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_index_walk_down() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file metadata.",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -85285,9 +85286,9 @@
       "title": "Apache HTTP Server: mod_auth_digest one-time-nonce replay attack",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -85709,9 +85710,9 @@
       "title": "Windows Paint Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.1,
-      "product_idx": 1636,
+      "product_idx": 1637,
       "product_idxs": [
-        1636
+        1637
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -88787,9 +88788,9 @@
       "title": "util-linux libblkid DOS extended-partition overflow produces invalid partition metadata",
       "severity": "Important",
       "cvss": 8.0,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-16",
       "exploited": false,
@@ -93772,9 +93773,9 @@
       "title": "Microsoft Power Apps Remote Code Execution Vulnerability",
       "severity": "Important",
       "cvss": 8.0,
-      "product_idx": 1633,
+      "product_idx": 1634,
       "product_idxs": [
-        1633
+        1634
       ],
       "date": "2026-10-16",
       "exploited": false,
@@ -94283,7 +94284,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -124441,9 +124442,9 @@
       "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in cat() in ntfscat.c that allows an attacker to corrupt heap memory in the ntfscat binary by crafting a malicious NTFS image. The overflow is triggered by reading a file.",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -210436,7 +210437,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -216612,9 +216613,9 @@
       "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ib_copy_tail(), in libntfs-3g/index.c, that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.",
       "severity": "Important",
       "cvss": 7.7,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -216780,7 +216781,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -216871,7 +216872,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -218651,13 +218652,13 @@
       "title": "ASP.NET Core Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1606,
+      "product_idx": 1607,
       "product_idxs": [
-        1606,
         1607,
         1608,
         1609,
-        1610
+        1610,
+        1611
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -224453,9 +224454,9 @@
       "title": "Apache HTTP Server: mod_heartmonitor denial of service",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -224834,9 +224835,9 @@
       "title": "Apache HTTP Server: mod_session: Session cookie not removed during internal redirect",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -230081,7 +230082,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -230659,7 +230660,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -232229,9 +232230,9 @@
       "title": "Apache HTTP Server: mod_proxy_ftp PASV address handling",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -232312,9 +232313,9 @@
       "title": "Apache HTTP Server: mod_xml2enc crash on charset conversion failure",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -232821,9 +232822,9 @@
       "title": "An issue in gnutls v.3.8.13 allows an attacker to obtain sensitive information via failing to reject end-entity X.509 certificates that contain a contradictory combination of Key Usage (KU) and Extended Key Usage (EKU)",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -234372,9 +234373,9 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1615,
+      "product_idx": 1616,
       "product_idxs": [
-        1615,
+        1616,
         931,
         933,
         1587,
@@ -234559,7 +234560,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -238073,13 +238074,13 @@
       "title": "ASP.NET Core Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1621,
+      "product_idx": 1622,
       "product_idxs": [
-        1621,
         1622,
         1623,
         1624,
-        1625
+        1625,
+        1626
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -238194,9 +238195,9 @@
       "product_idxs": [
         1594,
         83,
-        1630,
         1631,
-        1632
+        1632,
+        1633
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -238216,32 +238217,32 @@
         1594,
         83
       ],
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "exploited": false,
       "kb_articles": [
         {
           "kb": "5130034",
-          "url": "https://support.microsoft.com/kb/5130034",
-          "fixed_build": "",
-          "subtype": "Release Notes",
+          "url": "https://support.microsoft.com/help/5130034",
+          "fixed_build": "8.0.32",
+          "subtype": "Security Update",
           "product_idxs": [
             678
           ]
         },
         {
           "kb": "5130035",
-          "url": "https://support.microsoft.com/kb/5130035",
-          "fixed_build": "",
-          "subtype": "Release Notes",
+          "url": "https://support.microsoft.com/help/5130035",
+          "fixed_build": "9.0.21",
+          "subtype": "Security Update",
           "product_idxs": [
             679
           ]
         },
         {
           "kb": "5130036",
-          "url": "https://support.microsoft.com/kb/5130036",
-          "fixed_build": "",
-          "subtype": "Release Notes",
+          "url": "https://support.microsoft.com/help/5130036",
+          "fixed_build": "10.0.13",
+          "subtype": "Security Update",
           "product_idxs": [
             680
           ]
@@ -238308,7 +238309,7 @@
         678,
         679
       ],
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "exploited": false,
       "kb_articles": [
         {
@@ -239525,9 +239526,9 @@
       "title": "IKEv2 pre-authentication Null Pointer Dereference in EAP code",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -239539,9 +239540,9 @@
       "title": "Null Pointer Dereference in PKCS#7 bundle with no certificates",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -240623,13 +240624,13 @@
       "title": "HTTP/2 transport accepts malformed framing-related headers in net/http",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662,
+        1663,
         1558,
-        1665,
+        1666,
         1543,
-        1666
+        1667
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -240641,10 +240642,10 @@
       "title": "Double flow control refund on HTTP/2 server streams in net/http",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1665,
+      "product_idx": 1666,
       "product_idxs": [
-        1665,
         1666,
+        1667,
         1300,
         1557,
         1462
@@ -240662,7 +240663,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-16",
       "exploited": false,
@@ -240674,13 +240675,13 @@
       "title": "Excessive CPU consumption from repeated initial window changes in net/http",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662,
+        1663,
         1558,
-        1665,
+        1666,
         1543,
-        1666
+        1667
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -242596,13 +242597,13 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1626,
+      "product_idx": 1627,
       "product_idxs": [
-        1626,
-        1639,
-        1640,
         1627,
-        1641
+        1640,
+        1641,
+        1628,
+        1642
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -242783,7 +242784,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         }
       ],
@@ -244586,7 +244587,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-16",
       "exploited": false,
@@ -244601,7 +244602,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -244613,9 +244614,9 @@
       "title": "IKEv2 Use-After-Free bug when using IKE-over-TCP",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -244641,9 +244642,9 @@
       "title": "Improper certificate validation in gnutls v3.8.13 causes the application to reject legitimate certificates for valid users, leading to a Denial of Service (DoS).",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -244655,9 +244656,9 @@
       "title": "An issue in gnutls v3.8.13 causes legitimate CA certificates to be rejected, leading to a Denial of Service (DoS).",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -245090,7 +245091,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         },
         {
@@ -245188,7 +245189,7 @@
         454,
         456
       ],
-      "date": "2026-10-13",
+      "date": "2026-10-16",
       "exploited": false,
       "kb_articles": [
         {
@@ -246104,7 +246105,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         }
       ],
@@ -246115,13 +246116,13 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1657,
+      "product_idx": 1658,
       "product_idxs": [
-        1657,
         1658,
         1659,
         1660,
-        1661
+        1661,
+        1662
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -246302,7 +246303,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         }
       ],
@@ -246313,13 +246314,13 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 7.5,
-      "product_idx": 1657,
+      "product_idx": 1658,
       "product_idxs": [
-        1657,
         1658,
         1659,
         1660,
-        1661
+        1661,
+        1662
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -246500,7 +246501,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         }
       ],
@@ -246514,7 +246515,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -246859,7 +246860,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         }
       ],
@@ -247188,7 +247189,7 @@
           "fixed_build": "2.0.50727.9188 AND 3.0.30729.9171",
           "subtype": "Security Update",
           "product_idxs": [
-            1615
+            1616
           ]
         }
       ],
@@ -247403,9 +247404,9 @@
       "title": "Vitess vttablet /twopcz reflected XSS",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -248392,9 +248393,9 @@
       "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ib_cut_tail() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by creating a file in a specially crafted directory.",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -248944,13 +248945,13 @@
       "title": "Azure Key Vault Security Feature Bypass Vulnerability",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1643,
+      "product_idx": 1644,
       "product_idxs": [
-        1643,
         1644,
         1645,
         1646,
-        1647
+        1647,
+        1648
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -249108,9 +249109,9 @@
       "title": "A hostname verification bypass in GnuTLS v3.8.13 allows attackers to circumvent the Common Name fallback mechanism and eavesdrop on communications via a crafted certificate.",
       "severity": "Important",
       "cvss": 7.4,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -251595,9 +251596,9 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.3,
-      "product_idx": 1618,
+      "product_idx": 1619,
       "product_idxs": [
-        1618,
+        1619,
         459,
         452,
         1594,
@@ -251638,7 +251639,7 @@
         452,
         1594,
         83,
-        1618
+        1619
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -254166,9 +254167,9 @@
       "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_ir_to_ib() in index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by extending a directory, e.g., by creating a file.",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -254180,9 +254181,9 @@
       "title": "In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_decompress() in compress.c that allows an attacker to corrupt one byte of heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file.",
       "severity": "Important",
       "cvss": 7.1,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -264081,9 +264082,9 @@
       "title": "Canimaan Software ClamXAV local privilege escalation",
       "severity": "Important",
       "cvss": 7.0,
-      "product_idx": 1667,
+      "product_idx": 1668,
       "product_idxs": [
-        1667
+        1668
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -315731,7 +315732,7 @@
       "product_idx": 20,
       "product_idxs": [
         20,
-        1617,
+        1618,
         1487,
         389,
         946
@@ -315781,7 +315782,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -316352,7 +316353,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -317786,7 +317787,7 @@
         1487,
         389,
         20,
-        1617
+        1618
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -317833,7 +317834,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -317859,7 +317860,7 @@
         24,
         1487,
         389,
-        1617
+        1618
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -317906,7 +317907,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -328974,7 +328975,7 @@
         83,
         459,
         452,
-        1618
+        1619
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -329058,7 +329059,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -329944,7 +329945,7 @@
       "product_idx": 947,
       "product_idxs": [
         947,
-        1617,
+        1618,
         1487,
         389,
         19
@@ -329994,7 +329995,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -343037,10 +343038,10 @@
       "title": "Azure DevOps Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 6.5,
-      "product_idx": 1619,
+      "product_idx": 1620,
       "product_idxs": [
-        1619,
-        1620
+        1620,
+        1621
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -343051,8 +343052,8 @@
           "fixed_build": "1.0.7",
           "subtype": "Security Update",
           "product_idxs": [
-            1619,
-            1620
+            1620,
+            1621
           ]
         }
       ],
@@ -349658,7 +349659,7 @@
       "product_idxs": [
         1594,
         83,
-        1618,
+        1619,
         455,
         459
       ],
@@ -349705,7 +349706,7 @@
         459,
         458,
         457,
-        1618,
+        1619,
         1495
       ],
       "date": "2026-10-15",
@@ -354536,7 +354537,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -357759,7 +357760,8 @@
       "cvss": 5.9,
       "product_idx": 0,
       "product_idxs": [
-        0
+        0,
+        1606
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -358493,9 +358495,9 @@
       "title": ".NET Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1618,
+      "product_idx": 1619,
       "product_idxs": [
-        1618,
+        1619,
         1495,
         1496,
         452,
@@ -359437,12 +359439,12 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1626,
+      "product_idx": 1627,
       "product_idxs": [
-        1626,
         1627,
         1628,
         1629,
+        1630,
         1594
       ],
       "date": "2026-10-15",
@@ -359673,7 +359675,7 @@
         1583,
         1594,
         83,
-        1642
+        1643
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -359789,12 +359791,12 @@
       "title": "Azure Key Vault Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.9,
-      "product_idx": 1644,
+      "product_idx": 1645,
       "product_idxs": [
-        1644,
         1645,
-        1643,
-        1646
+        1646,
+        1644,
+        1647
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -389376,9 +389378,9 @@
       "title": "Microsoft Defender Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.5,
-      "product_idx": 1634,
+      "product_idx": 1635,
       "product_idxs": [
-        1634
+        1635
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -406141,9 +406143,9 @@
       "title": "Microsoft SQL Server Denial of Service Vulnerability",
       "severity": "Important",
       "cvss": 5.3,
-      "product_idx": 1617,
+      "product_idx": 1618,
       "product_idxs": [
-        1617,
+        1618,
         20,
         1487
       ],
@@ -406156,7 +406158,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -406176,9 +406178,9 @@
       "title": "Microsoft SQL Server Information Disclosure Vulnerability",
       "severity": "Important",
       "cvss": 5.3,
-      "product_idx": 1617,
+      "product_idx": 1618,
       "product_idxs": [
-        1617,
+        1618,
         946,
         948,
         1487,
@@ -406229,7 +406231,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -406268,7 +406270,7 @@
         452,
         455,
         459,
-        1618,
+        1619,
         1594
       ],
       "date": "2026-10-15",
@@ -406684,7 +406686,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -406841,7 +406843,7 @@
       "product_idxs": [
         947,
         24,
-        1617,
+        1618,
         19,
         20
       ],
@@ -406890,7 +406892,7 @@
           "fixed_build": "15.0.4500.2",
           "subtype": "Security Update",
           "product_idxs": [
-            1617
+            1618
           ]
         },
         {
@@ -418450,9 +418452,9 @@
       "title": "Apache Thrift: Java TSaslNonblockingServer pre-auth unbounded SASL frame allocation",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -418464,9 +418466,9 @@
       "title": "Apache Thrift: Java TSaslTransport post-auth data-frame missing size limit",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -418514,7 +418516,7 @@
       "product_idxs": [
         1535,
         1549,
-        1662
+        1663
       ],
       "date": "2026-10-16",
       "exploited": false,
@@ -418561,7 +418563,7 @@
       "product_idx": 1549,
       "product_idxs": [
         1549,
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -418645,9 +418647,9 @@
       "title": "Apache Thrift: PHP accelerator sizes a stack buffer from a wire-controlled string length",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -418659,9 +418661,9 @@
       "title": "Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: skip() does not apply the recursion limit (Python accelerator, PHP, Perl, Lua, Smalltalk, OCaml)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-05",
       "exploited": false,
@@ -418673,9 +418675,9 @@
       "title": "Apache Thrift: c_glib multiplexed processor crashes on a message it cannot route",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419178,9 +419180,9 @@
       "title": "Apache Thrift, Apache Thrift: WebSocket frame decoders allocate the payload buffer from the declared length, not the bytes received (Node.js, D)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-05",
       "exploited": false,
@@ -419225,9 +419227,9 @@
       "title": "Apache Thrift, Apache Thrift: TProtocolUtil.skip follows peer-chosen nesting to any depth the stack allows (Dart, Java ME)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419239,9 +419241,9 @@
       "title": "Apache Thrift: A JSON member name can stall the Node server's event loop indefinitely",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419253,9 +419255,9 @@
       "title": "Apache Thrift: A truncated HTTP request stops the D library's server, allowing an unauthenticated remote attacker to deny service",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419267,9 +419269,9 @@
       "title": "Apache Thrift: PHP `thrift_protocol` accelerator dereferences a missing container-element spec",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419281,9 +419283,9 @@
       "title": "Azure Storage Library Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1648,
+      "product_idx": 1649,
       "product_idxs": [
-        1648
+        1649
       ],
       "date": "2026-10-13",
       "exploited": false,
@@ -419323,9 +419325,9 @@
       "title": "Apache Thrift: An exception escaping a libevent callback stops the D library's non-blocking server, allowing an unauthenticated remote attacker to deny service",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419352,9 +419354,9 @@
       "title": "Apache Thrift: C++ `THeaderTransport::transform()` heap buffer overflow (write direction)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419366,9 +419368,9 @@
       "title": "Apache Thrift: PHP `thrift_protocol` accelerator: zero-byte container elements",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419380,9 +419382,9 @@
       "title": "Docker Engine insecure-registry fallback via malicious DNS responses",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1665,
+      "product_idx": 1666,
       "product_idxs": [
-        1665,
+        1666,
         1544,
         1408,
         1545,
@@ -419426,9 +419428,9 @@
       "title": "Apache Thrift: Dart `TBinaryProtocol.readMessageBegin` allocates from the pre-versioned name length",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419440,9 +419442,9 @@
       "title": "Apache Thrift: Lua `TBinaryProtocol:readMessageBegin` bypasses `checkStringSize` on the pre-versioned name",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419454,9 +419456,9 @@
       "title": "Apache Thrift: Java `TSaslNonblockingServer`: residual of CVE-2026-61373 (thread-death black hole + no cross-connection budget)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419468,9 +419470,9 @@
       "title": "Apache Thrift: PHP `TSimpleServer` exits the whole process on any non-transport exception",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419482,9 +419484,9 @@
       "title": "Apache Thrift: PHP `TJSONProtocol` string/number readers have no size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419496,9 +419498,9 @@
       "title": "Apache Thrift: Node.js `TJSONProtocol` uses a peer-declared container size as an unbounded loop bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419510,9 +419512,9 @@
       "title": "Apache Thrift: Node.js `server.js` ends the process on any per-connection error (+ two triggers)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419524,9 +419526,9 @@
       "title": "Apache Thrift: dart `TJsonProtocol`/`TJSONProtocol` has no string size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419538,9 +419540,9 @@
       "title": "Apache Thrift: c_glib generated struct readers have no recursion-depth guard (native stack exhaustion)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419552,9 +419554,9 @@
       "title": "Apache Thrift: Java `TSaslNonblockingServer` `Computation.run` orphans a connection on a pre-auth parse error",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419566,9 +419568,9 @@
       "title": "Apache Thrift: PHP framed/memory/HTTP transports re-slice the buffer on every read (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419580,9 +419582,9 @@
       "title": "Apache Thrift: Python `TNonblockingServer` busy-loops and stops selecting all fds after an 8192-byte-boundary frame",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419594,9 +419596,9 @@
       "title": "Apache Thrift: Lua `TJsonProtocol` string/number readers have no size bound and are quadratic",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419608,9 +419610,9 @@
       "title": "Apache Thrift: rb `TJsonProtocol`/`TJSONProtocol` has no string size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419622,9 +419624,9 @@
       "title": "Apache Thrift: javame `TJsonProtocol`/`TJSONProtocol` has no string size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419636,9 +419638,9 @@
       "title": "Apache Thrift: Lua `TFramedTransport`/`THttpTransport` re-slice the buffer on every read (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419664,9 +419666,9 @@
       "title": "Apache Thrift: Ruby `SimpleServer` ends `serve()` on any non-Transport/Protocol exception",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419678,9 +419680,9 @@
       "title": "Apache Thrift: Perl servers end `serve()` when serving one connection fails",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419692,9 +419694,9 @@
       "title": "Apache Thrift: Perl `FramedTransport` reads and TLS socket writes re-slice the remaining buffer on every call (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419706,9 +419708,9 @@
       "title": "Apache Thrift: Erlang generated struct reads have no recursion-depth guard (unbounded memory)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419720,9 +419722,9 @@
       "title": "Apache Thrift: php `--gen php:inlined` struct readers (and `TProtocol::skipBinary`) have no recursion-depth guard",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419734,9 +419736,9 @@
       "title": "Apache Thrift: Lua `THttpTransport:_parseHeaders` matches each header line with a backtracking pattern (quadratic)",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -419748,9 +419750,9 @@
       "title": "Apache Thrift: nodejs web server: no `error` listener on an upgraded WebSocket connection",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -419762,9 +419764,9 @@
       "title": "Apache Thrift: Erlang thrift_json_protocol reads a whole message with no size bound",
       "severity": "Important",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -421532,9 +421534,9 @@
       "title": "Apache HTTP Server: mod_auth_digest reauthentication attack",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -421733,9 +421735,9 @@
       "title": "Apache HTTP Server: mod_proxy_html: crash in dump_content",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -421859,9 +421861,9 @@
       "title": "Apache HTTP Server: mod_vhost_alias stack overflow",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -422015,12 +422017,12 @@
       "title": "HTTP/2 server memory exhaustion due to Trailer headers in net/http",
       "severity": "Moderate",
       "cvss": 7.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662,
+        1663,
         1558,
-        1665,
         1666,
+        1667,
         1537
       ],
       "date": "2026-10-11",
@@ -422659,9 +422661,9 @@
       "title": "Apache HTTP Server: mod_auth_digest DoS attack",
       "severity": "Moderate",
       "cvss": 7.3,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -428406,7 +428408,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -428847,9 +428849,9 @@
       "title": "OAuthLib: Timing Attack Vulnerability in PKCE code_verifier Comparison",
       "severity": "Moderate",
       "cvss": 6.8,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -430223,9 +430225,9 @@
       "title": "MIT krb5 through 1.22.2 NULL Pointer Dereference via krb5_rd_cred()",
       "severity": "Moderate",
       "cvss": 6.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -434681,9 +434683,9 @@
       "title": "AdonisJS: Unencoded route parameters can produce open redirects",
       "severity": "Moderate",
       "cvss": 6.1,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -435096,9 +435098,9 @@
       "title": "OAuthLib: Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation",
       "severity": "Moderate",
       "cvss": 6.1,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -435969,9 +435971,9 @@
       "title": "GNU Aspell 0.60.8.2 (first vulnerable version is not known) contains a heap-based buffer overflow write (CWE-122) in its read-only dictionary loader. String::reserve() in common/string.hpp computes its capacity check with a signed int ((int)s + 1), so a requested size of 0x7FFFFFFF wraps negative and the backing buffer is never grown. ReadOnlyDict::load() in modules/speller/default/readonly_ws.cpp passes the unvalidated 32-bit size fields from a .rws dictionary header into this path, so a crafted .rws file with a valid endian marker (12345678) and an oversized length field (e.g. lang_name_size = 0x7FFFFFFF) causes attacker-controlled data to be written out of bounds past an undersized heap allocation. An attacker who induces a victim to load a malicious dictionary — for example via aspell dump master <file> — can corrupt heap memory, resulting in denial of service and potentially code execution. Fixed in b830b6e and will be fixed in release 0.60.8.3.",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -436059,7 +436061,7 @@
         1535,
         1436,
         1111,
-        1663
+        1664
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -436077,7 +436079,7 @@
         1535,
         1436,
         1111,
-        1663
+        1664
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -437580,12 +437582,12 @@
       "title": "HTTP/2 server crash due to HPACK encoder race in net/http",
       "severity": "Moderate",
       "cvss": 5.9,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662,
+        1663,
         1558,
-        1665,
         1666,
+        1667,
         1537
       ],
       "date": "2026-10-11",
@@ -448263,9 +448265,9 @@
       "title": "In NTFS-3G before 2026.7.7, a out-of-bounds read exists in ntfs_fix_file_name() in libntfs-3g/reparse.c that allows an attacker to read possibly confidential information in ntfs-3g process memory by crafting a malicious NTFS image. The out-of-bounds read is triggered by a readlink on a corrupted file.",
       "severity": "Moderate",
       "cvss": 5.5,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -455769,7 +455771,7 @@
       "product_idx": 1443,
       "product_idxs": [
         1443,
-        1664
+        1665
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -458015,9 +458017,9 @@
       "title": "Incomplete X.509 implementation in GnuTLS v3.8.13 allows attackers controlling a subordinate Certificate Authority to bypass cross-domain PKI restrictions and issue unauthorized certificates.",
       "severity": "Moderate",
       "cvss": 5.4,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -458777,9 +458779,9 @@
       "title": "Go-getter vulnerable to a path traversal in S3/GCS directory download handling",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1663,
+      "product_idx": 1664,
       "product_idxs": [
-        1663
+        1664
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -459763,9 +459765,9 @@
       "title": "Apache HTTP Server: mod_dav_fs property database read access",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -460248,9 +460250,9 @@
       "title": "Apache HTTP Server: mod_userdir information disclosure",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -460524,13 +460526,13 @@
       "title": "MessagePack-CSharp Denial of Service Vulnerability",
       "severity": "Moderate",
       "cvss": 5.3,
-      "product_idx": 1606,
+      "product_idx": 1607,
       "product_idxs": [
-        1606,
         1607,
         1608,
-        1649,
-        1650
+        1609,
+        1650,
+        1651
       ],
       "date": "2026-10-15",
       "exploited": false,
@@ -461590,9 +461592,9 @@
       "title": "MIT krb5 through 1.22.2 KDC NULL Pointer Dereference via S4U2Proxy PAC",
       "severity": "Moderate",
       "cvss": 4.9,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -466220,9 +466222,9 @@
       "title": "Twisted: IMAP wildcardToRegexp() ReDoS",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-08",
       "exploited": false,
@@ -466488,9 +466490,9 @@
       "title": "Apache HTTP Server: mod_dav shared lock overflow",
       "severity": "Moderate",
       "cvss": 4.3,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -469717,9 +469719,9 @@
       "title": "Denial of Service via Eager Array Allocation During Deserialization in Guava",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662,
+        1663,
         1459
       ],
       "date": "2026-10-11",
@@ -471240,9 +471242,9 @@
       "title": "Apache Thrift: C++ THeaderTransport does not enforce configured maxFrameSize",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -471338,9 +471340,9 @@
       "title": "Apache Thrift: c_glib read_message_begin leaves output parameters unset for non-versioned messages",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -471352,9 +471354,9 @@
       "title": "Apache Thrift: Buffered transport reads are not accounted against MaxMessageSize",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -471905,7 +471907,7 @@
       "product_idx": 1549,
       "product_idxs": [
         1549,
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -471917,9 +471919,9 @@
       "title": "Apache Thrift: Integer underflow in C++ THeaderTransport allows an unauthenticated remote peer to terminate a 32-bit process",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472003,9 +472005,9 @@
       "title": "Apache Thrift: Perl TLS client disables certificate verification by default",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472017,9 +472019,9 @@
       "title": "Apache Thrift: Python ≥3.12 host-name check silently becomes a no-op",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472031,9 +472033,9 @@
       "title": "Apache Thrift, Apache Thrift: The C++ and D clients fall back to the certificate Common Name when subjectAltName entries are present but do not match",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -472045,9 +472047,9 @@
       "title": "Apache Thrift: c_glib `read_all` spins when the underlying read returns 0",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -472059,9 +472061,9 @@
       "title": "Apache Thrift: c_glib TZlibTransport reports a full read after a premature stream end",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -472073,9 +472075,9 @@
       "title": "Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: Framed transport and binary protocol size read buffers from a peer-declared length without a limit (multi-language)",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472103,9 +472105,9 @@
       "title": "Apache Thrift, Apache Thrift, Apache Thrift: A map key from the wire can replace a decoded object's prototype in generated JavaScript",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472188,9 +472190,9 @@
       "title": "Apache Thrift: C++ WebSocket server transport does not read a full request length",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472300,9 +472302,9 @@
       "title": "Apache Thrift: C++ `THeaderTransport::writeVarint32()` stack buffer overflow on a negative protocol id",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472314,9 +472316,9 @@
       "title": "Apache Thrift: C++ `THeaderTransport::untransform()` leaks the zlib stream on the error path",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472328,9 +472330,9 @@
       "title": "Apache Thrift: Python `TJSONProtocol` has a string length limit that is off by default",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472342,9 +472344,9 @@
       "title": "Apache Thrift: Python `TZlibTransport` stops enforcing its decompressed-size limit once the limit is exactly used up",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
@@ -472360,7 +472362,7 @@
       "product_idxs": [
         1535,
         1549,
-        1662
+        1663
       ],
       "date": "2026-10-16",
       "exploited": false,
@@ -472372,9 +472374,9 @@
       "title": "Apache Thrift: PHP `thrift_protocol` C extension ignores the configured `maxStringSize`",
       "severity": "Moderate",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -474633,9 +474635,9 @@
       "title": "Apache HTTP Server: limited RCE for some internal redirects to non-CGI files in CGI directories",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-09",
       "exploited": false,
@@ -475077,9 +475079,9 @@
       "title": "Improper certificate validation in gnutls v3.8.13 causes the application to accept certificates containing invalid extensions.",
       "severity": "Low",
       "cvss": 3.7,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-11",
       "exploited": false,
@@ -480050,9 +480052,9 @@
       "title": "Heap Buffer Overflow in GNU Aspell's prezip utility",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -480064,9 +480066,9 @@
       "title": "Out-of-bounds Read in GNU Aspell",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -480078,9 +480080,9 @@
       "title": "Integer Truncation Leading to Heap Corruption in GNU Aspell",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-07",
       "exploited": false,
@@ -480181,9 +480183,9 @@
       "title": "Apache Thrift: C++ `TEvhttpServer` leaks its `RequestContext` when the processor throws before calling back",
       "severity": "Low",
       "cvss": null,
-      "product_idx": 1662,
+      "product_idx": 1663,
       "product_idxs": [
-        1662
+        1663
       ],
       "date": "2026-10-10",
       "exploited": false,
