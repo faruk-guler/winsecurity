@@ -7,7 +7,7 @@
     "low": 562,
     "exploited": 22,
     "patched": 3870,
-    "updated_at": "2026-10-20 14:41 UTC",
+    "updated_at": "2026-10-20 18:55 UTC",
     "month": "Past 12 Months"
   },
   "products": [
@@ -102479,12 +102479,12 @@
     },
     {
       "cve_id": "CVE-2026-102204",
-      "title": "Microsoft Microsoft Defender for Endpoint Elevation of Privilege Vulnerability",
+      "title": "Windows Subsystem for Linux Elevation of Privilege Vulnerability",
       "severity": "Important",
       "cvss": 7.8,
-      "product_idx": 465,
+      "product_idx": 1345,
       "product_idxs": [
-        465
+        1345
       ],
       "date": "2026-10-13",
       "exploited": false,
