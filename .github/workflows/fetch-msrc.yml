@@ -2,8 +2,8 @@ name: Fetch MSRC CVE Data
 
 on:
   schedule:
-    - cron: '0 * * * *' # Automatically runs every hour
-  workflow_dispatch:     # Manual trigger from GitHub UI
+    - cron: '0 0 1,11,21 * *'
+  workflow_dispatch:
 
 jobs:
   fetch:
